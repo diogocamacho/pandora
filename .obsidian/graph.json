@@ -1,0 +1,44 @@
+{
+  "collapse-filter": false,
+  "search": "",
+  "showTags": false,
+  "showAttachments": false,
+  "hideUnresolved": true,
+  "showOrphans": false,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "tag: #explorations  ",
+      "color": {
+        "a": 1,
+        "rgb": 14701138
+      }
+    },
+    {
+      "query": "tag:#compbio  ",
+      "color": {
+        "a": 1,
+        "rgb": 14725458
+      }
+    },
+    {
+      "query": "tag:#journaling  ",
+      "color": {
+        "a": 1,
+        "rgb": 11657298
+      }
+    }
+  ],
+  "collapse-display": false,
+  "showArrow": false,
+  "textFadeMultiplier": 0.3,
+  "nodeSizeMultiplier": 0.985054524739583,
+  "lineSizeMultiplier": 1.0031982421875,
+  "collapse-forces": false,
+  "centerStrength": 0.1981201171875,
+  "repelStrength": 18.2177734375,
+  "linkStrength": 0.670817057291667,
+  "linkDistance": 500,
+  "scale": 0.16671050308296356,
+  "close": false
+}

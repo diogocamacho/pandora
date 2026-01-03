@@ -1,0 +1,47 @@
+{
+  "settings": {
+    "migrated": 6,
+    "iconPacksPath": ".obsidian/icons",
+    "fontSize": 16,
+    "emojiStyle": "native",
+    "iconColor": null,
+    "recentlyUsedIcons": [
+      "🏠",
+      "LiHome",
+      "💰",
+      "LiLockKeyhole",
+      "LiLampDesk"
+    ],
+    "recentlyUsedIconsSize": 5,
+    "rules": [],
+    "extraMargin": {
+      "top": 0,
+      "right": 4,
+      "bottom": 0,
+      "left": 0
+    },
+    "iconInTabsEnabled": false,
+    "iconInTitleEnabled": false,
+    "iconInTitlePosition": "above",
+    "iconInFrontmatterEnabled": false,
+    "iconInFrontmatterFieldName": "icon",
+    "iconColorInFrontmatterFieldName": "iconColor",
+    "iconsBackgroundCheckEnabled": false,
+    "iconsInNotesEnabled": true,
+    "iconsInLinksEnabled": true,
+    "iconIdentifier": ":",
+    "lucideIconPackType": "native",
+    "debugMode": false,
+    "useInternalPlugins": false
+  },
+  "z_docs": "LiFiles",
+  "000. Personal": "LiLockKeyhole",
+  "000. Personal/Journaling": "LiPenBox",
+  "001. Work/Abiologics/Abiologics Home.md": "LiDna",
+  "001. Work/SundAI Digest.md": "🗞",
+  "001. Work": "LiLampDesk",
+  "002. Ideas": "LiLightbulb",
+  "003. Learning": "LiGraduationCap",
+  "000. Personal/Finance.md": "💰",
+  "Home.md": "🏠"
+}

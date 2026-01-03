@@ -1,0 +1,1381 @@
+Phenylketonuria
+Maple syrup urine disease
+Homocystinuria
+Tyrosinemia type I
+Tyrosinemia type II
+Tyrosinemia type III
+Alkaptonuria
+Citrullinemia type I
+Argininosuccinic aciduria
+Ornithine transcarbamylase deficiency
+Carbamoyl phosphate synthetase I deficiency
+Glutaric acidemia type I
+Isovaleric acidemia
+Methylmalonic acidemia
+Propionic acidemia
+Nonketotic hyperglycinemia
+Hyperprolinemia type I
+Hyperprolinemia type II
+Histidinemia
+Argininemia
+Glycogen storage disease type I
+Glycogen storage disease type II
+Glycogen storage disease type III
+Glycogen storage disease type IV
+Glycogen storage disease type V
+Glycogen storage disease type VI
+Galactosemia
+Galactokinase deficiency
+Epimerase deficiency galactosemia
+Hereditary fructose intolerance
+Fructose-1,6-bisphosphatase deficiency
+Pyruvate dehydrogenase complex deficiency
+Pyruvate carboxylase deficiency
+Glucose-6-phosphate dehydrogenase deficiency
+Phosphofructokinase deficiency
+GLUT1 deficiency syndrome
+Fanconi–Bickel syndrome
+Lactate dehydrogenase deficiency
+Triosephosphate isomerase deficiency
+Phosphoglycerate kinase deficiency
+Medium-chain acyl-CoA dehydrogenase deficiency
+Very-long-chain acyl-CoA dehydrogenase deficiency
+Long-chain 3-hydroxyacyl-CoA dehydrogenase deficiency
+Carnitine palmitoyltransferase I deficiency
+Carnitine palmitoyltransferase II deficiency
+Carnitine–acylcarnitine translocase deficiency
+Primary systemic carnitine deficiency
+Short-chain acyl-CoA dehydrogenase deficiency
+Multiple acyl-CoA dehydrogenase deficiency
+Refsum disease
+Leigh syndrome
+MELAS
+MERRF
+Kearns–Sayre syndrome
+NARP
+Mitochondrial DNA depletion syndrome
+Barth syndrome
+Primary CoQ10 deficiency
+Pyruvate kinase deficiency
+Adenylosuccinate lyase deficiency
+Zellweger spectrum disorder
+X-linked adrenoleukodystrophy
+Niemann–Pick disease type A
+Niemann–Pick disease type B
+Niemann–Pick disease type C
+Gaucher disease
+Tay–Sachs disease
+Sandhoff disease
+Fabry disease
+Krabbe disease
+Metachromatic leukodystrophy
+Smith–Lemli–Opitz syndrome
+Congenital adrenal hyperplasia due to 21-hydroxylase deficiency
+Congenital adrenal hyperplasia due to 11β-hydroxylase deficiency
+Congenital adrenal hyperplasia due to 17α-hydroxylase deficiency
+Familial hypercholesterolemia
+Familial combined hyperlipidemia
+Sitosterolemia
+Tangier disease
+LCAT deficiency
+Cerebrotendinous xanthomatosis
+Wilson disease
+Menkes disease
+Hereditary hemochromatosis
+Molybdenum cofactor deficiency
+Biotinidase deficiency
+Holocarboxylase synthetase deficiency
+Cobalamin C deficiency
+Thiamine pyrophosphokinase deficiency
+Riboflavin transporter deficiency
+Selenium deficiency disorder
+Type 2 diabetes mellitus
+Type 1 diabetes mellitus
+Ketosis-prone diabetes
+Maturity-onset diabetes of the young
+Mitochondrial diabetes
+Diabetic ketoacidosis
+Hyperosmolar hyperglycemic state
+Obesity
+Familial partial lipodystrophy
+Generalized lipodystrophy
+Nonalcoholic fatty liver disease
+Nonalcoholic steatohepatitis
+Metabolic syndrome
+Polycystic ovary syndrome
+Gout
+Hyperuricemia
+Alcoholic fatty liver disease
+Alcoholic hepatitis
+Alcoholic cirrhosis
+Alcohol poisoning
+Acetaminophen toxicity
+Aspirin overdose
+Methanol poisoning
+Ethylene glycol poisoning
+Cyanide poisoning
+Carbon monoxide poisoning
+Arsenic poisoning
+Lead poisoning
+Mercury poisoning
+Thallium poisoning
+Acute liver failure
+Chronic hepatitis B
+Chronic hepatitis C
+Autoimmune hepatitis
+Primary biliary cholangitis
+Primary sclerosing cholangitis
+Hemochromatosis-related cirrhosis
+Wilson disease–related cirrhosis
+Hepatocellular carcinoma
+Intrahepatic cholangiocarcinoma
+Acute pancreatitis
+Chronic pancreatitis
+Pancreatic cancer
+Exocrine pancreatic insufficiency
+Cystic fibrosis–related diabetes
+Celiac disease
+Crohn’s disease
+Ulcerative colitis
+Short bowel syndrome
+Small intestinal bacterial overgrowth
+Irritable bowel syndrome
+Functional dyspepsia
+Gastric bypass postoperative hypoglycemia
+Dumping syndrome
+Lactose intolerance
+Fructose malabsorption
+Histamine intolerance
+Acute kidney injury
+Chronic kidney disease
+Diabetic nephropathy
+IgA nephropathy
+Focal segmental glomerulosclerosis
+Membranous nephropathy
+Minimal change disease
+Nephrotic syndrome
+Tubulointerstitial nephritis
+Renal tubular acidosis type 1
+Renal tubular acidosis type 2
+Renal tubular acidosis type 4
+Primary hyperoxaluria
+Polycystic kidney disease
+Uric acid nephrolithiasis
+Calcium oxalate nephrolithiasis
+Struvite stones
+Hyperparathyroidism
+Hypoparathyroidism
+Hypercalcemia of malignancy
+Vitamin D deficiency
+Rickets
+Osteomalacia
+Osteoporosis
+Paget disease of bone
+Osteogenesis imperfecta
+Primary hyperaldosteronism
+Hypoaldosteronism
+Cushing disease
+Cushing syndrome
+Adrenal insufficiency
+Pheochromocytoma
+Paraganglioma
+Hypothyroidism
+Hyperthyroidism
+Graves disease
+Hashimoto thyroiditis
+Thyroid storm
+Myxedema coma
+Thyroid cancer
+Metabolic encephalopathy
+Hepatic encephalopathy
+Uremic encephalopathy
+Wernicke encephalopathy
+Korsakoff syndrome
+Thiamine-responsive megaloblastic anemia
+Niacin deficiency pellagra
+Vitamin B12 deficiency anemia
+Folate deficiency anemia
+Iron deficiency anemia
+Anemia of chronic disease
+Sideroblastic anemia
+G6PD hemolytic anemia
+Pyruvate kinase hemolytic anemia
+Hereditary spherocytosis
+Hereditary elliptocytosis
+Sickle cell disease
+Beta thalassemia major
+Alpha thalassemia
+Aplastic anemia
+Myelodysplastic syndromes
+Acute myeloid leukemia
+Acute lymphoblastic leukemia
+Chronic myeloid leukemia
+Chronic lymphocytic leukemia
+Polycythemia vera
+Essential thrombocythemia
+Primary myelofibrosis
+Multiple myeloma
+Waldenström macroglobulinemia
+Hodgkin lymphoma
+Diffuse large B-cell lymphoma
+Follicular lymphoma
+Burkitt lymphoma
+Mantle cell lymphoma
+T-cell lymphoma
+Sepsis
+Septic shock
+Systemic inflammatory response syndrome
+Cytokine release syndrome
+COVID-19
+Post–COVID-19 condition
+Influenza pneumonia
+Bacterial pneumonia
+Tuberculosis
+Nontuberculous mycobacterial infection
+Clostridioides difficile infection
+Tetanus
+Diphtheria
+Pertussis
+Syphilis
+Gonorrhea
+Chlamydia trachomatis infection
+Pelvic inflammatory disease
+Human immunodeficiency virus infection
+AIDS wasting syndrome
+Hepatitis A
+Hepatitis E
+Malaria
+Severe falciparum malaria
+Dengue fever
+Severe dengue
+Chikungunya
+Zika virus disease
+West Nile neuroinvasive disease
+Lyme disease
+Babesiosis
+Anaplasmosis
+Ehrlichiosis
+Rocky Mountain spotted fever
+Leishmaniasis
+African trypanosomiasis
+Chagas disease
+Toxoplasmosis
+Cytomegalovirus disease
+Herpes simplex encephalitis
+Varicella zoster infection
+Measles
+Mumps
+Rubella
+Hand-foot-and-mouth disease
+Enteroviral meningitis
+Bacterial meningitis
+Viral encephalitis
+Fungal meningitis
+Coccidioidomycosis
+Histoplasmosis
+Blastomycosis
+Aspergillosis
+Invasive candidiasis
+Mucormycosis
+Strongyloidiasis hyperinfection
+Schistosomiasis
+Filariasis
+Onchocerciasis
+Helicobacter pylori gastritis
+Peptic ulcer disease
+Gastroesophageal reflux disease
+Barrett esophagus
+Esophageal adenocarcinoma
+Gastric cancer
+Colorectal cancer
+Anal cancer
+Hepatoblastoma
+Pancreatic neuroendocrine tumor
+Insulinoma
+Glucagonoma
+VIPoma
+Somatostatinoma
+Medullary thyroid carcinoma
+Papillary thyroid carcinoma
+Follicular thyroid carcinoma
+Anaplastic thyroid carcinoma
+Breast cancer
+Triple-negative breast cancer
+Ovarian cancer
+Endometrial cancer
+Cervical cancer
+Prostate cancer
+Renal cell carcinoma
+Urothelial carcinoma
+Testicular seminoma
+Non-seminomatous germ cell tumor
+Bladder cancer
+Penile cancer
+Lung adenocarcinoma
+Small cell lung cancer
+Squamous cell lung cancer
+Mesothelioma
+Head and neck squamous cell carcinoma
+Glioblastoma
+Anaplastic astrocytoma
+Oligodendroglioma
+Medulloblastoma
+Meningioma
+Pituitary adenoma
+Craniopharyngioma
+Acoustic neuroma
+Neuroblastoma
+Ewing sarcoma
+Osteosarcoma
+Chondrosarcoma
+Soft tissue sarcoma
+Gastrointestinal stromal tumor
+Melanoma
+Basal cell carcinoma
+Cutaneous squamous cell carcinoma
+Kaposi sarcoma
+Carcinoid tumor
+Pheochromocytoma-associated cardiomyopathy
+Cardiogenic shock
+Heart failure with reduced ejection fraction
+Heart failure with preserved ejection fraction
+Ischemic heart disease
+Stable angina
+Unstable angina
+Myocardial infarction
+Post–myocardial infarction remodeling
+Cardiomyopathy dilated
+Cardiomyopathy hypertrophic
+Cardiomyopathy restrictive
+Arrhythmogenic right ventricular cardiomyopathy
+Myocarditis
+Pericarditis
+Endocarditis
+Hypertension
+Resistant hypertension
+Pulmonary hypertension
+Atherosclerosis
+Peripheral artery disease
+Critical limb ischemia
+Stroke ischemic
+Transient ischemic attack
+Hemorrhagic stroke
+Subarachnoid hemorrhage
+Vascular dementia
+Cerebral small vessel disease
+Cavernous malformation hemorrhage
+Deep vein thrombosis
+Pulmonary embolism
+Antiphospholipid syndrome
+Hyperhomocysteinemia
+Von Willebrand disease
+Hemophilia A
+Hemophilia B
+Disseminated intravascular coagulation
+Heparin-induced thrombocytopenia
+Immune thrombocytopenia
+Thrombotic thrombocytopenic purpura
+Hemolytic uremic syndrome
+Rheumatoid arthritis
+Psoriatic arthritis
+Ankylosing spondylitis
+Systemic lupus erythematosus
+Sjögren syndrome
+Systemic sclerosis
+Dermatomyositis
+Polymyositis
+Inclusion body myositis
+Gouty arthritis
+Calcium pyrophosphate deposition disease
+Osteoarthritis
+Fibromyalgia
+Chronic fatigue syndrome
+Myalgic encephalomyelitis
+Sarcoidosis
+Granulomatosis with polyangiitis
+Microscopic polyangiitis
+Eosinophilic granulomatosis with polyangiitis
+IgG4-related disease
+Behçet disease
+Adult-onset Still disease
+Autoinflammatory periodic fever syndrome
+Familial Mediterranean fever
+Cryopyrin-associated periodic syndrome
+Hyper-IgD syndrome
+PFAPA syndrome
+Atopic dermatitis
+Psoriasis
+Hidradenitis suppurativa
+Vitiligo
+Alopecia areata
+Urticaria chronic spontaneous
+Mast cell activation syndrome
+Allergic asthma
+Eosinophilic asthma
+Chronic obstructive pulmonary disease
+Emphysema
+Chronic bronchitis
+Bronchiectasis
+Cystic fibrosis
+Obstructive sleep apnea
+Central sleep apnea
+Pulmonary fibrosis
+Hypersensitivity pneumonitis
+Acute respiratory distress syndrome
+Pneumoconiosis
+Silicosis
+Asbestosis
+Hypoxic-ischemic brain injury
+Concussion
+Traumatic brain injury moderate
+Traumatic brain injury severe
+Post-concussion syndrome
+Migraine
+Cluster headache
+Tension-type headache
+Temporal arteritis
+Idiopathic intracranial hypertension
+Normal pressure hydrocephalus
+Epilepsy focal
+Epilepsy generalized
+Status epilepticus
+Autism spectrum disorder
+Attention-deficit hyperactivity disorder
+Schizophrenia
+Schizoaffective disorder
+Bipolar I disorder
+Bipolar II disorder
+Major depressive disorder
+Persistent depressive disorder
+Treatment-resistant depression
+Postpartum depression
+Seasonal affective disorder
+Generalized anxiety disorder
+Panic disorder
+Post-traumatic stress disorder
+Obsessive-compulsive disorder
+Anorexia nervosa
+Bulimia nervosa
+Binge-eating disorder
+Alcohol use disorder
+Opioid use disorder
+Cocaine use disorder
+Methamphetamine use disorder
+Cannabis use disorder
+Nicotine dependence
+Insomnia disorder
+Circadian rhythm sleep-wake disorder
+Narcolepsy type 1
+Narcolepsy type 2
+Restless legs syndrome
+Parkinson disease
+Atypical parkinsonism
+Multiple system atrophy
+Progressive supranuclear palsy
+Corticobasal degeneration
+Alzheimer disease
+Frontotemporal dementia
+Lewy body dementia
+Huntington disease
+Amyotrophic lateral sclerosis
+Spinal muscular atrophy type 3
+Friedreich ataxia
+Spinocerebellar ataxia type 1
+Spinocerebellar ataxia type 2
+Spinocerebellar ataxia type 3
+Myotonic dystrophy type 1
+Myotonic dystrophy type 2
+Duchenne muscular dystrophy
+Becker muscular dystrophy
+Limb-girdle muscular dystrophy
+Pompe late-onset disease
+Mitochondrial myopathy
+Chronic inflammatory demyelinating polyneuropathy
+Guillain–Barré syndrome
+Diabetic peripheral neuropathy
+Chemotherapy-induced peripheral neuropathy
+Small fiber neuropathy
+Autonomic neuropathy
+Orthostatic hypotension neurogenic
+Postural orthostatic tachycardia syndrome
+Complex regional pain syndrome
+Chronic migraine with medication overuse
+Temporal lobe epilepsy
+Dravet syndrome
+Lennox–Gastaut syndrome
+Rett syndrome
+Fragile X syndrome
+Prader–Willi syndrome
+Angelman syndrome
+Tuberous sclerosis complex
+Neurofibromatosis type 1
+Neurofibromatosis type 2
+Sturge–Weber syndrome
+Cavernous angioma
+Moyamoya disease
+Hereditary spastic paraplegia
+Charcot–Marie–Tooth disease type 1
+Charcot–Marie–Tooth disease type 2
+Spina bifida occulta metabolic complications
+Cerebral palsy metabolic complications
+Autonomic failure Shy-Drager variant
+Hypoglycemia due to insulinoma
+Hyperinsulinemic hypoglycemia of infancy
+Post-bariatric hypoglycemia
+Starvation ketosis
+Refeeding syndrome
+Kwashiorkor
+Marasmus
+Sarcopenia
+Cancer cachexia
+Obesity hypoventilation syndrome
+Metabolic bone disease of prematurity
+Intrauterine growth restriction
+Gestational diabetes mellitus
+Preeclampsia
+Hyperemesis gravidarum
+Intrahepatic cholestasis of pregnancy
+Postpartum thyroiditis
+Neonatal hypoglycemia
+Neonatal hyperbilirubinemia
+Kernicterus risk state
+Bronchopulmonary dysplasia
+Necrotizing enterocolitis
+Retinopathy of prematurity
+Congenital hypothyroidism
+Congenital adrenal hyperplasia salt-wasting
+Congenital hyperinsulinism
+Maple syrup urine disease neonatal crisis
+Phenylketonuria neonatal crisis
+Age-related macular degeneration
+Diabetic retinopathy
+Diabetic macular edema
+Proliferative diabetic retinopathy
+Glaucoma
+Open-angle glaucoma
+Normal-tension glaucoma
+Retinitis pigmentosa
+Leber hereditary optic neuropathy
+Optic neuritis metabolic vulnerability
+Dry eye disease
+Keratoconus metabolic stress
+Hearing loss ototoxicity susceptibility
+Meniere disease
+Chronic rhinosinusitis
+Allergic rhinitis
+Chronic periodontitis
+Temporomandibular disorder
+Burn injury hypermetabolic state
+Major trauma catabolic state
+Perioperative insulin resistance
+Critical illness myopathy
+ICU-acquired weakness
+Pressure ulcer impaired healing
+Diabetic foot ulcer
+Peripheral neuropathic pain
+Postherpetic neuralgia
+Phantom limb pain
+Sickle cell pain crisis
+Thalassemia iron overload
+Transfusion-related hemosiderosis
+Hemophagocytic lymphohistiocytosis
+Macrophage activation syndrome
+Familial hemophagocytic lymphohistiocytosis
+Graft-versus-host disease
+Solid organ transplant rejection
+Nonalcoholic steatohepatitis with fibrosis
+Cryptogenic cirrhosis
+Portal hypertension
+Hepatorenal syndrome
+Spontaneous bacterial peritonitis
+Ascites due to cirrhosis
+Hepatopulmonary syndrome
+Portopulmonary hypertension
+Alpha-1 antitrypsin deficiency liver disease
+Alpha-1 antitrypsin deficiency lung disease
+Bronchiolitis obliterans
+Acute chest syndrome in sickle cell disease
+Sickle nephropathy
+Sickle retinopathy
+Sickle leg ulcers
+Hereditary angioedema
+Acquired angioedema
+Eosinophilic esophagitis
+Eosinophilic gastritis
+Eosinophilic colitis
+Nonceliac gluten sensitivity
+Food protein–induced enterocolitis syndrome
+Phenylketonuric maternal syndrome
+Maternal obesity–related fetal overgrowth
+Fetal alcohol spectrum disorder
+Neural tube defects nutrient deficiency related
+Lead-related cognitive impairment
+Iodine deficiency hypothyroidism
+Goiter due to iodine deficiency
+Hypertriglyceridemia severe
+Familial chylomicronemia syndrome
+Mixed dyslipidemia
+Atherogenic dyslipidemia of insulin resistance
+Lipoprotein(a)–mediated atherosclerosis
+Metabolic associated steatotic liver disease
+Bile acid diarrhea
+Primary bile acid malabsorption
+Bile acid synthesis defect
+Urea cycle disorder hyperammonemia
+Hyperammonemia due to valproate
+Valproate-induced hepatotoxicity
+Statin-associated myopathy
+Metformin-associated lactic acidosis
+Glucocorticoid-induced diabetes
+Atypical antipsychotic–induced weight gain
+Clozapine-associated metabolic syndrome
+Lithium-induced hypothyroidism
+Amiodarone-induced thyroid dysfunction
+Checkpoint inhibitor hepatitis
+mTOR inhibitor dyslipidemia
+Tyrosine kinase inhibitor hypothyroidism
+Chemotherapy-induced cardiomyopathy
+Anthracycline cardiotoxicity
+Trastuzumab cardiomyopathy
+Radiation-induced heart disease
+Nonischemic cardiomyopathy postpartum
+Peripartum cardiomyopathy
+Takotsubo cardiomyopathy
+Myocardial stunning
+Ischemia–reperfusion injury
+Peripheral neuropathy due to vitamin B6 deficiency
+Copper deficiency myelopathy
+Zinc deficiency dermatitis-enteropathy
+Acrodermatitis enteropathica
+Phenylalanine hydroxylase deficiency
+Tyrosine hydroxylase deficiency dystonia
+Dopamine transporter deficiency syndrome
+Tetrahydrobiopterin deficiency
+Creatine transporter deficiency
+Guanidinoacetate methyltransferase deficiency
+Arginine:glycine amidinotransferase deficiency
+Glut1-related paroxysmal dyskinesia
+Adenosine deaminase deficiency SCID
+Purine nucleoside phosphorylase deficiency
+Lesch–Nyhan syndrome
+Xanthinuria
+Orotic aciduria
+Hereditary fructose intolerance acute liver failure
+Fructose 1,6-bisphosphatase deficiency neonatal crisis
+Primary carnitine deficiency cardiomyopathy
+CPT II myopathic form
+Multiple acyl-CoA dehydrogenase deficiency neonatal form
+Mitochondrial depletion syndrome hepatocerebral form
+Leber congenital amaurosis metabolic variant
+Glycerol kinase deficiency
+Peroxisomal biogenesis disorder Zellweger
+Adult Refsum disease
+Hyperlipoproteinemia type I
+Hyperlipoproteinemia type IIa
+Hyperlipoproteinemia type IIb
+Hyperlipoproteinemia type III
+Hyperlipoproteinemia type IV
+Hyperlipoproteinemia type V
+Familial dysbetalipoproteinemia
+Chylomicron retention disease
+Abetalipoproteinemia
+Hypobetalipoproteinemia
+Tangier hypoalphalipoproteinemia
+Lipoprotein lipase deficiency
+Apolipoprotein C-II deficiency
+Apolipoprotein A-I deficiency
+Apolipoprotein E2 homozygosity dysbetalipoproteinemia
+Metabolic acidosis due to diarrhea
+Lactic acidosis type B malignancy associated
+Propofol infusion syndrome
+Rhabdomyolysis
+Malignant hyperthermia
+Neuroleptic malignant syndrome
+Serotonin syndrome
+Thyroid storm crisis
+Adrenal crisis
+Hyperkalemic periodic paralysis
+Hypokalemic periodic paralysis
+Andersen–Tawil syndrome
+Myasthenia gravis metabolic stress exacerbation
+Lambert–Eaton myasthenic syndrome
+Congenital myasthenic syndrome
+Channelopathy non-dystrophic myotonia
+Paramyotonia congenita
+Hyperthyroid myopathy
+Hypothyroid myopathy
+Mitochondrial encephalomyopathy with lactic acidosis
+Leukoencephalopathy with brainstem and spinal cord involvement
+POLG-related epilepsy
+Alpers–Huttenlocher syndrome
+Leigh-like subacute necrotizing encephalopathy
+Mitochondrial cardiomyopathy
+Mitochondrial nephropathy
+Mitochondrial gastrointestinal dysmotility
+Primary mitochondrial hepatopathy
+Niemann–Pick C neurodegeneration
+GM1 gangliosidosis
+GM2 gangliosidosis
+Metachromatic leukodystrophy late-infantile
+Krabbe early-infantile disease
+Adrenomyeloneuropathy
+Adult-onset leukodystrophy CSF1R related
+CADASIL
+CARASIL
+X-linked adrenoleukodystrophy cerebral form
+PKAN neurodegeneration with brain iron accumulation
+PLAN neurodegeneration with brain iron accumulation
+BPAN neurodegeneration with brain iron accumulation
+Aceruloplasminemia
+Neuroferritinopathy
+Wilson neuropsychiatric disease
+Hepatic porphyria acute intermittent
+Hereditary coproporphyria
+Variegate porphyria
+Porphyria cutanea tarda
+Erythropoietic protoporphyria
+Congenital erythropoietic porphyria
+Sideroblastic anemia due to ALAS2 mutation
+Mitochondrial optic neuropathy
+Mitochondrial deafness A1555G
+Mitochondrial 3243A>G spectrum disorders
+Mitochondrial 8344A>G spectrum disorders
+Prion disease metabolic decompensation risk
+Creutzfeldt–Jakob disease metabolic vulnerability
+Early sepsis-induced cardiomyopathy
+Hyperglycemia-induced immune dysfunction
+Insulin resistance in critical illness
+Cancer-associated thrombosis
+Paraneoplastic cachexia
+Paraneoplastic cerebellar degeneration metabolic stress
+Paraneoplastic encephalitis metabolic stress
+Radiation enteritis
+Chemo-induced mucositis
+Nonalcoholic pancreatitis hypertriglyceridemia
+Hypertriglyceridemia-induced acute pancreatitis
+Bile acid–induced diarrhea post-cholecystectomy
+Post-gastrectomy malnutrition
+Short-chain acyl-CoA dehydrogenase deficiency mild form
+3-hydroxy-3-methylglutaryl-CoA lyase deficiency
+3-methylcrotonyl-CoA carboxylase deficiency
+Isobutyryl-CoA dehydrogenase deficiency
+2-methylbutyryl-CoA dehydrogenase deficiency
+Very long chain acyl-CoA dehydrogenase deficiency adult form
+Tetrahydrobiopterin-responsive PKU
+Classical homocystinuria due to CBS deficiency
+Remethylation disorder cblE
+Remethylation disorder cblG
+Methylenetetrahydrofolate reductase deficiency severe
+Primary hyperammonemia due to CPS1 deficiency
+Arginase deficiency
+Ornithine aminotransferase deficiency gyrate atrophy
+NAXE deficiency acute encephalopathy
+SLC19A3 thiamine transporter deficiency
+Maple syrup urine disease intermittent form
+Intermediate MSUD
+Benign hyperphenylalaninemia
+Transient tyrosinemia of the newborn
+Nonketotic hyperglycinemia attenuated form
+Glutaric acidemia type II late-onset
+Carnitine transporter deficiency adult fatigability
+Leigh-like pyruvate dehydrogenase deficiency
+Fumarase deficiency
+Succinate dehydrogenase deficiency
+Complex I deficiency mitochondrial
+Complex II deficiency mitochondrial
+Complex III deficiency mitochondrial
+Complex IV deficiency mitochondrial
+Complex V deficiency mitochondrial
+Coenzyme Q biosynthesis defect COQ2
+Coenzyme Q biosynthesis defect COQ6
+Primary hyperparathyroidism multiple endocrine neoplasia
+Multiple endocrine neoplasia type 1
+Multiple endocrine neoplasia type 2
+Carney complex
+Peutz–Jeghers syndrome metabolic cancer risk
+Cowden syndrome PTEN hamartoma tumor syndrome
+Tuberous sclerosis complex metabolic mTOR dysregulation
+Neuroendocrine tumor carcinoid syndrome metabolic effects
+Zollinger–Ellison syndrome
+Kallmann syndrome metabolic bone risk
+Hypogonadotropic hypogonadism
+Androgen insensitivity syndrome
+Primary ovarian insufficiency
+Endometriosis metabolic inflammation
+Uterine fibroids metabolic growth signaling
+Benign prostatic hyperplasia metabolic links
+Erectile dysfunction endothelial metabolic impairment
+Infertility due to PCOS
+Gestational hypertension
+Gestational cholestasis
+Post-bariatric surgery micronutrient deficiency
+Vitamin A deficiency
+Vitamin E deficiency
+Vitamin K deficiency bleeding
+Hypervitaminosis A
+Hypervitaminosis D
+Pyridoxine toxicity neuropathy
+Biotin deficiency
+Choline deficiency fatty liver
+Carnitine deficiency secondary
+Magnesium deficiency
+Phosphate refeeding hypophosphatemia
+Hyperphosphatemia in CKD
+Hyperkalemia
+Hypokalemia
+Hyponatremia
+Hypernatremia
+Hypocalcemia
+Hypercalcemia
+Hypomagnesemia
+Hypermagnesemia
+Metabolic alkalosis
+Respiratory acidosis with metabolic compensation
+Respiratory alkalosis with metabolic compensation
+Non-alcoholic steatotic liver disease with fibrosis
+NASH cirrhosis
+HCC on NASH
+Prediabetes impaired fasting glucose
+Impaired glucose tolerance
+Insulin resistance syndrome
+Acanthosis nigricans insulin resistance
+Hyperandrogenism in PCOS
+Hirsutism metabolic
+Male infertility obesity-associated
+Female infertility obesity-associated
+Non-celiac wheat sensitivity
+Fructan intolerance
+Sorbitol intolerance
+FODMAP intolerance
+Phenylketonuria maternal management failure
+Maple syrup urine disease pregnancy risk
+Urea cycle disorder postpartum decompensation
+Lymphocytic colitis
+Collagenous colitis
+Microscopic colitis
+Primary sclerosing cholangitis–IBD overlap
+Autoimmune pancreatitis
+IgG4-related cholangitis
+Biliary pancreatitis
+Sphincter of Oddi dysfunction
+Hyperemesis cannabinoid syndrome
+Cannabinoid hyperemesis syndrome
+Alcohol withdrawal delirium
+Delirium of critical illness
+ICU delirium hypoactive
+ICU delirium hyperactive
+Heat stroke
+Exertional heat illness
+Hypothermia
+Frostbite metabolic tissue injury
+High-altitude cerebral edema
+High-altitude pulmonary edema
+Acute mountain sickness
+Decompression sickness
+Carbon dioxide narcosis
+Obesity-related asthma
+Eosinophilic granulomatosis with polyangiitis asthma overlap
+Bronchiolitis obliterans organizing pneumonia
+Cryptogenic organizing pneumonia
+Lymphangioleiomyomatosis
+Pulmonary Langerhans cell histiocytosis
+Sarcoid-associated pulmonary hypertension
+Interstitial lung disease in rheumatoid arthritis
+Scleroderma lung disease
+Dermatomyositis-associated ILD
+Myositis-associated cardiomyopathy
+Metabolic myopathy due to CPT II
+Phosphofructokinase deficiency myopathy
+McArdle disease exercise intolerance
+Tarui disease exercise intolerance
+Phosphoglycerate mutase deficiency
+Myoadenylate deaminase deficiency
+Riboflavin-responsive multiple acyl-CoA dehydrogenase deficiency
+Thyrotoxic periodic paralysis
+Anderson–Fabry cardiomyopathy
+Danon disease
+PRKAG2 cardiomyopathy
+Glycogen storage disease type III cardiomyopathy
+Desmin-related myopathy metabolic stress
+Mitochondrial encephalopathy stroke-like episodes
+Cerebral energy failure after status epilepticus
+Post-stroke hyperglycemia
+Post-stroke depression
+Diabetic gastroparesis
+Diabetic enteropathy
+Diabetic cystopathy
+Neurogenic bladder metabolic exacerbation
+Interstitial cystitis metabolic triggers
+Recurrent urinary tract infection metabolic risks
+Bacterial vaginosis metabolic milieu
+Vulvovaginal candidiasis recurrent
+Endometritis postpartum
+Osteitis pubis athletic overuse metabolic
+Overtraining syndrome
+Relative energy deficiency in sport
+Sarcopenic obesity
+Cachectic obesity
+Metabolic-associated gallstone disease
+Pigment gallstones hemolysis
+Cholesterol gallstones
+Acute cholecystitis
+Cholangitis
+Gallstone pancreatitis
+Non-alcoholic pancreatitis metabolic
+Drug-induced pancreatitis
+Hypercalcemia-induced pancreatitis
+Viral myocarditis metabolic remodeling
+Peripartum cardiomyopathy metabolic remodeling
+Dilated cardiomyopathy due to alcohol
+Arrhythmia atrial fibrillation obesity-related
+Atrial fibrillation hyperthyroidism-related
+Long QT syndrome metabolic triggers
+Brugada syndrome fever-induced
+Catecholaminergic polymorphic ventricular tachycardia
+Sudden infant death risk metabolic hypothesis
+Failure to thrive metabolic causes
+Obesity-related nonalcoholic fatty liver in adolescence
+Type 2 diabetes in youth
+Metabolic dysfunction–associated steatotic liver disease in children
+Pediatric NAFLD fibrosis
+Prader–Willi hyperphagia obesity
+Bardet–Biedl syndrome obesity
+Alström syndrome cardiomyopathy
+Cohen syndrome metabolic
+Klinefelter syndrome metabolic risk
+Turner syndrome metabolic risk
+Down syndrome obesity risk
+Williams syndrome hypercalcemia
+22q11.2 deletion syndrome hypocalcemia
+Sickle cell disease oxidative stress modulation
+G6PD deficiency hemolysis with fava beans
+Favism
+Methemoglobinemia acquired
+Methemoglobinemia congenital
+Sulfhemoglobinemia
+Porphyria cutanea tarda hepatitis C related
+Hepatic steatosis due to HIV antiretrovirals
+HIV-associated lipodystrophy
+HIV-associated neurocognitive disorder metabolic
+HIV-associated nephropathy
+AIDS wasting metabolic therapy responsive
+Tuberculous cachexia
+Post-tuberculosis lung disease
+Chronic Lyme post-treatment syndrome metabolic debates
+Chronic pain central sensitization metabolic factors
+Diabetic amyotrophy
+Mononeuritis multiplex vasculitic
+Amyloid light-chain amyloidosis
+Transthyretin amyloidosis
+Dialysis-related amyloidosis
+Sarcoid cardiac involvement
+Cardiac hemochromatosis
+Cardiac sarcoidosis
+Cardiac involvement in Fabry disease
+Pericardial constriction post-inflammation
+Noncompaction cardiomyopathy metabolic
+Endocrine-induced hypertension primary aldosteronism
+Endocrine-induced hypertension pheochromocytoma
+Cushing hypertension
+Thyrotoxic hypertension
+Hypothyroid hyperlipidemia
+Hyperthyroid hypermetabolism
+Graves ophthalmopathy metabolic inflammation
+Thyroid eye disease
+Diabetic cataract
+Cataract steroid induced
+Glucocorticoid-induced osteoporosis
+Aromatase inhibitor–induced bone loss
+Androgen deprivation therapy metabolic syndrome
+Hypogonadism obesity related
+Menopausal metabolic syndrome
+Hot flashes metabolic modulation
+Premenstrual dysphoric disorder
+Endometriosis-associated pain metabolic
+Interstitial cystitis pelvic pain metabolic
+Chronic prostatitis chronic pelvic pain syndrome
+Benign paroxysmal positional vertigo metabolic contributors
+Vestibular migraine
+Chronic subjective dizziness
+Functional neurological disorder with metabolic comorbidity
+Somatic symptom disorder with metabolic comorbidity
+Anxiety with metabolic dysregulation
+Depression with insulin resistance
+Schizophrenia with metabolic syndrome
+Bipolar disorder with mitochondrial dysfunction
+Alzheimer disease insulin-resistant brain phenotype
+Parkinson disease mitochondrial dysfunction phenotype
+ALS hypermetabolism phenotype
+Huntington disease metabolic wasting
+Frontotemporal dementia metabolic network disruption
+Lewy body dementia glucose hypometabolism
+Traumatic encephalopathy syndrome
+Chronic traumatic encephalopathy
+Spinal cord injury metabolic catabolism
+Pressure injury catabolic state
+Critical care hyperglycemia
+Hospital malnutrition
+Surgical site infection metabolic risk
+Impaired wound healing diabetes
+Ketoacidosis in starvation
+Euglycemic diabetic ketoacidosis
+SGLT2 inhibitor–associated ketoacidosis
+Hypertriglyceridemia-induced hepatosteatosis
+NAFLD-related cardiovascular disease
+Obesity-related kidney disease
+Metabolic-associated infertility
+Metabolic-associated miscarriage risk
+Gestational weight gain excess
+Gestational weight gain inadequacy
+Pediatric obesity metabolic syndrome
+Adolescent metabolic syndrome
+Nonalcoholic fatty liver in pregnancy
+Postpartum cardiomyopathy metabolic remodeling
+Perimenopausal weight gain
+Sarcopenia of aging
+Frailty syndrome
+Cachexia of chronic heart failure
+Cachexia of COPD
+Cachexia of cancer
+Cachexia of chronic kidney disease
+Anorexia of aging
+Refractory ascites
+Hepatic hydrothorax
+Spontaneous bacterial empyema
+Recurrent hepatic encephalopathy
+Minimal hepatic encephalopathy
+Type B lactic acidosis in cancer
+Tumor lysis syndrome
+Hyperuricemia tumor lysis
+Hyperkalemia tumor lysis
+Hyperphosphatemia tumor lysis
+Hypocalcemia tumor lysis
+Metabolic neuropathy due to B12 deficiency
+Metabolic myelopathy due to B12 deficiency
+Subacute combined degeneration
+Wernicke–Korsakoff syndrome
+Niacin deficiency pellagra neuropsychiatric
+Folate deficiency neuropsychiatric
+Iodine deficiency cognitive impairment
+Goitrogen exposure hypothyroidism
+Selenium excess selenosis
+Fluoride excess skeletal fluorosis
+Fluoride deficiency dental caries risk
+Periodontal disease diabetes associated
+Nonalcoholic fatty pancreas disease
+Exocrine pancreatic dysfunction in diabetes
+Hepatic steatosis due to TPN
+Refeeding hypophosphatemia in anorexia
+Anorexia nervosa osteoporosis
+Bulimia nervosa electrolyte disturbances
+Binge-eating disorder metabolic complications
+Night eating syndrome
+Shift work sleep disorder metabolic
+Jet lag disorder metabolic
+Obstructive sleep apnea hypertension
+Obstructive sleep apnea insulin resistance
+Non-dipping hypertension in sleep apnea
+Pulmonary embolism with right heart strain
+Chronic thromboembolic pulmonary hypertension
+Right heart failure cor pulmonale
+Obesity-related hypoventilation hypercapnia
+Acute on chronic respiratory failure
+Metabolic encephalopathy in sepsis
+Sepsis-associated cholestasis
+Sepsis-induced acute kidney injury
+Acute tubular necrosis
+Contrast-induced nephropathy
+Rhabdomyolysis-induced AKI
+Hyperuricemia-induced AKI
+Obstructive uropathy metabolic sequelae
+Benign essential tremor metabolic modulation
+Dystonia metabolic modulation
+Tardive dyskinesia metabolic risk
+Akathisia
+Catatonia metabolic triggers
+Delirium tremens
+Alcoholic ketoacidosis
+Cannabis-induced hyperemesis
+Opioid-induced hyperalgesia
+NSAID-induced nephropathy
+Aminoglycoside nephrotoxicity
+Cisplatin nephrotoxicity
+Immune checkpoint pneumonitis
+Steroid-induced hyperglycemia
+Thiazide-induced hyponatremia
+SIADH
+Diabetes insipidus central
+Diabetes insipidus nephrogenic
+Primary polydipsia
+Hyperprolactinemia
+Acromegaly
+Gigantism
+Growth hormone deficiency adult
+Metabolic syndrome in acromegaly
+Cushing metabolic syndrome
+Hypopituitarism
+Sheehan syndrome
+Empty sella syndrome
+Pituitary apoplexy metabolic stress
+Hypersomatotropism in diabetes
+Nonalcoholic steatosis in pituitary disease
+Hypothyroidism-related dyslipidemia
+Hyperthyroidism-related atrial fibrillation
+Thyroid storm hepatic failure
+Myxedema coma hypothermia
+Graves dermopathy
+Thyroid dermopathy metabolic
+Diabetic dermopathy
+Necrobiosis lipoidica
+Acanthosis nigricans malignant
+Hidradenitis suppurativa metabolic syndrome
+Psoriasis metabolic syndrome
+Nonsegmental vitiligo metabolic stress
+Seborrheic dermatitis metabolic link
+Androgenetic alopecia metabolic link
+Telogen effluvium nutritional
+Pressure alopecia nutritional
+Chilblains lupus
+Raynaud phenomenon metabolic
+Erythromelalgia
+Cold urticaria
+Cholinergic urticaria
+Exercise-induced anaphylaxis
+Food-dependent exercise-induced anaphylaxis
+Anaphylaxis
+Mastocytosis
+Systemic mastocytosis
+Indolent systemic mastocytosis
+Hereditary alpha tryptasemia
+Eosinophilic granulomatosis with polyangiitis cardiac
+Hypereosinophilic syndrome
+Eosinophilic pneumonia
+Eosinophilic fasciitis
+Scleromyxedema
+POEMS syndrome
+Paraneoplastic hypoglycemia due to IGF-2
+Insulin autoimmune syndrome
+Factitious hypoglycemia
+Reactive hypoglycemia
+Fructose intolerance adult dumping
+Lactase deficiency adult
+Sucrase-isomaltase deficiency
+Trehalase deficiency
+Bile acid sequestrant-induced hypertriglyceridemia
+Statin-induced diabetes
+PCSK9 inhibitor-related metabolic effects
+GLP-1 receptor agonist adverse effects
+SGLT2 inhibitor natriuresis effects
+Thiazolidinedione fluid retention
+Metformin B12 deficiency
+DPP-4 inhibitor pancreatitis
+Insulin edema
+Hypoglycemia unawareness
+Dawn phenomenon
+Somogyi effect
+Nocturnal hypoglycemia
+Exercise-induced hypoglycemia
+Illness-induced hyperglycemia
+Steroid-induced osteoporosis
+Secondary hyperparathyroidism in CKD
+Renal osteodystrophy
+Adynamic bone disease in dialysis
+Calciphylaxis
+Hyperparathyroid bone disease
+Brown tumor of hyperparathyroidism
+Osteitis fibrosa cystica
+Milk-alkali syndrome
+Tumoral calcinosis
+Gitelman syndrome
+Bartter syndrome
+Liddle syndrome
+Apparent mineralocorticoid excess
+Gordon syndrome
+Pseudohypoaldosteronism type 1
+Nephrogenic diabetes insipidus due to lithium
+Lithium-induced hyperparathyroidism
+Topiramate-induced acidosis
+Acetazolamide-induced acidosis
+Loop diuretic-induced alkalosis
+Vomiting-induced alkalosis
+Diarrhea-induced acidosis
+Keto diet–induced hyperlipidemia
+Very low calorie diet complications
+Refeeding edema
+Protein-energy malnutrition
+Micronutrient deficiency after bariatric surgery
+Hyperoxaluria after bariatric surgery
+Oxalate nephropathy
+Uric acid nephropathy
+Gout flares with diuretics
+Pseudogout
+Hemochromatosis arthropathy
+Wilson neurological disease
+Wilson psychiatric presentation
+Manganese toxicity parkinsonism
+Cobalt toxicity cardiomyopathy
+Selenium toxicity hair loss
+Vitamin D intoxication hypercalcemia
+Vitamin B6 toxicity neuropathy
+Niacin flush intolerance
+Folate excess masking B12 deficiency
+High-fructose diet metabolic syndrome
+Nonalcoholic steatotic pancreatitis proposal
+Metabolic endotoxemia
+Insulin resistance of aging
+Metabolic inflexibility
+Exercise intolerance mitochondrial
+Overtraining endocrine suppression
+Hypogonadism in endurance athletes
+Female athlete triad
+Relative energy deficiency in sport in men
+Night shift metabolic syndrome
+Social jet lag metabolic effects
+Sedentary behavior metabolic risk
+Sarcopenic diabetes
+Obesity-related depression
+Depression with inflammation
+Psychotic depression metabolic risk
+Cognitive impairment in diabetes
+Mild cognitive impairment metabolic
+Vascular cognitive impairment
+Mixed dementia
+Parkinson dementia
+Post-ICU cognitive impairment
+Chemo brain
+Radiation-induced cognitive decline
+Traumatic brain injury chronic cognitive impairment
+Post-stroke cognitive impairment
+Obesity-related asthma exacerbations
+COPD cachexia
+COPD pulmonary hypertension
+Alpha-1 antitrypsin deficiency emphysema
+Bronchiectasis in CF malnutrition
+CF-related liver disease
+CF-related bone disease
+CF-related diabetes microvascular
+Obesity-related GERD
+GERD-related asthma
+NAFLD-related sleep apnea
+PCOS-related sleep apnea
+Hypothyroidism-related sleep apnea
+Restless legs iron deficiency
+Periodic limb movement disorder
+Insomnia in depression metabolic links
+Circadian rhythm disorder diabetes risk
+Chronotype-related metabolic risk
+Short sleep metabolic risk
+Long sleep metabolic risk
+Stress-related hyperglycemia
+Cushingoid features from steroids
+Hyperlipidemia secondary to hypothyroidism
+Hypertriglyceridemia during pregnancy
+Preeclampsia with HELLP
+Acute fatty liver of pregnancy
+Gestational cholestasis pruritus
+Postpartum thyroiditis hyper then hypo
+Gestational diabetes postpartum relapse
+Lactation ketoacidosis
+Mastitis energy deficit
+Post-bariatric pregnancy complications
+Fetal macrosomia due to maternal diabetes
+Neonatal hypocalcemia maternal diabetes
+Neonatal hypoglycemia maternal diabetes
+Neonatal hyperinsulinism maternal diabetes
+Neonatal jaundice dehydration
+Bronchiolitis metabolic stress in infants
+Kawasaki disease hypermetabolic state
+Multisystem inflammatory syndrome in children
+Autoinflammatory fever of unknown origin
+Periodic fever aphthous stomatitis pharyngitis adenopathy
+Benign acute childhood myositis
+Rhabdomyolysis viral
+Heat-induced rhabdomyolysis
+Exertional rhabdomyolysis
+Immune checkpoint colitis
+Immune checkpoint endocrinopathy
+Immune checkpoint diabetes
+Immune checkpoint myocarditis
+CAR-T cytokine release syndrome
+CAR-T neurotoxicity
+HSCT metabolic syndrome
+Post-transplant diabetes
+Post-transplant hyperlipidemia
+Post-transplant weight gain
+Graft dysfunction due to ischemia-reperfusion
+Islet transplant failure
+Pancreas transplant rejection
+Kidney transplant rejection metabolic injury
+Liver transplant steatosis
+Nonalcoholic steatosis in graft
+Obesity-related osteoarthritis of knee
+Obesity-related hand osteoarthritis
+Gouty tophi
+Tophus ulceration
+Chronic tophaceous gout
+Hyperuricosuric kidney stones
+Hypocitraturia stones
+Hypercalciuria stones
+Hyperoxaluria stones
+Cystinuria stones
+Xanthine stones
+2,8-dihydroxyadenine stones
+Renal phosphate wasting
+Fanconi syndrome
+Dent disease
+Lowe syndrome
+Bartter Gitelman overlap
+Renal glycosuria
+Familial renal hypouricemia
+Exercise-induced acute renal failure in RHUC
+Metabolic encephalopathy in hepatic failure
+Metabolic coma in hyperosmolar state
+Hyperammonemic encephalopathy valproate
+Hypercapnic encephalopathy OHS
+Hypoglycemic encephalopathy
+Ketoacidosis cerebral edema
+Reye syndrome
+Fatty acid oxidation defect–related SIDS risk
+Sudden cardiac death in metabolic disease
+Channelopathy-related sudden death fever triggered
+Malnutrition-related immunodeficiency
+Obesity-related immunodeficiency
+Type 2 diabetes impaired wound healing
+Peripheral artery disease critical wound
+Diabetic Charcot neuroarthropathy
+Osteomyelitis in diabetic foot
+Necrotizing fasciitis hyperglycemia risk
+Cellulitis in obesity
+Recurrent skin abscesses metabolic
+Hidradenitis suppurativa insulin resistance
+Psoriasis psoriatic arthritis metabolic
+Uveitis metabolic associations
+Scleritis metabolic associations
+Dry AMD geographic atrophy metabolic
+Wet AMD neovascular
+Diabetic neuropathic pain
+Chemotherapy-induced cardiometabolic risk
+Androgen deprivation metabolic syndrome
+Menopause metabolic syndrome
+Andropause metabolic syndrome
+Metabolic-associated depression in midlife
+Cognitive decline in insulin resistance
+Frailty with inflammation
+Inflammaging
+Metaflammation
+Anabolic resistance of aging
+Anemia of CKD
+Erythropoietin resistance
+Iron overload in dialysis
+Hypoglycemia in CKD
+Uremic pruritus
+Uremic bone disease
+Uremic cardiomyopathy
+Uremic neuropathy
+Uremic encephalopathy
+Cachexia of ESRD
+Hyperinsulinemia with acanthosis in youth
+Metabolic syndrome in childhood cancer survivors
+Radiation-induced hypothyroidism
+Growth hormone deficiency post-cranial irradiation
+Hypogonadism post-chemotherapy
