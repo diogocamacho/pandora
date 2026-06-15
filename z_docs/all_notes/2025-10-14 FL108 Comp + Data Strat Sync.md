@@ -33,5 +33,5 @@ tags:
 - [x] ask Tamarind.bio what the offerings are in terms of help 📅 2025-10-23 ✅ 2025-10-28
 - [x] ask ariel about Joshua Lubner for FL108 📅 2025-10-31 ✅ 2025-10-31
 - [x] introduce Adam Mendez to FL108 team 📅 2025-10-14 ✅ 2025-10-14
-- [ ] deploy infra with Adam #fl108 #compbio #devops 📅 2025-12-03
+- [x] deploy infra with Adam #fl108 #compbio #devops 📅 2025-12-03 ✅ 2026-01-06
 ----

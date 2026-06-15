@@ -1,19 +1,19 @@
 {
   "main": {
-    "id": "bb9ffb600610be1b",
+    "id": "5324373015726ba8",
     "type": "split",
     "children": [
       {
-        "id": "002027013a17372d",
+        "id": "4509724f8bf84da7",
         "type": "tabs",
         "children": [
           {
-            "id": "a913d30e6e3721ef",
+            "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2025-12-19 Precision nutrion.md",
+                "file": "z_docs/all_notes/2026-06-15.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,131 +28,10 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2025-12-19 Precision nutrion"
-            }
-          },
-          {
-            "id": "0a0d9c1b977787b7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "003. Learning/GPT Prompts/Nano banana prompts.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Nano banana prompts"
-            }
-          },
-          {
-            "id": "38bff27a6d4243e1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Claims analysis on supplements.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Claims analysis on supplements"
-            }
-          },
-          {
-            "id": "2ec538c068d77e42",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2025-12-29 Schematics for X2.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "2025-12-29 Schematics for X2"
-            }
-          },
-          {
-            "id": "737dcd1a2e28ec73",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2025-12-29 Testing system.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "2025-12-29 Testing system"
-            }
-          },
-          {
-            "id": "11cee0ebb3d3f0a5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "z_docs/all_notes/2025-12-30.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "2025-12-30"
+              "title": "2026-06-15"
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -209,7 +88,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 321.5
+    "width": 306.5
   },
   "right": {
     "id": "20c8e16e8d7d3a9e",
@@ -314,67 +193,67 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "audio-recorder:Start/stop recording": false,
       "homepage:Open homepage": false,
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
+      "templater-obsidian:Templater": false,
+      "graph:Open graph view": false,
+      "audio-recorder:Start/stop recording": false,
+      "switcher:Open quick switcher": false,
+      "canvas:Create new canvas": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
-      "templater-obsidian:Templater": false,
       "obsidian-importer:Open Importer": false,
       "callout-manager:Insert Callout": false
     }
   },
-  "active": "737dcd1a2e28ec73",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "z_docs/all_notes/2025-12-30.md",
-    "2025-12-29 Cost of running agentic system.md",
-    "2025-12-29 Schematics for X2.md",
-    "2025-12-29 Testing system.md",
-    "003. Learning/GPT Prompts/Nano banana prompts.md",
-    "003. Learning/GPT Prompts/GPT Prompts.md",
-    "Getting 1,000 different indication ideas.md",
-    "2025-12-19 Precision nutrion.md",
-    "Claims analysis on supplements.md",
-    "2025-12-18 Dan <> Diogo.md",
-    "2025-12-19 person.md",
-    "2025-12-17 person.md",
-    "2025-12-17 Andrew <> Diogo.md",
-    "2025-12-16 T-cell reprogramming.md",
-    "2025-12-16.md",
     "Home.md",
-    "2025-12-16 Chiara <> Diogo.md",
-    "2025-12-15 Jim Gilbert <> team.md",
-    "002. Ideas/💡 X2/💡 X2.md",
-    "z_docs/all_notes/2025-12-09 Axcellerate agentic system.md",
-    "z_docs/all_notes/2025-12-10 Updated agentic workflow.md",
-    "002. Ideas/002. Ideas.md",
-    "003. Learning/⚓️ Flagship Academy.md",
+    "z_docs/all_notes/2026-06-15.md",
+    "003. Learning/Links.md",
     "003. Learning/003. Learning.md",
-    "z_docs/all_notes/2025-12-12 Multi-Product Platforms.md",
-    "z_docs/all_notes/2025-12-03 Beth <> Diogo.md",
-    "002. Ideas/💡 X2/branding_names 1.csv",
-    "002. Ideas/💡 X2/branding_names.csv",
+    "Cursor rules.md",
+    "Untitled.md",
+    "styles et al.md",
+    "Data Driven Pharma East 2026.md",
+    "2026-01-21 Cycle planning.md",
+    "x2 FAB.md",
+    "z_docs/all_notes/2026-06-10.md",
+    "002. Ideas/💡 Conditional invariants.md",
+    "z_docs/all_notes/2026-04-13.md",
+    "002. Ideas/Idea Collector.md",
+    "z_docs/all_notes/2025-12-01 Reviewing slides to present to PBU.md",
+    "002. Ideas/2025-11-21 BCAAs?.md",
+    "002. Ideas/2025-11-21 Chat based interface.md",
+    "002. Ideas/2025-11-21 Axcella 2.0 Huddle.md",
+    "000. Personal/Cool links.md",
+    "000. Personal/Things to read.md",
+    "000. Personal/2025-11-28 Next 6 weeks investment.md",
+    "000. Personal/2025-11-28 ETF only portfolio.md",
+    "002. Ideas/812 Networks, KGs, etc.md",
+    "002. Ideas/Superagers.md",
+    "002. Ideas/Vini  Diogo.md",
+    "002. Ideas/002. Ideas.md",
     "002. Ideas/💡 X2/x2_agentic_system.png",
-    "002. Ideas/💡 X2/Gemini_Generated_Image_fnpdfyfnpdfyfnpd.png",
     "002. Ideas/💡 X2/Gemini_Generated_Image_s8a5fls8a5fls8a5.png",
     "002. Ideas/💡 X2/Gemini_Generated_Image_bee74abee74abee7.png",
+    "002. Ideas/💡 X2/PIIS2589004220308208.pdf",
+    "002. Ideas/💡 X2/Gemini_Generated_Image_fnpdfyfnpdfyfnpd.png",
     "Dailies",
+    "z_docs/z_extra/Gemini_Generated_Image_4a6m8n4a6m8n4a6m.png",
+    "z_docs/z_extra/shellpoint_1098_2025.pdf.pdf",
+    "\"z_docs/z_extra",
+    "\"z_docs",
+    "z_docs/z_extra/Gemini_Generated_Image_rfkaybrfkaybrfka.png",
+    "sh-thd-1767440721",
+    "sh-thd-1767452646",
+    "sh-thd-1767454365",
+    "sh-thd-1767452538",
+    "002. Ideas/💡 X2/branding_names 1.csv",
     "z_docs/z_extra/Gemini_Generated_Image_5njp3o5njp3o5njp.png",
     "z_docs/z_extra/Gemini_Generated_Image_2ieqys2ieqys2ieq.png",
-    "002. Ideas/💡 X2/PIIS2589004220308208.pdf",
-    "002. Ideas/💡 X2",
-    "\"~/Documents/pandora",
-    "\"~/Documents",
-    "\"~",
     "z_docs/z_extra/disease_to_healthy_circuit.png",
-    "z_docs/z_extra/circuitry_logo.png",
-    "z_docs/z_pdfs/Financing Entrepreneurial Ventures.pdf",
-    "z_docs/z_pdfs/Dilution.pdf",
-    "z_docs/z_extra/Screenshot 2025-11-21 at 11.20.54 AM.png",
-    "z_docs/z_extra/Screenshot 2025-11-07 at 9.18.09 AM.png"
+    "z_docs/z_extra/circuitry_logo.png"
   ]
 }

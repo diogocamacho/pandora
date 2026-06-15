@@ -1,5 +1,4 @@
 {
   "template": "z_docs/z_templates/daily",
-  "folder": "z_docs/all_notes",
-  "autorun": true
+  "folder": "z_docs/all_notes"
 }

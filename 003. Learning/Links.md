@@ -5,6 +5,13 @@ Follow up: true
 ---
 
 ### 🤖 AI/ML 
+- https://www.a16z.news/p/the-ai-job-apocalypse-is-a-complete?utm_source=post-email-title&publication_id=13145&post_id=196544663&utm_campaign=email-post-title&isFreemail=true&r=2uxm8r&triedRedirect=true&utm_medium=email
+	- **But the claim that AI will produce economy-wide,** _**permanent**_ **unemployment is unhelpful marketing, bad economics and worse history.**  productivity gains should _increase_ demand for labor, because labor becomes more valuable.
+	- precedent (and intuition) shows that when the cost of a powerful input falls, the economy does not politely stand still. Costs fall, quality rises, speed rises, new products become viable, and demand moves outward.[2](https://www.a16z.news/p/the-ai-job-apocalypse-is-a-complete?utm_source=post-email-title&publication_id=13145&post_id=196544663&utm_campaign=email-post-title&isFreemail=true&r=2uxm8r&triedRedirect=true&utm_medium=email#footnote-2) Jevons Paradox reigns supreme. When fossil fuels first made energy cheap and plentiful, we did more than just put whalers and woodchoppers out of business; we invented plastics!
+	- The net result of having delegated so much of our efforts to machines is that the economy and labor market have only gotten bigger, more diverse, and more complex.
+	- 
+
+
 
 
 ### 💊 Drug Discovery

@@ -41,4 +41,4 @@ tags:
 
 
 
-- [ ] get cursor for Jeremy #jamon  📅 2025-12-05 ⏫ 
+- [x] get cursor for Jeremy #jamon ⏫ 📅 2025-12-05 ✅ 2026-01-03

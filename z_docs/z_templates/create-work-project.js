@@ -29,13 +29,19 @@ await app.vault.createFolder(projectFolder);
 
 // Read template
 const templatePath = "z_docs/z_templates/work-project-home.md";
-const template = await app.vault.adapter.read(templatePath);
+const templateFile = app.vault.getAbstractFileByPath(templatePath);
+if (!templateFile) {
+    new Notice(`Template not found: ${templatePath}`, 3000);
+    return;
+}
 
-// Process template with Templater
-const processed = await tp.file.templater(template, {
-    projectName: normalizedName,
-    projectTag: projectTag
-});
+const template = await app.vault.read(templateFile);
+
+// Replace Templater placeholders with actual values
+let processed = template;
+// Replace the complex Templater expression with the project tag
+const templaterPattern = /<% tp\.file\.title\.replace\([^)]+\)\.toLowerCase\(\)\.replace\([^)]+\) %>/g;
+processed = processed.replace(templaterPattern, projectTag);
 
 // Create the home file
 await app.vault.create(homeFilePath, processed);

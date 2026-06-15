@@ -5,33 +5,35 @@
 
 ## 🚀 Quick Actions
 
+**Daily & Notes:**
 ```button
-name Daily Note
+name 📅 Daily Note
 id daily-button
-type command
-action Templater: Create new note from template
-param daily
+type note
+action daily
+templater true
 ```
 
 ```button
-name Quick Note
-type command
-action Templater: Create new note from template
-param quick-note-button
+name 📝 Quick Note
+type note
+action quick-note-button
+templater true
+```
+
+**Projects & Ideas:**
+```button
+name ⚗️ New Engagement
+type note
+action create-work-project
+templater true
 ```
 
 ```button
-name New Work Project
-type command
-action Templater: Create new note from template
-param create-work-project
-```
-
-```button
-name New Idea
-type command
-action Templater: Create new note from template
-param create-idea
+name 💡 New Idea
+type note
+action create-idea
+templater true
 ```
 
 ---
@@ -41,7 +43,7 @@ param create-idea
 ### Today's Daily Note
 ```dataview
 LIST
-FROM "Dailies"
+FROM #daily
 WHERE file.day = date(today)
 LIMIT 1
 ```
@@ -53,13 +55,13 @@ LIMIT 1
 > due before today
 > ```
 
-> [!next] ➡️ High Priority
+> [!next] High Priority
 > ```tasks
 > not done
 > priority is high
 > ```
 
-> [!todo] ✅ Due Today
+> [!todo] Due Today
 > ```tasks
 > due today
 > not done
@@ -233,6 +235,7 @@ SORT file.mtime DESC
 > hide edit button
 > hide backlink
 > ```
+
 
 ### Upcoming Deadlines
 ```dataview

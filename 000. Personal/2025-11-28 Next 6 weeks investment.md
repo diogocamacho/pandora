@@ -8,6 +8,10 @@ Follow up: true
 ---
 
 ---
+
+### 🔗 Linked notes
+[[2025-11-28 ETF only portfolio]]
+
 ### 🧠 Note
 
 - SPY already covers broad US large caps. The gaps are: tech concentration. smaller caps. international exposure.  
@@ -27,7 +31,13 @@ With this structure, with ~$5k available to invest in the next 6 weeks, doing we
 - **Speculative basket (SOUN + NVTS + CRVW): $250 total**  
     That can be $80–90 each, or weighted however you like.
 
-- [ ] check in investment strategy #personal #money #investment 🔁 every week 📅 2025-12-08
+- [ ] check in investment strategy #personal #money #investment 🔁 every week 📅 2026-01-19
+- [x] check in investment strategy #personal #money #investment 🔁 every week 📅 2026-01-12 ✅ 2026-01-12
+- [x] check in investment strategy #personal #money #investment 🔁 every week 📅 2026-01-05 ✅ 2026-01-12
+- [x] check in investment strategy #personal #money #investment 🔁 every week 📅 2025-12-29 ✅ 2026-01-12
+- [x] check in investment strategy #personal #money #investment 🔁 every week 📅 2025-12-22 ✅ 2026-01-12
+- [x] check in investment strategy #personal #money #investment 🔁 every week 📅 2025-12-15 ✅ 2026-01-12
+- [x] check in investment strategy #personal #money #investment 🔁 every week 📅 2025-12-08 ✅ 2026-01-12
 - [x] check in investment strategy #personal #money #investment 🔁 every week 📅 2025-12-01 ✅ 2025-12-02
 
-[[2025-11-28 ETF only portfolio]]
+

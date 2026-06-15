@@ -47,5 +47,5 @@ tags:
 
 
 #### Do this
-- [ ] add HPA data for each target in the target id work i've done 📅 2025-11-28 ⏫ #abiologics #targetid #cmagnone 
+- [x] add HPA data for each target in the target id work i've done #abiologics #targetid #cmagnone ⏫ 📅 2025-11-28 ✅ 2026-01-03
 - [ ] what are the potential liabilities of a given target? #abiologics #cmagnone 📅 2025-11-28 ⏫ #targetid 

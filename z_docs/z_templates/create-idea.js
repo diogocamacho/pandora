@@ -29,13 +29,21 @@ await app.vault.createFolder(ideaFolder);
 
 // Read template
 const templatePath = "z_docs/z_templates/idea-home.md";
-const template = await app.vault.adapter.read(templatePath);
+const templateFile = app.vault.getAbstractFileByPath(templatePath);
+if (!templateFile) {
+    new Notice(`Template not found: ${templatePath}`, 3000);
+    return;
+}
 
-// Process template with Templater
-const processed = await tp.file.templater(template, {
-    ideaName: normalizedName,
-    ideaTag: ideaTag
-});
+const template = await app.vault.read(templateFile);
+
+// Replace placeholders in template
+let processed = template;
+// Replace Templater variables
+processed = processed.replace(/<% tp\.date\.now\("YYYY-MM-DD"\) %>/g, tp.date.now("YYYY-MM-DD"));
+// Replace the complex Templater expression with the idea tag
+const templaterPattern = /<% tp\.file\.title\.replace\([^)]+\)\.toLowerCase\(\)\.replace\([^)]+\) %>/g;
+processed = processed.replace(templaterPattern, ideaTag);
 
 // Create the idea file
 await app.vault.create(ideaFilePath, processed);
