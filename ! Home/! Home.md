@@ -16,33 +16,31 @@ LIMIT 1
 
 ## 🚀 Quick actions
 
-```button
-name 📝 Quick note
-type command
-action Templater: Create new note from template
-param quick-note-button
-```
-
-```button
-name ⚗️ New work project
-type command
-action Templater: Create new note from template
-param create-work-project
-```
-
-```button
-name 💡 New idea
-type command
-action Templater: Create new note from template
-param create-idea
-```
-
-```button
-name 🤝 New 1:1
-type command
-action Templater: Create new note from template
-param 1v1-meeting-button
-```
+> [!button-row]
+> ```button
+> name 📝 Quick note
+> type command
+> action Templater: Create new note from template
+> param quick-note-button
+> ```
+> ```button
+> name ⚗️ New work project
+> type command
+> action Templater: Create new note from template
+> param create-work-project
+> ```
+> ```button
+> name 💡 New idea
+> type command
+> action Templater: Create new note from template
+> param create-idea
+> ```
+> ```button
+> name 🤝 New 1:1
+> type command
+> action Templater: Create new note from template
+> param 1v1-meeting-button
+> ```
 
 ---
 

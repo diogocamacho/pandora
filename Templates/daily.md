@@ -73,18 +73,20 @@ _Anything that comes up. Processed in weekly review._
 - 
 
 ## 📝 Meetings
-```button
-name 1:1
-type command
-action Templater: Create new note from template
-param 1v1-meeting-button
-```
-```button
-name Meeting
-type command
-action Templater: Create new note from template
-param meeting-button
-```
+
+> [!button-row]
+> ```button
+> name 1:1
+> type command
+> action Templater: Create new note from template
+> param 1v1-meeting-button
+> ```
+> ```button
+> name Meeting
+> type command
+> action Templater: Create new note from template
+> param meeting-button
+> ```
 
 - [[]]
 
