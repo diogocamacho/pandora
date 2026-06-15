@@ -77,13 +77,13 @@ _Anything that comes up. Processed in weekly review._
 > [!button-row]
 > ```button
 > name 1:1
-> type note
+> type note(stub, false)
 > action 1v1-meeting-button
 > templater true
 > ```
 > ```button
 > name Meeting
-> type note
+> type note(stub, false)
 > action meeting-button
 > templater true
 > ```

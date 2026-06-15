@@ -1,135 +1,93 @@
 <%*
-// Create 1:1 Meeting Note Script
-// Prompts for person name and project tags, creates note with proper tagging
+// 1:1 Meeting Note — prompts for person + tags, creates note in Notes/, links into today's daily.
+// Invoked via Buttons plugin: type note(_1v1-stub, false) + templater true.
 
-// Person tag mapping - converts names to tag format
 const personTagMap = {
-    "andrew": "acroneberger",
-    "andrew croneberger": "acroneberger",
-    "beth": "bkartchner",
-    "beth kartchner": "bkartchner",
-    "jeremy": "jamon",
-    "jeremy amon": "jamon",
-    "nitya": "ntalasila",
-    "nitya talasila": "ntalasila",
-    "carl": "cmagnone",
-    "carl magnone": "cmagnone"
+    "andrew": "acroneberger", "andrew croneberger": "acroneberger",
+    "beth": "bkartchner", "beth kartchner": "bkartchner",
+    "jeremy": "jamon", "jeremy amon": "jamon",
+    "nitya": "ntalasila", "nitya talasila": "ntalasila",
+    "carl": "cmagnone", "carl magnone": "cmagnone"
 };
-
 function getPersonTag(name) {
-    const normalized = name.toLowerCase().trim();
-    return personTagMap[normalized] || normalized.replace(/\s+/g, "").replace(/[^a-z0-9]/g, "");
+    const n = name.toLowerCase().trim();
+    return personTagMap[n] || n.replace(/\s+/g, "").replace(/[^a-z0-9]/g, "");
 }
 
-// Prompt for person name(s)
-const personInput = await tp.system.prompt("Enter person name(s) (e.g., 'Andrew' or 'Andrew <> Diogo'):");
-if (!personInput) {
-    return;
-}
+const personInput = await tp.system.prompt("Person name(s) (e.g., 'Andrew' or 'Andrew <> Diogo'):");
+if (personInput) {
+    const personNames = personInput.split("<>").map(s => s.trim()).filter(s => s);
+    const primary = personNames[0];
+    const personTag = getPersonTag(primary);
 
-// Parse person names
-const personNames = personInput.split("<>").map(n => n.trim()).filter(n => n);
-const primaryPerson = personNames[0];
-const personTag = getPersonTag(primaryPerson);
+    const projectTagsInput = await tp.system.prompt("Project tags (comma-separated, optional):");
+    const projectTags = projectTagsInput ? projectTagsInput.split(",").map(t => t.trim()).filter(t => t) : [];
 
-// Prompt for project tags (optional)
-const projectTagsInput = await tp.system.prompt("Enter project tags (comma-separated, optional, e.g., 'abiologics,compbio'):");
-const projectTags = projectTagsInput ? projectTagsInput.split(",").map(t => t.trim()).filter(t => t) : [];
+    const dateStr = tp.date.now("YYYY-MM-DD");
+    const fileName = personNames.length > 1
+        ? `${dateStr} ${personNames.join(" <> ")}.md`
+        : `${dateStr} ${primary} <> Diogo.md`;
+    const filePath = `Notes/${fileName}`;
 
-// Generate file name
-const dateStr = tp.date.now("YYYY-MM-DD");
-let fileName;
-if (personNames.length > 1) {
-    fileName = `${dateStr} ${personNames.join(" <> ")}.md`;
-} else {
-    fileName = `${dateStr} ${primaryPerson} <> Diogo.md`;
-}
+    const exists = await app.vault.adapter.exists(filePath);
+    if (!exists) {
+        let frontmatter = `---\nFollow up:\ntags:\n  - 1v1\n  - ${personTag}\n`;
+        projectTags.forEach(t => { frontmatter += `  - ${t}\n`; });
+        frontmatter += `---\n\n`;
 
-// Create note path
-const notesFolder = "Notes";
-const filePath = `${notesFolder}/${fileName}`;
+        const content = frontmatter +
+`---
+## 💬 To discuss
 
-// Check if file already exists
-const fileExists = await app.vault.adapter.exists(filePath);
-if (fileExists) {
-    new Notice(`Note "${fileName}" already exists!`, 3000);
-    return;
-}
-
-// Build tags array
-const tags = ["1v1", personTag, ...projectTags];
-
-// Build frontmatter
-let frontmatter = `---
-Follow up:
-tags:
-  - 1v1
-  - ${personTag}
-`;
-projectTags.forEach(tag => {
-    frontmatter += `  - ${tag}\n`;
-});
-frontmatter += `---\n\n`;
-
-// Build content with person tag in Dataview queries
-const content = frontmatter + `---
-## 💬 To Discuss
-
-### Asks and Tasks
+### Asks and tasks
 
 > [!check] Tasks
-> \`\`\`dataview
-> task
-> FROM #${personTag} 
-> WHERE !completed
-> \`\`\` 
->
+> \`\`\`tasks
+> not done
+> tags include ${personTag}
+> \`\`\`
 
-
-> [!NOTE] Previous notes
+> [!note] Previous notes
 > \`\`\`dataview
 > LIST
-> FROM #${personTag} 
-> WHERE follow-up = true | file.ctime > (date(now) - dur(7 days))
-> \`\`\` 
->
-
+> FROM #${personTag}
+> WHERE follow-up = true OR file.ctime > (date(now) - dur(7 days))
+> \`\`\`
 
 ---
-## ✍️ Notes and Action Items
+## ✍️ Notes and action items
 
 `;
+        await app.vault.create(filePath, content);
 
-// Create the note
-await app.vault.create(filePath, content);
-
-// Update daily note
-const dailyNotePath = `Dailies/${dateStr}.md`;
-const dailyNote = app.vault.getAbstractFileByPath(dailyNotePath);
-if (dailyNote) {
-    const dailyContent = await app.vault.read(dailyNote);
-    const linkText = `- [[${fileName.replace(".md", "")}]]`;
-    
-    // Find the "Meetings for the day" section and add link
-    const meetingsSection = /## Meetings for the day[\s\S]*?(?=##|$)/;
-    const match = dailyContent.match(meetingsSection);
-    
-    if (match) {
-        const sectionContent = match[0];
-        // Check if link already exists
-        if (!sectionContent.includes(fileName.replace(".md", ""))) {
-            // Add link before the closing of the section
-            const updatedSection = sectionContent.replace(/(\n- \[\[\.\.\.\]\])/g, `\n${linkText}$1`);
-            const updatedContent = dailyContent.replace(meetingsSection, updatedSection);
-            await app.vault.modify(dailyNote, updatedContent);
+        // Append link to today's daily, if it exists.
+        const dailyPath = `Notes/${dateStr}.md`;
+        const daily = app.vault.getAbstractFileByPath(dailyPath);
+        if (daily) {
+            const dailyContent = await app.vault.read(daily);
+            const link = `- [[${fileName.replace(".md", "")}]]`;
+            if (!dailyContent.includes(fileName.replace(".md", ""))) {
+                const meetingsRe = /## 📝 Meetings[\s\S]*?(?=\n## |\n---|\Z)/;
+                const m = dailyContent.match(meetingsRe);
+                if (m) {
+                    const updated = m[0].replace(/(- \[\[\]\])/, `${link}\n$1`);
+                    await app.vault.modify(daily, dailyContent.replace(meetingsRe, updated));
+                }
+            }
         }
+
+        await app.workspace.openLinkText(filePath, "", true);
+        new Notice(`Created 1:1: ${fileName}`, 2000);
+    } else {
+        new Notice(`"${fileName}" already exists`, 3000);
+        await app.workspace.openLinkText(filePath, "", true);
     }
 }
 
-// Open the new file
-const file = app.vault.getAbstractFileByPath(filePath);
-if (file) {
-    await app.workspace.openLinkText(filePath, "", true);
-    new Notice(`Created 1:1 meeting note: ${fileName}`, 2000);
+// Cleanup: delete the Buttons-plugin entry stub.
+const stub = tp.config.target_file;
+if (stub) {
+    const stubStillThere = app.vault.getAbstractFileByPath(stub.path);
+    if (stubStillThere) await app.vault.delete(stubStillThere);
 }
 %>

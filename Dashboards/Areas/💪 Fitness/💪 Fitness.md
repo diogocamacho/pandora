@@ -46,7 +46,7 @@ LIMIT 14
 
 ```button
 name ➕ New Whoop entry
-type note
+type note(stub, false)
 action whoop-daily
 templater true
 ```
@@ -69,7 +69,7 @@ LIMIT 14
 
 ```button
 name ➕ Log workout
-type note
+type note(stub, false)
 action workout
 templater true
 ```
@@ -93,7 +93,7 @@ LIMIT 12
 
 ```button
 name ➕ Weekly weigh-in
-type note
+type note(stub, false)
 action body-recomp
 templater true
 ```

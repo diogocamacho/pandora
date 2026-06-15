@@ -18,7 +18,7 @@ SORT file.mtime DESC
 
 ```button
 name 💡 New idea
-type note
+type note(stub, false)
 action create-idea
 templater true
 ```

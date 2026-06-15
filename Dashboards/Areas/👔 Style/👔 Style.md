@@ -41,7 +41,7 @@ SORT category ASC, color ASC
 
 ```button
 name ➕ Add piece to closet
-type note
+type note(stub, false)
 action closet-piece
 templater true
 ```
@@ -64,7 +64,7 @@ LIMIT 21
 
 ```button
 name ➕ Log outfit
-type note
+type note(stub, false)
 action outfit
 templater true
 ```
@@ -88,7 +88,7 @@ SORT priority ASC, price_usd ASC
 
 ```button
 name ➕ Add to wishlist
-type note
+type note(stub, false)
 action wishlist-item
 templater true
 ```

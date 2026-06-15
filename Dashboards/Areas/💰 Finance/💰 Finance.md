@@ -45,7 +45,7 @@ SORT date DESC
 
 ```button
 name ➕ Add net worth snapshot
-type note
+type note(stub, false)
 action net-worth-snapshot
 templater true
 ```
@@ -110,7 +110,7 @@ LIMIT 12
 
 ```button
 name ➕ Monthly review
-type note
+type note(stub, false)
 action finance-review
 templater true
 ```

@@ -19,25 +19,25 @@ LIMIT 1
 > [!button-row]
 > ```button
 > name 📝 Quick note
-> type note
+> type note(stub, false)
 > action quick-note-button
 > templater true
 > ```
 > ```button
 > name ⚗️ New work project
-> type note
+> type note(stub, false)
 > action create-work-project
 > templater true
 > ```
 > ```button
 > name 💡 New idea
-> type note
+> type note(stub, false)
 > action create-idea
 > templater true
 > ```
 > ```button
 > name 🤝 New 1:1
-> type note
+> type note(stub, false)
 > action 1v1-meeting-button
 > templater true
 > ```

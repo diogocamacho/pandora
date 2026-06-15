@@ -3,7 +3,7 @@
 
 ```button
 name 📝 Quick note → Inbox
-type note
+type note(stub, false)
 action quick-note-button
 templater true
 ```
