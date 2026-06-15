@@ -1,40 +1,65 @@
-/* Buttons plugin: make consecutive button code-blocks render side by side
- * instead of stacking. Each `block-language-button` is the wrapper div
- * the plugin injects around a rendered button.
- */
+/* ================================================================
+ * Buttons plugin — side-by-side layout
+ * ================================================================
+ * Two ways to use this:
+ *   1. Consecutive ```button blocks → auto inline-block, flow side by side
+ *   2. Wrap buttons in `> [!button-row]` callout → enforced flex row,
+ *      invisible container, consistent gap
+ *
+ * Selectors use !important and high specificity to beat theme overrides.
+ * ================================================================ */
 
-.block-language-button {
+/* --- Default: all rendered buttons render inline-block --- */
+div.block-language-button {
   display: inline-block !important;
   vertical-align: middle;
-  margin: 0 0.5em 0.5em 0;
+  margin: 0 0.4em 0.4em 0 !important;
 }
 
-/* Tighten the empty paragraph that Obsidian sometimes inserts between
- * consecutive code blocks, which would otherwise force a line break.
- */
-.block-language-button + p:empty,
-p:empty + .block-language-button {
-  display: none;
+/* Kill the empty <p> Obsidian inserts between consecutive code blocks. */
+div.block-language-button + p:empty,
+p:empty + div.block-language-button {
+  display: none !important;
 }
 
-/* Optional: explicit "button row" container — wrap a group of buttons
- * in a callout `> [!button-row]` and they'll flex on one line with wrapping.
- */
-.callout[data-callout="button-row"] {
-  background: transparent;
-  border: none;
-  padding: 0;
-  margin: 0.5em 0;
+/* --- Explicit row: [!button-row] callout --- */
+
+/* Hide the callout chrome (title, background, border, padding). */
+.markdown-preview-view .callout[data-callout="button-row"],
+.markdown-rendered .callout[data-callout="button-row"],
+div.callout[data-callout="button-row"] {
+  background: transparent !important;
+  background-color: transparent !important;
+  border: none !important;
+  border-left: none !important;
+  padding: 0 !important;
+  margin: 0.5em 0 !important;
+  mix-blend-mode: normal !important;
 }
-.callout[data-callout="button-row"] .callout-title {
-  display: none;
+
+.callout[data-callout="button-row"] .callout-title,
+.callout[data-callout="button-row"] > .callout-title {
+  display: none !important;
 }
-.callout[data-callout="button-row"] .callout-content {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.5em;
-  padding: 0;
+
+/* Flex the content row. */
+.callout[data-callout="button-row"] .callout-content,
+.callout[data-callout="button-row"] > .callout-content {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  gap: 0.5em !important;
+  padding: 0 !important;
+  margin: 0 !important;
 }
-.callout[data-callout="button-row"] .block-language-button {
-  margin: 0;
+
+/* When inside the callout, tighten button spacing to rely on the flex gap. */
+.callout[data-callout="button-row"] div.block-language-button {
+  margin: 0 !important;
+}
+
+/* The plugin sometimes wraps a button in a paragraph inside the callout.
+ * Strip the paragraph chrome so it doesn't break the flex row. */
+.callout[data-callout="button-row"] .callout-content > p {
+  display: contents !important;
+  margin: 0 !important;
 }
