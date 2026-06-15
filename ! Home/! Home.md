@@ -1,17 +1,20 @@
 > [!tip] Pandora — launchpad
-> Daily note · projects · areas · capture. All-in-one. Pinned tab.
+> Daily note · projects · areas · capture. All in one place.
+
+---
+
+## 📅 Today's daily
+
+```dataview
+LIST WITHOUT ID file.link
+FROM "Notes"
+WHERE file.name = dateformat(date(today), "yyyy-MM-dd")
+LIMIT 1
+```
 
 ---
 
 ## 🚀 Quick actions
-
-```button
-name 📅 Today's daily
-id daily-button
-type note
-action daily
-templater true
-```
 
 ```button
 name 📝 Quick note
@@ -43,7 +46,7 @@ param 1v1-meeting-button
 
 ---
 
-## 📅 Today
+## ✅ Today
 
 > [!attention] 🚨 Overdue
 > ```tasks
@@ -66,7 +69,7 @@ param 1v1-meeting-button
 > [!todo] 🔥 High priority (any date)
 > ```tasks
 > not done
-> priority is highest
+> (priority is highest) OR (priority is high)
 > limit 5
 > short mode
 > hide edit button
@@ -80,7 +83,7 @@ param 1v1-meeting-button
 ```dataview
 LIST
 FROM "Dashboards/Projects"
-WHERE file.name = this.file.folder + " Home" OR endswith(file.name, "Home") OR file.name = "💡 X2"
+WHERE endswith(file.name, "Home") OR file.name = "💡 X2"
 SORT file.name ASC
 ```
 
@@ -88,10 +91,10 @@ SORT file.name ASC
 
 ## 🎯 Areas
 
-- [[💰 Finance|💰 Finance]]
-- [[💪 Fitness|💪 Fitness]]
-- [[👔 Style|👔 Style]]
-- [[Flagship Pioneering Home|⚓️ Flagship Pioneering]]
+- [[💰 Finance]]
+- [[💪 Fitness]]
+- [[👔 Style]]
+- [[Flagship Pioneering]]
 
 ---
 
@@ -100,7 +103,7 @@ SORT file.name ASC
 ```dataview
 LIST file.link
 FROM "Notes"
-WHERE contains(file.tags, "waiting-for") OR contains(string(this.file.frontmatter), "follow-up")
+WHERE contains(file.tags, "waiting-for") OR follow-up = true
 SORT file.mtime DESC
 LIMIT 10
 ```
@@ -111,7 +114,8 @@ LIMIT 10
 
 ```dataview
 LIST
-FROM "Inbox"
+FROM "! Inbox"
+WHERE file.name != "! Inbox"
 SORT file.mtime DESC
 ```
 
@@ -129,9 +133,9 @@ SORT file.mtime DESC
 
 ## 📊 Weekly review
 
-- [ ] Process Inbox/ → Notes/ or appropriate dashboard
+- [ ] Process `! Inbox/` → file into Notes/ or appropriate dashboard
 - [ ] Review overdue + reschedule
 - [ ] Update each project Home with this week's progress
 - [ ] Update Waiting on
-- [ ] Update Finance/Fitness/Style dashboards
+- [ ] Update Finance / Fitness / Style dashboards
 - [ ] Plan next week's top 3
