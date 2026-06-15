@@ -41,9 +41,9 @@ SORT category ASC, color ASC
 
 ```button
 name ➕ Add piece to closet
-type command
-action Templater: Create new note from template
-param closet-piece
+type note
+action closet-piece
+templater true
 ```
 
 ---
@@ -64,9 +64,9 @@ LIMIT 21
 
 ```button
 name ➕ Log outfit
-type command
-action Templater: Create new note from template
-param outfit
+type note
+action outfit
+templater true
 ```
 
 ---
@@ -88,9 +88,9 @@ SORT priority ASC, price_usd ASC
 
 ```button
 name ➕ Add to wishlist
-type command
-action Templater: Create new note from template
-param wishlist-item
+type note
+action wishlist-item
+templater true
 ```
 
 ---

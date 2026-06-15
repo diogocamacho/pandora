@@ -3,9 +3,9 @@
 
 ```button
 name 📝 Quick note → Inbox
-type command
-action Templater: Create new note from template
-param quick-note-button
+type note
+action quick-note-button
+templater true
 ```
 
 ---

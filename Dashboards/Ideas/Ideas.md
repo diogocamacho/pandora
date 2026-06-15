@@ -18,9 +18,9 @@ SORT file.mtime DESC
 
 ```button
 name 💡 New idea
-type command
-action Templater: Create new note from template
-param create-idea
+type note
+action create-idea
+templater true
 ```
 
 ## Idea inbox

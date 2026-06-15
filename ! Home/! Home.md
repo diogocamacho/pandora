@@ -19,27 +19,27 @@ LIMIT 1
 > [!button-row]
 > ```button
 > name 📝 Quick note
-> type command
-> action Templater: Create new note from template
-> param quick-note-button
+> type note
+> action quick-note-button
+> templater true
 > ```
 > ```button
 > name ⚗️ New work project
-> type command
-> action Templater: Create new note from template
-> param create-work-project
+> type note
+> action create-work-project
+> templater true
 > ```
 > ```button
 > name 💡 New idea
-> type command
-> action Templater: Create new note from template
-> param create-idea
+> type note
+> action create-idea
+> templater true
 > ```
 > ```button
 > name 🤝 New 1:1
-> type command
-> action Templater: Create new note from template
-> param 1v1-meeting-button
+> type note
+> action 1v1-meeting-button
+> templater true
 > ```
 
 ---

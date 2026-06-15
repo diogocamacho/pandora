@@ -45,9 +45,9 @@ SORT date DESC
 
 ```button
 name ➕ Add net worth snapshot
-type command
-action Templater: Create new note from template
-param net-worth-snapshot
+type note
+action net-worth-snapshot
+templater true
 ```
 
 ---
@@ -110,9 +110,9 @@ LIMIT 12
 
 ```button
 name ➕ Monthly review
-type command
-action Templater: Create new note from template
-param finance-review
+type note
+action finance-review
+templater true
 ```
 
 ---

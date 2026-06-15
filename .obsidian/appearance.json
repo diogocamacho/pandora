@@ -1,7 +1,7 @@
 {
   "showRibbon": true,
   "theme": "moonstone",
-  "accentColor": "#f55c5c",
+  "accentColor": "#ff0000",
   "translucency": false,
   "cssTheme": "",
   "enabledCssSnippets": [

@@ -77,15 +77,15 @@ _Anything that comes up. Processed in weekly review._
 > [!button-row]
 > ```button
 > name 1:1
-> type command
-> action Templater: Create new note from template
-> param 1v1-meeting-button
+> type note
+> action 1v1-meeting-button
+> templater true
 > ```
 > ```button
 > name Meeting
-> type command
-> action Templater: Create new note from template
-> param meeting-button
+> type note
+> action meeting-button
+> templater true
 > ```
 
 - [[]]

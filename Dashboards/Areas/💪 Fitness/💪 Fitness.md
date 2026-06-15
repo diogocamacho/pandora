@@ -46,9 +46,9 @@ LIMIT 14
 
 ```button
 name ➕ New Whoop entry
-type command
-action Templater: Create new note from template
-param whoop-daily
+type note
+action whoop-daily
+templater true
 ```
 
 ---
@@ -69,9 +69,9 @@ LIMIT 14
 
 ```button
 name ➕ Log workout
-type command
-action Templater: Create new note from template
-param workout
+type note
+action workout
+templater true
 ```
 
 ---
@@ -93,9 +93,9 @@ LIMIT 12
 
 ```button
 name ➕ Weekly weigh-in
-type command
-action Templater: Create new note from template
-param body-recomp
+type note
+action body-recomp
+templater true
 ```
 
 ---
