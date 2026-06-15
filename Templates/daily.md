@@ -1,103 +1,103 @@
----
-tags:
-  - daily
-Follow up:
+<%*
+const d = tp.date.now("YYYY-MM-DD")
+await tp.file.rename(d)
+await tp.file.move("/Notes/" + d)
+%>---
+tags: [daily]
+date: <% tp.date.now("YYYY-MM-DD") %>
+weekday: <% tp.date.now("dddd") %>
+energy:
+recovery:
+follow-up:
 journal:
 stoic:
-reading:
 workout:
 ---
-<% tp.file.rename(tp.date.now("YYYY-MM-DD")) %>
 
-> [!tip] **Stoic quote for the day**
-> _From the Daily Stoic. Think how to apply it throughout the day and life._
-> >[!quote]
+# <% tp.date.now("YYYY-MM-DD") %> — <% tp.date.now("dddd") %>
+
+> [!tip] Daily intent
+> One sentence: what would make today a win?
+>
 > 
-> 
 
----
-## Meetings for the day
-_List here the daily meetings for quick edit_
+## ☀️ Morning brief (from Max)
+- Top 3:
+  1. 
+  2. 
+  3. 
+- One thing I'd skip if the day collapses: 
 
+## 📅 Calendar
+- 
+
+## 🚨 Overdue
+```tasks
+not done
+due before <% tp.date.now("YYYY-MM-DD") %>
+short mode
+hide edit button
+hide backlink
+```
+
+## ✅ Due today
+```tasks
+not done
+due on <% tp.date.now("YYYY-MM-DD") %>
+short mode
+hide edit button
+hide backlink
+```
+
+## 🔥 High priority (any date)
+```tasks
+not done
+priority is high
+limit 5
+short mode
+hide edit button
+hide backlink
+```
+
+## ⏳ Waiting on
+```dataview
+LIST file.link
+FROM "Notes"
+WHERE follow-up = true
+SORT file.mtime DESC
+LIMIT 10
+```
+
+## 🧠 Capture (inbox)
+_Anything that comes up. Processed in weekly review._
+- 
+
+## 📝 Meetings
 ```button
-name 1:1 Meeting
+name 1:1
 type command
 action Templater: Create new note from template
 param 1v1-meeting-button
 ```
-
 ```button
-name Regular Meeting
+name Meeting
 type command
 action Templater: Create new note from template
 param meeting-button
 ```
 
-- [[...]]
+- [[]]
 
-
----
-## Things to do on my mind
-_Add whatever things I may need to do that are not on to do lists_
-
-
----
-## Notes of the day
-```button
-name Quick Note
-type command
-action Templater: Create new note from template
-param quick-note-button
-```
-```dataview
-LIST
-WHERE file.day = date(today)
-```
-
----
-## Notes to follow up on
-_Things that I should follow up_
-> [!check]
-> ```dataview
-> LIST
-> WHERE follow-up = true
-> ```
+## 🧘 Stoic quote
+> [!quote]
 > 
+>
 
----
-# To Dos
-## 🚨 Do Now
-_This is overdue! Either do or reschedule!_
-> [!attention]
-> ```tasks
-> not done 
-> due before today
-> ```
-> 
-
-## ➡️ Do Next
->[!next]
->```tasks
->not done
->priority is high
->```
-
----
-
-## ✅ Do Today
-> [!todo]
-> ```tasks
-> due today
-> not done
-> ```
-
-## Upcoming
-> [!upcoming]
-> ```tasks
-> not done
-due after today
-due before in one week
-short mode
-hide edit button
-hide backlink
-> ```
+## 🌙 Evening shutdown
+- Wins:
+- Stuck on / blockers:
+- Tomorrow's top 3:
+  1. 
+  2. 
+  3. 
+- Journaled? · Worked out? · Read?

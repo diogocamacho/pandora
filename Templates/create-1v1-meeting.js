@@ -46,7 +46,7 @@ if (personNames.length > 1) {
 }
 
 // Create note path
-const notesFolder = "z_docs/all_notes";
+const notesFolder = "Notes";
 const filePath = `${notesFolder}/${fileName}`;
 
 // Check if file already exists

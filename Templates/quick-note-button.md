@@ -15,7 +15,7 @@ const dateStr = tp.date.now("YYYY-MM-DD");
 const fileName = `${dateStr} ${title}.md`;
 
 // Create note path
-const notesFolder = "z_docs/all_notes";
+const notesFolder = "Notes";
 const filePath = `${notesFolder}/${fileName}`;
 
 // Check if file already exists

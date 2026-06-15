@@ -39,5 +39,5 @@ tags:
 	- meetings with ariel are getting shorter and shorter? 
 	- [x] talk to jeremy about tests to mpnn with andrew 📅 2025-11-20 #jamon #abiologics #compbio
 
-- [ ] do we need to review how many seats we need from W&B? reach out to them #acroneberger #abiologics #compbio 📅 2025-12-02
+- [x] do we need to review how many seats we need from W&B? reach out to them #acroneberger #abiologics #compbio 📅 2025-12-02 ✅ 2026-06-15
 

@@ -1,4 +1,4 @@
 {
-  "template": "z_docs/z_templates/daily",
-  "folder": "z_docs/all_notes"
+  "template": "Templates/daily",
+  "folder": "Notes"
 }

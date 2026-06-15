@@ -13,7 +13,7 @@ const ideaTag = normalizedName.toLowerCase().replace(/[^a-z0-9]/g, "");
 const ideaFileName = `💡 ${normalizedName}.md`;
 
 // Create folder path
-const ideasFolder = "002. Ideas";
+const ideasFolder = "Notes";
 const ideaFolder = `${ideasFolder}/💡 ${normalizedName}`;
 const ideaFilePath = `${ideaFolder}/${ideaFileName}`;
 
@@ -28,7 +28,7 @@ if (folderExists) {
 await app.vault.createFolder(ideaFolder);
 
 // Read template
-const templatePath = "z_docs/z_templates/idea-home.md";
+const templatePath = "Templates/idea-home.md";
 const templateFile = app.vault.getAbstractFileByPath(templatePath);
 if (!templateFile) {
     new Notice(`Template not found: ${templatePath}`, 3000);

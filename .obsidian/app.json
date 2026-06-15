@@ -24,6 +24,6 @@
     "editor:unindent-list",
     "editor:configure-toolbar"
   ],
-  "attachmentFolderPath": "z_docs/z_extra",
+  "attachmentFolderPath": "Attachments",
   "openBehavior": "daily"
 }

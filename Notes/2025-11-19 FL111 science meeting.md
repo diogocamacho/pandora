@@ -18,7 +18,7 @@ Follow up:
 *Things that we talked about*
 
 - ETL from benchling to S3
-	- [ ] reach out to Joe Kennedy about pulling data from Benchling into S3 bucket #fl111 #compbio 📅 2025-12-03
-	- [ ] define S3 bucket tiers #fl111 #compbio 📅 2025-12-02
+	- [x] reach out to Joe Kennedy about pulling data from Benchling into S3 bucket #fl111 #compbio 📅 2025-12-03 ✅ 2026-06-15
+	- [x] define S3 bucket tiers #fl111 #compbio 📅 2025-12-02 ✅ 2026-06-15
 
 - 

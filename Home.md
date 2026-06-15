@@ -1,13 +1,12 @@
-> [!tip] Landing spot
-> My notes, my calendar, my todos. In one place. Because that seems like the thing to do.
+> [!tip] Pandora — launchpad
+> Daily note · projects · areas · capture. All-in-one. Pinned tab.
 
 ---
 
-## 🚀 Quick Actions
+## 🚀 Quick actions
 
-**Daily & Notes:**
 ```button
-name 📅 Daily Note
+name 📅 Today's daily
 id daily-button
 type note
 action daily
@@ -15,283 +14,124 @@ templater true
 ```
 
 ```button
-name 📝 Quick Note
-type note
-action quick-note-button
-templater true
-```
-
-**Projects & Ideas:**
-```button
-name ⚗️ New Engagement
-type note
-action create-work-project
-templater true
+name 📝 Quick note
+type command
+action Templater: Create new note from template
+param quick-note-button
 ```
 
 ```button
-name 💡 New Idea
-type note
-action create-idea
-templater true
+name ⚗️ New work project
+type command
+action Templater: Create new note from template
+param create-work-project
+```
+
+```button
+name 💡 New idea
+type command
+action Templater: Create new note from template
+param create-idea
+```
+
+```button
+name 🤝 New 1:1
+type command
+action Templater: Create new note from template
+param 1v1-meeting-button
 ```
 
 ---
 
-## 📅 Today's Focus
+## 📅 Today
 
-### Today's Daily Note
-```dataview
-LIST
-FROM #daily
-WHERE file.day = date(today)
-LIMIT 1
-```
-
-### Today's Tasks
-> [!warning] 🚨 Overdue
+> [!attention] 🚨 Overdue
 > ```tasks
-> not done 
+> not done
 > due before today
+> short mode
+> hide edit button
+> hide backlink
 > ```
 
-> [!next] High Priority
+> [!next] ✅ Due today
+> ```tasks
+> not done
+> due today
+> short mode
+> hide edit button
+> hide backlink
+> ```
+
+> [!todo] 🔥 High priority (any date)
 > ```tasks
 > not done
 > priority is high
+> limit 5
+> short mode
+> hide edit button
+> hide backlink
 > ```
-
-> [!todo] Due Today
-> ```tasks
-> due today
-> not done
-> ```
-
-### Today's Trackers
-- **Journaling**: Check today's daily note
-- **Workout**: Check today's daily note
-- [[Trackers|View All Trackers]]
 
 ---
 
-## 📥 Inbox
-
-> [!tip] Quick Capture
-> Unprocessed items that need to be organized
+## 📁 Active projects
 
 ```dataview
 LIST
-FROM ""
-WHERE contains(file.tags, "#inbox") OR follow-up = true
+FROM "Dashboards/Projects"
+WHERE file.name = this.file.folder + " Home" OR endswith(file.name, "Home") OR file.name = "💡 X2"
+SORT file.name ASC
+```
+
+---
+
+## 🎯 Areas
+
+- [[💰 Finance|💰 Finance]]
+- [[💪 Fitness|💪 Fitness]]
+- [[👔 Style|👔 Style]]
+- [[Flagship Pioneering Home|⚓️ Flagship Pioneering]]
+
+---
+
+## ⏳ Waiting on
+
+```dataview
+LIST file.link
+FROM "Notes"
+WHERE contains(file.tags, "waiting-for") OR contains(string(this.file.frontmatter), "follow-up")
 SORT file.mtime DESC
 LIMIT 10
 ```
 
 ---
 
-## ➡️ Next Actions
-
-### Work
-```dataview
-TASK
-FROM ""
-WHERE contains(file.tags, "#next-action") AND contains(file.tags, "#work") AND !completed
-SORT 
-	choice(contains(text, "🔺"), 1, 
-	choice(contains(text, "⏫"), 2, 
-	choice(contains(text, "🔼"), 3, 
-	4))) asc
-```
-
-### Personal
-```dataview
-TASK
-FROM ""
-WHERE contains(file.tags, "#next-action") AND contains(file.tags, "#personal") AND !completed
-SORT 
-	choice(contains(text, "🔺"), 1, 
-	choice(contains(text, "⏫"), 2, 
-	choice(contains(text, "🔼"), 3, 
-	4))) asc
-```
-
-### Ideas
-```dataview
-TASK
-FROM ""
-WHERE contains(file.tags, "#next-action") AND contains(file.tags, "#ideas") AND !completed
-SORT 
-	choice(contains(text, "🔺"), 1, 
-	choice(contains(text, "⏫"), 2, 
-	choice(contains(text, "🔼"), 3, 
-	4))) asc
-```
-
-### Learning
-```dataview
-TASK
-FROM ""
-WHERE contains(file.tags, "#next-action") AND contains(file.tags, "#learning") AND !completed
-SORT 
-	choice(contains(text, "🔺"), 1, 
-	choice(contains(text, "⏫"), 2, 
-	choice(contains(text, "🔼"), 3, 
-	4))) asc
-```
-
----
-
-## ⏳ Waiting For
-
-> [!note] Items blocked on others or pending responses
+## 📥 Inbox (unprocessed)
 
 ```dataview
 LIST
-FROM ""
-WHERE contains(file.tags, "#waiting-for")
+FROM "Inbox"
 SORT file.mtime DESC
 ```
 
 ---
 
-## 📁 Projects
+## 🔗 Pinned
 
-### Work Projects
-```dataview
-LIST
-FROM "001. Work"
-WHERE contains(file.tags, "#project") AND contains(file.tags, "#work")
-SORT file.mtime DESC
-```
-
-### Personal Projects
-```dataview
-LIST
-FROM "000. Personal"
-WHERE contains(file.tags, "#project") AND contains(file.tags, "#personal")
-SORT file.mtime DESC
-```
-
-### Ideas
-```dataview
-LIST
-FROM "002. Ideas"
-WHERE contains(file.tags, "#project") OR contains(file.tags, "#ideas")
-SORT file.mtime DESC
-```
-
-### Learning Projects
-```dataview
-LIST
-FROM "003. Learning"
-WHERE contains(file.tags, "#project") AND contains(file.tags, "#learning")
-SORT file.mtime DESC
-```
+- [[Abiologics Home|🧬 Abiologics]]
+- [[💡 X2|🥗 Agentic Nutrition (X2)]]
+- [[FL108 Home|FL108]] · [[FL110 Home|FL110]] · [[FL111 Home|FL111]] · [[FL115 Home|FL115]]
+- [[💰 Finance]] · [[💪 Fitness]] · [[👔 Style]]
+- [[Idea Collector|💡 Ideas inbox]]
 
 ---
 
-## 🎯 Areas of Responsibility
+## 📊 Weekly review
 
-### Work Areas
-```dataview
-LIST
-FROM ""
-WHERE contains(file.tags, "#area") AND contains(file.tags, "#work")
-SORT file.name ASC
-```
-
-### Personal Areas
-```dataview
-LIST
-FROM ""
-WHERE contains(file.tags, "#area") AND contains(file.tags, "#personal")
-SORT file.name ASC
-```
-
----
-
-## 💭 Someday/Maybe
-
-> [!tip] Deferred ideas and future projects
-
-```dataview
-LIST
-FROM ""
-WHERE contains(file.tags, "#someday-maybe")
-SORT file.mtime DESC
-```
-
----
-
-## 📆 Calendar & Upcoming
-
-### This Week's Tasks
-> [!upcoming]
-> ```tasks
-> not done
-> due after today
-> due before in one week
-> short mode
-> hide edit button
-> hide backlink
-> ```
-
-
-### Upcoming Deadlines
-```dataview
-TASK
-FROM ""
-WHERE !completed AND due != null AND due <= date(today) + dur(7 days)
-SORT due ASC
-```
-
----
-
-## 👁️ Follow Up Notes
-
-```dataview
-LIST
-WHERE follow-up = true
-SORT file.mtime DESC
-LIMIT 20
-```
-
----
-
-## 🔗 Quick Links
-
-### Key Areas
-- [[001. Work|Work]]
-- [[002. Ideas|Ideas]]
-- [[003. Learning|Learning]]
-- [[000. Personal|Personal]]
-
-### Frequently Accessed
-- [[Trackers]]
-- [[002. Ideas/💡 X2/💡 X2|X2]]
-- [[001. Work/Abiologics/Abiologics Home|Abiologics]]
-
----
-
-## 📊 Weekly Review
-
-> [!check] Last Review: [Update this date after each review]
-
-### Review Checklist
-- [ ] Process Inbox
-- [ ] Review Next Actions
-- [ ] Update Waiting For
-- [ ] Review Projects
-- [ ] Update Someday/Maybe
-- [ ] Plan Next Week
-
----
-
-## 🏷️ Tag Navigation
-
-### Major Tags
-- [[#x2]]
-- [[#compbio]]
-- [[#abiologics]]
-- [[#ideas]]
-- [[#work]]
+- [ ] Process Inbox/ → Notes/ or appropriate dashboard
+- [ ] Review overdue + reschedule
+- [ ] Update each project Home with this week's progress
+- [ ] Update Waiting on
+- [ ] Update Finance/Fitness/Style dashboards
+- [ ] Plan next week's top 3

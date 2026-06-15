@@ -12,7 +12,7 @@ if (!projectName) {
     const projectTag = normalizedName.toLowerCase().replace(/\s+/g, "").replace(/[^a-z0-9]/g, "");
 
     // Create folder path
-    const workFolder = "001. Work";
+    const workFolder = "Dashboards/Projects";
     const projectFolder = `${workFolder}/${normalizedName}`;
     const homeFileName = `${normalizedName} Home.md`;
     const homeFilePath = `${projectFolder}/${homeFileName}`;
@@ -27,7 +27,7 @@ if (!projectName) {
         await app.vault.createFolder(projectFolder);
 
         // Read template
-        const templatePath = "z_docs/z_templates/work-project-home.md";
+        const templatePath = "Templates/work-project-home.md";
         const templateFile = app.vault.getAbstractFileByPath(templatePath);
         if (!templateFile) {
             new Notice(`Template not found: ${templatePath}`, 3000);

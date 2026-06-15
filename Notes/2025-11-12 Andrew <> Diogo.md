@@ -46,5 +46,5 @@ tags:
 	- Ariel has access, but hasn't tried it
 	- It will be a steeper curve for Jeremy
 	- we bring the models, they bring the compute
-	- [ ] get a detailed mapping of when transitions and things will happen in the long run #abiologics #acroneberger 📅 2025-11-15
+	- [x] get a detailed mapping of when transitions and things will happen in the long run #abiologics #acroneberger 📅 2025-11-15 ✅ 2026-06-15
 

@@ -20,7 +20,7 @@ Follow up:
 *Things that we talked about*
 
 - modal incorporation is done through docker container
-	- [ ] follow up with #acroneberger on the modal enterprise agreement 📅 2026-01-14 
+	- [x] follow up with #acroneberger on the modal enterprise agreement 📅 2026-01-14 ✅ 2026-06-15
 
 - pymol viz additions from Ariel
 	- Shared Miro board (check this)

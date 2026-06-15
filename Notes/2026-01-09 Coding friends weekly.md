@@ -20,4 +20,4 @@ Follow up:
 ## ✍️ Notes and Action Items
 *Things that we talked about*
 
-- [ ] Diogo and Andrew to reach out to modal for enterprise agreement 📅 2026-01-14 #acroneberger #abiologics 
+- [x] Diogo and Andrew to reach out to modal for enterprise agreement #acroneberger #abiologics 📅 2026-01-14 ✅ 2026-06-15

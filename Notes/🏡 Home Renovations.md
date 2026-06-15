@@ -21,5 +21,5 @@ Went with Advanced Roofing and Siding (Leonardo Parreira) for this project. Incl
 - area for flooring: 14 x 15.5
 - ~12 palettes Lifeproof boxes (~$1,100)
 - Should look into having a professional install it. 
-- [ ] remove the strips on the inside of the porch 📅 2026-04-01 #personal #home #renovations 
+- [x] remove the strips on the inside of the porch #personal #home #renovations 📅 2026-04-01 ✅ 2026-06-15
 

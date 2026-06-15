@@ -1,6 +1,6 @@
 {
   "command_timeout": 5,
-  "templates_folder": "z_docs/z_templates",
+  "templates_folder": "Templates",
   "templates_pairs": [
     [
       "",
@@ -29,7 +29,7 @@
   "syntax_highlighting": true,
   "syntax_highlighting_mobile": false,
   "enabled_templates_hotkeys": [
-    "z_docs/z_templates/meeting_note.md"
+    "Templates/meeting_note.md"
   ],
   "startup_templates": [
     ""

@@ -21,4 +21,4 @@ tags:
 - 
 
 ### ✅ Action Items
- - [ ] read protein MPNN paper #protein_design #abiologics #ml 📅 2025-12-03
+ - [x] read protein MPNN paper #protein_design #abiologics #ml 📅 2025-12-03 ✅ 2026-06-15
