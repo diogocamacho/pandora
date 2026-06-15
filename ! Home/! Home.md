@@ -125,7 +125,7 @@ SORT file.mtime DESC
 
 - [[Abiologics Home|🧬 Abiologics]]
 - [[💡 X2|🥗 Agentic Nutrition (X2)]]
-- [[FL108 Home|FL108]] · [[FL110 Home|FL110]] · [[FL111 Home|FL111]] · [[FL115 Home|FL115]]
+- [[FL110 Home|FL110]] · [[FL111 Home|FL111]]
 - [[💰 Finance]] · [[💪 Fitness]] · [[👔 Style]]
 - [[Idea Collector|💡 Ideas inbox]]
 
