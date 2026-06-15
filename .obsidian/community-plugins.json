@@ -1,6 +1,5 @@
 [
   "dataview",
-  "templater-obsidian",
   "obsidian-tasks-plugin",
   "obsidian-icon-folder",
   "homepage",
@@ -9,5 +8,6 @@
   "callout-manager",
   "calendar",
   "obsidian-tracker",
-  "folder-notes"
+  "folder-notes",
+  "templater-obsidian"
 ]
