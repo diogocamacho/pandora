@@ -1,0 +1,40 @@
+/* Buttons plugin: make consecutive button code-blocks render side by side
+ * instead of stacking. Each `block-language-button` is the wrapper div
+ * the plugin injects around a rendered button.
+ */
+
+.block-language-button {
+  display: inline-block !important;
+  vertical-align: middle;
+  margin: 0 0.5em 0.5em 0;
+}
+
+/* Tighten the empty paragraph that Obsidian sometimes inserts between
+ * consecutive code blocks, which would otherwise force a line break.
+ */
+.block-language-button + p:empty,
+p:empty + .block-language-button {
+  display: none;
+}
+
+/* Optional: explicit "button row" container — wrap a group of buttons
+ * in a callout `> [!button-row]` and they'll flex on one line with wrapping.
+ */
+.callout[data-callout="button-row"] {
+  background: transparent;
+  border: none;
+  padding: 0;
+  margin: 0.5em 0;
+}
+.callout[data-callout="button-row"] .callout-title {
+  display: none;
+}
+.callout[data-callout="button-row"] .callout-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5em;
+  padding: 0;
+}
+.callout[data-callout="button-row"] .block-language-button {
+  margin: 0;
+}

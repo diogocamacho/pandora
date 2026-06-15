@@ -3,5 +3,8 @@
   "theme": "moonstone",
   "accentColor": "#f55c5c",
   "translucency": false,
-  "cssTheme": ""
+  "cssTheme": "",
+  "enabledCssSnippets": [
+    "buttons-inline"
+  ]
 }
