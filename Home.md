@@ -66,7 +66,7 @@ param 1v1-meeting-button
 > [!todo] 🔥 High priority (any date)
 > ```tasks
 > not done
-> priority is high
+> priority is highest
 > limit 5
 > short mode
 > hide edit button

@@ -1,7 +1,7 @@
 <%*
 const d = tp.date.now("YYYY-MM-DD")
 await tp.file.rename(`${d} whoop`)
-await tp.file.move(`/Notes/${d} whoop`)
+await tp.file.move(`Notes/${d} whoop`)
 %>---
 type: whoop-daily
 date: <% tp.date.now("YYYY-MM-DD") %>

@@ -1,5 +1,5 @@
 <%*
-await tp.file.move("/Notes/" + tp.file.title)
+await tp.file.move("Notes/" + tp.file.title)
 %>---
 type: wishlist-item
 category:
