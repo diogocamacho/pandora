@@ -59,7 +59,7 @@ templater true
 - Strategy: snowball / avalanche?
 
 ```dataview
-LIST file.link
+LIST WITHOUT ID file.link
 FROM "Notes"
 WHERE contains(file.tags, "debt") OR contains(file.name, "Debt")
 SORT file.mtime DESC
@@ -75,7 +75,7 @@ SORT file.mtime DESC
 - Rebalance cadence:
 
 ```dataview
-LIST file.link
+LIST WITHOUT ID file.link
 FROM "Notes"
 WHERE contains(file.tags, "investing") OR contains(file.name, "portfolio") OR contains(file.name, "investment")
 SORT file.mtime DESC
@@ -90,7 +90,7 @@ LIMIT 10
 - Allocation plan (debt / invest / cash):
 
 ```dataview
-LIST file.link
+LIST WITHOUT ID file.link
 FROM "Notes"
 WHERE contains(file.tags, "bonus") OR contains(file.tags, "comp")
 SORT file.mtime DESC
@@ -101,7 +101,7 @@ SORT file.mtime DESC
 ## 🗓️ Reviews
 
 ```dataview
-LIST file.link
+LIST WITHOUT ID file.link
 FROM "Notes"
 WHERE type = "finance-review"
 SORT date DESC

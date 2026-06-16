@@ -39,7 +39,7 @@ WHERE follow-up = true
 
 ## 🧭 PBU
 ```dataview
-LIST file.link
+LIST WITHOUT ID file.link
 FROM #pbu
 SORT file.mtime DESC
 LIMIT 10
@@ -47,7 +47,7 @@ LIMIT 10
 
 ## 🚀 PILOT
 ```dataview
-LIST file.link
+LIST WITHOUT ID file.link
 FROM #pilot
 SORT file.mtime DESC
 LIMIT 10
@@ -55,7 +55,7 @@ LIMIT 10
 
 ## 🤝 1:1s (recent)
 ```dataview
-LIST file.link
+LIST WITHOUT ID file.link
 FROM "Notes"
 WHERE contains(file.name, "<>") AND (contains(file.tags, "flagship") OR contains(file.tags, "1-on-1"))
 SORT file.mtime DESC

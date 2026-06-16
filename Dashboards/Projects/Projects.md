@@ -17,7 +17,7 @@
 ## Recent notes across all projects
 
 ```dataview
-LIST file.link
+LIST WITHOUT ID file.link
 FROM #abiologics OR #x2 OR #agenticnutrition OR #fl110 OR #fl111
 SORT file.mtime DESC
 LIMIT 15

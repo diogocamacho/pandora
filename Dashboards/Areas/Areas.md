@@ -16,7 +16,7 @@
 ## Recent notes across all areas
 
 ```dataview
-LIST file.link
+LIST WITHOUT ID file.link
 FROM #finance OR #fitness OR #style OR #flagship OR #pbu OR #pilot OR #workout
 SORT file.mtime DESC
 LIMIT 15

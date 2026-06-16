@@ -6,7 +6,7 @@
 ## All idea notes
 
 ```dataview
-LIST file.link
+LIST WITHOUT ID file.link
 FROM "Notes"
 WHERE startswith(file.name, "💡") OR contains(file.tags, "idea")
 SORT file.mtime DESC

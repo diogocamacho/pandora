@@ -31,7 +31,7 @@ tags: [person]
 
 ## Past meetings
 ```dataview
-LIST file.link
+LIST WITHOUT ID file.link
 FROM "Notes"
 WHERE this.person_tag != null AND contains(file.tags, this.person_tag) AND file.name != this.file.name
 SORT file.name DESC
@@ -47,7 +47,7 @@ short mode
 
 ## Open loops (follow-ups)
 ```dataview
-LIST file.link
+LIST WITHOUT ID file.link
 FROM "Notes"
 WHERE this.person_tag != null AND contains(file.tags, this.person_tag) AND follow-up = true
 SORT file.mtime DESC

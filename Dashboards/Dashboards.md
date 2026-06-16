@@ -6,7 +6,7 @@
 ## Areas
 
 ```dataview
-LIST file.link
+LIST WITHOUT ID file.link
 FROM "Dashboards/Areas"
 WHERE file.name = file.folder OR file.name = "Areas"
 SORT file.name ASC
@@ -17,7 +17,7 @@ SORT file.name ASC
 ## Projects
 
 ```dataview
-LIST file.link
+LIST WITHOUT ID file.link
 FROM "Dashboards/Projects"
 WHERE endswith(file.name, "Home") OR file.name = "💡 X2"
 SORT file.name ASC
@@ -28,7 +28,7 @@ SORT file.name ASC
 ## Ideas
 
 ```dataview
-LIST file.link
+LIST WITHOUT ID file.link
 FROM "Dashboards/Ideas"
 SORT file.mtime DESC
 ```

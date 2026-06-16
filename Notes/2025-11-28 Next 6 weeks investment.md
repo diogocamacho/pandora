@@ -4,7 +4,7 @@ tags:
   - investment
   - personal
   - money
-Follow up: true
+Follow up: false
 ---
 
 ---
@@ -31,7 +31,26 @@ With this structure, with ~$5k available to invest in the next 6 weeks, doing we
 - **Speculative basket (SOUN + NVTS + CRVW): $250 total**  
     That can be $80–90 each, or weighted however you like.
 
-- [ ] check in investment strategy #personal #money #investment 🔁 every week 📅 2026-02-09
+- [ ] check in investment strategy #personal #money #investment 🔁 every week 📅 2026-06-22
+- [x] check in investment strategy #personal #money #investment 🔁 every week 📅 2026-06-15 ✅ 2026-06-16
+- [x] check in investment strategy #personal #money #investment 🔁 every week 📅 2026-06-08 ✅ 2026-06-16
+- [x] check in investment strategy #personal #money #investment 🔁 every week 📅 2026-06-01 ✅ 2026-06-16
+- [x] check in investment strategy #personal #money #investment 🔁 every week 📅 2026-05-25 ✅ 2026-06-16
+- [x] check in investment strategy #personal #money #investment 🔁 every week 📅 2026-05-18 ✅ 2026-06-16
+- [x] check in investment strategy #personal #money #investment 🔁 every week 📅 2026-05-11 ✅ 2026-06-16
+- [x] check in investment strategy #personal #money #investment 🔁 every week 📅 2026-05-04 ✅ 2026-06-16
+- [x] check in investment strategy #personal #money #investment 🔁 every week 📅 2026-04-27 ✅ 2026-06-16
+- [x] check in investment strategy #personal #money #investment 🔁 every week 📅 2026-04-20 ✅ 2026-06-16
+- [x] check in investment strategy #personal #money #investment 🔁 every week 📅 2026-04-13 ✅ 2026-06-16
+- [x] check in investment strategy #personal #money #investment 🔁 every week 📅 2026-04-06 ✅ 2026-06-16
+- [x] check in investment strategy #personal #money #investment 🔁 every week 📅 2026-03-30 ✅ 2026-06-16
+- [x] check in investment strategy #personal #money #investment 🔁 every week 📅 2026-03-23 ✅ 2026-06-16
+- [x] check in investment strategy #personal #money #investment 🔁 every week 📅 2026-03-16 ✅ 2026-06-16
+- [x] check in investment strategy #personal #money #investment 🔁 every week 📅 2026-03-09 ✅ 2026-06-16
+- [x] check in investment strategy #personal #money #investment 🔁 every week 📅 2026-03-02 ✅ 2026-06-16
+- [x] check in investment strategy #personal #money #investment 🔁 every week 📅 2026-02-23 ✅ 2026-06-16
+- [x] check in investment strategy #personal #money #investment 🔁 every week 📅 2026-02-16 ✅ 2026-06-16
+- [x] check in investment strategy #personal #money #investment 🔁 every week 📅 2026-02-09 ✅ 2026-06-16
 - [x] check in investment strategy #personal #money #investment 🔁 every week 📅 2026-02-02 ✅ 2026-06-15
 - [x] check in investment strategy #personal #money #investment 🔁 every week 📅 2026-01-26 ✅ 2026-06-15
 - [x] check in investment strategy #personal #money #investment 🔁 every week 📅 2026-01-19 ✅ 2026-06-15

@@ -62,7 +62,7 @@ SORT relationship ASC, file.name ASC
 
 ### Direct reports
 ```dataview
-LIST file.link
+LIST WITHOUT ID file.link
 FROM "Notes"
 WHERE type = "person" AND relationship = "direct-report"
 SORT file.name ASC
@@ -70,7 +70,7 @@ SORT file.name ASC
 
 ### Manager / coaches
 ```dataview
-LIST file.link
+LIST WITHOUT ID file.link
 FROM "Notes"
 WHERE type = "person" AND (relationship = "manager" OR relationship = "coach")
 SORT file.name ASC
@@ -78,7 +78,7 @@ SORT file.name ASC
 
 ### Peers
 ```dataview
-LIST file.link
+LIST WITHOUT ID file.link
 FROM "Notes"
 WHERE type = "person" AND relationship = "peer"
 SORT file.name ASC
@@ -86,7 +86,7 @@ SORT file.name ASC
 
 ### External
 ```dataview
-LIST file.link
+LIST WITHOUT ID file.link
 FROM "Notes"
 WHERE type = "person" AND relationship = "external"
 SORT file.name ASC
@@ -97,7 +97,7 @@ SORT file.name ASC
 ## Recent 1:1 notes across all people
 
 ```dataview
-LIST file.link
+LIST WITHOUT ID file.link
 FROM "Notes"
 WHERE contains(file.tags, "1v1")
 SORT file.mtime DESC

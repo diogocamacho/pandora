@@ -13,7 +13,7 @@ templater true
 ## Items in Inbox
 
 ```dataview
-LIST file.link
+LIST WITHOUT ID file.link
 FROM "! Inbox"
 WHERE file.name != "! Inbox"
 SORT file.mtime DESC
@@ -22,7 +22,7 @@ SORT file.mtime DESC
 ## Anywhere tagged #inbox
 
 ```dataview
-LIST file.link
+LIST WITHOUT ID file.link
 FROM #inbox
 SORT file.mtime DESC
 ```

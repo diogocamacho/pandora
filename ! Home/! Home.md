@@ -99,7 +99,7 @@ SORT file.name ASC
 ## ⏳ Waiting on
 
 ```dataview
-LIST file.link
+LIST WITHOUT ID file.link
 FROM "Notes"
 WHERE contains(file.tags, "waiting-for") OR follow-up = true
 SORT file.mtime DESC

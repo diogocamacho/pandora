@@ -6,7 +6,7 @@
 ## Recent (last 20)
 
 ```dataview
-LIST file.link
+LIST WITHOUT ID file.link
 FROM "Notes"
 WHERE file.name != "Notes"
 SORT file.mtime DESC
@@ -16,7 +16,7 @@ LIMIT 20
 ## Today's notes
 
 ```dataview
-LIST file.link
+LIST WITHOUT ID file.link
 FROM "Notes"
 WHERE file.cday = date(today)
 SORT file.ctime DESC

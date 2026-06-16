@@ -16,9 +16,8 @@ workout:
 
 # <% tp.date.now("YYYY-MM-DD") %> — <% tp.date.now("dddd") %>
 
-> [!tip] Daily intent
-> One sentence: what would make today a win?
->
+## 🧘 Stoic quote
+> [!quote]
 > 
 
 ## ☀️ Morning brief
@@ -66,7 +65,7 @@ hide backlink
 
 ## ⏳ Waiting on
 ```dataview
-LIST file.link
+LIST WITHOUT ID file.link
 FROM "Notes"
 WHERE follow-up = true
 SORT file.mtime DESC
@@ -74,7 +73,7 @@ LIMIT 10
 ```
 
 ## 🧠 Capture (inbox)
-_Anything that comes up. Processed in weekly review._
+_Scratch space — anything that comes up during the day. By end of day each line either gets checked off, becomes a real note in `Notes/`, or moves to `! Inbox/` for weekly triage._
 - 
 
 ## 📝 Meetings
@@ -94,11 +93,6 @@ _Anything that comes up. Processed in weekly review._
 > ```
 
 - [[]]
-
-## 🧘 Stoic quote
-> [!quote]
-> 
->
 
 ## 🌙 Evening shutdown
 - Wins:

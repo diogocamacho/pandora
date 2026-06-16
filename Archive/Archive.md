@@ -6,7 +6,7 @@
 ## Archived projects
 
 ```dataview
-LIST file.link
+LIST WITHOUT ID file.link
 FROM "Archive"
 WHERE type = "project-home"
 SORT file.mtime DESC
@@ -15,7 +15,7 @@ SORT file.mtime DESC
 ## Loose meeting notes (pre-restructure)
 
 ```dataview
-LIST file.link
+LIST WITHOUT ID file.link
 FROM "Archive/Loose meetings"
 SORT file.mtime DESC
 ```
@@ -23,7 +23,7 @@ SORT file.mtime DESC
 ## Root junk
 
 ```dataview
-LIST file.link
+LIST WITHOUT ID file.link
 FROM "Archive/_root junk"
 SORT file.mtime DESC
 ```
@@ -31,7 +31,7 @@ SORT file.mtime DESC
 ## Everything else in Archive (root)
 
 ```dataview
-LIST file.link
+LIST WITHOUT ID file.link
 FROM "Archive"
 WHERE file.folder = "Archive" AND file.name != "Archive"
 SORT file.mtime DESC
