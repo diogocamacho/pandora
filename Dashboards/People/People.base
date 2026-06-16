@@ -1,0 +1,44 @@
+# Obsidian Bases configuration — People database (experimental, native Obsidian v1.7+)
+# If this doesn't render in your version of Obsidian, the People.md folder note has
+# equivalent Dataview tables that work everywhere. Adjust columns in Obsidian's
+# Bases UI as needed — this YAML is a starting point.
+
+filters:
+  and:
+    - file.hasProperty("type")
+    - type == "person"
+
+views:
+  - type: table
+    name: All people
+    order:
+      - file.name
+      - org
+      - role
+      - relationship
+      - last_met
+      - cadence_days
+      - next_meeting
+
+  - type: table
+    name: Stale (overdue cadence)
+    filters:
+      and:
+        - last_met != null
+        - cadence_days != null
+    sort:
+      - last_met asc
+    order:
+      - file.name
+      - relationship
+      - last_met
+      - cadence_days
+
+  - type: card
+    name: Cards
+    order:
+      - file.name
+      - role
+      - org
+      - relationship
+      - last_met
