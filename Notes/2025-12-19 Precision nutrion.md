@@ -2,7 +2,7 @@
 tags:
   - quick
   - x2
-Follow up: true
+Follow up: false
 ---
 
 ---

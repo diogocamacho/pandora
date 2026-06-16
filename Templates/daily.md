@@ -21,12 +21,17 @@ workout:
 >
 > 
 
-## ☀️ Morning brief (from Max)
-- Top 3:
-  1. 
-  2. 
-  3. 
-- One thing I'd skip if the day collapses: 
+## ☀️ Morning brief
+
+📄 Full brief: [[<% tp.date.now("YYYY-MM-DD") %> daily brief]]
+
+**Top 3**
+1. 
+2. 
+3. 
+
+**One thing I'd skip if the day collapses:**
+- 
 
 ## 📅 Calendar
 - 

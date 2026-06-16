@@ -1,28 +1,19 @@
 ---
-tags: [daily]
+type: daily-brief
 date: 2026-06-16
-weekday: Tuesday
-energy:
-recovery:
-follow-up:
-journal:
-stoic:
-workout:
+tags: [brief, daily-brief]
 ---
 
-# 2026-06-16 — Tuesday
+# Daily brief — 2026-06-16 Tuesday
 
-> [!tip] Daily intent
-> One sentence: what would make today a win?
->
-> 
+← [[2026-06-16|back to daily]]
 
-## ☀️ Morning brief (from Max)
+---
 
-### 🎯 Max — Today's Focus
+## 🎯 Max — Today's focus
 **TARDIS at noon.** This is your meeting — you organized it, Beth pre-read the deck and ChatGPT/agentic reports last night, and the goal is to converge on the next narrow set of targets. Don't let it drift into another round-the-table; come in with the 2–3 targets you want to defend or kill, and force the room to commit.
 
-### 📋 Sarah — Ops
+## 📋 Sarah — Ops
 **Calendar (all times ET):**
 - 10:00–10:45 — Abio Weekly Cycle Planning (Teams) — full team, Jaclyn organizes
 - 10:45–11:00 — Abio Governance/Flex (Teams) — 15-min follow-on
@@ -41,7 +32,7 @@ workout:
 
 **One operational flag:** You only have one deep work block (50 min, 2pm) and it's the same day TARDIS could spill, the interview runs after, and Radiance training eats 3–4pm. If TARDIS goes over by 15 min, your slides block collapses. Hard-stop TARDIS at 12:55.
 
-### 📧 Comms — Email & Slack
+## 📧 Comms — Email & Slack
 - **Beth Kartchner** — sent TARDIS pre-reads last night (deck + ChatGPT + agentic target reports). **Read before noon.**
 - **Chiara Magnone** — replied last night supporting both agentic-AI follow-on ideas you floated. Closes the loop; no action needed unless you want to formally assign owners today.
 - **Kevin Lai** — sent the deep-dive on 5T4/TPBG and other recent targets of interest yesterday afternoon. Likely fodder for TARDIS — skim it.
@@ -49,7 +40,7 @@ workout:
 - **Sydney Childs (Mike's EA)** — confirmed Mike's 6/24 2–4pm slot for the rescheduled design pipeline review with Ariel; you accepted yesterday. Nothing to do today, just on the radar.
 - Slack: clear — no DMs, no @-mentions overnight.
 
-### 💰 Kevin — Market Brief & Portfolio
+## 💰 Kevin — Market brief & portfolio
 **Market mood:** Setup day for the Warsh-led FOMC. Yesterday closed with the S&P's best 3-day run in 13 months (+1.65% S&P, +3.07% Nasdaq) on a Fed-pivot reflation bid; futures are drifting flat-to-slightly-down this morning as the tape de-risks ahead of tomorrow's rate decision. Consensus: hold rates. Risk: a hawkish surprise from Warsh's first meeting unwinds the rally fast. Don't read too much into pre-FOMC chop.
 
 **Sector flags:**
@@ -66,7 +57,7 @@ workout:
 
 **Action items:** None today. Logging the snapshot to Portfolio Price Log.
 
-### 🧬 John — Biotech Intel
+## 🧬 John — Biotech intel
 **Lead:** Biotech M&A is roaring — sector on track for $250B+ in deal value, the best year since 2019; avg deal size jumped to $527M from $365M YoY. *So what:* XBI's ~5% move in two weeks is real, not technical. If you're an aggressive holder this is the regime; if you're trimming, do it into strength, not weakness.
 
 - **GSK / Nuvalent ($10.6B):** Big pharma is paying premium prices for oncology assets to plug patent-cliff holes. Validates the broader "designed biologics in oncology" thesis Abio sits adjacent to.
@@ -77,12 +68,12 @@ workout:
 
 **Signal:** The Big DTC players are now launching condition-specific stacks (AG1 → GLP-1 muscle preservation, Thorne → perimenopause). X2's "priority formulations" thesis (GLP-1, PMS, mood, nursing) is correct on the categories — but the window to ship differentiated product is narrowing. Worth surfacing in your next FL110 / Agentic Nutrition sync with Mike, Raffi, and Laura.
 
-### 💪 Candy — Body
+## 💪 Candy — Body
 **Waiting on your Whoop numbers** — drop weight, recovery %, sleep, and sleep performance and I'll complete the Candy call. (Whoop MCP returned 403 this morning and the Daily Log entry hasn't been populated for today.)
 
 Default-state recommendation pending data: Tuesday on your 7-day plan is **Zone 2 cardio (45–60 min, easy)** — 3–4% incline, 3.5–4.0 mph, HR 120–135. Light recovery work. This stays correct unless recovery is red, in which case downgrade to a 20–30 min walk.
 
-### 📅 Meeting Prep
+## 📅 Meeting prep
 
 > **10:00 — Abiologics Weekly Cycle Planning (45 min, Teams)**
 > 🎯 **Goal:** Operational read on Epoch 13. Listen for any slips in the comp protein design retrospective (Jaclyn updated last night) that could compress your 6/21 board-slide deadline. Don't volunteer to take on new scope — the slides are the load-bearing item this week.
@@ -129,92 +120,3 @@ Default-state recommendation pending data: Tuesday on your 7-day plan is **Zone 
 
 > **15:00 — Radiance Feature Training with Nitya (60 min, Teams)**
 > 🎯 **Goal:** Receive-mode. Large group training format. Capture anything that changes what your team should be using for design QC.
-
----
-
-- Top 3:
-  1. TARDIS at noon — converge on target list, force a decision
-  2. Edem Gavor interview at 1pm — senior IC bar, calibrate hard
-  3. First pass on Abio board slides at 2pm — outline + 3 anchor slides
-- One thing I'd skip if the day collapses: Radiance training (large-group, receive-mode — get the recap from Nitya later)
-
-## 📅 Calendar
-- 10:00–10:45 — Abiologics Weekly Cycle Planning
-- 10:45–11:00 — Abiologics Governance/Flex
-- 12:00–12:55 — TARDIS (you organize)
-- 13:00–13:30 — Interview: Edem Gavor (Sr Scientist, Comp Protein Design)
-- 14:00–14:50 — Deep work — board slides
-- 15:00–16:00 — Radiance Feature Training with Nitya
-- 17:15–18:30 — Workout
-
-## 🚨 Overdue
-```tasks
-not done
-due before 2026-06-16
-short mode
-hide edit button
-hide backlink
-```
-
-## ✅ Due today
-```tasks
-not done
-due on 2026-06-16
-short mode
-hide edit button
-hide backlink
-```
-
-## 🔥 High priority (any date)
-```tasks
-not done
-priority is high
-limit 5
-short mode
-hide edit button
-hide backlink
-```
-
-## ⏳ Waiting on
-```dataview
-LIST file.link
-FROM "Notes"
-WHERE follow-up = true
-SORT file.mtime DESC
-```
-
-## 🧠 Capture (inbox)
-_Anything that comes up. Processed in weekly review._
-- 
-
-## 📝 Meetings
-
-> [!button-row]
-> ```button
-> name 1:1
-> type note(stub, false)
-> action 1v1-meeting-button
-> templater true
-> ```
-> ```button
-> name Meeting
-> type note(stub, false)
-> action meeting-button
-> templater true
-> ```
-
-- [[]]
-
-## 🧘 Stoic quote
-> [!quote]
-> 
->
-
-## 🌙 Evening shutdown
-- Wins:
-- Stuck on / blockers:
-- Tomorrow's top 3:
-  1. 
-  2. 
-  3. 
-- Journaled? · Worked out? · Read?
