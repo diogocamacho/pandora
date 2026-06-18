@@ -31,7 +31,7 @@ tags: [reading]
 - 
 
 ## Resonance
-*(for fiction: what hit, what I'd steal, what I'd argue with. for nonfiction: connection to my work / life, what I'd push back on)*
+*(what hit, what I'd steal, what I'd argue with, what I'd want to chase further — no requirement to connect to work)*
 - 
 
 ## Next time I open this book
