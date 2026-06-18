@@ -7,6 +7,7 @@ type: reading-log
 date: <% tp.date.now("YYYY-MM-DD") %>
 book:
 author:
+genre:  # fiction | nonfiction
 pages_read:
 percent_complete:
 tags: [reading]
@@ -29,7 +30,8 @@ tags: [reading]
 ## My pushback / questions
 - 
 
-## Connection to my work / life
+## Resonance
+*(for fiction: what hit, what I'd steal, what I'd argue with. for nonfiction: connection to my work / life, what I'd push back on)*
 - 
 
 ## Next time I open this book
