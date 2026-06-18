@@ -1,5 +1,5 @@
 ---
-Follow up: true
+Follow up: false
 tags:
   - 1v1
   - abiologics

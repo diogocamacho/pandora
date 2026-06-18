@@ -4,7 +4,7 @@ tags:
   - abiologics
   - targetid
   - compbio
-Follow up: true
+Follow up: false
 ---
 [[2025-11-17 Disease area strategy]]
 

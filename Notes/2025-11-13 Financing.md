@@ -3,7 +3,7 @@ tags:
   - learning
   - academy
   - financing
-Follow up: true
+Follow up: false
 ---
 Papers to read:
 [[valuation_guidelines.pdf]]

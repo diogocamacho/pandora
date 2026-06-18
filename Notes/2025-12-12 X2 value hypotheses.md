@@ -3,7 +3,7 @@ tags:
   - quick
   - x2
   - explorations
-Follow up: true
+Follow up: false
 ---
 
 ---
