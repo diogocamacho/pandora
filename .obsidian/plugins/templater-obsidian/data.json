@@ -14,7 +14,12 @@
   "syntax_highlighting": true,
   "syntax_highlighting_mobile": false,
   "enabled_templates_hotkeys": [
-    "Templates/meeting_note.md"
+    "Templates/meeting_note.md",
+    "Templates/daily.md",
+    "Templates/create-idea.md",
+    "Templates/quick-note-button.md",
+    "Templates/1v1-meeting-button.md",
+    "Templates/meeting-button.md"
   ],
   "startup_templates": [],
   "intellisense_render": 1

@@ -22,21 +22,18 @@ cssclasses: [home-page]
 > [!note]- ✏️ Create
 > ```button
 > name 📅 Daily note
-> type note(stub, false)
-> action daily
-> templater true
+> type command
+> action templater-obsidian:create-Templates/daily.md
 > ```
 > ```button
 > name 💡 Idea
-> type note(stub, false)
-> action create-idea
-> templater true
+> type command
+> action templater-obsidian:create-Templates/create-idea.md
 > ```
 > ```button
 > name 🗒️ Quick note
-> type note(stub, false)
-> action quick-note-button
-> templater true
+> type command
+> action templater-obsidian:create-Templates/quick-note-button.md
 > ```
 
 ---
@@ -58,15 +55,13 @@ sorting:
 > [!button-row]
 > ```button
 > name 🤝 1:1
-> type note(stub, false)
-> action 1v1-meeting-button
-> templater true
+> type command
+> action templater-obsidian:create-Templates/1v1-meeting-button.md
 > ```
 > ```button
 > name 📝 Meeting
-> type note(stub, false)
-> action meeting-button
-> templater true
+> type command
+> action templater-obsidian:create-Templates/meeting-button.md
 > ```
 
 ```dataview
