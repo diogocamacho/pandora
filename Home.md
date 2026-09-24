@@ -23,17 +23,17 @@ cssclasses: [home-page]
 > ```button
 > name 📅 Daily note
 > type command
-> action Create daily
+> action Templater: Create daily
 > ```
 > ```button
 > name 💡 Idea
 > type command
-> action Create create-idea
+> action Templater: Create create-idea
 > ```
 > ```button
 > name 🗒️ Quick note
 > type command
-> action Create quick-note-button
+> action Templater: Create quick-note-button
 > ```
 
 ---
@@ -56,12 +56,12 @@ sorting:
 > ```button
 > name 🤝 1:1
 > type command
-> action Create 1v1-meeting-button
+> action Templater: Create 1v1-meeting-button
 > ```
 > ```button
 > name 📝 Meeting
 > type command
-> action Create meeting-button
+> action Templater: Create meeting-button
 > ```
 
 ```dataview
