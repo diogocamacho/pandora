@@ -1415,7 +1415,7 @@ async function templater(app, template2, _target) {
     template_file: template2,
     active_file: activeFile,
     target_file: targetFile,
-    run_mode: "DynamicProcessor"
+    run_mode: 0
   };
   const plugins = app.plugins.plugins;
   const exists = plugins["templater-obsidian"];
@@ -1425,18 +1425,7 @@ async function templater(app, template2, _target) {
   }
   try {
     const { templater: templater3 } = plugins["templater-obsidian"];
-    const functions = await templater3.functions_generator.internal_functions.generate_object(config);
-    functions.user = {};
-    const userScriptFunctions = await templater3.functions_generator.user_functions.user_script_functions.generate_user_script_functions(config);
-    userScriptFunctions.forEach((value, key) => {
-      functions.user[key] = value;
-    });
-    if (activeFile) {
-      const userSystemFunctions = await templater3.functions_generator.user_functions.user_system_functions.generate_system_functions(config);
-      userSystemFunctions.forEach((value, key) => {
-        functions.user[key] = value;
-      });
-    }
+    const functions = await templater3.functions_generator.generate_object(config);
     return async (command2) => {
       return await templater3.parser.parse_commands(command2, functions);
     };
@@ -1692,10 +1681,15 @@ var createNote = async (app, type, folder, prompt, filePath, isTemplater) => {
         if (isTemplater) {
           const templateContent = await app.vault.read(filePath);
           file = await app.vault.create(fullPath, templateContent);
-          const runTemplater = await templater_default(app, filePath, file);
-          const content = await app.vault.read(filePath);
-          const processed = await runTemplater(content);
-          await app.vault.modify(file, processed);
+          const tpPlugin = app.plugins.plugins["templater-obsidian"];
+          if (tpPlugin) {
+            const { templater: tp2 } = tpPlugin;
+            const rc = tp2.create_running_config(filePath, file, 0);
+            const processed = await tp2.read_and_parse_template(rc);
+            if (processed != null && app.vault.getAbstractFileByPath(file.path)) {
+              await app.vault.modify(file, processed);
+            }
+          }
         } else {
           file = await app.vault.create(fullPath, "");
           const tempLeaf = app.workspace.getLeaf("tab");

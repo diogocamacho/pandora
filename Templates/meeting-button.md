@@ -12,7 +12,7 @@ if (meetingName) {
 
     const dateStr = tp.date.now("YYYY-MM-DD");
     const fileName = `${dateStr} ${meetingName}.md`;
-    const filePath = `Notes/${fileName}`;
+    const filePath = `Notes/Meetings/${fileName}`;
 
     const exists = await app.vault.adapter.exists(filePath);
     if (!exists) {
@@ -38,7 +38,7 @@ if (meetingName) {
         await app.vault.create(filePath, content);
 
         // Append link to today's daily, if it exists.
-        const dailyPath = `Notes/${dateStr}.md`;
+        const dailyPath = `Notes/Daily/${dateStr}.md`;
         const daily = app.vault.getAbstractFileByPath(dailyPath);
         if (daily) {
             const dailyContent = await app.vault.read(daily);

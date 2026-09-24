@@ -1,7 +1,7 @@
 <%*
 const d = tp.date.now("YYYY-MM-DD")
 await tp.file.rename(`${d} finance monthly review`)
-await tp.file.move(`Notes/${d} finance monthly review`)
+await tp.file.move(`Notes/Reviews/${d} finance monthly review`)
 %>---
 type: finance-review
 date: <% tp.date.now("YYYY-MM-DD") %>
@@ -35,8 +35,8 @@ tags: [finance, review, monthly]
 - Top concerns:
 
 ## Decisions for next month
-- [ ] 
-- [ ] 
+- [x]  ✅ 2026-07-09
+- [x]  ✅ 2026-07-09
 
 ## Wins / lessons
 - 

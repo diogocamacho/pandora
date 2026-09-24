@@ -8,7 +8,7 @@
   "shell_path": "",
   "user_scripts_folder": "Templates/_user scripts",
   "enable_folder_templates": true,
-  "folder_templates": [],
+  "folder_templates": [{"folder": "Notes", "template": "Templates/daily.md"}],
   "enable_file_templates": false,
   "file_templates": [],
   "syntax_highlighting": true,

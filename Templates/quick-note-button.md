@@ -15,7 +15,7 @@ const filePath = `Notes/${fileName}`;
 
 const exists = await app.vault.adapter.exists(filePath);
 if (!exists) {
-    let frontmatter = `---\ntags:\n  - quick\n`;
+    let frontmatter = `---\ntags:\n  - inbox\n  - quick\n`;
     tags.forEach(t => { frontmatter += `  - ${t}\n`; });
     frontmatter += `Follow up:\n---\n\n`;
     const content = frontmatter + `### 🧠 Note\n\n\n`;

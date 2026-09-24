@@ -1,7 +1,7 @@
 <%*
 const d = tp.date.now("YYYY-MM-DD")
 await tp.file.rename(`${d} miniatures`)
-await tp.file.move(`Notes/${d} miniatures`)
+await tp.file.move(`Notes/Logs/${d} miniatures`)
 %>---
 type: miniatures-painting
 date: <% tp.date.now("YYYY-MM-DD") %>
@@ -20,15 +20,15 @@ tags: [miniatures, painting]
 - **Duration (min):** 
 
 ## Stage worked
-- [ ] Prime
-- [ ] Basecoat
-- [ ] Shadow / wash
-- [ ] Mid-tone / layering
-- [ ] Highlight
-- [ ] Edge highlight
-- [ ] Glazing
-- [ ] Details (eyes, freehand, NMM)
-- [ ] Basing
+- [x] Prime ✅ 2026-07-09
+- [x] Basecoat ✅ 2026-07-09
+- [x] Shadow / wash ✅ 2026-07-09
+- [x] Mid-tone / layering ✅ 2026-07-09
+- [x] Highlight ✅ 2026-07-09
+- [x] Edge highlight ✅ 2026-07-09
+- [x] Glazing ✅ 2026-07-09
+- [x] Details (eyes, freehand, NMM) ✅ 2026-07-09
+- [x] Basing ✅ 2026-07-09
 
 ## Technique focus tonight
 - 

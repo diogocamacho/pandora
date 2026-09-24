@@ -1,5 +1,5 @@
 ---
-type: area
+type: area-home
 area: finance
 tags: [area, finance]
 ---
@@ -45,7 +45,7 @@ SORT date DESC
 
 ```button
 name ➕ Add net worth snapshot
-type note(stub, false)
+type template note(stub, false)
 action net-worth-snapshot
 templater true
 ```
@@ -110,7 +110,7 @@ LIMIT 12
 
 ```button
 name ➕ Monthly review
-type note(stub, false)
+type template note(stub, false)
 action finance-review
 templater true
 ```

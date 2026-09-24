@@ -2,7 +2,7 @@
 const name = await tp.system.prompt("Person name (e.g. 'Andrew Croneberger'):")
 if (name) {
   await tp.file.rename(name)
-  await tp.file.move(`Notes/${name}`)
+  await tp.file.move(`Notes/People/${name}`)
 }
 %>---
 type: person
@@ -33,23 +33,16 @@ tags: [person]
 ```dataview
 LIST WITHOUT ID file.link
 FROM "Notes"
-WHERE this.person_tag != null AND contains(file.tags, this.person_tag) AND file.name != this.file.name
+WHERE contains(file.inlinks, this.file.link)
 SORT file.name DESC
-LIMIT 10
-```
-
-## Open tasks
-```tasks
-not done
-tags include {{this.person_tag}}
-short mode
+LIMIT 15
 ```
 
 ## Open loops (follow-ups)
 ```dataview
 LIST WITHOUT ID file.link
 FROM "Notes"
-WHERE this.person_tag != null AND contains(file.tags, this.person_tag) AND follow-up = true
+WHERE contains(file.inlinks, this.file.link) AND follow-up = true
 SORT file.mtime DESC
 ```
 

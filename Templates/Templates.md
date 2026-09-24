@@ -49,4 +49,4 @@ These contain Templater script that prompts + creates the file directly. Invoked
 | [[paper or book]] | Paper / book summary |
 | [[gpt_prompt]] | GPT prompt scratchpad |
 | [[work-project-home]] | Project home skeleton |
-| [[SundAI Digest]] | Weekly SundAI digest |
+| [[Templates/SundAI Digest]] | Weekly SundAI digest |

@@ -27,7 +27,7 @@ if (personInput) {
     const fileName = personNames.length > 1
         ? `${dateStr} ${personNames.join(" <> ")}.md`
         : `${dateStr} ${primary} <> Diogo.md`;
-    const filePath = `Notes/${fileName}`;
+    const filePath = `Notes/Meetings/${fileName}`;
 
     const exists = await app.vault.adapter.exists(filePath);
     if (!exists) {
@@ -35,33 +35,51 @@ if (personInput) {
         projectTags.forEach(t => { frontmatter += `  - ${t}\n`; });
         frontmatter += `---\n\n`;
 
+        const todoistSlug = primary.split(" ")[0].toLowerCase();
         const content = frontmatter +
 `---
-## 💬 To discuss
 
-### Asks and tasks
+← [[Notes/People/${primary}|All notes: ${primary}]]
 
-> [!check] Tasks
-> \`\`\`tasks
-> not done
-> tags include ${personTag}
-> \`\`\`
+## ✅ Open tasks (Todoist)
 
-> [!note] Previous notes
-> \`\`\`dataview
-> LIST
-> FROM #${personTag}
-> WHERE follow-up = true OR file.ctime > (date(now) - dur(7 days))
-> \`\`\`
+> Tag tasks \`@${todoistSlug}\` in Todoist to surface them here. Use **+** to add one now.
+
+\`\`\`todoist
+name: ${primary}
+filter: "@${todoistSlug}"
+sorting:
+  - priority
+  - date
+\`\`\`
+
+## 📋 Previous notes
+
+\`\`\`dataview
+LIST WITHOUT ID file.link
+FROM "Notes/Meetings"
+WHERE contains(file.name, "${primary}")
+SORT file.name DESC
+LIMIT 5
+\`\`\`
 
 ---
-## ✍️ Notes and action items
+## 💬 Agenda
+-
 
+## ✍️ Notes & decisions
+-
+
+## 🔁 Actions from this meeting
+- [ ] 
+
+---
+*Filed under [[Notes/People/${primary}]]*
 `;
         await app.vault.create(filePath, content);
 
         // Append link to today's daily, if it exists.
-        const dailyPath = `Notes/${dateStr}.md`;
+        const dailyPath = `Notes/Daily/${dateStr}.md`;
         const daily = app.vault.getAbstractFileByPath(dailyPath);
         if (daily) {
             const dailyContent = await app.vault.read(daily);

@@ -1,21 +1,19 @@
 > [!tip] 📁 Projects
-> Active, time-bound work with a defined outcome. Each project folder contains its Home page + role MOCs (Comp Bio, Talent, External, etc.). Actual notes live in `Notes/`, surfaced here via tag.
+> Active, time-bound work with a defined outcome. Each project has ONE Home page (roles are sections inside it). Notes live in `Notes/`, surfaced via tag. This index is auto-generated — a new project appears here once its Home has `type: project-home` frontmatter.
 
 ---
 
 ## Active projects
-
-| Project | Home | Backing tag |
-|---|---|---|
-| 🧬 Abiologics | [[Abiologics Home]] | `#abiologics` |
-| 🥗 Agentic Nutrition (X2) | [[💡 X2]] | `#x2`, `#agenticnutrition` |
-| FL110 | [[FL110 Home]] | `#fl110` |
-| FL111 | [[FL111 Home]] | `#fl111` |
+```dataview
+TABLE WITHOUT ID file.link AS "Home", project AS "Backing tag"
+FROM "Dashboards/Projects"
+WHERE type = "project-home"
+SORT file.name ASC
+```
 
 ---
 
 ## Recent notes across all projects
-
 ```dataview
 LIST WITHOUT ID file.link
 FROM #abiologics OR #x2 OR #agenticnutrition OR #fl110 OR #fl111

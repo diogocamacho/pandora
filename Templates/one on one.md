@@ -1,33 +1,59 @@
+<%*
+const person = await tp.system.prompt("Person name (e.g. Jeremy Amon):")
+if (!person) return
+const slug = person.toLowerCase().replace(/\s+/g, '-')
+const d = tp.date.now("YYYY-MM-DD")
+const fname = `${d} ${person} <> Diogo`
+await tp.file.rename(fname)
+await tp.file.move(`Notes/Meetings/${fname}`)
+-%>
 ---
-Follow up:
-tags:
-  - 1v1
+tags: [1v1, meeting]
+person: "[[<% person %>]]"
+follow-up: false
+date: <% d %>
 ---
-<% tp.file.rename(tp.date.now("YYYY-MM-DD") + " person") %>
----
-## 💬 To Discuss
 
-### Asks and Tasks
+# <% d %> — [[<% person %>]] <> Diogo
 
-> [!check] Tasks
-> ```dataview
-> task
-> FROM ...
-> WHERE !completed
-> ```
-> 
-
-
-> [!NOTE] Previous notes
-> ```dataview
-> LIST
-> FROM ...
-> WHERE follow-up = true | file.ctime > (date(now) - dur(7 days))
-> ```
-> 
-
+← [[Notes/People/<% person %>|All notes: <% person %>]]
 
 ---
-## ✍️ Notes and Action Items
 
+## ✅ Open tasks (Todoist)
 
+> Add tasks here during the meeting with the **+** button, or tag Todoist tasks `@<% slug %>` to surface them here.
+
+```todoist
+name: <% person %>
+filter: "@<% slug %>"
+sorting:
+  - priority
+  - date
+```
+
+---
+
+## 📋 Previous notes
+
+```dataview
+LIST WITHOUT ID file.link
+FROM "Notes/Meetings"
+WHERE contains(file.name, "<% person %>")
+SORT file.name DESC
+LIMIT 5
+```
+
+---
+
+## 💬 Agenda
+-
+
+## ✍️ Notes & decisions
+-
+
+## 🔁 Actions from this meeting
+- [ ] 
+
+---
+*Filed under [[Notes/People/<% person %>]]*

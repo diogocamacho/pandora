@@ -8,6 +8,7 @@
   "calendar",
   "obsidian-tracker",
   "folder-notes",
-  "buttons",
-  "templater-obsidian"
+  "templater-obsidian",
+  "todoist-sync-plugin",
+  "buttons"
 ]

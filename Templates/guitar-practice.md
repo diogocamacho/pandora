@@ -1,7 +1,7 @@
 <%*
 const d = tp.date.now("YYYY-MM-DD")
 await tp.file.rename(`${d} guitar`)
-await tp.file.move(`Notes/${d} guitar`)
+await tp.file.move(`Notes/Logs/${d} guitar`)
 %>---
 type: guitar-practice
 date: <% tp.date.now("YYYY-MM-DD") %>

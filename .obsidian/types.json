@@ -34,6 +34,7 @@
     "reading": "checkbox",
     "pin": "checkbox",
     "journal": "checkbox",
-    "workout": "checkbox"
+    "workout": "checkbox",
+    "Archive": "checkbox"
   }
 }

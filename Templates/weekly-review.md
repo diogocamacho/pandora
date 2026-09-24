@@ -1,7 +1,7 @@
 <%*
 const d = tp.date.now("YYYY-MM-DD")
 await tp.file.rename(`${d} weekly review`)
-await tp.file.move(`Notes/${d} weekly review`)
+await tp.file.move(`Notes/Reviews/${d} weekly review`)
 %>---
 type: weekly-review
 date: <% tp.date.now("YYYY-MM-DD") %>
@@ -14,7 +14,8 @@ tags: [review, weekly]
 ## 1. Clear the inboxes
 - Email zero: [ ]
 - Slack: [ ]
-- `! Inbox/` processed to zero: [ ]
+- `#inbox` cleared to zero (see [[Dashboards]] ▸ Inbox): [ ]
+- `Notes/` root (unfiled) triaged to zero: [ ]
 - Brain dump → captured: 
 
 ## 2. What got done this week
