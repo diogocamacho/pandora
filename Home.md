@@ -23,17 +23,17 @@ cssclasses: [home-page]
 > ```button
 > name 📅 Daily note
 > type command
-> action templater-obsidian:create-Templates/daily.md
+> action Create daily
 > ```
 > ```button
 > name 💡 Idea
 > type command
-> action templater-obsidian:create-Templates/create-idea.md
+> action Create create-idea
 > ```
 > ```button
 > name 🗒️ Quick note
 > type command
-> action templater-obsidian:create-Templates/quick-note-button.md
+> action Create quick-note-button
 > ```
 
 ---
@@ -56,12 +56,12 @@ sorting:
 > ```button
 > name 🤝 1:1
 > type command
-> action templater-obsidian:create-Templates/1v1-meeting-button.md
+> action Create 1v1-meeting-button
 > ```
 > ```button
 > name 📝 Meeting
 > type command
-> action templater-obsidian:create-Templates/meeting-button.md
+> action Create meeting-button
 > ```
 
 ```dataview
