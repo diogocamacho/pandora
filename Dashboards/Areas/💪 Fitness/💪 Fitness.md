@@ -181,7 +181,7 @@ dv.paragraph(
 TABLE WITHOUT ID
   file.link AS "Day",
   session_type AS "Type",
-  trainer AS "Trainer",
+  workout_name AS "Workout",
   duration_min AS "Min",
   weight_lbs AS "Weight",
   calories_total AS "Cal",

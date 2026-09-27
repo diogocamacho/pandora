@@ -9,6 +9,7 @@ await tp.file.move(`Notes/Logs/${d} workout`)
 type: workout
 date: <% tp.date.now("YYYY-MM-DD") %>
 session_type: <% dayType %>
+workout_name: 
 trainer: 
 duration_min: 
 weight_lbs: 
@@ -34,6 +35,7 @@ tags: [fitness, workout]
 
 ## Session
 - **Type:** <% dayType %>
+- **Workout name:** 
 - **Trainer / Program:** 
 - **Duration:** ___ min
 - **Strain (Whoop):** ___
