@@ -8,14 +8,30 @@ FROM "Notes/Daily"
 WHERE file.name = dateformat(date(today), "yyyy-MM-dd")
 ```
 
+**📅 Today's meetings**
+```dataview
+LIST WITHOUT ID file.link
+FROM "Notes"
+WHERE startswith(file.name, dateformat(date(today), "yyyy-MM-dd"))
+AND file.name != dateformat(date(today), "yyyy-MM-dd")
+SORT file.mtime ASC
+```
+
 ## 🚨 Overdue & due today
-```tasks
-not done
-due before tomorrow
-sort by due
-short mode
-hide edit button
-hide backlink
+
+```todoist
+name: Overdue
+filter: "overdue"
+sorting:
+  - priority
+  - date
+```
+
+```todoist
+name: Due today
+filter: "today"
+sorting:
+  - priority
 ```
 
 ---

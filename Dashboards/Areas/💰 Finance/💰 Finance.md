@@ -35,10 +35,9 @@ if (!latest) {
 ```
 
 > [!note] Emergency fund & debt
-> Update these manually from Kevin's Current Financial State block.
-> - **Emergency fund:** $___  / $30,000 target
-> - **Total debt:** $___
-> - **Next 0% expiry:** ___
+> - **Emergency fund:** $12,081 / $30,000 target — 40% funded, $17,919 gap (SPAXX $9,501 + lifestyle $2,580)
+> - **Total debt:** $15,142 (JetBlue CC $9,801 + Fidelity CC $5,342; both standard APR)
+> - **Next 0% expiry:** N/A — no promo debt on books
 
 ---
 
@@ -97,7 +96,6 @@ if (!latest) {
 } else {
   const positions = [
     { ticker: 'QQQ', price: latest.qqq, shares: latest.qqq_shares },
-    { ticker: 'SCHD', price: latest.schd, shares: latest.schd_shares },
     { ticker: 'SMH', price: latest.smh, shares: latest.smh_shares },
     { ticker: 'VXUS', price: latest.vxus, shares: latest.vxus_shares },
     { ticker: 'XBI', price: latest.xbi, shares: latest.xbi_shares },
@@ -123,7 +121,6 @@ if (!latest) {
         data: positions.map(p => +(p.price * p.shares).toFixed(0)),
         backgroundColor: [
           'rgba(99,102,241,0.8)',
-          'rgba(16,185,129,0.8)',
           'rgba(245,158,11,0.8)',
           'rgba(239,68,68,0.8)',
           'rgba(59,130,246,0.8)',
@@ -149,8 +146,7 @@ if (!latest) {
   dv.paragraph("No snapshot yet.");
 } else {
   const positions = [
-    { ticker: 'QQQ', price: latest.qqq, shares: latest.qqq_shares, low: 25, high: 35 },
-    { ticker: 'SCHD', price: latest.schd, shares: latest.schd_shares, low: 20, high: 25 },
+    { ticker: 'QQQ', price: latest.qqq, shares: latest.qqq_shares, low: 35, high: 45 },
     { ticker: 'SMH', price: latest.smh, shares: latest.smh_shares, low: 10, high: 15 },
     { ticker: 'VXUS', price: latest.vxus, shares: latest.vxus_shares, low: 10, high: 15 },
     { ticker: 'XBI', price: latest.xbi, shares: latest.xbi_shares, low: 10, high: 15 },
@@ -188,7 +184,6 @@ if (!latest) {
 TABLE WITHOUT ID
   file.link AS "Date",
   qqq AS "QQQ",
-  schd AS "SCHD",
   smh AS "SMH",
   vxus AS "VXUS",
   xbi AS "XBI",
