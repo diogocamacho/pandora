@@ -6,7 +6,7 @@ tags: [brief, daily-brief]
 
 # Daily brief — 2026-09-28 Monday
 
-← [[2026-09-28|back to daily]]
+← [[Notes/2026-09-28|back to daily]]
 
 ---
 
@@ -19,8 +19,7 @@ Cycle Planning at 11 is where the GFRAL/IL7RA benchmarking thread either moves o
 **Calendar (Eastern):**
 - 10:00–10:45 — [[2026-09-28 Comp Team Kickoff]]
 - 11:00–12:00 — [[2026-09-28 Weekly kick-off + Cycle Planning]]
-- 12:00–12:45 — [[2026-09-28 FL121 AI Strategy Monthly]]
-- 12:45–16:00 — **open, ~3h15m** — no meetings on the calendar. Protected deep-work window; nothing else is competing for it right now.
+- 12:00–16:00 — **open, 4h** — no meetings on the calendar. Protected deep-work window; nothing else is competing for it right now.
 - 16:00–17:15 — commute (Focus-time block, auto-scheduled)
 - 18:30–20:00 — family time
 

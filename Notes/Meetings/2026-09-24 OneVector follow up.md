@@ -2,7 +2,7 @@
 tags:
   - abiologics
   - it
-Follow up:
+Follow up: true
 ---
 
 ---
@@ -20,3 +20,5 @@ Follow up:
 	- what did you do?
 	- what does the next phase looks like? 
 	- draft email to kala
+
+[[2026-09-28 Follow up email]]

@@ -33,6 +33,10 @@ Follow up:
 ## ✍️ Notes and action items
 *Things that we talked about*
 
+- what is the benefit of the modularity of the pipeline? how do we think about what is our "core" vs add ons? [[Andrew Croneberger]] [[Jeremy Amon]] [[Beth Kartchner]]
+	- largely gives you more flexibility in your design principles 
+
+- GFRAL banchmarking data will be worked on by [[Beth Kartchner]] this week
+- [[Jiangchuan Ye]] will start doing some solubility follow up work (ESM fine tuning, other model training)
 
 ## 🔁 Actions from this meeting
-- [ ] 

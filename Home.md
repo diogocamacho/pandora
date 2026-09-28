@@ -85,7 +85,7 @@ LIMIT 8
 
 ---
 
-## ⏳ Waiting on
+## ⏳ Follow Up
 
 ```dataview
 LIST WITHOUT ID file.link
