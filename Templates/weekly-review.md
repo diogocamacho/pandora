@@ -51,9 +51,11 @@ tags: [review, weekly]
 
 ## 10. Areas check
 - 💰 Finance — on track? 
-- 💪 Fitness — on track? 
-- 👔 Style — on track? 
+- 💪 Fitness — sessions hit / weight trend / nutrition: 
+- 🧬 X2 / Agentic Nutrition — visible this week? 
 - ⚓️ Flagship Pioneering — on track? 
+- 🎯 Career positioning — one visible action this week?
+- 🧠 Strategic thinking hours this week: 
 
 ## 11. Notes for next week's review
 - 
