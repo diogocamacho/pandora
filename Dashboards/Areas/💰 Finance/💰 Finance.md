@@ -137,6 +137,51 @@ if (!latest) {
 
 ---
 
+## ⚖️ Allocation vs targets
+
+```dataviewjs
+const latest = dv.pages('"Notes"')
+  .where(p => p.type === "portfolio-snapshot")
+  .sort(p => p.date, 'desc')
+  .first();
+
+if (!latest) {
+  dv.paragraph("No snapshot yet.");
+} else {
+  const positions = [
+    { ticker: 'QQQ', price: latest.qqq, shares: latest.qqq_shares, low: 25, high: 35 },
+    { ticker: 'SCHD', price: latest.schd, shares: latest.schd_shares, low: 20, high: 25 },
+    { ticker: 'SMH', price: latest.smh, shares: latest.smh_shares, low: 10, high: 15 },
+    { ticker: 'VXUS', price: latest.vxus, shares: latest.vxus_shares, low: 10, high: 15 },
+    { ticker: 'XBI', price: latest.xbi, shares: latest.xbi_shares, low: 10, high: 15 },
+  ].filter(p => p.price && p.shares);
+
+  const total = positions.reduce((s, p) => s + p.price * p.shares, 0);
+
+  const rows = positions.map(p => {
+    const val = p.price * p.shares;
+    const pct = +((val / total) * 100).toFixed(1);
+    const inRange = pct >= p.low && pct <= p.high;
+    const status = pct > p.high ? '🔴 over' : pct < p.low ? '🟡 under' : '✅';
+    return [p.ticker, `${pct}%`, `${p.low}-${p.high}%`, status];
+  });
+
+  // Concentration check
+  const qqq = positions.find(p => p.ticker === 'QQQ');
+  const smh = positions.find(p => p.ticker === 'SMH');
+  if (qqq && smh) {
+    const combined = +((((qqq.price * qqq.shares) + (smh.price * smh.shares)) / total) * 100).toFixed(1);
+    if (combined > 50) {
+      dv.callout('warning', `QQQ + SMH combined: **${combined}%** — above 50% threshold. Portfolio behaves as leveraged tech bet.`);
+    }
+  }
+
+  dv.table(['Ticker', 'Current', 'Target range', 'Status'], rows);
+}
+```
+
+---
+
 ## 📆 Recent snapshots (last 14 days)
 
 ```dataview
