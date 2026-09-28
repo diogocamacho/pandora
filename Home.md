@@ -50,7 +50,7 @@ sorting:
 
 ---
 
-## 📅 Today's meetings
+## 📅 Today
 
 > [!button-row]
 > ```button
@@ -66,9 +66,10 @@ sorting:
 
 ```dataview
 LIST WITHOUT ID file.link
-FROM "Notes/Meetings"
-WHERE file.ctime >= date(today) AND file.ctime < date(tomorrow)
-SORT file.ctime ASC
+FROM "Notes"
+WHERE startswith(file.name, dateformat(date(today), "yyyy-MM-dd"))
+AND file.name != dateformat(date(today), "yyyy-MM-dd")
+SORT file.mtime ASC
 ```
 
 ---
@@ -93,6 +94,28 @@ FROM "Notes"
 WHERE follow-up = true
 SORT file.mtime DESC
 LIMIT 8
+```
+
+---
+
+## 🧠 New Learnings
+
+**Vault connections surfaced by recent clips**
+```dataview
+TABLE WITHOUT ID file.link AS "Clipping", related AS "Notes", idea-supports AS "Supports", idea-challenges AS "Challenges"
+FROM "Clippings"
+WHERE (related OR idea-supports OR idea-challenges) AND date(created) >= date(today) - dur(7 days)
+SORT created DESC
+```
+
+**Daily synthesis** · [[Dashboards/Learning|Full learning dashboard →]] · [[Dashboards/Clippings|All clippings →]]
+```dataview
+LIST WITHOUT ID file.link + " — " + dateformat(date, "EEE MMM d")
+FROM "Notes/Logs"
+WHERE type = "learning"
+  AND date >= date(today) - dur(7 days)
+SORT date DESC
+LIMIT 5
 ```
 
 

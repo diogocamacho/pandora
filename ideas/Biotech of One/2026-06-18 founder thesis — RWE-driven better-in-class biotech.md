@@ -107,3 +107,8 @@ When this note is revisited (6 months by default, or earlier if a trigger fires)
 This memo is a downstream artifact of the Plato session captured in [[2026-06-18 biotech-of-one]]. That note contains the eight rounds of challenge that pressure-tested the thesis — including the Cellarity / LINCS counter-evidence, the Selventa precedent, the competitive landscape, and the scope decisions. **Do not write the investor pitch from this memo yet** — write it from the same source if and when the decision criteria above resolve favorably.
 
 This venture lives in Diogo's head and in pandora. Nothing more, for now.
+
+---
+
+## Evidence & reinforcement
+- [[To Get More Effective Drugs, We Need More Human Trials]] (2026-09-28)

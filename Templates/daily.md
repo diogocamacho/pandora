@@ -32,6 +32,32 @@ workout:
 **One thing I'd skip if the day collapses:**
 - 
 
+## 🧠 Learning thread
+```dataviewjs
+const today = dv.date("today").toISODate();
+const note = dv.pages('"Notes/Logs"')
+  .where(p => p.type === "learning" && p.date && p.date.toISODate && p.date.toISODate() === today)
+  .first();
+if (note) {
+  dv.paragraph("📖 " + dv.fileLink(note.file.path, false, "Today's synthesis"));
+  const ch = note.challenges;
+  if (ch && ch.length) {
+    dv.paragraph("**🤔 Think about today:**");
+    dv.list(Array.isArray(ch) ? ch : [ch]);
+  }
+} else {
+  dv.paragraph("_Synthesis and challenges generate at 9:30am._");
+}
+```
+
+## 📰 Clipped today
+```dataview
+LIST WITHOUT ID file.link
+FROM "Clippings"
+WHERE date(created) = date(today)
+SORT created DESC
+```
+
 ## 📅 Calendar
 - 
 

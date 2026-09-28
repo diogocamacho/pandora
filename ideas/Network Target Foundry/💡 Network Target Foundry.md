@@ -50,3 +50,8 @@ Because it is indication-agnostic, the Foundry becomes the engine for a _portfol
 | **Secondary** | Therapeutic area modules (e.g., immunology, neuro, metabolic)    | TAM $60B / SAM $6B / SOM $0.6B    | Reuse of causal graph architecture across TAs                |
 | **Platform**  | Analytics/API licensing (network controllability-as-a-service)   | TAM $12B / SAM $1.2B / SOM $0.25B | External companies using the Foundry’s inference engine      |
 | **AssetCo**   | Internal spinouts built on high-confidence network targets       | TAM $150B (multi-TA aggregate)    | Platform yields portfolio of spinoffable programs            |
+
+---
+
+## Evidence & reinforcement
+- [[To Get More Effective Drugs, We Need More Human Trials]] (2026-09-28)

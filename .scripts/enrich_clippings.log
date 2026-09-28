@@ -1,0 +1,24 @@
+[2026-09-28 13:10] Starting enrichment — 1 clippings total
+[2026-09-28 13:10] Processing: Chart of the Week Experience > Skills
+[2026-09-28 13:10]   Done — tags: [tech-hiring ai workforce-trends data-skills labor-market]
+[2026-09-28 13:10] Enrichment complete.
+[2026-09-28 13:10] Starting enrichment — 1 clippings total
+[2026-09-28 13:10] Enrichment complete.
+[2026-09-28 13:17] Starting enrichment — 3 clippings total
+[2026-09-28 13:17] Processing: Has Anthropic solved the peptide-binder design problem?
+[2026-09-28 13:17]   Done — tags: [protein-design ai-drug-discovery peptide-binders computational-biology llm-science]
+[2026-09-28 13:17] Enrichment complete.
+[2026-09-28 13:17] Generating learning synthesis for 2026-09-28...
+[2026-09-28 13:17] Learning synthesis written to: 2026-09-28 learnings.md
+[2026-09-28 13:46] Starting enrichment — 13 clippings total
+[2026-09-28 13:46] Processing: How useful are zero-shot predictions of mutational effects?
+[2026-09-28 13:48] Starting enrichment — 13 clippings total
+[2026-09-28 13:48] Processing: To Get More Effective Drugs, We Need More Human Trials
+[2026-09-28 13:48]   → idea backlink: 2026-06-18 founder thesis — RWE-driven better-in-class biotech
+[2026-09-28 13:48]   → idea backlink: 💡 Network Target Foundry
+[2026-09-28 13:48]   ✓ tags: [drug-discovery clinical-trials erooms-law biopharma-productivity clinical-development regulatory-science]
+[2026-09-28 13:48] Enrichment complete.
+[2026-09-28 13:48] Generating daily synthesis...
+[2026-09-28 13:48] Learning thread appended to daily brief.
+[2026-09-28 13:48] Daily synthesis written: 2026-09-28 learnings.md
+[2026-09-28 13:48] Not Friday — skipping weekly review.
