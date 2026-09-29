@@ -8,6 +8,16 @@ created: 2026-09-28
 description: "The protein design field is getting pushed forward by human experts in protein design, who would have thought"
 tags:
   - "clippings"
+  - "protein-design"
+  - "ai-in-biology"
+  - "protein-language-models"
+  - "drug-discovery"
+  - "computational-biology"
+related:
+  - "[[ProteinMPNN — sequence design]]"
+  - "[[co-folding for bindable epitopes]]"
+  - "[[cofolding analysis from Andrew]]"
+processed: true
 ---
 ### The protein design field is getting pushed forward by human experts in protein design, who would have thought
 
@@ -28,3 +38,8 @@ There you go. Whoever wrote the Claude prompt knew what they were doing, or mayb
 ∙
 
 [^1]: For example, I was aware of ESMFold2 but didn’t know that I should probably use it instead of AlphaFold3. The previous iteration, EMSFold, was not obviously better than its competitor AlphaFold2.
+
+## Related notes
+- [[ProteinMPNN — sequence design]]
+- [[co-folding for bindable epitopes]]
+- [[cofolding analysis from Andrew]]

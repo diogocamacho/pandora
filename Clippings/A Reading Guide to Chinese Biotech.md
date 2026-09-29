@@ -7,6 +7,15 @@ created: 2026-09-28
 description:
 tags:
   - "clippings"
+  - "china-biotech"
+  - "biotech"
+  - "drug-discovery"
+  - "geopolitics"
+  - "reading-list"
+related:
+  - "[[Drug discovery]]"
+  - "[[AI and drug discovery]]"
+processed: true
 ---
 China is a study in extremes. It's the world's oldest continuous civilization, yet also, as Dan Wang writes, a country that "combines lengthy periods of stasis with episodes of extreme movement." In 1970, when China's GDP per capita was about $1,400 in today's dollars, Francis Crick predicted that "it would not be surprising if eventually China became a major scientific power." Half a century later, China has transformed even more drastically than Crick imagined.
 
@@ -19,3 +28,7 @@ This guide is for people working in biotechnology, though there are links about 
 // Stay Updated
 
 <iframe src="https://letter.nikomc.com/embed?transparent=1" frameborder="0"></iframe>
+
+## Related notes
+- [[Drug discovery]]
+- [[AI and drug discovery]]

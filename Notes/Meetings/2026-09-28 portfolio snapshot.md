@@ -6,13 +6,11 @@ qqq_shares: 5.748
 smh: 606.56
 smh_shares: 3.652
 xbi: 155.03
-xbi_shares: 16.789
+xbi_shares: 24.736
 vxus: 86.35
 vxus_shares: 20.862
-schd: 33.21
-schd_shares: 37.926
-spaxx_shares: 9511.04
-snapshot_total: 21669.04
+spaxx_shares: 9520.56
+snapshot_total: 21651.36
 prior_total: 21669.04
 tags:
   - finance
@@ -21,17 +19,15 @@ tags:
 
 # 2026-09-28 portfolio snapshot
 
-Share counts carried forward from [[2026-09-25 portfolio snapshot]] (no trades reported). Prices are Friday 9/25/2026 4:00pm ET closes (stockanalysis.com) — market hasn't opened yet this morning; premarket shows QQQ -0.95% and VXUS -0.52% on rate jitters.
+Trade reported: sold entire SCHD position (37.926 sh @ $33.21 ≈ $1,259.52 proceeds); bought $1,250 of XBI, bringing XBI to 24.736 shares (from 16.789). Net +$9.52 to SPAXX cash. QQQ/SMH/VXUS share counts unchanged; prices carried from Friday 9/25 close pending next market-hours refresh.
 
-| Ticker | Price   | Shares  | Value     |
-| ------ | ------- | ------- | --------- |
-| SPAXX  | $1.00   | 9511.04 | $9,511.04 |
-| QQQ    | $744.50 | 5.748   | $4,279    |
-| XBI    | $155.03 | 16.789  | $2,603    |
-| SMH    | $606.56 | 3.652   | $2,215    |
-| VXUS   | $86.35  | 20.862  | $1,801    |
-| SCHD   | $33.21  | 37.926  | $1,260    |
-
+| Ticker | Price   | Shares | Value      |
+| ------ | ------- | ------ | ---------- |
+| SPAXX  | $1.00   | 9520.56| $9,520.56  |
+| QQQ    | $744.50 | 5.748  | $4,279.39  |
+| XBI    | $155.03 | 24.736 | $3,834.82  |
+| SMH    | $606.56 | 3.652  | $2,215.16  |
+| VXUS   | $86.35  | 20.862 | $1,801.43  |
 
 ## Read
-Quiet Friday close carried into a soft Monday premarket. No position moved >2% on the day; QQQ +0.46%, SMH +1.01%, VXUS +0.89%, SCHD +0.33%, XBI -0.65%. Trump–Xi trade-talk headline risk is still the swing factor to watch for SMH specifically given export-control exposure. SPAXX remains ~55% of the book — liquidity intact, nothing urgent on the 0% debt or liquidity front. No change to the standing plan: keep adding to SMH/XBI on dips toward the 15%/15% target.
+SCHD is off the book — consistent with the standing call that dividend income is tax-inefficient in a taxable account at Diogo's bracket and doesn't fit the aggressive/growth posture. The $1,250 XBI add is a straight redeploy of SCHD proceeds into the professional-edge position; XBI now sits at ~17.7% of the investible portfolio (ex-SPAXX), above the 10-15% target range — expected right after a lump-sum add, not a signal to trim, since conviction-based overshoot on XBI is within the accepted playbook. QQQ + SMH combined is ~34% of investible assets, well under the 50% flag line. SPAXX/liquidity is essentially unchanged at ~$9,520 — still below the $30k emergency fund target, so no further investment dollars should be added until that gap closes; today's move was a swap (SCHD to XBI), not new cash into the market, so it doesn't violate the "fund first" rule.

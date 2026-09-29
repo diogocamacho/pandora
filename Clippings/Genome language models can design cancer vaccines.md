@@ -10,6 +10,15 @@ created: 2026-09-28
 description: "We post-trained Omnii, our next-generation genome language model, for end-to-end cancer vaccine design, from neoantigen selection to the final mRNA."
 tags:
   - "clippings"
+  - "cancer-vaccines"
+  - "genome-language-models"
+  - "immunology"
+  - "personalized-medicine"
+  - "ai-in-biology"
+related:
+  - "[[2025-10-21 pMHC for diagnostics]]"
+  - "[[2025-12-16 T-cell reprogramming]]"
+processed: true
 ---
 ![A T cell reaching down to the surface of another cell, its receptor gripping a peptide held in an MHC molecule that glows orange at the point of contact](https://www.radicalnumerics.ai/_next/image?url=%2Fassets%2Fblog%2Fomnii-cancer-vaccines%2Fcancer_vaccine_hero.png&w=3840&q=75&dpl=dpl_7qLpNc6tpmhnTCqWuKRY5CHdmoha)
 
@@ -500,3 +509,7 @@ Reach out to us at [health@radicalnumerics.ai](mailto:health@radicalnumerics.ai)
 [^10]: Vita, R., Blazeska, N., Marrama, D., et al. ["The Immune Epitope Database (IEDB): 2024 update."](https://doi.org/10.1093/nar/gkae1092) Nucleic Acids Research 53(D1), D436–D443 (2025).
 
 [^11]: Wells, D.K., van Buuren, M.M., Dang, K.K., et al. ["Key parameters of tumor epitope immunogenicity revealed through a consortium approach improve neoantigen prediction."](https://doi.org/10.1016/j.cell.2020.09.015) Cell 183(3), 818–834.e13 (2020).
+
+## Related notes
+- [[2025-10-21 pMHC for diagnostics]]
+- [[2025-12-16 T-cell reprogramming]]

@@ -8,6 +8,15 @@ created: 2026-09-28
 description: "Stay compliant in China''s evolving pharma market! Pfizer''s expert, Xiaoping Cao, unpacks the latest regulations and guides you through the new processes."
 tags:
   - "clippings"
+  - "china-regulatory"
+  - "drug-approval"
+  - "pharma-regulatory"
+  - "china-biotech"
+  - "clinical-trials"
+related:
+  - "[[Regulatory]]"
+  - "[[Drug discovery]]"
+processed: true
 ---
 No items found.
 
@@ -179,3 +188,7 @@ The primary observations in the Laboratory system were in the areas of Method Va
 In summary, two-thirds of the Form 483 observations evaluated by our Quality Systems Labeling model found in API manufacturing plants in China were found within the Production, Laboratory, and Data Integrity quality systems. It is recommended that anyone doing business with or planning to do business with an API manufacturer in China focus their review on these areas of the company’s manufacturing records and processes as a check on its compliance position.
 
 about the author(s)
+
+## Related notes
+- [[Regulatory]]
+- [[Drug discovery]]

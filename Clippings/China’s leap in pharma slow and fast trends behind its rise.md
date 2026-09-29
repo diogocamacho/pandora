@@ -8,6 +8,15 @@ created: 2026-09-28
 description: "Introduction"
 tags:
   - "clippings"
+  - "china-biotech"
+  - "drug-discovery"
+  - "pharma-industry"
+  - "regulatory"
+  - "venture-capital"
+related:
+  - "[[Drug discovery]]"
+  - "[[Regulatory]]"
+processed: true
 ---
 [
 
@@ -376,3 +385,7 @@ The hope, is of course that this won’t happen. If managed well, China’s rise
 ---
 
 ∙
+
+## Related notes
+- [[Drug discovery]]
+- [[Regulatory]]

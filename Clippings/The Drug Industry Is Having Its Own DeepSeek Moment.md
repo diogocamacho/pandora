@@ -7,6 +7,14 @@ created: 2026-09-28
 description:
 tags:
   - "clippings"
+  - "china-biotech"
+  - "biotech-industry"
+  - "drug-licensing"
+  - "competitive-landscape"
+  - "pharma-deals"
+related:
+  - "[[Drug discovery]]"
+processed: true
 ---
 ## It isn’t just artificial intelligence—Chinese biotechs are now developing drugs faster and cheaper than their U.S. counterparts
 
@@ -55,3 +63,6 @@ Write to David Wainer at [david.wainer@wsj.com](mailto:david.wainer@wsj.com)
 Copyright ©2025 Dow Jones & Company, Inc. All Rights Reserved. 87990cbe856818d5eddac44c7b1cdeb8
 
 Appeared in the February 8, 2025, print edition as 'The Drug Industry’s DeepSeek Moment'.
+
+## Related notes
+- [[Drug discovery]]

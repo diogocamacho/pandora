@@ -8,6 +8,15 @@ created: 2026-09-28
 description: "Biology is hard. Yes, even for AI."
 tags:
   - "clippings"
+  - "computational-biology"
+  - "protein-design"
+  - "ai-in-biology"
+  - "scientific-methods"
+  - "binder-design"
+related:
+  - "[[ProteinMPNN — sequence design]]"
+  - "[[co-folding for bindable epitopes]]"
+processed: true
 ---
 AI has gotten amazingly good for programming. Claude Sonnet will zero- or one-shot small programming tasks without mistakes. And while I don’t think AI is ready to replace software engineers outright, or that vibe coding a fully featured app is a good idea, for simple tasks AI is outstanding. For example, I can perform basic data analysis, maybe visualize a dataset with a PCA or run a classifier, by sketching out what I want in a prompt and Claude will reliably write code that can do the task.[^1]
 
@@ -60,3 +69,7 @@ Now I’d like to hear from you in the comments. Do you have similar experiences
 [^5]: I know, I promised we’d write a paper on this. The paper is in the works. As always, things are more complicated than originally envisioned and take longer than expected.
 
 [^6]: And David Baker’s Rosetta software, which is not built on AI, is also fundamentally a lookup machine that stitches together motifs from known protein structures. All successful protein-folding methods rely on structure lookup and covariation analysis.
+
+## Related notes
+- [[ProteinMPNN — sequence design]]
+- [[co-folding for bindable epitopes]]

@@ -8,6 +8,15 @@ created: 2026-09-28
 description: "Personal site for posts about my interests: the biotech industry, medicine, molecular biology, neuroscience, biorisk, science, consciousness, AI, innovation, decision making, philosophy, games, sci-fi, probability, and forecasting (among other things). I write to learn, mostly about biotech."
 tags:
   - "clippings"
+  - "china-biotech"
+  - "drug-discovery"
+  - "biotech-industry"
+  - "regulatory"
+  - "global-pharma"
+related:
+  - "[[Drug discovery]]"
+  - "[[Regulatory]]"
+processed: true
 ---
 I’m no car expert (I don’t even drive), but my cofounders used to work at a [company called Applied Intuition](https://www.appliedintuition.com/) that develops self-driving software for automakers. Over lunch we often talk about the similarities and differences between the pharma and auto industries, and one of the themes we keep returning to is the impact that innovation from China is having on established Western firms.
 
@@ -112,3 +121,7 @@ Of the two possible future worlds, one where policymakers respond by locking dow
 [^3]: The Chinese version of the FDA
 
 [^4]: Although it’s [stalled for now](https://www.fiercepharma.com/pharma/biosecure-act-mia-us-defense-bill-key-win-china-biotech-service-providers), that the BIOSECURE act came close to becoming law suggests there is plenty of legislator appetite to curtail US-China biotech relations
+
+## Related notes
+- [[Drug discovery]]
+- [[Regulatory]]

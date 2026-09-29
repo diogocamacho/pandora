@@ -13,6 +13,8 @@ tags:
 Follow up:
 ---
 
+**Meeting did not happen — cancelled.**
+
 ## 🗓️ Agenda
 *Monthly AI strategy sync, 12:00–12:45. Organized by Rojin Rohani. Rescheduled from its original date to give the FL121 team more time to develop their thinking on model architectures.*
 

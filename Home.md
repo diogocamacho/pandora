@@ -18,6 +18,8 @@ cssclasses: [home-page]
 > **Reference** — [[Notes/Reference/Reference Hub|Reference Hub]] · [[Notes/Reference/Leadership Principles|Leadership]] · [[Notes/Reference/Flagship Academy Synthesis|Flagship Academy]] · [[Notes/Reference/Computational Index|Computational]]
 >
 > **Life** — [[Dashboards/Areas/💰 Finance/💰 Finance|Finance]] · [[Dashboards/Areas/💪 Fitness/💪 Fitness|Fitness]] · [[Dashboards/Areas/👔 Style/👔 Style|Style]]
+>
+> **Relationships** — [[CRM/Personal/|Personal CRM]] · [[CRM/Network/|Network CRM]]
 
 > [!note]- ✏️ Create
 > ```button
@@ -35,6 +37,37 @@ cssclasses: [home-page]
 > type command
 > action Templater: Create quick-note-button
 > ```
+
+---
+
+## 🧠 New Learnings
+
+**Daily synthesis** · [[Dashboards/Learning|Full learning dashboard →]] · [[Dashboards/Clippings|All clippings →]]
+```dataview
+LIST WITHOUT ID file.link + " — " + dateformat(date, "EEE MMM d")
+FROM "Notes/Logs"
+WHERE type = "learning"
+  AND date >= date(today) - dur(7 days)
+SORT date DESC
+LIMIT 5
+```
+
+**Life pulse** · [[CRM/Personal/|Personal CRM →]] · [[CRM/Network/|Network →]]
+```dataview
+LIST WITHOUT ID file.link + " — " + dateformat(date, "EEE MMM d")
+FROM "Notes/Logs"
+WHERE type = "life-pulse"
+SORT date DESC
+LIMIT 3
+```
+
+**Vault connections from recent clippings**
+```dataview
+TABLE WITHOUT ID file.link AS "Clipping", related AS "Notes", idea-supports AS "Supports", idea-challenges AS "Challenges"
+FROM "Clippings"
+WHERE (related OR idea-supports OR idea-challenges) AND file.mtime >= date(today) - dur(7 days)
+SORT file.mtime DESC
+```
 
 ---
 
@@ -96,26 +129,5 @@ SORT file.mtime DESC
 LIMIT 8
 ```
 
----
-
-## 🧠 New Learnings
-
-**Vault connections surfaced by recent clips**
-```dataview
-TABLE WITHOUT ID file.link AS "Clipping", related AS "Notes", idea-supports AS "Supports", idea-challenges AS "Challenges"
-FROM "Clippings"
-WHERE (related OR idea-supports OR idea-challenges) AND date(created) >= date(today) - dur(7 days)
-SORT created DESC
-```
-
-**Daily synthesis** · [[Dashboards/Learning|Full learning dashboard →]] · [[Dashboards/Clippings|All clippings →]]
-```dataview
-LIST WITHOUT ID file.link + " — " + dateformat(date, "EEE MMM d")
-FROM "Notes/Logs"
-WHERE type = "learning"
-  AND date >= date(today) - dur(7 days)
-SORT date DESC
-LIMIT 5
-```
 
 
