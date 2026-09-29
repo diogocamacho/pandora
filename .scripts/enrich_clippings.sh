@@ -427,103 +427,171 @@ PYEOF
   fi
 fi
 
-# ── Weekly review (Fridays only) ──────────────────────────────────────────────
+# ── Weekly Deep Synthesis (Fridays only) ─────────────────────────────────────
+#
+# Generates a long-form prose synthesis of the week's reading — written for
+# a Saturday morning read, not a skim. Includes a Plato challenge callout.
+# Output: Notes/Reviews/YYYY-Wnn Deep Synthesis.md (type: deep-synthesis)
 
 DAY_OF_WEEK=$(date '+%u')   # 1=Mon … 5=Fri
 WEEK_NUM=$(date '+%Y-W%V')
-WEEKLY_FILE="$NOTES/Logs/$WEEK_NUM weekly review.md"
+REVIEWS_DIR="$NOTES/Reviews"
+DEEP_FILE="$REVIEWS_DIR/$WEEK_NUM Deep Synthesis.md"
 
 if [[ "$DAY_OF_WEEK" != "5" ]]; then
-  log "Not Friday — skipping weekly review."
+  log "Not Friday — skipping weekly deep synthesis."
   exit 0
 fi
 
-if [[ -f "$WEEKLY_FILE" ]]; then
-  log "Weekly review already exists for $WEEK_NUM, skipping."
+if [[ -f "$DEEP_FILE" ]]; then
+  log "Deep synthesis already exists for $WEEK_NUM, skipping."
   exit 0
 fi
 
-log "Friday — generating weekly learning review ($WEEK_NUM)..."
+log "Friday — generating weekly deep synthesis ($WEEK_NUM)..."
 
-WEEK_CONTEXT=$(python3 - "$NOTES/Logs" "$CLIPPINGS" "$NOTES/Daily" <<'PYEOF'
+# Full clipping bodies for the past 14 days — more context than the shallow approach
+WEEK_CLIPPINGS=$(python3 - "$CLIPPINGS" <<'PYEOF'
 import sys, os, re
 from datetime import date, timedelta
-logs_dir, clips_dir, daily_dir = sys.argv[1], sys.argv[2], sys.argv[3]
-cutoff = (date.today() - timedelta(days=7)).isoformat()
-out = []
-
-out.append("=== Daily synthesis notes this week ===")
-for fname in sorted(os.listdir(logs_dir)):
-    if "learnings" not in fname or not fname.endswith(".md"):
-        continue
-    dm = re.match(r'(\d{4}-\d{2}-\d{2})', fname)
-    if dm and dm.group(1) >= cutoff:
-        c = open(os.path.join(logs_dir, fname)).read()
-        c = re.sub(r'^---.*?---\s*\n', '', c, flags=re.DOTALL)
-        out.append(f"[{dm.group(1)}]\n{c.strip()}")
-
-out.append("\n=== Clippings this week ===")
+clips_dir = sys.argv[1]
+cutoff = (date.today() - timedelta(days=14)).isoformat()
+entries = []
 for fname in sorted(os.listdir(clips_dir)):
     if not fname.endswith(".md"):
         continue
-    c = open(os.path.join(clips_dir, fname)).read()
+    try:
+        c = open(os.path.join(clips_dir, fname), encoding='utf-8').read()
+    except Exception:
+        continue
     dm = re.search(r'^created:\s*(\S+)', c, re.MULTILINE)
     if not dm or dm.group(1) < cutoff:
         continue
     title_m = re.search(r'^title:\s*"?(.+?)"?\s*$', c, re.MULTILINE)
-    tags_m  = re.search(r'^tags:\s*\[(.+?)\]', c, re.MULTILINE)
-    has_ideas = "has idea connections" if 'idea-connections:' in c else ""
-    title = title_m.group(1) if title_m else fname
-    tags  = tags_m.group(1) if tags_m else ""
-    out.append(f"- {title} [{tags}] {has_ideas}".rstrip())
-
-out.append("\n=== EOD wins & blockers this week ===")
-for fname in sorted(os.listdir(daily_dir), reverse=True)[:7]:
-    if not re.match(r'\d{4}-\d{2}-\d{2}\.md$', fname):
-        continue
-    c = open(os.path.join(daily_dir, fname)).read()
-    m = re.search(r'## 🌙 Evening shutdown(.+?)(?=\n## |\Z)', c, re.DOTALL)
-    if m:
-        section = m.group(1).strip()
-        if re.search(r'(Wins|Stuck):\s*\S', section):
-            out.append(f"[{fname.replace('.md','')}]\n{section}")
-
-print('\n\n'.join(out))
+    title = title_m.group(1) if title_m else fname.replace('.md', '')
+    body = re.sub(r'^---.*?---\s*\n', '', c, flags=re.DOTALL).strip()
+    entries.append(f'### "{title}"\n{body[:3500]}')
+print('\n\n'.join(entries) if entries else '(no recent clippings)')
 PYEOF
 )
 
-WEEKLY_SYNTHESIS=$(claude -p "Generate a weekly learning review for a personal Obsidian knowledge vault.
+# Daily challenge notes this week — shows what themes were already surfacing
+WEEK_CHALLENGES=$(python3 - "$NOTES/Logs" "$TODAY" <<'PYEOF'
+import sys, os, re
+from datetime import date, timedelta
+logs_dir, today = sys.argv[1], sys.argv[2]
+cutoff = (date.fromisoformat(today) - timedelta(days=7)).isoformat()
+entries = []
+for fname in sorted(os.listdir(logs_dir)):
+    if 'learnings' not in fname or not fname.endswith('.md'):
+        continue
+    dm = re.match(r'(\d{4}-\d{2}-\d{2})', fname)
+    if dm and cutoff <= dm.group(1) <= today:
+        try:
+            c = open(os.path.join(logs_dir, fname), encoding='utf-8').read()
+        except Exception:
+            continue
+        entries.append(f'[{dm.group(1)}]\n{c}')
+print('\n\n'.join(entries) if entries else '(no daily challenge notes this week)')
+PYEOF
+)
 
-Context from this week:
-$WEEK_CONTEXT
+# Idea notes that received new evidence or challenges from this week's clippings
+IDEA_CONTEXT=$(python3 - "$IDEAS" <<'PYEOF'
+import sys, os, re
+ideas_dir = sys.argv[1]
+entries = []
+for fname in sorted(os.listdir(ideas_dir)):
+    if not fname.endswith('.md'):
+        continue
+    try:
+        c = open(os.path.join(ideas_dir, fname), encoding='utf-8').read()
+    except Exception:
+        continue
+    if '## Supporting evidence' in c or '## Challenges & counterpoints' in c:
+        title = fname.replace('.md', '')
+        body = re.sub(r'^---.*?---\s*\n', '', c, flags=re.DOTALL).strip()
+        entries.append(f'### Idea: {title}\n{body[:2000]}')
+print('\n\n'.join(entries) if entries else '(no idea notes with new evidence this week)')
+PYEOF
+)
 
-Write in this exact structure — markdown only, nothing before or after:
+DEEP_SYNTHESIS=$(claude -p "You are writing a Saturday deep reading document for a personal knowledge vault. This is not a summary — it is a genuine intellectual synthesis written as prose. The reader will spend 20-30 minutes with this on Saturday morning. Make it worth that time.
 
-## 🔥 Emerging themes
-(3-5 bullets on big ideas that surfaced repeatedly this week)
+Reader profile: Diogo Camacho, computational biologist and AI×biology executive, 50. Deep expertise in protein design, ML/AI, drug discovery, biotech strategy. No need to explain basics. Expert register. No hedging. No filler. He reads this to build durable understanding, not to feel caught up.
 
-## 🔗 Key connections formed
-(3-5 specific clipping→note or clipping→idea connections formed this week, with [[wikilinks]])
+Week: $WEEK_NUM
 
-## 👁️ Pay attention to next week
-(2-3 concrete signals or questions to watch for — specific to what surfaced, not generic)
+─── CLIPPINGS (past 14 days — full text) ───
+$WEEK_CLIPPINGS
 
-## 🧠 Recall prompts
-(3-4 questions answerable from memory that encode this week's key learnings)
+─── DAILY CHALLENGE NOTES (this week) ───
+$WEEK_CHALLENGES
 
-## 💡 Ideas gaining momentum
-(Ideas — vault or new — that got meaningful new evidence or development this week, with [[wikilinks]])" \
+─── IDEA NOTES WITH NEW EVIDENCE ───
+$IDEA_CONTEXT
+
+Write the full document in this EXACT Markdown structure. Output ONLY the Markdown — nothing before the first ## heading, nothing after the Plato callout:
+
+## [Theme 1 — name the precise intellectual theme, not a genre label]
+
+[4-6 paragraphs of genuine prose. Engage the actual argument: what is being claimed, what is the evidence, what mechanism is proposed, what does this require you to believe? Go deep on one source, then show how the others complicate or reinforce it. Where does this thesis hold up and where does it crack? Connect to Diogo's work in computational protein design and AI-driven drug discovery where it genuinely applies — not generically, but specifically. Do not pad.]
+
+## [Theme 2 — only if the material genuinely supports a second distinct thread]
+
+[Same standard. If the week's reading is unified around one theme, write one deeper section rather than splitting artificially.]
+
+## [Theme 3 — only if material supports a third thread; skip if forced]
+
+[Same standard.]
+
+---
+
+## The connective tissue
+
+[2-3 paragraphs of synthesis prose. This is the hardest section: what do these themes share beneath the surface? Where do they contradict each other in ways the individual sources didn't acknowledge? What emerges when you hold them in tension that wasn't visible from any single reading? Trace specific connections through specific material — don't describe connections abstractly.]
+
+---
+
+## What this shifts
+
+[1-2 paragraphs. Honest epistemic accounting. What should Diogo think differently about after this week — even slightly, even provisionally? Not 'here are interesting considerations' but what actually moved and why. If a reading turned out thinner than it appeared, say so. Rigor here is more valuable than enthusiasm.]
+
+---
+
+## Bridges
+
+[2-3 short paragraphs, each bridging this week's ideas to the broader world: a book that this reading argues with or confirms, something currently unfolding in biotech or AI that this reframes, or an observation from ordinary life — with family, through music, at the table, in sport — that makes an abstract idea concrete and memorable. These should feel like genuine intellectual discoveries, not analogies manufactured for effect.]
+
+---
+
+> [!question]+ 🏛️ Plato's Challenge
+>
+> *Read the synthesis above before engaging here. These are not reflection prompts — they are tests of whether you actually understood what you read.*
+>
+> **[State one specific claim from this week's reading as a sharp thesis]:** [2-3 sentences of Socratic challenge — find the hidden premise, the edge case where the argument collapses, the alternative reading the source ignores, or the implication the author didn't follow through. Force genuine intellectual engagement, not recall.]
+>
+> **[Second specific claim — different source or angle]:** [Same approach. If the first challenge was empirical, make this one structural or values-based. If the first was about what's true, make this one about what matters.]
+>
+> **[A third challenge that goes beyond this week's material]:** [Connect the week's specific readings to a larger philosophical or scientific question they are a specific instance of. Or surface a tension between something Diogo probably already believes and what this week's material implies. Make it uncomfortable in a productive way.]
+>
+> *Which of these three is hardest for you to answer right now? That is the one worth sitting with this weekend.*" \
   --output-format text 2>/dev/null || echo "")
 
-if [[ -n "$WEEKLY_SYNTHESIS" ]]; then
-  printf '%s' "$WEEKLY_SYNTHESIS" | python3 - "$WEEKLY_FILE" "$TODAY" "$WEEK_NUM" <<'PYEOF'
+if [[ -n "$DEEP_SYNTHESIS" ]]; then
+  TMPFILE=$(mktemp)
+  printf '%s' "$DEEP_SYNTHESIS" > "$TMPFILE"
+
+  python3 - "$DEEP_FILE" "$TODAY" "$WEEK_NUM" "$TMPFILE" <<'PYEOF'
 import sys
-fp, today, week = sys.argv[1], sys.argv[2], sys.argv[3]
-synthesis = sys.stdin.read()
-open(fp, 'w').write(
-    f"---\ndate: {today}\nweek: {week}\ntags: [learning, weekly-review]\ntype: weekly-learning\n---\n\n# {week} — Learning Review\n\n{synthesis}\n")
+fp, today, week, tmpfile = sys.argv[1], sys.argv[2], sys.argv[3], sys.argv[4]
+synthesis = open(tmpfile, encoding='utf-8').read()
+open(fp, 'w', encoding='utf-8').write(
+    f"---\ndate: {today}\nweek: {week}\ntype: deep-synthesis\ntags: [synthesis, deep-synthesis, learning]\n---\n\n# {week} — Deep Synthesis\n\n{synthesis}\n")
 PYEOF
-  log "Weekly review written: $WEEK_NUM weekly review.md"
+
+  rm -f "$TMPFILE"
+  log "Deep synthesis written: $DEEP_FILE"
 else
-  log "WARN: weekly synthesis generation failed."
+  log "WARN: deep synthesis generation failed."
 fi

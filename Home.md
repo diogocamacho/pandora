@@ -40,17 +40,16 @@ cssclasses: [home-page]
 
 ---
 
-## 🧠 New Learnings
+## 🧠 Weekly Synthesis
 
-**Daily synthesis** · [[Dashboards/Learning|Full learning dashboard →]] · [[Dashboards/Clippings|All clippings →]]
 ```dataview
-LIST WITHOUT ID file.link + " — " + dateformat(date, "EEE MMM d")
-FROM "Notes/Logs"
-WHERE type = "learning"
-  AND date >= date(today) - dur(7 days)
+LIST WITHOUT ID "📖 " + file.link + " — " + dateformat(date, "MMMM d")
+FROM "Notes/Reviews"
+WHERE type = "deep-synthesis"
 SORT date DESC
-LIMIT 5
+LIMIT 1
 ```
+[[Dashboards/Learning|Archive →]] · [[Dashboards/Clippings|All clippings →]]
 
 **Life pulse** · [[CRM/Personal/|Personal CRM →]] · [[CRM/Network/|Network →]]
 ```dataview
@@ -59,14 +58,6 @@ FROM "Notes/Logs"
 WHERE type = "life-pulse"
 SORT date DESC
 LIMIT 3
-```
-
-**Vault connections from recent clippings**
-```dataview
-TABLE WITHOUT ID file.link AS "Clipping", related AS "Notes", idea-supports AS "Supports", idea-challenges AS "Challenges"
-FROM "Clippings"
-WHERE (related OR idea-supports OR idea-challenges) AND file.mtime >= date(today) - dur(7 days)
-SORT file.mtime DESC
 ```
 
 ---
