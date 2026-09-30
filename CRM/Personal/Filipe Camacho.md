@@ -9,10 +9,12 @@ tags: [personal-crm]
 ---
 
 ## About
-Son. Born 2016. Morning bus 7:15am, afternoon bus 2:30pm.
+Son. Born 7/27/2016. 
 
 ## Likes
-- 
+- One Piece. Obsessed with it.
+- He has a lot of fun doing arts and crafts projects. He's ADHD and the arts and crafts seems to have him focused. 
+- His best friend is Quill Kwan, which he has known for 3 years now. 
 
 ## Dislikes
 - 
