@@ -16,14 +16,12 @@
         <key>Minute</key>
         <integer>30</integer>
     </dict>
-    <key>StandardOutPath</key>
-    <string>/Users/dcamacho/Documents/pandora/.scripts/enrich_clippings.log</string>
-    <key>StandardErrorPath</key>
-    <string>/Users/dcamacho/Documents/pandora/.scripts/enrich_clippings.log</string>
     <key>EnvironmentVariables</key>
     <dict>
         <key>PATH</key>
         <string>/usr/local/bin:/usr/bin:/bin:/opt/homebrew/bin</string>
+        <key>HOME</key>
+        <string>/Users/dcamacho</string>
     </dict>
 </dict>
 </plist>
