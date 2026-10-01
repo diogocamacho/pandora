@@ -21,4 +21,9 @@ tags:
 ## ✍️ Notes and action items
 
 - Cradle: 
-	- let's continue to develop our models given where the negotiations with Cradle and Flagship are in terms of chargeback
+	- let's continue to develop our models given where the negotiations with Cradle and Flagship are in terms of chargeback to the portfolio models
+
+- Solubility model:
+	- use as a filter to de novo design for now
+	- later, with more data, we can move this into optimization as well
+	- MOTSC: 
