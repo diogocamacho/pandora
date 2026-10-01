@@ -8,6 +8,15 @@ created: 2026-09-30
 description: "That’s What Biological (Epigenetic) Aging Clocks Are Measuring"
 tags:
   - "clippings"
+  - "epigenetics"
+  - "aging"
+  - "cell-biology"
+  - "epigenetic-clocks"
+  - "cellular-reprogramming"
+  - "longevity"
+related:
+  - "[[2025-12-16 T-cell reprogramming]]"
+processed: true
 ---
 Two new papers, one published today in *[Nature](https://www.nature.com/articles/s41586-026-10955-0)* [by Vadim Gladyshev](https://doi.org/10.1038/s41586-026-10955-0) and colleagues at Harvard, and a recent o [ne in](https://www.cell.com/cell/fulltext/S0092-8674\(25\)00853-0) *[Cell](https://www.cell.com/cell/fulltext/S0092-8674\(25\)00853-0)* [by Juan Carlos Izpisua Belmonte](https://www.cell.com/cell/fulltext/S0092-8674\(25\)00853-0) and his team at Altos Labs, have provided a new model for the biology of aging, and what might be done to reverse it. Until recently we accepted that aging of cells was due to “wear and tear” like rusting out a car. The idea that accumulated damage is the principal pathway for cell aging is now complemented by the loss of cell identity model. We don’t know the relative contribution or interdependence of these 2 models in the aging process.
 
@@ -82,6 +91,9 @@ One practical takeaway from this work is finally knowing what the epigenetic clo
 I have purposely omitted many details in this post to not lose the reader. That oversimplification may be disturbing to the epigeneticists. On the other hand, others will say this was above their head. It’s always hard to strike the right balance, especially for a complex topic like this, but I hope you found it helpful. If we are going to slow our aging process and extend our healthspan, understanding the biology will be essential.
 
 NB. I wrote this post. No AI. I did use AI to generate three of the Figures as noted above to help the reader visualize what I was writing about. I have no conflicts of interest related to this topic or post.
+
+## Related notes
+- [[2025-12-16 T-cell reprogramming]]
 
 POLL
 

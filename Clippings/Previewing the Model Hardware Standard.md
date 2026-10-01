@@ -8,6 +8,15 @@ created: 2026-09-30
 description: "Anthropic is opening a research preview of the Model Hardware Standard (MHS), a shared specification for AI agents to safely operate physical devices, to a first group of scientific research labs and advanced manufacturers."
 tags:
   - "clippings"
+  - "ai-agents"
+  - "lab-automation"
+  - "hardware-integration"
+  - "robotics"
+  - "agentic-systems"
+related:
+  - "[[2025-11-13 AI and drug discovery]]"
+  - "[[2025-11-11 AI and syn bio]]"
+processed: true
 ---
 ![](https://www.youtube.com/watch?v=UxJZrCFzTHY)
 
@@ -71,3 +80,6 @@ We’re inviting stakeholders across industries to join the waitlist for our res
 MHS began as a collaboration between Alek Kemeny on Anthropic’s [Beneficial Deployments team](http://anthropic.com/beneficial-deployments) and Arco Bast, a postdoctoral scientist at HHMI Janelia Research Campus. Bast was running complex brain-imaging experiments on a rig that combined lasers, motorized focusers, and specialized cameras from different vendors with no common interface. To speed up his experiments, he developed a shared memory dictionary that enabled the instruments to communicate with one another at memory speed. Kemeny and Bast worked together to integrate AI models into that interface.
 
 We thank everyone who has contributed to this work so far, including, but not limited to, Aaron Boswell, Ben Arthur, Boaz Mohar, Gagan Bhat, Mark Kittisopikul, Nadine Yasser, Nick Purcell, Takashi Kawase, and Virginie Ruetten. We look forward to moving MHS forward with our industry partners and, soon, with the open-source community.
+## Related notes
+- [[2025-11-13 AI and drug discovery]]
+- [[2025-11-11 AI and syn bio]]
