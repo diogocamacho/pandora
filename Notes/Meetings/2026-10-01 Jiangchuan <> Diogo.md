@@ -30,6 +30,9 @@ tags:
 
 - Oral bioavailability
 	- Getting the data from Caco-2 in vitro data (62 data points, including controls)
+		- After compounds are tested, these will be made available to test models
+		- Phi/Christina are working on getting these data
 	- Martin is picking another set of data points; Jiangchuan generating features from SMILES using RDkit
 	- Selected a set of compounds to test in vivo
-	- After compounds are tested, these will be made available to test mode
+
+- GFRAL: we don't have data on the second series data
