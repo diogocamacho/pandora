@@ -23,6 +23,33 @@ SORT created DESC
 
 ---
 
+## 📄 Papers I clipped
+
+> Deep-read papers: verdict, one-line take, and where the independent reviewer disagreed.
+
+```dataview
+TABLE WITHOUT ID
+  file.link AS "Paper",
+  verdict AS "Verdict",
+  reviewer_divergence AS "Reviewer Δ",
+  tldr AS "TL;DR",
+  analyzed_on AS "Read"
+FROM "Papers/Analyses"
+WHERE type = "paper-analysis"
+SORT analyzed_on DESC
+LIMIT 25
+```
+
+**📥 Waiting to be read**
+```dataview
+LIST WITHOUT ID file.link + " — clipped " + string(created)
+FROM "Papers" AND -"Papers/Analyses"
+WHERE !analyzed
+SORT created DESC
+```
+
+---
+
 ## 🌱 Growing Ideas
 
 > Ideas accumulate both supporting evidence (✅) and challenges (⚡) from clippings. The more entries, the more the idea is being actively tested.
@@ -58,8 +85,8 @@ SORT date DESC
 
 ```dataview
 TABLE WITHOUT ID file.link AS "Week", date AS "Date"
-FROM "Notes/Logs"
-WHERE type = "weekly-learning"
+FROM "Notes/Reviews"
+WHERE type = "deep-synthesis"
 SORT date DESC
 LIMIT 8
 ```

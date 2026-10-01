@@ -15,6 +15,7 @@ VAULT="/Users/dcamacho/Documents/pandora"
 CLIPPINGS="$VAULT/Clippings"
 NOTES="$VAULT/Notes"
 IDEAS="$VAULT/ideas"
+PAPER_ANALYSES="$VAULT/Papers/Analyses"
 LOG="$VAULT/.scripts/enrich_clippings.log"
 TODAY=$(date '+%Y-%m-%d')
 
@@ -320,6 +321,45 @@ print('\n'.join(lines) if lines else '(no recent clippings)')
 PYEOF
 )
 
+  PAPER_CONTEXT=$(python3 - "$PAPER_ANALYSES" <<'PYEOF'
+import sys, os, re
+from datetime import date, timedelta
+d = sys.argv[1]
+if not os.path.isdir(d):
+    print('(no paper analyses yet)'); sys.exit(0)
+cutoff = (date.today() - timedelta(days=7)).isoformat()
+def fm(c, key):
+    m = re.search(r'^' + re.escape(key) + r':\s*"?(.+?)"?\s*$', c, re.MULTILINE)
+    return m.group(1) if m else ''
+def fm_list(c, key):
+    m = re.search(r'^' + re.escape(key) + r':\s*\n((?:[ \t]+-[^\n]*\n?)+)', c, re.MULTILINE)
+    if not m: return []
+    out = []
+    for l in m.group(1).splitlines():
+        l = re.sub(r'^\s*-\s*', '', l).strip().strip('"').replace('[[', '').replace(']]', '')
+        if l: out.append(l)
+    return out
+lines = []
+for fname in sorted(os.listdir(d)):
+    if not fname.endswith('.md'):
+        continue
+    c = open(os.path.join(d, fname), encoding='utf-8').read()
+    if 'type: paper-analysis' not in c:
+        continue
+    when = fm(c, 'analyzed_on')
+    if not when or when < cutoff:
+        continue
+    title = fname[:-3]
+    lines.append(f'- [[{title}]] (paper, read {when}, verdict: {fm(c, "verdict") or "?"}, reviewer divergence: {fm(c, "reviewer_divergence") or "?"})')
+    if fm(c, 'tldr'):
+        lines.append(f'  TL;DR: {fm(c, "tldr")[:300]}')
+    sup, cha = fm_list(c, 'idea-supports'), fm_list(c, 'idea-challenges')
+    if sup: lines.append(f'  Supports ideas: {", ".join(sup)}')
+    if cha: lines.append(f'  Challenges ideas: {", ".join(cha)}')
+print('\n'.join(lines) if lines else '(no papers analyzed in the last 7 days)')
+PYEOF
+)
+
   EOD_CONTEXT=$(python3 - "$NOTES/Daily" <<'PYEOF'
 import sys, os, re
 daily_dir = sys.argv[1]
@@ -346,6 +386,9 @@ $PREV_SYNTHESES
 
 Recent clippings (last 7 days):
 $CLIP_CONTEXT
+
+Papers deep-read in the last 7 days (full adversarial analyses with an independent reviewer). Weight them by verdict: 'weak'/'unsupported' papers are cautionary, not evidence. Where a paper bears on a bullet, cite it with its [[wikilink]]:
+$PAPER_CONTEXT
 
 EOD notes from yesterday's daily note:
 $EOD_CONTEXT
@@ -475,6 +518,41 @@ print('\n\n'.join(entries) if entries else '(no recent clippings)')
 PYEOF
 )
 
+# Paper analyses from the past 14 days — TL;DR, claims ledger, reviewer, adversarial sections
+WEEK_PAPERS=$(python3 - "$PAPER_ANALYSES" <<'PYEOF'
+import sys, os, re
+from datetime import date, timedelta
+d = sys.argv[1]
+if not os.path.isdir(d):
+    print('(no paper analyses yet)'); sys.exit(0)
+cutoff = (date.today() - timedelta(days=14)).isoformat()
+want = ('TL;DR', 'Key findings', 'Independent reviewer', 'Adversarial context', 'Growing ideas')
+def fm(c, key):
+    m = re.search(r'^' + re.escape(key) + r':\s*"?(.+?)"?\s*$', c, re.MULTILINE)
+    return m.group(1) if m else ''
+entries = []
+for fname in sorted(os.listdir(d)):
+    if not fname.endswith('.md'):
+        continue
+    try:
+        c = open(os.path.join(d, fname), encoding='utf-8').read()
+    except Exception:
+        continue
+    if 'type: paper-analysis' not in c:
+        continue
+    when = fm(c, 'analyzed_on')
+    if not when or when < cutoff:
+        continue
+    body = re.sub(r'^---.*?---\s*\n', '', c, count=1, flags=re.DOTALL)
+    parts = re.split(r'\n(?=## )', body)
+    keep = [p.strip()[:2500] for p in parts if p.startswith('## ') and p[3:].startswith(want)]
+    head = (f'### [[{fname[:-3]}]]\nRead {when} | verdict: {fm(c, "verdict") or "?"} | '
+            f'reviewer divergence: {fm(c, "reviewer_divergence") or "?"}\nTL;DR: {fm(c, "tldr")}')
+    entries.append(head + '\n\n' + '\n\n'.join(keep))
+print('\n\n'.join(entries) if entries else '(no papers deep-read in the past 14 days)')
+PYEOF
+)
+
 # Daily challenge notes this week — shows what themes were already surfacing
 WEEK_CHALLENGES=$(python3 - "$NOTES/Logs" "$TODAY" <<'PYEOF'
 import sys, os, re
@@ -501,17 +579,22 @@ IDEA_CONTEXT=$(python3 - "$IDEAS" <<'PYEOF'
 import sys, os, re
 ideas_dir = sys.argv[1]
 entries = []
-for fname in sorted(os.listdir(ideas_dir)):
-    if not fname.endswith('.md'):
-        continue
+paths = []
+for root, _, files in os.walk(ideas_dir):   # ideas live in subfolders
+    paths += [os.path.join(root, f) for f in files if f.endswith('.md')]
+for path in sorted(paths):
+    fname = os.path.basename(path)
     try:
-        c = open(os.path.join(ideas_dir, fname), encoding='utf-8').read()
+        c = open(path, encoding='utf-8').read()
     except Exception:
         continue
     if '## Supporting evidence' in c or '## Challenges & counterpoints' in c:
         title = fname.replace('.md', '')
         body = re.sub(r'^---.*?---\s*\n', '', c, flags=re.DOTALL).strip()
-        entries.append(f'### Idea: {title}\n{body[:2000]}')
+        # evidence sections are appended at the end of idea notes, so pull them explicitly
+        ev = re.findall(r'## (Supporting evidence|Challenges & counterpoints)\n(.*?)(?=\n---|\n## |\Z)', c, re.DOTALL)
+        ev_txt = '\n'.join(f'{h}:\n{b.strip()}' for h, b in ev)
+        entries.append(f'### Idea: {title}\n{body[:800]}\n\nEvidence log:\n{ev_txt[:2000]}')
 print('\n\n'.join(entries) if entries else '(no idea notes with new evidence this week)')
 PYEOF
 )
@@ -530,6 +613,11 @@ $WEEK_CHALLENGES
 
 ─── IDEA NOTES WITH NEW EVIDENCE ───
 $IDEA_CONTEXT
+
+─── PAPERS DEEP-READ (past 14 days — adversarial analyses with independent-reviewer critique) ───
+$WEEK_PAPERS
+
+Papers are primary research that has already been critically analyzed. When you draw on one, use the analysis' verdict, reviewer divergences and red-team points rather than the authors' framing, and cite it as a [[wikilink]].
 
 Write the full document in this EXACT Markdown structure. Output ONLY the Markdown — nothing before the first ## heading, nothing after the Plato callout:
 
@@ -562,6 +650,12 @@ Write the full document in this EXACT Markdown structure. Output ONLY the Markdo
 ## Bridges
 
 [2-3 short paragraphs, each bridging this week's ideas to the broader world: a book that this reading argues with or confirms, something currently unfolding in biotech or AI that this reframes, or an observation from ordinary life — with family, through music, at the table, in sport — that makes an abstract idea concrete and memorable. These should feel like genuine intellectual discoveries, not analogies manufactured for effect.]
+
+---
+
+## 📄 Papers this week
+
+[One bullet per paper in the PAPERS block, newest first: [[wikilink]] — verdict — one sentence on what it actually shows after the critique — ideas it supported (✅) or challenged (⚡) as [[wikilinks]]. If the PAPERS block is empty, write '(no papers deep-read this period)'.]
 
 ---
 
