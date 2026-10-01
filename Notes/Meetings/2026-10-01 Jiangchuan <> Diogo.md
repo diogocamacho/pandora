@@ -26,4 +26,4 @@ tags:
 - Solubility model:
 	- use as a filter to de novo design for now
 	- later, with more data, we can move this into optimization as well
-	- MOTSC: 
+	- separate models for mini-binders and peptides (2 different models)
