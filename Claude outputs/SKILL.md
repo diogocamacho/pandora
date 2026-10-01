@@ -1,6 +1,6 @@
 ---
 name: paper-summary
-description: Deep, adversarial analysis of scientific papers from a URL, DOI, PDF, or unread clips in the Pandora Papers/ inbox; writes analysis notes and updates the Learning dashboard.
+description: Deep, adversarial analysis of scientific papers from a URL, DOI, PDF, or unread clips in the Pandora Papers/ inbox; writes analysis notes, links them to ideas, and feeds the Learning dashboard and weekly synthesis.
 ---
 
 # paper-summary
@@ -20,7 +20,8 @@ Vault: Pandora at `/Users/dcamacho/Documents/pandora` (in Cowork: request folder
 - `Papers/` — inbox. Web Clipper notes (frontmatter: title, source, author, created, tags) and PDFs dropped beside them.
 - `Papers/Analyses/` — one analysis note per paper (create the folder if missing).
 - `Dashboards/Learning.md` — the Continuous Learning dashboard; holds the **📄 Papers I clipped** section.
-- Do NOT put papers in `Clippings/` and do not touch `.scripts/enrich_clippings.sh`; that pipeline is for general web clips.
+- `ideas/<Idea>/<note>.md` — idea notes; the skill appends ✅/⚡ back-references to them.
+- Do NOT put papers in `Clippings/` and do not edit `.scripts/enrich_clippings.sh`; that pipeline enriches general web clips and reads `Papers/Analyses/` for the learning syntheses.
 
 ## Step 0 — Scan the inbox and deduplicate
 
@@ -92,7 +93,8 @@ Every reference must be verified to exist — resolve via PubMed `lookup_article
 - Concrete follow-ups: experiments, analyses, or re-analyses runnable on the released data/code (state effort: days / weeks / months).
 - Reusable assets: datasets, models, benchmarks, protocols — with links and license.
 - People: corresponding/senior authors, labs, and company affiliations worth knowing; related patents if obvious.
-- Links into the vault: search Pandora (`Notes/`, `ideas/`, `Clippings/`, other analyses) for related notes and add `[[wikilinks]]` only where the connection is real. If the paper supports or challenges an idea in `ideas/`, say which and how.
+- Links into the vault: search Pandora (`Notes/`, `Clippings/`, other analyses in `Papers/Analyses/`) for related notes and add `[[wikilinks]]` only where the connection is real.
+- **Idea connections**: list every note in `ideas/` recursively (ideas live in subfolders, e.g. `ideas/CausaLab/2025-09-21 causalab.md`). Read the candidates that plausibly relate. Decide, from the full analysis — post-critique, not the authors' framing — whether the paper **supports** or **challenges** each idea. A weak/unsupported paper can still *challenge* an idea (e.g. a failed approach the idea depends on) but should not count as *support*. Only real, specific connections; zero is a fine answer. Each connection gets a one-line reason. These are written in Step 8 and feed the daily and Friday learning syntheses.
 
 ## Step 7 — Verify before writing
 
@@ -122,7 +124,12 @@ verdict: strong | solid | mixed | weak | unsupported
 tldr: "<one sentence: what it shows and how much to trust it>"
 reviewer_divergence: none | minor | major
 tags: [paper, <3-6 topical kebab-case tags>]
-related: ["[[...]]"]
+related:
+  - "[[<vault note>]]"
+idea-supports:
+  - "[[<exact idea note name>]]"
+idea-challenges:
+  - "[[<exact idea note name>]]"
 ---
 
 # <Title>
@@ -147,13 +154,27 @@ related: ["[[...]]"]
 ## Integrity & reproducibility
 ## Avenues to explore
 ## Open questions
+## Growing ideas
+- ✅ [[<idea>]] — <one-line reason>
+- ⚡ [[<idea>]] — <one-line reason>
 ## References
 ### Verified
 ### Unverified
 ```
 
+Use YAML block lists (as above) for `related`, `idea-supports`, `idea-challenges` — the learning synthesis script parses that format. Omit a key entirely if it has no entries. Idea names must match the idea note filename exactly (without `.md`).
+
 ### 8b. Mark the clip as analyzed
 Add to the clip's frontmatter (edit in place, preserve everything else): `analyzed: true`, `analyzed_on: <date>`, `analysis: "[[<analysis note name>]]"`, `doi: "<doi>"` if missing.
+
+### 8b-2. Write back-references into idea notes
+For each idea connection, edit the idea note in place (append only; never rewrite its content). Use the same section headings the clipping pipeline uses, so dashboards and the Friday synthesis read both:
+- Supports → section `## Supporting evidence`, marker ✅
+- Challenges → section `## Challenges & counterpoints`, marker ⚡
+
+If the section is missing, append `\n\n---\n\n## <section>` at the end of the note. Then append one line (skip if the analysis note is already linked in that idea note):
+
+`- ✅ [[<analysis note name>]] (<analyzed_on> · paper · verdict: <verdict>) — <one-line reason>`
 
 ### 8c. Learning dashboard
 Ensure `Dashboards/Learning.md` contains this section, inserted after the "This week's clips" section (add once; never duplicate; never modify other sections):
@@ -186,6 +207,9 @@ SORT created DESC
 ````
 
 The summary on the dashboard comes from the analysis note's frontmatter (`tldr`, `verdict`, `reviewer_divergence`), so write those carefully: they are what Diogo sees first.
+
+### How this feeds the learning reviews (no action needed per run)
+`.scripts/enrich_clippings.sh` (9:30am daily) reads `Papers/Analyses/`: the daily synthesis gets the last 7 days of analyses (tldr, verdict, reviewer divergence, idea links), and the Friday deep synthesis (`Notes/Reviews/YYYY-Wnn Deep Synthesis.md`) gets the last 14 days' TL;DR, claims ledger, independent reviewer and adversarial sections, and ends with a **📄 Papers this week** section. It keys on `type: paper-analysis` and `analyzed_on`, so those fields must always be present and correct.
 
 ## Step 9 — Report in chat
 
