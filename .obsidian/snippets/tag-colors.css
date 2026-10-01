@@ -1,0 +1,87 @@
+/* ── Tag pill base style ──────────────────────────────────────────────────── */
+/* Makes all tags render as colored chips, like Agenda category labels */
+
+.cm-s-obsidian .cm-hashtag,
+a.tag {
+  border-radius: 12px;
+  padding: 1px 8px;
+  font-size: 0.82em;
+  font-weight: 500;
+  text-decoration: none;
+  display: inline-block;
+  line-height: 1.6;
+}
+
+/* ── Default tag color (fallback) ────────────────────────────────────────── */
+.cm-s-obsidian .cm-hashtag-begin,
+.cm-s-obsidian .cm-hashtag-end,
+.cm-s-obsidian .cm-hashtag {
+  color: #5f6368;
+  background-color: #f1f3f4;
+}
+a.tag {
+  color: #5f6368 !important;
+  background-color: #f1f3f4;
+  border: none;
+}
+
+/* ── AI / tech / agents ───────────────────────────────────────────────────── */
+a.tag[href="#ai-agents"], a.tag[href="#ai"],
+a.tag[href="#agentic-systems"], a.tag[href="#llm"],
+a.tag[href="#machine-learning"], a.tag[href="#artificial-intelligence"] {
+  color: #1967d2 !important;
+  background-color: #e8f0fe;
+}
+
+/* ── Biotech / drug discovery / biology ───────────────────────────────────── */
+a.tag[href="#biotech"], a.tag[href="#drug-discovery"],
+a.tag[href="#protein-design"], a.tag[href="#computational-biology"],
+a.tag[href="#cell-biology"], a.tag[href="#cancer"],
+a.tag[href="#genomics"], a.tag[href="#epigenetics"],
+a.tag[href="#aging"], a.tag[href="#longevity"],
+a.tag[href="#epigenetic-clocks"], a.tag[href="#cellular-reprogramming"] {
+  color: #137333 !important;
+  background-color: #e6f4ea;
+}
+
+/* ── China / biopharma strategy ───────────────────────────────────────────── */
+a.tag[href="#china-biotech"], a.tag[href="#biopharma-strategy"],
+a.tag[href="#regulatory"], a.tag[href="#drug-approval"],
+a.tag[href="#global-pharma"] {
+  color: #c62828 !important;
+  background-color: #fbe9e7;
+}
+
+/* ── Lab automation / hardware ────────────────────────────────────────────── */
+a.tag[href="#lab-automation"], a.tag[href="#robotics"],
+a.tag[href="#hardware-integration"] {
+  color: #006eb3 !important;
+  background-color: #e8f5fa;
+}
+
+/* ── Finance / investment ─────────────────────────────────────────────────── */
+a.tag[href="#investing"], a.tag[href="#portfolio"],
+a.tag[href="#finance"], a.tag[href="#etf"], a.tag[href="#venture-capital"] {
+  color: #0d652d !important;
+  background-color: #e6f4ea;
+}
+
+/* ── Workforce / hiring / org ─────────────────────────────────────────────── */
+a.tag[href="#tech-hiring"], a.tag[href="#workforce"],
+a.tag[href="#talent"], a.tag[href="#leadership"] {
+  color: #7c3ab4 !important;
+  background-color: #f3e8fd;
+}
+
+/* ── Learning / synthesis ─────────────────────────────────────────────────── */
+a.tag[href="#learning"], a.tag[href="#synthesis"],
+a.tag[href="#deep-synthesis"] {
+  color: #6200ea !important;
+  background-color: #ede7f6;
+}
+
+/* ── Clippings (kept subtle — it's on everything) ────────────────────────── */
+a.tag[href="#clippings"] {
+  color: #5f6368 !important;
+  background-color: #f1f3f4;
+}

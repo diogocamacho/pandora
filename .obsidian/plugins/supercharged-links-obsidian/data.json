@@ -1,0 +1,312 @@
+{
+  "targetAttributes": ["type"],
+  "selectors": [
+    {
+      "id": "1",
+      "type": "attribute",
+      "attribute": "type",
+      "values": "meeting",
+      "style": {
+        "color": "#1967d2",
+        "backgroundColor": "#e8f0fe",
+        "borderRadius": "4px",
+        "padding": "1px 5px",
+        "fontWeight": "500"
+      },
+      "prefix": "",
+      "suffix": "",
+      "icon": ""
+    },
+    {
+      "id": "2",
+      "type": "attribute",
+      "attribute": "type",
+      "values": "person-personal",
+      "style": {
+        "color": "#c5221f",
+        "backgroundColor": "#fce8e6",
+        "borderRadius": "4px",
+        "padding": "1px 5px",
+        "fontWeight": "500"
+      },
+      "prefix": "👤 ",
+      "suffix": "",
+      "icon": ""
+    },
+    {
+      "id": "3",
+      "type": "attribute",
+      "attribute": "type",
+      "values": "person-network",
+      "style": {
+        "color": "#7c3ab4",
+        "backgroundColor": "#f3e8fd",
+        "borderRadius": "4px",
+        "padding": "1px 5px",
+        "fontWeight": "500"
+      },
+      "prefix": "🤝 ",
+      "suffix": "",
+      "icon": ""
+    },
+    {
+      "id": "4",
+      "type": "attribute",
+      "attribute": "type",
+      "values": "learning",
+      "style": {
+        "color": "#c47c00",
+        "backgroundColor": "#fef7e0",
+        "borderRadius": "4px",
+        "padding": "1px 5px",
+        "fontWeight": "500"
+      },
+      "prefix": "",
+      "suffix": "",
+      "icon": ""
+    },
+    {
+      "id": "5",
+      "type": "attribute",
+      "attribute": "type",
+      "values": "deep-synthesis",
+      "style": {
+        "color": "#6200ea",
+        "backgroundColor": "#ede7f6",
+        "borderRadius": "4px",
+        "padding": "1px 5px",
+        "fontWeight": "600"
+      },
+      "prefix": "",
+      "suffix": "",
+      "icon": ""
+    },
+    {
+      "id": "6",
+      "type": "attribute",
+      "attribute": "type",
+      "values": "life-pulse",
+      "style": {
+        "color": "#1e8e3e",
+        "backgroundColor": "#e6f4ea",
+        "borderRadius": "4px",
+        "padding": "1px 5px",
+        "fontWeight": "500"
+      },
+      "prefix": "💗 ",
+      "suffix": "",
+      "icon": ""
+    },
+    {
+      "id": "7",
+      "type": "attribute",
+      "attribute": "type",
+      "values": "biotech-digest",
+      "style": {
+        "color": "#137333",
+        "backgroundColor": "#e6f4ea",
+        "borderRadius": "4px",
+        "padding": "1px 5px",
+        "fontWeight": "500"
+      },
+      "prefix": "",
+      "suffix": "",
+      "icon": ""
+    },
+    {
+      "id": "8",
+      "type": "attribute",
+      "attribute": "type",
+      "values": "portfolio-snapshot",
+      "style": {
+        "color": "#0d652d",
+        "backgroundColor": "#e6f4ea",
+        "borderRadius": "4px",
+        "padding": "1px 5px",
+        "fontWeight": "500"
+      },
+      "prefix": "",
+      "suffix": "",
+      "icon": ""
+    },
+    {
+      "id": "9",
+      "type": "attribute",
+      "attribute": "type",
+      "values": "workout",
+      "style": {
+        "color": "#b84000",
+        "backgroundColor": "#fce8e2",
+        "borderRadius": "4px",
+        "padding": "1px 5px",
+        "fontWeight": "500"
+      },
+      "prefix": "",
+      "suffix": "",
+      "icon": ""
+    },
+    {
+      "id": "10",
+      "type": "attribute",
+      "attribute": "type",
+      "values": "daily-brief",
+      "style": {
+        "color": "#3c4043",
+        "backgroundColor": "#f1f3f4",
+        "borderRadius": "4px",
+        "padding": "1px 5px",
+        "fontWeight": "500"
+      },
+      "prefix": "",
+      "suffix": "",
+      "icon": ""
+    },
+    {
+      "id": "11",
+      "type": "attribute",
+      "attribute": "type",
+      "values": "project-home",
+      "style": {
+        "color": "#006eb3",
+        "backgroundColor": "#e8f5fa",
+        "borderRadius": "4px",
+        "padding": "1px 5px",
+        "fontWeight": "500"
+      },
+      "prefix": "",
+      "suffix": "",
+      "icon": ""
+    },
+    {
+      "id": "12",
+      "type": "attribute",
+      "attribute": "type",
+      "values": "area-home",
+      "style": {
+        "color": "#007b6b",
+        "backgroundColor": "#e4f7f5",
+        "borderRadius": "4px",
+        "padding": "1px 5px",
+        "fontWeight": "500"
+      },
+      "prefix": "",
+      "suffix": "",
+      "icon": ""
+    },
+    {
+      "id": "13",
+      "type": "attribute",
+      "attribute": "type",
+      "values": "interview",
+      "style": {
+        "color": "#8a6400",
+        "backgroundColor": "#fef7e0",
+        "borderRadius": "4px",
+        "padding": "1px 5px",
+        "fontWeight": "500"
+      },
+      "prefix": "",
+      "suffix": "",
+      "icon": ""
+    },
+    {
+      "id": "14",
+      "type": "attribute",
+      "attribute": "type",
+      "values": "reading-log",
+      "style": {
+        "color": "#a01a58",
+        "backgroundColor": "#fce8f3",
+        "borderRadius": "4px",
+        "padding": "1px 5px",
+        "fontWeight": "500"
+      },
+      "prefix": "",
+      "suffix": "",
+      "icon": ""
+    },
+    {
+      "id": "15",
+      "type": "attribute",
+      "attribute": "type",
+      "values": "idea",
+      "style": {
+        "color": "#e37400",
+        "backgroundColor": "#fff3e0",
+        "borderRadius": "4px",
+        "padding": "1px 5px",
+        "fontWeight": "500"
+      },
+      "prefix": "💡 ",
+      "suffix": "",
+      "icon": ""
+    },
+    {
+      "id": "16",
+      "type": "attribute",
+      "attribute": "type",
+      "values": "reflection",
+      "style": {
+        "color": "#7b0ea9",
+        "backgroundColor": "#f3e8fd",
+        "borderRadius": "4px",
+        "padding": "1px 5px",
+        "fontWeight": "500"
+      },
+      "prefix": "",
+      "suffix": "",
+      "icon": ""
+    },
+    {
+      "id": "17",
+      "type": "attribute",
+      "attribute": "type",
+      "values": "founder-thesis",
+      "style": {
+        "color": "#c62828",
+        "backgroundColor": "#fbe9e7",
+        "borderRadius": "4px",
+        "padding": "1px 5px",
+        "fontWeight": "600"
+      },
+      "prefix": "",
+      "suffix": "",
+      "icon": ""
+    },
+    {
+      "id": "18",
+      "type": "attribute",
+      "attribute": "type",
+      "values": "whoop-daily",
+      "style": {
+        "color": "#c5221f",
+        "backgroundColor": "#fce8e6",
+        "borderRadius": "4px",
+        "padding": "1px 5px",
+        "fontWeight": "500"
+      },
+      "prefix": "",
+      "suffix": "",
+      "icon": ""
+    },
+    {
+      "id": "19",
+      "type": "attribute",
+      "attribute": "type",
+      "values": "strategy-memo",
+      "style": {
+        "color": "#b84000",
+        "backgroundColor": "#fce8e2",
+        "borderRadius": "4px",
+        "padding": "1px 5px",
+        "fontWeight": "600"
+      },
+      "prefix": "",
+      "suffix": "",
+      "icon": ""
+    }
+  ],
+  "enableCustomStyling": true,
+  "targetAttributeFilter": [],
+  "globalFilter": ""
+}

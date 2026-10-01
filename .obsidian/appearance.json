@@ -5,6 +5,8 @@
   "translucency": false,
   "cssTheme": "",
   "enabledCssSnippets": [
-    "buttons-inline"
+    "buttons-inline",
+    "supercharged-links-gen",
+    "tag-colors"
   ]
 }
