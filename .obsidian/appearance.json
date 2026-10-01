@@ -1,9 +1,9 @@
 {
   "showRibbon": true,
   "theme": "moonstone",
-  "accentColor": "#ff0000",
+  "accentColor": "",
   "translucency": false,
-  "cssTheme": "Solarized",
+  "cssTheme": "Obsidian Nord",
   "enabledCssSnippets": [
     "buttons-inline",
     "supercharged-links-gen",

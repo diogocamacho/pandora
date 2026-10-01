@@ -20,4 +20,4 @@ _No prior vault note found for this instance — pull the invite for the actual 
 ## ✍️ Notes and action items
 *Things that we talked about*
 
-- New programs for 2027 (impacts the computat)
+- New programs for 2027 (impacts the computational team directly)
