@@ -3,7 +3,7 @@
   "theme": "moonstone",
   "accentColor": "",
   "translucency": false,
-  "cssTheme": "Obsidian Nord",
+  "cssTheme": "",
   "enabledCssSnippets": [
     "buttons-inline",
     "supercharged-links-gen",
