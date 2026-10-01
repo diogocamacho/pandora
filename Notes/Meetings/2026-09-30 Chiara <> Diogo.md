@@ -18,7 +18,12 @@ Follow up:
 - Show real target_scan progress — this was today's #1 priority carried into tomorrow. Walk in with something concrete, not just a status update.
 
 ## ✍️ Notes and action items
-- 
+
+- Discussed the large scale target scan that I worked on and how the team needs to embrace that.
+	- Throw [[Jeremy Amon]] and [[Declan Evans]] at the problem
+	- How can we score things intelligently, based on a quick structural analysis in L? 
+
+
 
 ## ❓ Open questions
 - 
