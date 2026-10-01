@@ -25,3 +25,4 @@ _No prior vault note found for this instance — pull the invite for the actual 
 	- With GFRAL moving to 2027, it moves the view from the board that we need NEW programs, not programs that bleed over
 	- We should start in January these new programs
 	- highlight to computational team, HARD
+		- [[Declan Evans]] and [[Jeremy Amon]] should work on the target scanning idea ASAP so that we can have a read before EOY
