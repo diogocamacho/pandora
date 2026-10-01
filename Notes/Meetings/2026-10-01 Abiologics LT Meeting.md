@@ -21,3 +21,4 @@ _No prior vault note found for this instance — pull the invite for the actual 
 *Things that we talked about*
 
 - New programs for 2027 (impacts the computational team directly)
+	- 2 DCs per year in the long term plans for the company
