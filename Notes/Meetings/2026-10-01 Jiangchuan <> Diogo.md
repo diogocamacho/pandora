@@ -19,4 +19,6 @@ tags:
 - Where would Cradle's platform actually be used most effectively? No data yet to answer this — flagged today as the soft spot in the board deck.
 
 ## ✍️ Notes and action items
-- 
+
+- Cradle: 
+	- let's continue to develop our models given where the negotiations with Cradle and Flagship are in terms of chargeback
