@@ -26,3 +26,4 @@ _No prior vault note found for this instance — pull the invite for the actual 
 	- We should start in January these new programs
 	- highlight to computational team, HARD
 		- [[Declan Evans]] and [[Jeremy Amon]] should work on the target scanning idea ASAP so that we can have a read before EOY
+		- We want to have a list of targets in our back pocket, for any potential BD discussion
