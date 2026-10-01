@@ -3,7 +3,7 @@
   "theme": "moonstone",
   "accentColor": "#ff0000",
   "translucency": false,
-  "cssTheme": "",
+  "cssTheme": "Solarized",
   "enabledCssSnippets": [
     "buttons-inline",
     "supercharged-links-gen",
