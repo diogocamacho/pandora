@@ -27,3 +27,7 @@ tags:
 	- use as a filter to de novo design for now
 	- later, with more data, we can move this into optimization as well
 	- separate models for mini-binders and peptides (2 different models)
+
+- Oral bioavailability
+	- Getting the data from Caco-2 in vitro data (62 data points, including controls)
+	- Martin is picking another set of data points, generating 
