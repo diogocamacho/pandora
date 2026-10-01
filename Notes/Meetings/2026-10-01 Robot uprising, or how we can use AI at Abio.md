@@ -19,4 +19,4 @@ Follow up:
 
 ## ✍️ Notes and action items
 *Things that we talked about*
-- Great session and great feedback. Need to send the prese
+- Great session and great feedback. Need to send the presentation to everyone. 
