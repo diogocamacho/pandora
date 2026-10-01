@@ -22,3 +22,6 @@ _No prior vault note found for this instance — pull the invite for the actual 
 
 - New programs for 2027 (impacts the computational team directly)
 	- 2 DCs per year in the long term plans for the company
+	- With GFRAL moving to 2027, it moves the view from the board that we need NEW programs, not programs that bleed over
+	- We should start in January these new programs
+	- highlight to computational team, HARD
