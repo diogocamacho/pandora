@@ -30,4 +30,6 @@ tags:
 
 - Oral bioavailability
 	- Getting the data from Caco-2 in vitro data (62 data points, including controls)
-	- Martin is picking another set of data points, generating 
+	- Martin is picking another set of data points; Jiangchuan generating features from SMILES using RDkit
+	- Selected a set of compounds to test in vivo
+	- After compounds are tested, these will be made available to test mode
