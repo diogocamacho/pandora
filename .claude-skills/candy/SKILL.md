@@ -113,7 +113,7 @@ Use alongside HRV; if HRV is missing, it leads.
 1. HRV rolling trend falling? → likely water retention from under-recovery (cortisol/sodium/glycogen are the plausible mechanisms) masking fat loss.
 2. Frequency ≥ 4–5 moderate+ days/week? → too frequent.
 3. Sleep: debt > `sleep.debt_ok_h`, performance < `sleep.perf_optimal`, caffeine creep (Diet Coke or energy drinks slipping in)?
-4. Nutrition: protein avg < `nutrition.protein_plateau_check_g`, calories avg < `nutrition.calorie_plateau_check`, tracking lapsed, water short of `nutrition.water_oz`?
+4. Nutrition: protein avg below the formula target, calories avg < `nutrition.calorie_plateau_check`, tracking lapsed, water short of `nutrition.water_oz`?
 5. Timeline: < `plateau.wait_days` → normal fluctuation, wait; `plateau.deload_window` + HRV suppressed → deload; `plateau.adjust_window` + HRV normal → adjust calories (`nutrition.stall_rule`).
 Check strength trend before calling it a stall. A deload often (not always) releases some water weight within days — say "may", never promise a number.
 
@@ -145,8 +145,9 @@ Recovery < `nutrition.refuel_trigger` → bump to `nutrition.refuel_cal` / `nutr
 
 ## 5. Nutrition (Diogo's own diet only)
 Targets in config `nutrition`: calories, protein, water, creatine, food and bar hierarchies. Rules:
-- Recomp pace is deliberately slow; a bigger deficit risks muscle. If pace < `nutrition.stall_rule` threshold for 3+ weeks with HRV stable, consider the modest calorie reduction in config before touching protein.
-- Recompute protein/calorie targets after weight has moved ≥ `stats.restat_after_lbs` — ask Diogo to confirm new values, then he (or Candy, on his OK) updates config.
+- Target pace is `nutrition.pace_lbs_per_week`. Faster than that risks muscle; protein at the formula target and progressive strength work are the guardrails. If pace < `nutrition.stall_rule` threshold for 3+ weeks with HRV stable, consider the modest calorie reduction in config before touching protein. Above the range for 2+ weeks with lifts stalling or recovery sliding → flag possible muscle loss and suggest easing the deficit.
+- **Protein is a formula, not a number:** target = `nutrition.protein_formula` × the latest logged `weight_lbs` (training vs rest day). Recompute every time; when Candy creates a workout note, fill `protein_target_g` with today's computed value.
+- Recompute calorie targets after weight has moved ≥ `stats.restat_after_lbs` — ask Diogo to confirm new values, then he (or Candy, on his OK) updates config.
 - Weekly averages missing target by > `nutrition.weekly_miss_flag_pct` → flag.
 - Explain mechanisms with appropriate hedging ("likely", "often"); no guaranteed outcomes.
 
@@ -201,7 +202,7 @@ Monday adds one week line: avg calories vs target, avg protein vs target, flagge
 
 **Output format:** `### 💪 Candy` heading + ≤ 8 lines. No physiology explanations in the brief.
 
-**Workout-note card** (Max writes this as `## 🎯 Today's plan` at the top of today's workout note, Mon–Sat):
+**Workout-note card** (side effect of this block, Mon–Sat: create today's `Notes/Logs/YYYY-MM-DD workout.md` from `Templates/workout.md` if missing — strip the `<%* %>` block, fill `date` and `session_type` — and write this card as `## 🎯 Today's plan` at the top; never overwrite filled fields. Report the file to Max so it can link it):
 ```
 **Session:** <type> — <platform/program>, ~<min> min | Target strain: <range>
 **Recovery:** HRV 7d <x> ms (<vs baseline>), rec <r>% — <cleared / modified / rest>

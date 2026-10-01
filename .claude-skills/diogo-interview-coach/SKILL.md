@@ -14,14 +14,14 @@ Role- and level-agnostic: the same workflow for an RA or a CSO; rubrics, questio
 - **Other crew:** invoke by skill name (`max`, `sarah`, `kevin`, `candy`, `john`, `kate`, `lily`, `diogo-interview-coach`, `paper-summary`, `writing-style`) — never by file path.
 - **Register:** expert-to-expert, lead with substance, no restating, no motivational filler.
 
-**Config (`## diogo-interview-coach`):** open roles, Notion NotesDB data source, default team tag, default interview length, and a pointer to the search note. **Search note** (`Notes/Reference/interview-search.md`, or the Notion page the config points to): per-role team context, comp bands, calibration benchmarks. Read both at the start of every prep/score/scoreboard task. Missing → ask.
+**Config (`## diogo-interview-coach`):** optional Notion interview database and default interview length. There is no standing role list: the role, level, team context, and any comp band come from the JD/invite or from Diogo each time. Missing → ask.
 
 ---
 
 ## Storage
 
-**Primary: Notion NotesDB** (data source in config) — one page per interview, `Note Type = Interview`. Tools: `notion-query-data-sources`, `notion-fetch`, `notion-create-pages`, `notion-update-page`, `notion-search`, `notion-query-meeting-notes`.
-**Fallback / mirror: vault** `Notes/Meetings/<date> Interview <Candidate>.md` from `Templates/interview.md`, frontmatter `type: interview`, `candidate`, `role`, `tags: [interview]`. Use the fallback when Notion is unavailable, or when Max has already pre-created the vault file (then fill that file and link the Notion page in it if one exists).
+**Notion NotesDB** (if config lists one and it is reachable) — one page per interview, `Note Type = Interview`. Tools: `notion-query-data-sources`, `notion-fetch`, `notion-create-pages`, `notion-update-page`, `notion-search`, `notion-query-meeting-notes`.
+**Vault (default otherwise, and mirror):** `Notes/Meetings/<date> Interview <Candidate>.md` from `Templates/interview.md`, frontmatter `type: interview`, `candidate`, `role`, `tags: [interview]`. Use the fallback when Notion is unavailable, or when Max has already pre-created the vault file (then fill that file and link the Notion page in it if one exists).
 
 Every scored interview records, in a machine-readable spot, the fields the scoreboard reads:
 - Notion: a line in `## Recommendation` exactly `Total: <N>/25 · Decision: <Strong Yes|Yes|Maybe|No> · Role: <role>` (+ ` · 🎵 <Title> — <Artist>` if assigned).
@@ -60,13 +60,13 @@ Deliverable in one response: assessment + questions + watch-outs + page created.
 - **Strengths** — what maps to the JD, with CV evidence.
 - **Gaps to probe** — missing, unclear, or below level.
 - **Critical unknowns** — the 2–3 things that decide Yes/No and can't be answered from the CV.
-- **Pre-interview read** — one paragraph, level-calibrated; flag profile mismatch (e.g., structural biologist for a design role). Flag if title/trajectory suggests comp above the band in the search note.
-- Calibrate against the role's existing Yes/Strong Yes benchmarks from the search note / scoreboard — same role only.
+- **Pre-interview read** — one paragraph, level-calibrated; flag profile mismatch (e.g., structural biologist for a design role). If Diogo gives a comp band, flag a title/trajectory that suggests expectations above it.
+- Calibrate against Yes/Strong Yes candidates already scored for the same role (scoreboard). No scored candidates for that role → say there is no calibration set yet.
 
 **3. Questions** — 6–7, open-ended, non-telegraphing, depth scaled to level (RA: "walk me through how you approach X"; VP: "describe a time you reshaped a team around a strategic pivot"). Sequence: motivation → technical → adaptability → track record → contribution. At least one requires a concrete specific example.
 - **D1 Team fit & motivation (1):** why this role, why now — running toward vs. away from? Senior/exec: IC vs. leadership balance. Early career: coachability, curiosity, learning instinct.
 - **D2 Technical depth / leadership (2):** IC — hands-on execution, tool fluency, design/modeling decisions. Managers/directors — how they build technical strategy, evaluate talent, handle scientific disagreement. C-level — setting scientific vision, credibility with investors and board.
-- **D3 Domain / modality adaptability (1):** a problem outside their training distribution. For roles flagged in config as requiring the litmus test, use the D-space question (below). Otherwise pose the nearest real adaptation the role demands (new modality, new data regime, new organizational context at exec level) and ask what breaks first and how they'd adapt.
+- **D3 Domain / modality adaptability (1):** a problem outside their training distribution. If Diogo supplies a role-specific litmus question, use it (see below). Otherwise pose the nearest real adaptation the role demands (new modality, new data regime, new organizational context at exec level) and ask what breaks first and how they'd adapt.
 - **D4 Concept → outcome (1):** "Take one idea of yours from conception to a measured result — what was the readout, and what did you change after it?" Exec: a strategic bet and its business outcome. Probe for the chain, not the idea.
 - **D5 Contribution & trajectory (1):** what did they build that others depended on (IC: platform, pipeline, method, dataset; managers: team capability, org structure, culture; C-level: company trajectory, board relationship, fundraising narrative)? What's the next step and why are they ready?
 
@@ -86,13 +86,11 @@ Deliverable in one response: assessment + questions + watch-outs + page created.
 ```
 If Notion is unavailable, write the same structure to the vault fallback file and say so.
 
-### D-space litmus test (Abiologics protein design + ML roles)
-> "We design entirely in D-amino acid space against L-protein targets. All standard tools are trained on L-space PDB data. What's your instinct about what breaks first, and how would you adapt your workflow?"
-
-No candidate has D-space experience; this measures first-principles reasoning under a known gap. **Score reasoning quality, not match to one answer.** Credit any credible route (non-exhaustive: mirror-image reformulation of the target/problem, structure- or physics-based design/diffusion with chirality handled explicitly, identifying which priors are learned from L-space data — pLMs, sequence-structure models, rotamer/statistical potentials — vs. which physics is chirality-symmetric, retraining or fine-tuning strategies, experimental validation plans).
-- **5** — unprompted decomposition of what is learned vs. physical, names specific failure points, proposes a credible and testable adaptation, reasons about how they'd know it worked.
-- **3** — acknowledges the gap, partial reasoning, needs prompting to get to a workaround.
-- **1** — acknowledges the gap and stops, or asserts tools will "just work".
+### Role-specific litmus question (optional)
+Diogo may supply one question that tests reasoning across a known gap for the role (a modality, data regime, or org context no candidate has seen). Ask him what a strong answer must contain; don't invent an answer key. **Score reasoning quality, not match to one answer**; credit any credible, testable route.
+- **5** — unprompted decomposition of what transfers vs. what breaks, names specific failure points, proposes a credible and testable adaptation, says how they'd know it worked.
+- **3** — acknowledges the gap, partial reasoning, needs prompting to reach a workaround.
+- **1** — acknowledges the gap and stops, or asserts existing tools will "just work".
 
 ---
 
@@ -110,7 +108,7 @@ If the evidence points to a No, say so once and switch to kill-switch mode (clos
 
 **D1 Team fit & motivation** — 1: vague, reactive, or misaligned · 3: reasonable, some alignment, minor culture concerns · 5: clear, specific, genuine pull toward this problem and team; self-aware about what they need to thrive.
 **D2 Technical depth (IC) / technical leadership (manager+)** — 1: surface-level; tool user, not practitioner; can't reason through novel problems · 3: solid fundamentals, executes known workflows, struggles with novel adaptation · 5: deep and principled; makes architecture/strategy decisions; explains tradeoffs fluently; teaches others.
-**D3 Domain / modality adaptability** — (D-space test where applicable) 1: no attempt to reason · 3: partial reasoning, needs prompting · 5: unprompted, reasons around gaps from first principles.
+**D3 Domain / modality adaptability** — (litmus question where used) 1: no attempt to reason · 3: partial reasoning, needs prompting · 5: unprompted, reasons around gaps from first principles.
 **D4 Concept → outcome track record** — 1: ideas only, no follow-through · 3: some follow-through, one or two results, limited scope · 5: clear chain from design to outcome; others depended on the output; result at the right scale for the level.
 **D5 Contribution & growth trajectory** — 1: nothing beyond assigned tasks; unclear next step · 3: genuine contributions at level; trajectory plausible, not compelling · 5: built something that lasted; clear upward arc; operates above current title.
 
@@ -140,7 +138,7 @@ If the evidence points to a No, say so once and switch to kill-switch mode (clos
 Trigger: a new score, "search status", or a decision change. Built only from stored notes, never from conversation context.
 1. `notion-query-data-sources` on NotesDB: `Note Type = Interview` (+ Team if given). Plus vault: `grep -rl "^type: interview" Notes/Meetings/`.
 2. For each, read the Total line / frontmatter. No Total recorded → `not scored`. Don't compute a total from partial dimension scores.
-3. Group by role (open roles from config; others under "Other / closed"). One table per role:
+3. Group by role (as recorded on each note). One table per role:
 
 | Candidate | Score | Decision | Date | Link |
 |---|---|---|---|---|

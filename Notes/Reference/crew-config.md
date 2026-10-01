@@ -65,8 +65,8 @@ Lines marked `<!-- CHECK: … -->` are conflicts carried over from the old skill
 - calendar_skip: commute, workout-related blocks (not the workout itself), family time, bus drop-off, lunch (unless it is the meeting), deep-work holds, standing standups ≤15 min
 
 ### Schedule & delivery
-- brief_schedule: 06:00 LaunchAgent <!-- CHECK: conflicting values 5am (Step 8) vs 6am (EOD Step 5) in old skill -->
-- send_brief.script: /Users/dcamacho/.claude/scripts/send_brief.sh
+- brief_schedule: 06:27 daily — Cowork scheduled task (not a LaunchAgent)
+- send_brief.script: /Users/dcamacho/.claude/scripts/send_brief.sh <!-- CHECK: still used by the 06:27 scheduled task? -->
 - send_brief.html_path: /tmp/daily_brief.html
 - send_brief.recipient: dcamacho@flagshippioneering.com
 
@@ -145,12 +145,12 @@ Lines marked `<!-- CHECK: … -->` are conflicts carried over from the old skill
 - Patriots season tickets: ~$5k, due February <!-- CHECK: exact date -->
 
 ### Priority stack (Diogo's stated order)
-1. Emergency fund to target
-2. Pay off 0% debt before expiry (jumps to #1 when ≤90 days)
-3. Pay down remaining debt
-4. Annual bonus allocation — debt → liquidity → lifestyle (intentional) → investible remainder <!-- CHECK: bonus order puts debt before liquidity; stack puts EF first -->
-5. Grow investment portfolio (aggressive) once 1–3 satisfied
-- current_phase: 1 (EF below target — no new investment dollars)
+1. Credit-card debt first, so balances don't balloon (decided 2026-10-01). A 0% promo balance within 90 days of expiry jumps to the top.
+2. Emergency fund to target
+3. Any remaining debt
+4. Annual bonus allocation — debt → liquidity → lifestyle (intentional) → investible remainder
+5. Grow investment portfolio (aggressive) once 1–3 are satisfied
+- current_phase: 1 (credit-card paydown — no new investment dollars)
 
 ### Positions (self-directed brokerage)
 - positions: QQQ, SMH, VXUS, XBI + SPAXX (cash = EF component)
@@ -267,14 +267,14 @@ Lines marked `<!-- CHECK: … -->` are conflicts carried over from the old skill
 ### nutrition (Diogo's own diet)
 - calories_target: 2200 (flat — not differentiated by session type; matches LoseIt setup) <!-- CHECK: conflicting values flat 2,200 vs "training-day floor ~2,150" in old skill -->
 - deficit_cal: ~200-400/day
-- protein_target_g: 195 <!-- CHECK: conflicting values fixed 195 g (weekly review, Max, workout template) vs formula ~1.0 g/lb training / ~0.95 g/lb rest (= ~199/189 g at 199.1 lb; ~170/162 g at 170 lb) vs "<190 g" plateau check in old skill -->
-- protein_plateau_check_g: 190
+- protein_formula: 1.0 g/lb latest logged bodyweight on training days, 0.95 g/lb on rest days (decided 2026-10-01 — no fixed target; recompute from the latest `weight_lbs` every time)
+- protein_plateau_check: weekly avg below the formula target
 - calorie_plateau_check: 2000 (avg)
 - crash_check_cal: 2100 (training day)
 - refuel_trigger: recovery <48% for 2+ days
 - refuel_cal: 2550-2700; refuel_protein_g: 220-240
-- pace_lbs_per_week: 0.3-0.5 <!-- CHECK: conflicting values 0.3-0.5 lb/wk (Calorie Targets) vs 0.5-0.7 lb/wk (Roadmap) in old skill -->
-- stall_rule: pace <0.2 lb/wk for 3+ weeks with HRV stable → consider 2100 cal (don't drop protein)
+- pace_lbs_per_week: 0.7-1.0 (decided 2026-10-01) <!-- CHECK: at 2,200 cal the old skill estimated a 200-400 cal/day deficit (~0.4-0.8 lb/wk); reassess calories after 3 weeks of logged weights if pace runs under 0.7 -->
+- stall_rule: pace <0.7 lb/wk for 3+ weeks with HRV stable → consider 2100 cal (don't drop protein)
 - weekly_miss_flag_pct: 10
 - water_oz: 100 daily
 - creatine: 5 g daily (in scrambled eggs), no loading
@@ -313,7 +313,7 @@ Lines marked `<!-- CHECK: … -->` are conflicts carried over from the old skill
 - tricep extensions: 30 lbs total
 - DB deadlifts: 30 lbs/hand
 
-### roadmap (projection, not guarantee; ~40 weeks / ~9-10 months from 198 lb; update every 8-10 weeks)
+### roadmap (projection, not guarantee; at 0.7-1.0 lb/wk, ~30-42 weeks from 199 lb to 170 lb; update every 8-10 weeks) <!-- CHECK: phase weight deltas below come from the old 0.5-0.7 lb/wk roadmap -->
 - weeks 1-8 Foundation: establish baselines; HRV stable 20-22 ms; weight -4-6 lb (early weeks mostly water/glycogen) <!-- CHECK: old roadmap says "3x/week hard (Mon/Wed/Fri): HIIT, Strength, Volume" — superseded by current rotation -->
 - weeks 9-18 Adaptation: HRV 22-24 ms; occasional strain 13-14; weight -5-7 lb; RHR -2-3 bpm
 - weeks 19-30 Growth: HRV 24-26 ms; strength visibly up; weight -6-8 lb, scale may stall while composition changes
@@ -403,14 +403,7 @@ Verdicts: ✅ Buy, 🤔 Test First, ⏳ Phase 2, ❌ Skip. Old Notion entries we
 
 ## diogo-interview-coach
 
-- search_note: `Notes/Reference/interview-search.md` (team context, comp bands, calibration benchmarks — candidate data lives there, not here)
-- open_roles:
-  - Principal Scientist, Machine Learning
-  - Senior Scientist, Computational Protein Design
-- d_space_litmus_roles: all Abiologics protein design and ML roles
-- notion_notesdb: collection://05190de8-9edc-41fb-8f0d-d9947545e2da
+General, role-agnostic. No standing role list — the role comes from the JD / invite each time.
+- notion_notesdb: collection://05190de8-9edc-41fb-8f0d-d9947545e2da (optional; vault notes are used if unset or unreachable)
 - notion_note_type: Interview
-- default_team_tag: Abiologics
 - default_interview_length: 30 minutes
-- engagements_db: https://www.notion.so/1ae043d22fe3809f9e45ca74fed5dc88 (Abio comp team workspace)
-
