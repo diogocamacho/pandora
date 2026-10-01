@@ -4,6 +4,9 @@ date: 2026-06-18
 status: draft-for-future-self
 source: "[[2026-06-18 biotech-of-one]]"
 tags: [founder-thesis, biotech, drug-discovery, ai-ml, rwe, small-molecules, c-level]
+evidence_supporting: 1
+evidence_challenging: 0
+evidence_last: 2026-09-28
 ---
 
 # Founder thesis — RWE-driven better-in-class biotech
@@ -110,5 +113,5 @@ This venture lives in Diogo's head and in pandora. Nothing more, for now.
 
 ---
 
-## Evidence & reinforcement
-- [[To Get More Effective Drugs, We Need More Human Trials]] (2026-09-28)
+## Supporting evidence
+- ✅ [[To Get More Effective Drugs, We Need More Human Trials]] (2026-09-28)

@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # Obsidian vault enrichment pipeline:
-#   1. Enrich unprocessed clippings: tags + vault backlinks
-#   2. Idea linking via link_ideas.py (✅/⚡ back-refs + reasons into idea notes; backfills clips without ideas_checked)
+#   1. Enrich unprocessed clippings: tags + vault backlinks + idea connections
+#   2. Write "Evidence & reinforcement" back-refs into connected idea notes
 #   3. Generate a daily learning synthesis
 #   4. On Fridays: generate a weekly learning review
 #
@@ -46,10 +46,13 @@ import sys; c = open(sys.argv[1]).read(); sys.exit(0 if 'processed: true' in c e
   log "Processing: $TITLE"
   CONTENT=$(head -c 4000 "$FILE")
 
-  RESULT=$(claude -p "You are enriching an Obsidian clipping with tags and vault backlinks.
+  RESULT=$(claude -p "You are enriching an Obsidian clipping with tags, vault backlinks, and idea connections.
 
 Vault note titles (pipe-separated):
 $NOTE_TITLES
+
+Idea note titles (pipe-separated):
+$IDEA_TITLES
 
 Clipping content:
 $CONTENT
@@ -57,12 +60,16 @@ $CONTENT
 Return ONLY valid JSON — no explanation, no markdown fences:
 {
   \"tags\": [\"kebab-case-tag\"],
-  \"related\": [\"Exact Vault Note Title\"]
+  \"related\": [\"Exact Vault Note Title\"],
+  \"ideas_support\": [\"Exact Idea Note Title\"],
+  \"ideas_challenge\": [\"Exact Idea Note Title\"]
 }
 
 Rules:
 - tags: 3-6 thematic kebab-case tags. Do NOT include 'clippings'.
-- related: vault note titles with a genuine thematic connection. Empty array if nothing fits." \
+- related: vault note titles with a genuine thematic connection. Empty array if nothing fits.
+- ideas_support: idea note titles this clipping supports, reinforces, or adds evidence to. Empty array if nothing fits.
+- ideas_challenge: idea note titles this clipping complicates, challenges, or creates productive tension with. Empty array if nothing fits." \
     --output-format text 2>/dev/null || echo "")
 
   if [[ -z "$RESULT" ]]; then
@@ -139,7 +146,34 @@ if 'related:' not in c:
 PYEOF
   fi
 
-  # 3. (idea links now handled by link_ideas.py — separate pass below)
+  # 3. Add idea-supports / idea-challenges frontmatter fields
+  if [[ -n "$IDEAS_SUPPORT" ]]; then
+    printf '%s' "$IDEAS_SUPPORT" | python3 - "$FILE" <<'PYEOF'
+import sys, re
+fp = sys.argv[1]
+notes = [l.strip() for l in sys.stdin.read().splitlines() if l.strip()]
+c = open(fp).read()
+if 'idea-supports:' not in c:
+    lines = '\n'.join(f'  - "[[{n}]]"' for n in notes)
+    block = f'idea-supports:\n{lines}'
+    c = re.sub(r'^(tags:)', block + '\n' + r'\1', c, count=1, flags=re.MULTILINE)
+    open(fp, 'w').write(c)
+PYEOF
+  fi
+
+  if [[ -n "$IDEAS_CHALLENGE" ]]; then
+    printf '%s' "$IDEAS_CHALLENGE" | python3 - "$FILE" <<'PYEOF'
+import sys, re
+fp = sys.argv[1]
+notes = [l.strip() for l in sys.stdin.read().splitlines() if l.strip()]
+c = open(fp).read()
+if 'idea-challenges:' not in c:
+    lines = '\n'.join(f'  - "[[{n}]]"' for n in notes)
+    block = f'idea-challenges:\n{lines}'
+    c = re.sub(r'^(tags:)', block + '\n' + r'\1', c, count=1, flags=re.MULTILINE)
+    open(fp, 'w').write(c)
+PYEOF
+  fi
 
   # 4. Mark as processed
   python3 - "$FILE" <<'PYEOF'
@@ -162,20 +196,73 @@ if '## Related notes' not in c:
 PYEOF
   fi
 
+  if [[ -n "$IDEAS_SUPPORT" ]] || [[ -n "$IDEAS_CHALLENGE" ]]; then
+    printf '%s\n%s' "$IDEAS_SUPPORT" "$IDEAS_CHALLENGE" | python3 - "$FILE" "$IDEAS_SUPPORT" "$IDEAS_CHALLENGE" <<'PYEOF'
+import sys
+fp = sys.argv[1]
+supports  = [l.strip() for l in sys.argv[2].splitlines() if l.strip()]
+challenges = [l.strip() for l in sys.argv[3].splitlines() if l.strip()]
+c = open(fp).read()
+if '## Growing ideas' not in c:
+    lines  = [f'- ✅ [[{n}]]' for n in supports]
+    lines += [f'- ⚡ [[{n}]]' for n in challenges]
+    if lines:
+        open(fp, 'a').write('\n## Growing ideas\n' + '\n'.join(lines))
+PYEOF
+  fi
+
+  # 6. Write back-references into idea notes (supporting / challenging)
+  if [[ -n "$IDEAS_SUPPORT" ]] || [[ -n "$IDEAS_CHALLENGE" ]]; then
+    CLIP_DATE=$(python3 -c "
+import sys, re; c = open(sys.argv[1]).read()
+m = re.search(r'^created:\s*(\S+)', c, re.MULTILINE)
+print(m.group(1) if m else '$TODAY')" "$FILE" 2>/dev/null || echo "$TODAY")
+
+    _write_idea_ref() {
+      local IDEA_NAME="$1" SECTION="$2" MARKER="$3"
+      [[ -z "$IDEA_NAME" ]] && return
+      local IDEA_FILE=""
+      while IFS= read -r f; do
+        if [[ "$(basename "$f" .md)" == "$IDEA_NAME" ]]; then
+          IDEA_FILE="$f"; break
+        fi
+      done < <(find "$IDEAS" -name "*.md")
+      [[ -z "$IDEA_FILE" ]] && return
+
+      python3 - "$IDEA_FILE" "$TITLE" "$CLIP_DATE" "$SECTION" "$MARKER" <<'PYEOF'
+import sys
+fp, clip_title, clip_date, section, marker = \
+    sys.argv[1], sys.argv[2], sys.argv[3], sys.argv[4], sys.argv[5]
+c = open(fp).read()
+entry = f'\n- {marker} [[{clip_title}]] ({clip_date})'
+if clip_title not in c:
+    if section in c:
+        c = c.rstrip() + entry + '\n'
+    else:
+        c = c.rstrip() + f'\n\n---\n\n## {section}{entry}\n'
+    open(fp, 'w').write(c)
+PYEOF
+      log "  → $SECTION ← $IDEA_NAME"
+    }
+
+    while IFS= read -r NAME; do
+      _write_idea_ref "$NAME" "Supporting evidence" "✅"
+    done <<< "$IDEAS_SUPPORT"
+
+    while IFS= read -r NAME; do
+      _write_idea_ref "$NAME" "Challenges & counterpoints" "⚡"
+    done <<< "$IDEAS_CHALLENGE"
+  fi
+
   log "  ✓ tags: [$NEW_TAGS]"
 done < <(find "$CLIPPINGS" -name "*.md")
 
 log "Enrichment complete."
 
-# ── Idea linking (separate pass; backfills any clip without ideas_checked) ──
-# Gives the model a catalog of idea summaries + the clip body, writes ✅/⚡ links with reasons,
-# and recounts evidence_* frontmatter on idea notes (also counts paper-summary entries).
-python3 "$VAULT/.scripts/link_ideas.py" "$VAULT" 2>&1 | tee -a "$LOG"
-
 # ── Daily synthesis ───────────────────────────────────────────────────────────
 
 LEARNINGS_FILE="$NOTES/Logs/$TODAY learnings.md"
-BRIEF_FILE="$NOTES/Daily/$TODAY daily brief.md"
+BRIEF_FILE="$NOTES/Logs/$TODAY daily brief.md"
 
 if [[ -f "$LEARNINGS_FILE" ]]; then
   log "Daily synthesis already exists for $TODAY, skipping."
@@ -315,10 +402,6 @@ CHALLENGES:
 (Exactly 2 questions — one per line, no numbering or bullets. Derived from the most active evolving threads. Questions to sit with and think about during the day, not look-up questions.)" \
     --output-format text 2>/dev/null || echo "")
 
-  if printf '%s' "$AI_RESPONSE" | head -c 400 | grep -qiE 'API Error|Failed to authenticate|OAuth access token|not enabled in this environment'; then
-    log "WARN: daily synthesis returned an error message instead of content — not writing it."
-    AI_RESPONSE=""
-  fi
   if [[ -n "$AI_RESPONSE" ]]; then
     TMPFILE=$(mktemp)
     printf '%s' "$AI_RESPONSE" > "$TMPFILE"
@@ -589,10 +672,6 @@ Write the full document in this EXACT Markdown structure. Output ONLY the Markdo
 > *Which of these three is hardest for you to answer right now? That is the one worth sitting with this weekend.*" \
   --output-format text 2>/dev/null || echo "")
 
-if printf '%s' "$DEEP_SYNTHESIS" | head -c 400 | grep -qiE 'API Error|Failed to authenticate|OAuth access token|not enabled in this environment'; then
-  log "WARN: deep synthesis returned an error message instead of content — not writing it."
-  DEEP_SYNTHESIS=""
-fi
 if [[ -n "$DEEP_SYNTHESIS" ]]; then
   TMPFILE=$(mktemp)
   printf '%s' "$DEEP_SYNTHESIS" > "$TMPFILE"

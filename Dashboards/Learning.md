@@ -15,7 +15,8 @@ tags: [dashboard]
 TABLE WITHOUT ID
   file.link AS "Clipping",
   related AS "Vault notes",
-  idea-connections AS "Ideas"
+  idea-supports AS "✅ Supports",
+  idea-challenges AS "⚡ Challenges"
 FROM "Clippings"
 WHERE date(created) >= date(today) - dur(7 days)
 SORT created DESC
@@ -57,13 +58,12 @@ SORT created DESC
 ```dataview
 TABLE WITHOUT ID
   file.link AS "Idea",
-  length(filter(file.outlinks, (l) => contains(string(l), "✅"))) AS "Supporting",
-  length(filter(file.outlinks, (l) => contains(string(l), "⚡"))) AS "Challenges"
+  evidence_supporting AS "✅ Supporting",
+  evidence_challenging AS "⚡ Challenges",
+  evidence_last AS "Last evidence"
 FROM "ideas"
-WHERE (contains(file.content, "Supporting evidence")
-    OR contains(file.content, "Challenges & counterpoints")
-    OR contains(file.content, "Evidence & reinforcement"))
-SORT file.mtime DESC
+WHERE evidence_supporting > 0 OR evidence_challenging > 0
+SORT evidence_last DESC
 LIMIT 15
 ```
 

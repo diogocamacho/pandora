@@ -5,6 +5,9 @@ tags:
   - compbio
   - networkbiology
 Date: 2025-10-10
+evidence_supporting: 1
+evidence_challenging: 0
+evidence_last: 2026-09-28
 ---
 
 > [!tip] Core idea
@@ -53,5 +56,5 @@ Because it is indication-agnostic, the Foundry becomes the engine for a _portfol
 
 ---
 
-## Evidence & reinforcement
-- [[To Get More Effective Drugs, We Need More Human Trials]] (2026-09-28)
+## Supporting evidence
+- ✅ [[To Get More Effective Drugs, We Need More Human Trials]] (2026-09-28)
