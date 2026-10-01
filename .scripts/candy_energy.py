@@ -61,6 +61,14 @@ def read_config(vault):
         cfg['hrv_rest_below'] = float(r[0])
     if (v := grab('full_at_or_above')) and (r := re.findall(r'\d+(?:\.\d+)?', v)):
         cfg['hrv_full'] = float(r[0])
+    em = re.search(r'^### energy.*?\n(.*?)(?=^### |\Z)', sec, re.S | re.M)
+    energy = em.group(1) if em else ''
+    for key, field in [('kcal_per_lb', 'kcal_per_lb'), ('window_days', 'window'), ('min_days', 'min_days'),
+                       ('min_weighins', 'min_weighins'), ('min_intake_days', 'min_intake_days'), ('step', 'step'),
+                       ('training_day_shift', 'train_shift'), ('max_pct_bw', 'max_pct_bw')]:
+        mm = re.search(r'\b' + key + r':\s*\+?(\d+(?:\.\d+)?)', energy)
+        if mm:
+            cfg[field] = type(DEFAULTS[field])(float(mm.group(1)))
     return cfg, notes
 
 
@@ -143,16 +151,17 @@ def main():
     hist = {}
     for d in sorted(days):
         for k, v in days[d].get('lifts', {}).items(): hist.setdefault(k, []).append(v)
-    down = [k for k, v in hist.items() if len(v) >= 3 and v[-1] <= v[-2] <= v[-3]]
+    down = [k for k, v in hist.items() if len(v) >= 4 and max(v[-3:]) <= v[-4]]   # no progress across the last 4 sessions
     if not hist: out['flags'].append('no exercise lines logged — strength trend unknown')
-    if len(down) >= 2: reasons.append(f'lifts flat/down 3 sessions: {", ".join(down)}')
+    if len(down) >= 2: reasons.append(f'no progress over 4 sessions: {", ".join(down)}')
     if adaptive and last_w and -out['trend_lb_per_week'] > last_w * cfg['max_pct_bw'] / 100:
         reasons.append(f"losing faster than {cfg['max_pct_bw']}% bodyweight/week")
 
     # ── Pace and budget
     lo, hi = cfg['pace']
     green = adaptive and not reasons
-    pace = hi if green else lo                      # start at the low end; only move up with real data and green guardrails
+    # start at the low end; with real data and green guardrails, ramp 0.1 lb/wk above the observed loss, capped at the top of the range
+    pace = min(hi, max(lo, round(-out['trend_lb_per_week'] + 0.1, 1))) if green else lo
     deficit = pace * cfg['kcal_per_lb'] / 7
     if reasons: deficit = max(0, deficit - cfg['step']); out['guardrails'] = reasons
     daily = max(cfg['bmr'], tdee - deficit)

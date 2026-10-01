@@ -273,7 +273,7 @@ Lines marked `<!-- CHECK: … -->` are conflicts carried over from the old skill
 - crash_check_cal: 2100 (training day)
 - refuel_trigger: recovery <48% for 2+ days
 - refuel_cal: 2550-2700; refuel_protein_g: 220-240
-- pace_lbs_per_week: 0.7-1.0 (decided 2026-10-01) <!-- CHECK: at 2,200 cal the old skill estimated a 200-400 cal/day deficit (~0.4-0.8 lb/wk); reassess calories after 3 weeks of logged weights if pace runs under 0.7 -->
+- pace_lbs_per_week: 0.7-1.0 (decided 2026-10-01; weekly budget from `.scripts/candy_energy.py`, see energy) <!-- CHECK: at 2,200 cal the old skill estimated a 200-400 cal/day deficit (~0.4-0.8 lb/wk); reassess calories after 3 weeks of logged weights if pace runs under 0.7 -->
 - stall_rule: pace <0.7 lb/wk for 3+ weeks with HRV stable → consider 2100 cal (don't drop protein)
 - weekly_miss_flag_pct: 10
 - water_oz: 100 daily
@@ -282,6 +282,13 @@ Lines marked `<!-- CHECK: … -->` are conflicts carried over from the old skill
 - portable: Fairlife in car, bars in gym bag; front-load breakfast 40-50 g
 - whole_food: hard-boiled eggs (2-3 = 12-18 g, 140-210 cal); Greek yogurt/skyr (1 cup = 15-20 g); cottage cheese (1 cup = 24-28 g); string cheese + turkey (140 cal, 19 g); beef jerky/biltong (2 oz = 20-30 g)
 - bars: Pure Protein 200 cal/20 g/$1.25 (Walmart/Costco); ONE 220 cal/20 g/$1.80; Epic Meat 80-100 cal/12-15 g/$3 (need 2); Built Bar original 130 cal/17 g/$1.65 (Amazon)
+
+### energy (weekly calorie budget — read by .scripts/candy_energy.py)
+- kcal_per_lb: 3500
+- window_days: 21; min_days: 14; min_weighins: 10; min_intake_days: 10
+- step: 100 kcal/day (guardrail easing; max one calorie change per week)
+- training_day_shift: +150 kcal on strength/HIIT days, balanced on Zone 2/rest (no day below bmr_cal)
+- max_pct_bw: 1.0 (% bodyweight per week)
 
 ### rotation (default; mirrors `Dashboards/Areas/Workout plan.md` and `Templates/workout.md`) <!-- CHECK: confirm Workout plan.md is canonical -->
 | Day | Session | Platform | Duration | Strain | Role |
