@@ -30,7 +30,7 @@ Follow up:
 *Things that we talked about*
 
 - Introduced to the team, from the board request and [[2026-10-01 Abiologics LT Meeting]] the discussion on 2 DCs a year. This needs to be discussed at large with [[Chiara Magnone]] for her to really relay how we are approaching this in the context of how the board thinks
-- Also needed from [[Chiara Magnone]] is a clear mandate for the team as to why they need to think about at l
+- Also needed from [[Chiara Magnone]] is a clear mandate for the team as to why they need to think about at scale testing of potential targets. 
 
 ## 🔁 Actions from this meeting
 - [ ] 
