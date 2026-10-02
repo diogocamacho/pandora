@@ -56,7 +56,7 @@ Deep work: none protected today — and once the two off-calendar meetings above
 **Market:** Biotech had a mixed session — Zealand Pharma slid on underwhelming Boehringer-partnered obesity Phase 3 data while Lilly's amylin-Zepbound combo raised the weight-loss bar, so the GLP-1 competitive field keeps getting more crowded, not less. Semis (SMH +1.45%) outran the broader Nasdaq (QQQ +0.31%) again on Thursday's close. Dollar firmer, VXUS -0.59%.
 
 **Portfolio:** [[2026-10-02 portfolio snapshot]] — **$23,551.95** (prior $23,595.60, Δ −$43.65 / −0.18%) · QQQ+SMH **53.9%** of investible ⚠️ — third straight session over the 50% line, and today's the Friday checkpoint set two days ago.
-- For Kevin: Allison got paid, which added $296.42 to the SPAXX position. For record keeping, please note that Allison gets paid weekly on **Thursdays
+- For Kevin: Allison got paid, which added $296.42 to the SPAXX position. For record keeping, please note that Allison gets paid weekly on **Thursdays** and that the amount that goes into SPAXX is always the same ($296.42 for the year). I get paid on the 1st and the 15th, and my contributions are $1933.15 to SPAXX. If anything changes, this will be updated. 
 
 **Movers:** XBI −2.01% (obesity-space Phase 3 miss weighing on biotech sentiment broadly, not XBI-specific).
 
