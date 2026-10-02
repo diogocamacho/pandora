@@ -38,7 +38,11 @@ Deep work: none protected today — and once the two off-calendar meetings above
 
 ## 📧 Comms — Email & Slack
 - 📧 Work: **Liam Dunn (Talent Acquisition)** sent the full offer last night for **VP, Head of Computational Sciences**, reporting to **Raffi Rafeyan**: $330,000 base, 25% bonus, 175,000 options, benefits guide attached. He asked if you have time "tomorrow" (today) to reconnect — no reply sent yet.
+	- sent Reply to Liam this morning to connect on Monday. 
+
 - 📧 Work: **Emily Thomas (Contracts Counsel)** — follow-up on the Ariel Ben-Sasson Claude-access thread, two open questions: is Abiologics covered under FSP's enterprise Claude instance, and is Ariel currently under an Abiologics consulting agreement (if so, share it)? Sent 9/28→9/30→10/1, still unanswered.
+	- Sent an email to Emily and cc-ed Kala for visibility
+
 - 📧 Work / calendar gap: **Elle Pyall (Russell Reynolds)** confirmed a 14:00–15:00 ET call today with Mike Hamill and candidate Bulent Kiziltan ("deeper dive into AI approach") — unread, and not on your calendar (fits the open slot between G Project Meeting and Onc Data Meeting).
 - 📧 Work / calendar gap: **Peter Rapp** — DT↔Chemistry multiplexing discussion, 11:00–11:55 today (99C 3001 Conf 3), pre-read slides shared — also missing from your calendar (fits the slot right after Comp Team Huddle).
 - 💬 Teams: nothing addressed to you directly since yesterday — two messages in meeting chats ("have to jump off," "can we record this?") from Kala Subramanian and Timothy Laurent, neither an ask of you.
