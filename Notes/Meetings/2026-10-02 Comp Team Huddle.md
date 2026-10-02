@@ -29,7 +29,7 @@ Follow up:
 ## ✍️ Notes and action items
 *Things that we talked about*
 
-- 
+- Introduced to the team, from the 
 
 ## 🔁 Actions from this meeting
 - [ ] 
