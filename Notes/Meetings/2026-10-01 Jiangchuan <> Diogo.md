@@ -34,6 +34,7 @@ tags:
 		- After compounds are tested, these will be made available to test models
 		- Phi/Christina are working on getting these data
 	- Martin is picking another set of data points; Jiangchuan generating features from SMILES using RDkit
+	- Jiangchuan is working closely with Martin to get a good grasp of what chemistry would like to see
 	- Selected a set of compounds to test in vivo
 
 - GFRAL: we don't have data on the second series data
