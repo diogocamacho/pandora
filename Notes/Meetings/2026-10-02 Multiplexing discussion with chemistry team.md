@@ -27,4 +27,4 @@ Follow up:
 - how do we think about increasing lead ID? -> multiplexing
 - we need to have a large scale way of testing new sequences for a given target (outside of optimization )
 	- something like 10^3 -> 10^4 
-- 
+- how can we do barcoding? how can we maximize sequence diversity
