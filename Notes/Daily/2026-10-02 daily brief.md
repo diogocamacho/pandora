@@ -44,7 +44,12 @@ Deep work: none protected today — and once the two off-calendar meetings above
 	- Sent an email to Emily and cc-ed Kala for visibility
 
 - 📧 Work / calendar gap: **Elle Pyall (Russell Reynolds)** confirmed a 14:00–15:00 ET call today with Mike Hamill and candidate Bulent Kiziltan ("deeper dive into AI approach") — unread, and not on your calendar (fits the open slot between G Project Meeting and Onc Data Meeting).
+	- accepted and it's now on calendar
+
 - 📧 Work / calendar gap: **Peter Rapp** — DT↔Chemistry multiplexing discussion, 11:00–11:55 today (99C 3001 Conf 3), pre-read slides shared — also missing from your calendar (fits the slot right after Comp Team Huddle).
+	- Emailed Peter for 
+
+
 - 💬 Teams: nothing addressed to you directly since yesterday — two messages in meeting chats ("have to jump off," "can we record this?") from Kala Subramanian and Timothy Laurent, neither an ask of you.
 - Slack: clear — no DMs or mentions since yesterday.
 
