@@ -47,8 +47,7 @@ Deep work: none protected today — and once the two off-calendar meetings above
 	- accepted and it's now on calendar
 
 - 📧 Work / calendar gap: **Peter Rapp** — DT↔Chemistry multiplexing discussion, 11:00–11:55 today (99C 3001 Conf 3), pre-read slides shared — also missing from your calendar (fits the slot right after Comp Team Huddle).
-	- Emailed Peter for 
-
+	- Emailed Peter for a link. 
 
 - 💬 Teams: nothing addressed to you directly since yesterday — two messages in meeting chats ("have to jump off," "can we record this?") from Kala Subramanian and Timothy Laurent, neither an ask of you.
 - Slack: clear — no DMs or mentions since yesterday.
@@ -57,6 +56,7 @@ Deep work: none protected today — and once the two off-calendar meetings above
 **Market:** Biotech had a mixed session — Zealand Pharma slid on underwhelming Boehringer-partnered obesity Phase 3 data while Lilly's amylin-Zepbound combo raised the weight-loss bar, so the GLP-1 competitive field keeps getting more crowded, not less. Semis (SMH +1.45%) outran the broader Nasdaq (QQQ +0.31%) again on Thursday's close. Dollar firmer, VXUS -0.59%.
 
 **Portfolio:** [[2026-10-02 portfolio snapshot]] — **$23,551.95** (prior $23,595.60, Δ −$43.65 / −0.18%) · QQQ+SMH **53.9%** of investible ⚠️ — third straight session over the 50% line, and today's the Friday checkpoint set two days ago.
+- For Kevin: Allison got paid, which added $296.42 to the SPAXX position. For record keeping, please note that Allison gets paid weekly on **Thursdays
 
 **Movers:** XBI −2.01% (obesity-space Phase 3 miss weighing on biotech sentiment broadly, not XBI-specific).
 
