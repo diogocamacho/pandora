@@ -51,3 +51,35 @@
 [2026-10-01 09:30] Brief not yet written — thread will appear in daily note via Dataview.
 [2026-10-01 09:30] Daily synthesis written: 2026-10-01 learnings.md
 [2026-10-01 09:30] Not Friday — skipping weekly deep synthesis.
+[2026-10-02 09:35] Starting enrichment — 46 clippings total
+[2026-10-02 09:35] Processing: How People Are Really Using AI in 2026
+[2026-10-02 09:45]   WARN: could not parse JSON for 'How People Are Really Using AI in 2026', skipping
+[2026-10-02 09:45] Enrichment complete.
+[2026-10-02 09:45] Idea linking: 46 clip(s) to check, 16 idea notes
+[2026-10-02 09:45]   WARN 6 Ways Leaders Harness Stress: claude failed (rc=1): 'Failed to authenticate. API Error: 401 OAuth access token has been revoked.'
+[2026-10-02 09:45]   WARN A Reading Guide to Chinese Biotech: claude failed (rc=1): 'Failed to authenticate. API Error: 401 OAuth access token has been revoked.'
+[2026-10-02 09:45]   WARN A Taxonomy of RL Environments for LLM Agents: claude failed (rc=1): 'Failed to authenticate. API Error: 401 OAuth access token has been revoked.'
+[2026-10-02 09:45]   WARN AI Versus Eroom's Law: claude failed (rc=1): 'Failed to authenticate. API Error: 401 OAuth access token has been revoked.'
+[2026-10-02 09:45]   WARN Agentic Engineering Management: claude failed (rc=1): 'Failed to authenticate. API Error: 401 OAuth access token has been revoked.'
+[2026-10-02 10:12]   WARN An Inside Look at China’s Regulatory and Drug Approval Processes: claude failed (rc=1): 'Failed to authenticate. API Error: 401 OAuth access token has been revoked.'
+[2026-10-02 10:12]   WARN Anthropic has not solved the peptide-binder design problem, but maybe biohub has: claude failed (rc=1): 'Failed to authenticate. API Error: 401 OAuth access token has been revoked.'
+[2026-10-02 10:12]   WARN Building 17 Agentic AI Patterns and Their Role in Large-Scale AI Systems: claude failed (rc=1): 'Failed to authenticate. API Error: 401 OAuth access token has been revoked.'
+[2026-10-02 10:12]   WARN Can LLMs design proteins?: claude failed (rc=1): 'Failed to authenticate. API Error: 401 OAuth access token has been revoked.'
+[2026-10-02 10:12]   WARN Chart of the Week Experience > Skills: claude failed (rc=1): 'Failed to authenticate. API Error: 401 OAuth access token has been revoked.'
+[2026-10-02 10:12]   WARN China’s leap in pharma slow and fast trends behind its rise: claude failed (rc=1): 'Failed to authenticate. API Error: 401 OAuth access token has been revoked.'
+[2026-10-02 10:12]   WARN Designer Spotlight Can a language model reason about protein design?: claude failed (rc=1): 'Failed to authenticate. API Error: 401 OAuth access token has been revoked.'
+[2026-10-02 10:12]   WARN Disruptive Technologies Catching the Wave: claude failed (rc=1): 'Failed to authenticate. API Error: 401 OAuth access token has been revoked.'
+[2026-10-02 10:12]   WARN Genome language models can design cancer vaccines: claude failed (rc=1): 'Failed to authenticate. API Error: 401 OAuth access token has been revoked.'
+[2026-10-02 10:12]   WARN Giving your AI a Job Interview: claude failed (rc=1): 'Failed to authenticate. API Error: 401 OAuth access token has been revoked.'
+[2026-10-02 10:12]   WARN Has Anthropic solved the peptide-binder design problem?: claude failed (rc=1): 'Failed to authenticate. API Error: 401 OAuth access token has been revoked.'
+[2026-10-02 10:13]   WARN How People Are Really Using AI in 2026: claude failed (rc=1): 'Failed to authenticate. API Error: 401 OAuth access token has been revoked.'
+[2026-10-02 10:13]   WARN How Will You Measure Your Life?: claude failed (rc=1): 'Failed to authenticate. API Error: 401 OAuth access token has been revoked.'
+[2026-10-02 10:13]   WARN How to Move from AI Experimentation to AI Transformation: claude failed (rc=1): 'Failed to authenticate. API Error: 401 OAuth access token has been revoked.'
+[2026-10-02 10:13]   WARN How useful are zero-shot predictions of mutational effects?: claude failed (rc=1): 'Failed to authenticate. API Error: 401 OAuth access token has been revoked.'
+[2026-10-02 10:13]   WARN I built an AI that critiques me after every call.: claude failed (rc=-9): ''
+[2026-10-02 10:13]   WARN Intelligence is the Primitive. Applications are the Diffusion Layer.: claude failed (rc=1): 'Failed to authenticate. API Error: 401 OAuth access token has been revoked.'
+[2026-10-02 10:13]   WARN Loss of Cell Identity Drives Human Aging: claude failed (rc=1): 'Failed to authenticate. API Error: 401 OAuth access token has been revoked.'
+[2026-10-02 10:13]   WARN Previewing the Model Hardware Standard: claude failed (rc=1): 'Failed to authenticate. API Error: 401 OAuth access token has been revoked.'
+[2026-10-02 10:13]   WARN Protein language models are overly constrained by covariation: claude failed (rc=1): 'Failed to authenticate. API Error: 401 OAuth access token has been revoked.'
+[2026-10-02 10:13] Idea linking done — 0 clip(s) linked, 25 failed (will retry), 21 deferred to next run
+[2026-10-02 10:13] Generating daily synthesis...
