@@ -83,3 +83,8 @@
 [2026-10-02 10:13]   WARN Protein language models are overly constrained by covariation: claude failed (rc=1): 'Failed to authenticate. API Error: 401 OAuth access token has been revoked.'
 [2026-10-02 10:13] Idea linking done — 0 clip(s) linked, 25 failed (will retry), 21 deferred to next run
 [2026-10-02 10:13] Generating daily synthesis...
+[2026-10-02 10:13] WARN: daily synthesis returned an error message instead of content — not writing it.
+[2026-10-02 10:13] WARN: daily synthesis generation failed.
+[2026-10-02 10:13] Friday — generating weekly deep synthesis (2026-W40)...
+[2026-10-02 10:13] WARN: deep synthesis returned an error message instead of content — not writing it.
+[2026-10-02 10:13] WARN: deep synthesis generation failed.
