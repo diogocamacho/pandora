@@ -8,6 +8,9 @@ created: 2026-10-02
 description: "“What’s the 10% of my job that I should focus on, that the AI will never be able to do to maintain a competitive edge?” In a period of sweeping change, it’s a reasonable question to ask. But think about an experienced horse rider thinking about the skills they need to drive a car. What are the 10% of horse riding skills they should hang on to? Probably none. What’s the 100% of skills they should adapt to be a great driver? Their reflexes and instincts. The new challenge is not to just optimize but to rethink our roles and companies. Don’t just reskill, reimagine skills and build new habits."
 tags:
   - "clippings"
+idea-supports:
+  - "[[2026-06-18 biotech-of-one]]"
+ideas_checked: true
 ---
 ## Summary.
 
@@ -92,3 +95,6 @@ Readers Also Viewed These Items
 	Book
 - ![](https://cdn11.bigcommerce.com/s-yneuaokjib/images/stencil/250x260/products/96210/346572/10878_500__55259.1786978419.png?c=2)
 	Book
+
+## Growing ideas
+- ✅ [[2026-06-18 biotech-of-one]] — GDPval benchmark (80% of professions at AI parity) and operator-to-supervisor shift directly reinforce thesis that future biotech runs on human judgment over agentic execution.

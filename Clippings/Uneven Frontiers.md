@@ -8,6 +8,12 @@ created: 2026-10-02
 description: "How AI will transform biopharma—and why the sequence of change matters"
 tags:
   - "clippings"
+idea-supports:
+  - "[[2026-06-18 biotech-of-one]]"
+  - "[[2026-06-18 founder thesis — RWE-driven better-in-class biotech]]"
+idea-challenges:
+  - "[[2025-09-21 causalab]]"
+ideas_checked: true
 ---
 ![](https://substackcdn.com/image/fetch/$s_!P_lq!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F620f3177-7ee9-4b2a-94d3-69927ae54787_1460x650.png)
 
@@ -312,3 +318,8 @@ And the stakes are enormous. In a post-AI world, one of humanity’s defining am
 *This newsletter is provided for informational purposes only, and should not be relied upon as legal, business, investment, or tax advice. Furthermore, this content is not investment advice, nor is it intended for use by any investors or prospective investors in any a16z funds. This newsletter may link to other websites or contain other information obtained from third-party sources - a16z has not independently verified nor makes any representations about the current or enduring accuracy of such information. If this content includes third-party advertisements, a16z has not reviewed such advertisements and does not endorse any advertising content or related companies contained therein. Any investments or portfolio companies mentioned, referred to, or described are not representative of all investments in vehicles managed by a16z; visit [https://a16z.com/investment-list/](https://a16z.com/investment-list/) for a full list of investments. Other important information can be found at [a16z.com/disclosures](http://a16z.com/disclosures). You’re receiving this newsletter since you opted in earlier; if you would like to opt out of future newsletters you may unsubscribe immediately.*
 
 ∙
+
+## Growing ideas
+- ✅ [[2026-06-18 biotech-of-one]] — Clipping argues clinical development is the binding constraint; durable value concentrates there, not in discovery — Formation Bio data backs this.
+- ✅ [[2026-06-18 founder thesis — RWE-driven better-in-class biotech]] — Clipping says scarce capability is knowing which drugs to develop; RWE-driven patient selection and clinical strategy is exactly that.
+- ⚡ [[2025-09-21 causalab]] — Clipping argues AI commoditizes drug generation, eroding durable company value for pure discovery-engine positioning.

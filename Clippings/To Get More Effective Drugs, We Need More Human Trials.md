@@ -8,8 +8,6 @@ created: 2026-09-28
 description: "We're optimizing the wrong steps in drug discovery."
 related:
 
-idea-connections:
-
 tags:
   - "clippings"
   - "drug-discovery"
@@ -19,6 +17,10 @@ tags:
   - "clinical-development"
   - "regulatory-science"
 processed: true
+idea-supports:
+  - "[[2026-06-18 founder thesis — RWE-driven better-in-class biotech]]"
+  - "[[2026-06-18 biotech-of-one]]"
+ideas_checked: true
 ---
 **Note from Andrew:** *This week’s piece from* ***Ruxandra Teslo** and **Jack Scannell** helped me understand the barriers to having more and better drugs. Ruxandra is a fellow at Renaissance Philanthropy where she studies how to improve clinical development. Jack is CEO of Etheros Pharmaceuticals Corp.*
 
@@ -138,3 +140,7 @@ The imbalance between the investment and return on clinical trials implies subst
 ## Related notes
 
 ## Connected ideas
+
+## Growing ideas
+- ✅ [[2026-06-18 founder thesis — RWE-driven better-in-class biotech]] — FDA already relaxing approval via surrogate endpoints yet outcomes stagnate — real-world human evidence remains the irreplaceable signal for drug efficacy.
+- ✅ [[2026-06-18 biotech-of-one]] — Clinical development is 60-70% of drug costs and the field's primary bottleneck; any future biotech model must address this stage, not just discovery.

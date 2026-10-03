@@ -141,6 +141,9 @@ Convert this note into a **2-page founder thesis memo**. Audience: future Diogo,
 - ✅ [[The "AI Job Apocalypse" Is a Complete Fantasy]] (2026-10-02 · clip) — Jevons Paradox argument — cheaper cognition expands ambition, not shrinks headcount — directly underpins the 'agentic AI as force multiplier' premise.
 - ✅ [[The Era of Personal Super-Intelligent Agents]] (2026-09-29 · clip) — Meta's $180B PSIA build-out confirms agentic AI infrastructure (M2M inference, swarms) is maturing—the 'why now' for agentic drug discovery.
 - ✅ [[The Rising Opportunity Cost of Being Human]] (2026-10-02 · clip) — Clipping explicitly quantifies AI output amplification at 10x–100x per person — the economic premise underlying the biotech-of-one thesis.
+- ✅ [[To Get More Effective Drugs, We Need More Human Trials]] (2026-09-28 · clip) — Clinical development is 60-70% of drug costs and the field's primary bottleneck; any future biotech model must address this stage, not just discovery.
+- ✅ [[To Thrive Alongside AI, Focus on Mindset—Not Skillset]] (2026-10-02 · clip) — GDPval benchmark (80% of professions at AI parity) and operator-to-supervisor shift directly reinforce thesis that future biotech runs on human judgment over agentic execution.
+- ✅ [[Uneven Frontiers]] (2026-10-02 · clip) — Clipping argues clinical development is the binding constraint; durable value concentrates there, not in discovery — Formation Bio data backs this.
 
 ---
 
