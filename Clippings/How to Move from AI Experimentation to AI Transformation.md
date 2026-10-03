@@ -12,6 +12,10 @@ created: 2026-10-02
 description: "Many companies are investing heavily in AI but failing to translate isolated productivity gains into meaningful business results. The problem is a “micro-productivity trap,” where firms optimize tasks without rethinking workflows or value creation, preventing organization-wide impact. This article outlines four steps to escape this trap—strategically narrowing use cases, reimagining cross-functional workflows, engaging frontline employees, and measuring outcomes tied to business value—illustrated through examples from companies like Lowe’s and a Fortune 1000 manufacturing firm."
 tags:
   - "clippings"
+idea-supports:
+  - "[[2026-06-18 biotech-of-one]]"
+  - "[[2026-06-29 Agentic Nutrition — where the moat actually is]]"
+ideas_checked: true
 ---
 ## Summary.
 
@@ -97,3 +101,7 @@ Readers Also Viewed These Items
 - ![](https://cdn11.bigcommerce.com/s-yneuaokjib/images/stencil/250x260/products/94799/344332/10872_500__96798.1781269583.png?c=2)
 	[HBR's 10 Must Reads on Decision-Making Updated and Expanded (featuring "The Irreplaceable Value of Human Decision-Making in the Age of AI" by Martin Reeves, Mihnea Moldoveanu, and Adam Job)](https://store.hbr.org/product/hbr-s-10-must-reads-on-decision-making-updated-and-expanded-featuring-the-irreplaceable-value-of-human-decision-making-in-the-age-of-ai-by-martin-reeves-mihnea-moldoveanu-and-adam-job/10872?ab=at_art_idp_v1x2_s02)
 	Book
+
+## Growing ideas
+- ✅ [[2026-06-18 biotech-of-one]] — Empirical evidence that workflow reinvention—not task automation—drives 10–25% EBITDA gains validates Diogo's explicit rejection of pure-automation agentic systems in biotech.
+- ✅ [[2026-06-29 Agentic Nutrition — where the moat actually is]] — "Micro-productivity trap" names exactly the failure mode the memo warns against: competitors bolting an LLM onto a supplement brand without reinventing workflows won't build a durable moat.
