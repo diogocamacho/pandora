@@ -4,6 +4,9 @@ date: 2026-06-18
 mode: challenge
 status: promoted-to-project
 tags: [idea, comp-bio, drug-discovery, agents, strategy, c-level, small-molecules]
+evidence_supporting: 8
+evidence_challenging: 3
+evidence_last: 2026-10-02
 ---
 
 # Biotech of the future — constrained inference + generative small-molecule chemistry, closed loop
@@ -131,6 +134,7 @@ Convert this note into a **2-page founder thesis memo**. Audience: future Diogo,
 - ✅ [[Genome language models can design cancer vaccines]] (2026-09-28 · clip) — Article states the algorithm 'is part of the medicine' — Omnii designs mRNA sequences end-to-end, concrete proof of closed-loop AI drug design.
 - ✅ [[How to Move from AI Experimentation to AI Transformation]] (2026-10-02 · clip) — Empirical evidence that workflow reinvention—not task automation—drives 10–25% EBITDA gains validates Diogo's explicit rejection of pure-automation agentic systems in biotech.
 - ✅ [[Intelligence is the Primitive. Applications are the Diffusion Layer.]] (2026-10-01 · clip) — a16z frames intelligence as commodity infrastructure; validates Diogo's thesis that biotech value is in the application/workflow built on top, not AI access itself.
+- ✅ [[Previewing the Model Hardware Standard]] (2026-09-30 · clip) — MHS enables AI agents to run autonomous, round-the-clock drug discovery experiments — concrete infrastructure realizing the agentic biotech thesis.
 
 ---
 

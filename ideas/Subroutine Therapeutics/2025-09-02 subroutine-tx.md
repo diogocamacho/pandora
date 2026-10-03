@@ -1,3 +1,8 @@
+---
+evidence_supporting: 1
+evidence_challenging: 0
+evidence_last: 2026-09-28
+---
 # 🚀 SUBROUTINE THERAPEUTICS™  
 *Rebooting human health through biological fail-safes*  
 

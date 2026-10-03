@@ -17,6 +17,9 @@ related:
   - "[[2025-11-13 AI and drug discovery]]"
   - "[[2025-11-11 AI and syn bio]]"
 processed: true
+idea-supports:
+  - "[[2026-06-18 biotech-of-one]]"
+ideas_checked: true
 ---
 ![](https://www.youtube.com/watch?v=UxJZrCFzTHY)
 
@@ -83,3 +86,6 @@ We thank everyone who has contributed to this work so far, including, but not li
 ## Related notes
 - [[2025-11-13 AI and drug discovery]]
 - [[2025-11-11 AI and syn bio]]
+
+## Growing ideas
+- ✅ [[2026-06-18 biotech-of-one]] — MHS enables AI agents to run autonomous, round-the-clock drug discovery experiments — concrete infrastructure realizing the agentic biotech thesis.

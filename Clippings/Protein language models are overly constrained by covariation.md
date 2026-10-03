@@ -17,6 +17,7 @@ related:
   - "[[ProteinMPNN — sequence design]]"
   - "[[co-folding for bindable epitopes]]"
 processed: true
+ideas_checked: true
 ---
 By many measures, protein language models (pLMs) perform exceptionally well at various tasks in protein research. They are great for homology search, functional classification, and even contact prediction. They can also be useful in evaluating individual mutations, though the track record here is more mixed. While pLMs appear to be excellent at separating viable from inviable mutations, they are quite bad at [predicting mutations that enable or improve novel function.](https://blog.genesmindsmachines.com/p/how-useful-are-zero-shot-predictions) A new paper by Berry et al.[^1] offers an explanation for this observation, and it’s not at all what I would have expected. The explanation is that pLMs are too constrained by covariation, and therefore they tend to reject mutations that don’t fit exactly into the surrounding sequence context (Figure 1). And yet, such mutations may be exactly the ones required for novel function. Surprisingly, mixing in information from much simpler models that ignore covariation and basically just count amino-acid frequencies at different sites improves predictions dramatically.
 

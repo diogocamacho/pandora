@@ -4,9 +4,9 @@ date: 2026-06-18
 status: draft-for-future-self
 source: "[[2026-06-18 biotech-of-one]]"
 tags: [founder-thesis, biotech, drug-discovery, ai-ml, rwe, small-molecules, c-level]
-evidence_supporting: 1
+evidence_supporting: 3
 evidence_challenging: 0
-evidence_last: 2026-09-28
+evidence_last: 2026-10-02
 ---
 
 # Founder thesis — RWE-driven better-in-class biotech

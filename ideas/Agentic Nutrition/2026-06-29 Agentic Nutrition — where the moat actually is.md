@@ -5,6 +5,9 @@ status: draft-for-discussion
 audience: [Raffi Afeyan, Mike Hamill, Laura Maiorino]
 source: pitch-review of funded ProtoCos + Agentic Nutrition deck (Mar 2026 working doc)
 tags: [strategy-memo, agentic-nutrition, dtc, moat, evidence-engine, endogenous-first, axcella]
+evidence_supporting: 3
+evidence_challenging: 0
+evidence_last: 2026-10-02
 ---
 
 # [[💡 X2|Agentic Nutrition]] — where the moat actually is
