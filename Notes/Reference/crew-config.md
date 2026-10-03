@@ -251,7 +251,7 @@ Lines marked `<!-- CHECK: … -->` are conflicts carried over from the old skill
 - rest: 2-3 <!-- CHECK: conflicting values 2-3 (strain targets) vs 0-2 (Sunday in weekly table) in old skill -->
 - deload_max: 6
 - cap: 14
-- cap_gates: HRV below 22 ms; recovery <60%; sleep debt >1 h; trained hard previous day <!-- CHECK: "HRV <22" (=baseline) blocks the HIIT target about half the time, and "trained hard previous day" blocks every Saturday HIIT after Friday strength; v2 skill applies the HRV gate to the 7-day mean modify band (cap, not cancel) -->
+- cap_gates: HRV 7d rolling mean in modify band (below 22 ms); recovery <60%; sleep debt >1 h
 
 ### deload
 - standard: 5-7 days, walks only, strain <6, zero HIIT/strength/volume <!-- CHECK: conflicting values 3-5 days (Golden Rule / decision tree) vs 5-7 days (plateau, HRV collapse) vs 3-7 days (cortisol section) in old skill -->
