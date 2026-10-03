@@ -8,8 +8,6 @@ created: 2026-09-28
 description: "Zero-shot predictions are great, except for when it matters"
 related:
 
-idea-connections:
-
 tags:
   - "clippings"
   - "zero-shot-prediction"
@@ -19,6 +17,9 @@ tags:
   - "ml-limitations"
   - "benchmarking"
 processed: true
+idea-challenges:
+  - "[[💡 Antimicrobial peptides]]"
+ideas_checked: true
 ---
 When you read papers about AI models for zero-shot fitness predictions,[^1] you generally get the sense that these predictions work quite well. Correlations between measured fitness effects and zero-shot predictions tend to be high. Systematic benchmarks have repeatedly shown this pattern, across hundred of datasets and many different models.[^2] And yet, when you talk to an actual protein engineer, somebody who is trying to improve proteins by making specific mutations, they will often tell you that zero-shot predictions are not that useful. Many protein engineers have stories of taking the best available zero-shot model, the one that wins all the competitions, predicting mutations for their pet protein, making the mutations, and then not seeing much improvement in their system. Something doesn’t add up.
 
@@ -57,3 +58,6 @@ Phillip R. Woolley, Aaron L. Feller, Andrew D. Ellington, Claus O. Wilke (2026) 
 ## Related notes
 
 ## Connected ideas
+
+## Growing ideas
+- ⚡ [[💡 Antimicrobial peptides]] — Woolley et al. show zero-shot protein models fail specifically for new-to-nature function-enhancing mutations — exactly what peptide therapeutic design requires.

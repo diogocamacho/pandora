@@ -8,6 +8,10 @@ created: 2026-10-01
 description: "How durable AI-native products can price, package and productize model gains for industry."
 tags:
   - "clippings"
+idea-supports:
+  - "[[2026-06-18 biotech-of-one]]"
+  - "[[2026-06-29 Agentic Nutrition — where the moat actually is]]"
+ideas_checked: true
 ---
 ![](https://substackcdn.com/image/fetch/$s_!dvu8!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F13068820-f281-4f74-8cb5-069e12e95438_1460x650.png)
 
@@ -78,3 +82,7 @@ Today we’re trying something new. We’re sharing a slide deck, **“Intellige
 *This newsletter is provided for informational purposes only, and should not be relied upon as legal, business, investment, or tax advice. Furthermore, this content is not investment advice, nor is it intended for use by any investors or prospective investors in any a16z funds. This newsletter may link to other websites or contain other information obtained from third-party sources - a16z has not independently verified nor makes any representations about the current or enduring accuracy of such information. If this content includes third-party advertisements, a16z has not reviewed such advertisements and does not endorse any advertising content or related companies contained therein. Any investments or portfolio companies mentioned, referred to, or described are not representative of all investments in vehicles managed by a16z; visit [https://a16z.com/investment-list/](https://a16z.com/investment-list/) for a full list of investments. Other important information can be found at [a16z.com/disclosures](http://a16z.com/disclosures). You’re receiving this newsletter since you opted in earlier; if you would like to opt out of future newsletters you may unsubscribe immediately.*
 
 ∙
+
+## Growing ideas
+- ✅ [[2026-06-18 biotech-of-one]] — a16z frames intelligence as commodity infrastructure; validates Diogo's thesis that biotech value is in the application/workflow built on top, not AI access itself.
+- ✅ [[2026-06-29 Agentic Nutrition — where the moat actually is]] — a16z argument that intelligence is a primitive explicitly confirms bolting an LLM onto a product is not a moat; moat must live in the application/data layer.

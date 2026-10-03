@@ -155,3 +155,4 @@ None of this holds if the intervention layer is not actually defensible. The PMS
 ## Supporting evidence
 - ✅ [[How People Are Really Using AI in 2026]] (2026-10-02 · clip) — Business AI producing 'marginal rather than game-changing benefits' validates the memo's core argument that the moat cannot be a bolt-on LLM.
 - ✅ [[How to Move from AI Experimentation to AI Transformation]] (2026-10-02 · clip) — "Micro-productivity trap" names exactly the failure mode the memo warns against: competitors bolting an LLM onto a supplement brand without reinventing workflows won't build a durable moat.
+- ✅ [[Intelligence is the Primitive. Applications are the Diffusion Layer.]] (2026-10-01 · clip) — a16z argument that intelligence is a primitive explicitly confirms bolting an LLM onto a product is not a moat; moat must live in the application/data layer.

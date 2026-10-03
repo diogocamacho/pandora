@@ -60,4 +60,7 @@ Each tissue maintains its identity through collective dynamics among many intera
 - How can we experimentally manipulate collective parameters (e.g., resource flux) without harming function?
 - Will regulators accept “ecosystem metrics” as biomarkers?
 
+---
 
+## Supporting evidence
+- ✅ [[Loss of Cell Identity Drives Human Aging]] (2026-09-30 · clip) — Waddington basin shallowing (decanalization) is the molecular evidence for the basin-attractor / goldilocks-zone framework the idea is built on.

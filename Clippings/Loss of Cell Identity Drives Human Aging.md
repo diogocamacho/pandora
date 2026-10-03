@@ -17,6 +17,10 @@ tags:
 related:
   - "[[2025-12-16 T-cell reprogramming]]"
 processed: true
+idea-supports:
+  - "[[💡 Superagers]]"
+  - "[[💡Ecological cell modulating]]"
+ideas_checked: true
 ---
 Two new papers, one published today in *[Nature](https://www.nature.com/articles/s41586-026-10955-0)* [by Vadim Gladyshev](https://doi.org/10.1038/s41586-026-10955-0) and colleagues at Harvard, and a recent o [ne in](https://www.cell.com/cell/fulltext/S0092-8674\(25\)00853-0) *[Cell](https://www.cell.com/cell/fulltext/S0092-8674\(25\)00853-0)* [by Juan Carlos Izpisua Belmonte](https://www.cell.com/cell/fulltext/S0092-8674\(25\)00853-0) and his team at Altos Labs, have provided a new model for the biology of aging, and what might be done to reverse it. Until recently we accepted that aging of cells was due to “wear and tear” like rusting out a car. The idea that accumulated damage is the principal pathway for cell aging is now complemented by the loss of cell identity model. We don’t know the relative contribution or interdependence of these 2 models in the aging process.
 
@@ -118,3 +122,7 @@ Your subscription to these **free essays and podcasts** makes my work in putting
 ***If you found this interesting PLEASE share it!***
 
 The proceeds from all voluntary paid subscriptions go to support our summer internship program. It enabled us to accept and support a record number of 62 summer interns that joined us in 2026! These are high school, college and medical students selected from thousands of applicants. We couldn’t do this expanded program without the funds coming in through Ground Truths. Thank you!
+
+## Growing ideas
+- ✅ [[💡 Superagers]] — PRC2 erosion as the molecular basis of epigenetic clocks and decanalization directly validates the 'youth reset' / programmable-biological-time thesis.
+- ✅ [[💡Ecological cell modulating]] — Waddington basin shallowing (decanalization) is the molecular evidence for the basin-attractor / goldilocks-zone framework the idea is built on.

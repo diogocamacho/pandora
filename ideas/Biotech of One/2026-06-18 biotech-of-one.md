@@ -130,6 +130,7 @@ Convert this note into a **2-page founder thesis memo**. Audience: future Diogo,
 - ✅ [[Disruptive Technologies Catching the Wave]] (2026-10-02 · clip) — Christensen's framework explains why pharma incumbents, locked to existing customers, will cede AI-native closed-loop drug discovery to new entrants.
 - ✅ [[Genome language models can design cancer vaccines]] (2026-09-28 · clip) — Article states the algorithm 'is part of the medicine' — Omnii designs mRNA sequences end-to-end, concrete proof of closed-loop AI drug design.
 - ✅ [[How to Move from AI Experimentation to AI Transformation]] (2026-10-02 · clip) — Empirical evidence that workflow reinvention—not task automation—drives 10–25% EBITDA gains validates Diogo's explicit rejection of pure-automation agentic systems in biotech.
+- ✅ [[Intelligence is the Primitive. Applications are the Diffusion Layer.]] (2026-10-01 · clip) — a16z frames intelligence as commodity infrastructure; validates Diogo's thesis that biotech value is in the application/workflow built on top, not AI access itself.
 
 ---
 

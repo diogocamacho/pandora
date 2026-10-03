@@ -317,6 +317,7 @@ The computational PoC validates whether **digital twin simulations** can predict
 
 By the end of ProtoCo (9 months), the computational PoC should deliver a **validated, learning digital twin** that reduces experimental cycles, predicts safe rejuvenation regimens, and provides the **data moat** for Eterna’s platform advantage.
 
+---
 
-
-
+## Supporting evidence
+- ✅ [[Loss of Cell Identity Drives Human Aging]] (2026-09-30 · clip) — PRC2 erosion as the molecular basis of epigenetic clocks and decanalization directly validates the 'youth reset' / programmable-biological-time thesis.

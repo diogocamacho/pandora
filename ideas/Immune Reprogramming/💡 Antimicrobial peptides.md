@@ -31,3 +31,8 @@ Can we leverage some data from how the human immune system responds to bacterial
 
 ## Supporting evidence
 - ✅ [[Anthropic has not solved the peptide-binder design problem, but maybe biohub has]] (2026-09-28 · clip) — ESMFold2 demonstrably outperforms AlphaFold3 for scoring peptide binders, directly improving the computational pipeline for designing antimicrobial peptide therapeutics.
+
+---
+
+## Challenges & counterpoints
+- ⚡ [[How useful are zero-shot predictions of mutational effects?]] (2026-09-28 · clip) — Woolley et al. show zero-shot protein models fail specifically for new-to-nature function-enhancing mutations — exactly what peptide therapeutic design requires.
