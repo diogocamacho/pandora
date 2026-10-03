@@ -135,6 +135,7 @@ Convert this note into a **2-page founder thesis memo**. Audience: future Diogo,
 - ✅ [[How to Move from AI Experimentation to AI Transformation]] (2026-10-02 · clip) — Empirical evidence that workflow reinvention—not task automation—drives 10–25% EBITDA gains validates Diogo's explicit rejection of pure-automation agentic systems in biotech.
 - ✅ [[Intelligence is the Primitive. Applications are the Diffusion Layer.]] (2026-10-01 · clip) — a16z frames intelligence as commodity infrastructure; validates Diogo's thesis that biotech value is in the application/workflow built on top, not AI access itself.
 - ✅ [[Previewing the Model Hardware Standard]] (2026-09-30 · clip) — MHS enables AI agents to run autonomous, round-the-clock drug discovery experiments — concrete infrastructure realizing the agentic biotech thesis.
+- ✅ [[RFdiffusion A generative model for protein design • Baker Lab]] (2026-10-01 · clip) — Reducing experimental burden from tens of thousands to ~1 design per challenge is direct evidence for AI-driven closed-loop drug discovery efficiency.
 
 ---
 

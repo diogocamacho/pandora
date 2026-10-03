@@ -10,12 +10,20 @@ author:
 published: 2026-04-30
 created: 2026-10-02
 description: "Many companies are investing heavily in AI but failing to translate isolated productivity gains into meaningful business results. The problem is a “micro-productivity trap,” where firms optimize tasks without rethinking workflows or value creation, preventing organization-wide impact. This article outlines four steps to escape this trap—strategically narrowing use cases, reimagining cross-functional workflows, engaging frontline employees, and measuring outcomes tied to business value—illustrated through examples from companies like Lowe’s and a Fortune 1000 manufacturing firm."
+related:
+
 tags:
   - "clippings"
+  - "ai-transformation"
+  - "enterprise-strategy"
+  - "workflow-redesign"
+  - "organizational-change"
+  - "change-management"
 idea-supports:
   - "[[2026-06-18 biotech-of-one]]"
   - "[[2026-06-29 Agentic Nutrition — where the moat actually is]]"
 ideas_checked: true
+processed: true
 ---
 ## Summary.
 
@@ -105,3 +113,5 @@ Readers Also Viewed These Items
 ## Growing ideas
 - ✅ [[2026-06-18 biotech-of-one]] — Empirical evidence that workflow reinvention—not task automation—drives 10–25% EBITDA gains validates Diogo's explicit rejection of pure-automation agentic systems in biotech.
 - ✅ [[2026-06-29 Agentic Nutrition — where the moat actually is]] — "Micro-productivity trap" names exactly the failure mode the memo warns against: competitors bolting an LLM onto a supplement brand without reinventing workflows won't build a durable moat.
+
+## Related notes

@@ -8,6 +8,7 @@ created: 2026-10-02
 description: "There was a discussion recently on Bluesky about reproducible data analysis pipelines."
 tags:
   - "clippings"
+ideas_checked: true
 ---
 There was a discussion recently on Bluesky about reproducible data analysis pipelines. This is a complex topic, and it’s difficult to do it justice in a bunch of 300 character posts. So I thought I’d take the opportunity to collect my thoughts on this topic in a longer-form article.
 

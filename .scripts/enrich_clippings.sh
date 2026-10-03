@@ -387,19 +387,19 @@ PYEOF
   fi
 fi
 
-# ── Weekly Deep Synthesis (Fridays only) ─────────────────────────────────────
+# ── Weekly Deep Synthesis (Saturdays only) ───────────────────────────────────
 #
 # Generates a long-form prose synthesis of the week's reading — written for
 # a Saturday morning read, not a skim. Includes a Plato challenge callout.
 # Output: Notes/Reviews/YYYY-Wnn Deep Synthesis.md (type: deep-synthesis)
 
-DAY_OF_WEEK=$(date '+%u')   # 1=Mon … 5=Fri
+DAY_OF_WEEK=$(date '+%u')   # 1=Mon … 6=Sat
 WEEK_NUM=$(date '+%Y-W%V')
 REVIEWS_DIR="$NOTES/Reviews"
 DEEP_FILE="$REVIEWS_DIR/$WEEK_NUM Deep Synthesis.md"
 
-if [[ "$DAY_OF_WEEK" != "5" ]]; then
-  log "Not Friday — skipping weekly deep synthesis."
+if [[ "$DAY_OF_WEEK" != "6" ]]; then
+  log "Not Saturday — skipping weekly deep synthesis."
   exit 0
 fi
 
@@ -408,7 +408,7 @@ if [[ -f "$DEEP_FILE" ]]; then
   exit 0
 fi
 
-log "Friday — generating weekly deep synthesis ($WEEK_NUM)..."
+log "Saturday — generating weekly deep synthesis ($WEEK_NUM)..."
 
 # Full clipping bodies for the past 14 days — more context than the shallow approach
 WEEK_CLIPPINGS=$(python3 - "$CLIPPINGS" <<'PYEOF'
