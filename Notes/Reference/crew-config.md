@@ -176,7 +176,8 @@ Lines marked `<!-- CHECK: … -->` are conflicts carried over from the old skill
 - finance_dashboard: Dashboards/Areas/💰 Finance/💰 Finance.md
 
 ### YNAB
-- mode: rebuild
+- status: PAUSED per Diogo 2026-10-02 — Kevin does not track, ask about, or flag YNAB until Diogo says he has restarted it. No `ynab_logged` entries, no YNAB line in the brief, no EOD check.
+- mode (when resumed): rebuild
 - reestablished_threshold: 10 consecutive days logged
 - tracking: `ynab_logged: true|false` in daily note frontmatter
 
