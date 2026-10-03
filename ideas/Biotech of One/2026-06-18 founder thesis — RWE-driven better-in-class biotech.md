@@ -116,3 +116,4 @@ This venture lives in Diogo's head and in pandora. Nothing more, for now.
 ## Supporting evidence
 - ✅ [[To Get More Effective Drugs, We Need More Human Trials]] (2026-09-28)
 - ✅ [[AI Versus Eroom's Law]] (2026-10-02 · clip) — Clipping establishes clinical development (not discovery) as the primary Eroom's Law driver, validating RWE as the high-leverage intervention.
+- ✅ [[Disruptive Technologies Catching the Wave]] (2026-10-02 · clip) — Incumbents optimizing for current customer needs will be slow to adopt RWE-driven approaches, opening durable space for a new entrant.

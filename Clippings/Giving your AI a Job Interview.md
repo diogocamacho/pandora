@@ -8,6 +8,9 @@ created: 2026-10-02
 description: "As AI advice becomes more important, we are going to need to get better at assessing it"
 tags:
   - "clippings"
+idea-challenges:
+  - "[[2026-06-18 biotech-of-one]]"
+ideas_checked: true
 ---
 ### As AI advice becomes more important, we are going to need to get better at assessing it
 
@@ -74,3 +77,6 @@ The work is worth it. You wouldn’t hire a VP based solely on their SAT scores.
 ![](https://substackcdn.com/image/fetch/$s_!DdeD!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fac6d7012-5894-4f9c-8152-a9497e7d6b6b_1376x864.png)
 
 ∙
+
+## Growing ideas
+- ⚡ [[2026-06-18 biotech-of-one]] — Benchmarks fail to capture real-world AI value; selecting models for drug discovery requires domain-specific evaluation beyond public metrics.

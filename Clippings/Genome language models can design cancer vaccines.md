@@ -19,6 +19,10 @@ related:
   - "[[2025-10-21 pMHC for diagnostics]]"
   - "[[2025-12-16 T-cell reprogramming]]"
 processed: true
+idea-supports:
+  - "[[2026-06-18 biotech-of-one]]"
+  - "[[2025-09-02 subroutine-tx]]"
+ideas_checked: true
 ---
 ![A T cell reaching down to the surface of another cell, its receptor gripping a peptide held in an MHC molecule that glows orange at the point of contact](https://www.radicalnumerics.ai/_next/image?url=%2Fassets%2Fblog%2Fomnii-cancer-vaccines%2Fcancer_vaccine_hero.png&w=3840&q=75&dpl=dpl_7qLpNc6tpmhnTCqWuKRY5CHdmoha)
 
@@ -513,3 +517,7 @@ Reach out to us at [health@radicalnumerics.ai](mailto:health@radicalnumerics.ai)
 ## Related notes
 - [[2025-10-21 pMHC for diagnostics]]
 - [[2025-12-16 T-cell reprogramming]]
+
+## Growing ideas
+- ✅ [[2026-06-18 biotech-of-one]] — Article states the algorithm 'is part of the medicine' — Omnii designs mRNA sequences end-to-end, concrete proof of closed-loop AI drug design.
+- ✅ [[2025-09-02 subroutine-tx]] — Genome language model reading DNA/RNA/protein as sequences directly instantiates the 'biology as code / genomes are executable instructions' thesis.

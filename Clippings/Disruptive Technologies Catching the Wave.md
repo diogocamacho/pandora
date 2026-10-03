@@ -8,6 +8,10 @@ created: 2026-10-02
 description: "One of the most consistent patterns in business is the failure of leading companies to stay at the top of their industries when technologies or markets change. Why is it that established companies invest aggressively—and successfully—in the technologies necessary to retain their current customers but then fail to make the technological investments that customers of the future will demand? The fundamental reason is that leading companies succumb to one of the most popular, and valuable, management dogmas; they stay close to their customers. Customers wield extraordinary power in directing a company’s investments. But what happens when a new technology emerges that customers reject because it doesn’t address their needs as effectively as a company’s current approach? In an ongoing study of technological change, the authors found that most established companies are consistently ahead of their industries in developing and commercializing new technologies as long as those technologies address the next-generation-performance needs of their customers. However, an industry’s leaders are rarely in the forefront of commercializing new technologies that don’t initially meet the functional demands of mainstream customers and appeal only to small or emerging markets. To remain at the top of their industries, managers must first be able to spot the technologies that fall into this category. To pursue these technologies, managers must protect them from the processes and incentives that are geared to serving mainstream customers. And the only way to do that is to create organizations that are completely independent of the mainstream business."
 tags:
   - "clippings"
+idea-supports:
+  - "[[2026-06-18 biotech-of-one]]"
+  - "[[2026-06-18 founder thesis — RWE-driven better-in-class biotech]]"
+ideas_checked: true
 ---
 ## Summary.
 
@@ -162,3 +166,7 @@ Managers of established companies can master disruptive technologies with extrao
 ![](https://hbr.org/resources/images/article_assets/1979/03/10557_500.png)
 
 *This article is also included in the book* [HBR at 100: The Most Influential and Innovative Articles from Harvard Business Review’s First Century](https://store.hbr.org/product/hbr-at-100-the-most-influential-and-innovative-articles-from-harvard-business-review-s-first-century/10557) *(Harvard Business Review Press, 2022).*
+
+## Growing ideas
+- ✅ [[2026-06-18 biotech-of-one]] — Christensen's framework explains why pharma incumbents, locked to existing customers, will cede AI-native closed-loop drug discovery to new entrants.
+- ✅ [[2026-06-18 founder thesis — RWE-driven better-in-class biotech]] — Incumbents optimizing for current customer needs will be slow to adopt RWE-driven approaches, opening durable space for a new entrant.

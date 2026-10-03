@@ -127,3 +127,10 @@ Convert this note into a **2-page founder thesis memo**. Audience: future Diogo,
 - ✅ [[Building 17 Agentic AI Patterns and Their Role in Large-Scale AI Systems]] (2026-10-02 · clip) — Concrete architectures — multi-agent, ensemble, ReAct loop, reflexive — validate the agentic AI stack the thesis depends on for closed-loop drug discovery.
 - ✅ [[Can LLMs design proteins?]] (2026-10-02 · clip) — AI agents tied human experts at de novo TREM2 binder design in one day, validating agentic AI as a peer in core drug discovery tasks.
 - ✅ [[Designer Spotlight Can a language model reason about protein design?]] (2026-10-02 · clip) — Pro-1 demonstrates closed-loop LLM-driven protein engineering with lab validation — exactly the design-verify agent loop the thesis envisions.
+- ✅ [[Disruptive Technologies Catching the Wave]] (2026-10-02 · clip) — Christensen's framework explains why pharma incumbents, locked to existing customers, will cede AI-native closed-loop drug discovery to new entrants.
+- ✅ [[Genome language models can design cancer vaccines]] (2026-09-28 · clip) — Article states the algorithm 'is part of the medicine' — Omnii designs mRNA sequences end-to-end, concrete proof of closed-loop AI drug design.
+
+---
+
+## Challenges & counterpoints
+- ⚡ [[Giving your AI a Job Interview]] (2026-10-02 · clip) — Benchmarks fail to capture real-world AI value; selecting models for drug discovery requires domain-specific evaluation beyond public metrics.

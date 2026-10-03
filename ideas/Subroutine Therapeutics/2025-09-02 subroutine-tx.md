@@ -211,3 +211,8 @@ If Moderna turned cells into “protein printers,” Subroutine Therapeutics mak
 # 🎉 FINAL PACKAGE COMPLETE 🎉  
 
 **Subroutine Therapeutics™** is positioned as the **first therapeutic platform to systematically exploit biological redundancy**. With hemoglobin switching as its anchor, SMT scales across oncology, neurology, and organ protection, mirroring Moderna’s universality but operating at the level of **systems logic, not single proteins**.  
+
+---
+
+## Supporting evidence
+- ✅ [[Genome language models can design cancer vaccines]] (2026-09-28 · clip) — Genome language model reading DNA/RNA/protein as sequences directly instantiates the 'biology as code / genomes are executable instructions' thesis.
