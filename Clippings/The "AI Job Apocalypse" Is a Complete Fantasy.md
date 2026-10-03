@@ -8,6 +8,9 @@ created: 2026-10-02
 description: "No evidence, no imagination, no understanding of humans"
 tags:
   - "clippings"
+idea-supports:
+  - "[[2026-06-18 biotech-of-one]]"
+ideas_checked: true
 ---
 ![](https://substackcdn.com/image/fetch/$s_!ugCc!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F95259a2e-bf11-44ca-a62b-62ed07243072_1460x650.png)
 
@@ -289,3 +292,6 @@ LFG!
 Data center construction (and the electrification of everything) have created a massive run on the skilled-trades that’s expected to persist at least through the end of the decade.
 
 Putting aside the longer-term effects of AI on the labor market, the sheer magnitude of AI Capex makes AI a jobmaker, for now. There’s a good argument that AI Capex is the cycle now, and outside of healthcare, it’s the only jobmaker in town.
+
+## Growing ideas
+- ✅ [[2026-06-18 biotech-of-one]] — Jevons Paradox argument — cheaper cognition expands ambition, not shrinks headcount — directly underpins the 'agentic AI as force multiplier' premise.

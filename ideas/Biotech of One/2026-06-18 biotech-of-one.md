@@ -136,6 +136,9 @@ Convert this note into a **2-page founder thesis memo**. Audience: future Diogo,
 - ✅ [[Intelligence is the Primitive. Applications are the Diffusion Layer.]] (2026-10-01 · clip) — a16z frames intelligence as commodity infrastructure; validates Diogo's thesis that biotech value is in the application/workflow built on top, not AI access itself.
 - ✅ [[Previewing the Model Hardware Standard]] (2026-09-30 · clip) — MHS enables AI agents to run autonomous, round-the-clock drug discovery experiments — concrete infrastructure realizing the agentic biotech thesis.
 - ✅ [[RFdiffusion A generative model for protein design • Baker Lab]] (2026-10-01 · clip) — Reducing experimental burden from tens of thousands to ~1 design per challenge is direct evidence for AI-driven closed-loop drug discovery efficiency.
+- ✅ [[Research Why You Shouldn’t Treat AI Agents Like Employees]] (2026-10-02 · clip) — Accountability dropped 9pts and escalation rose 44% when AI framed as employee; validates Diogo's rejection of pure-automation agents in favor of human-accountable workflows.
+- ✅ [[Seven Thoughts on]] (2026-10-02 · clip) — Describes agentic propose-then-verify loops for drug discovery — AI generates candidates, deterministic tools test them — exactly the closed-loop structure Diogo's thesis targets.
+- ✅ [[The "AI Job Apocalypse" Is a Complete Fantasy]] (2026-10-02 · clip) — Jevons Paradox argument — cheaper cognition expands ambition, not shrinks headcount — directly underpins the 'agentic AI as force multiplier' premise.
 
 ---
 

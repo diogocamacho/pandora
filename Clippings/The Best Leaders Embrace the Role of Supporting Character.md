@@ -8,6 +8,7 @@ created: 2026-10-02
 description: "The rise of “founder mode” and “main-character energy” as approaches to leadership has pushed many executives toward self-centered, top-down styles that research shows are deeply counterproductive—eroding trust, stifling performance, and ultimately leaving leaders themselves less engaged and fulfilled. The antidote is what might be called “supporting-character energy”: a humble, curious leadership style focused on understanding and advancing other people’s stories rather than one’s own. Leaders can cultivate it by practicing intellectual humility, asking better questions, and helping employees connect their work to their own values—a process shown to boost satisfaction, performance, and loyalty. As AI takes over information and technical skills, this deeply human capacity to inspire and connect will increasingly define what leadership is actually for."
 tags:
   - "clippings"
+ideas_checked: true
 ---
 ## Summary.
 

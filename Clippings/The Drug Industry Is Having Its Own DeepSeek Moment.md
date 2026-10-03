@@ -15,6 +15,11 @@ tags:
 related:
   - "[[Drug discovery]]"
 processed: true
+idea-supports:
+  - "[[💡 Network Target Foundry]]"
+idea-challenges:
+  - "[[2026-06-18 founder thesis — RWE-driven better-in-class biotech]]"
+ideas_checked: true
 ---
 ## It isn’t just artificial intelligence—Chinese biotechs are now developing drugs faster and cheaper than their U.S. counterparts
 
@@ -66,3 +71,7 @@ Appeared in the February 8, 2025, print edition as 'The Drug Industry’s DeepSe
 
 ## Related notes
 - [[Drug discovery]]
+
+## Growing ideas
+- ✅ [[💡 Network Target Foundry]] — China's biotech edge is incremental drug improvement, not novel target discovery — validates network-based novel targeting as a defensible US differentiator.
+- ⚡ [[2026-06-18 founder thesis — RWE-driven better-in-class biotech]] — Chinese biotechs already deliver better-in-class drugs at a fraction of US cost, directly undercutting the moat of a US-based better-in-class venture.

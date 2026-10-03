@@ -58,3 +58,4 @@ Because it is indication-agnostic, the Foundry becomes the engine for a _portfol
 
 ## Supporting evidence
 - ✅ [[To Get More Effective Drugs, We Need More Human Trials]] (2026-09-28)
+- ✅ [[The Drug Industry Is Having Its Own DeepSeek Moment]] (2026-09-28 · clip) — China's biotech edge is incremental drug improvement, not novel target discovery — validates network-based novel targeting as a defensible US differentiator.
