@@ -6,13 +6,21 @@ author:
 published: 2026-04-12
 created: 2026-10-02
 description: "Observations as an early-stage investor"
+related:
+
 tags:
   - "clippings"
+  - "erooms-law"
+  - "ai-drug-discovery"
+  - "rd-productivity"
+  - "biotech-investing"
+  - "pharmaceutical-innovation"
 idea-supports:
   - "[[2026-06-18 founder thesis — RWE-driven better-in-class biotech]]"
 idea-challenges:
   - "[[2025-09-21 causalab]]"
 ideas_checked: true
+processed: true
 ---
 *Welcome to The Century of Biology! This newsletter explores data, companies, and ideas from the frontier of biology. You can subscribe for free to have the next post delivered to your inbox:*
 
@@ -430,3 +438,5 @@ The answer is yes.
 ## Growing ideas
 - ✅ [[2026-06-18 founder thesis — RWE-driven better-in-class biotech]] — Clipping establishes clinical development (not discovery) as the primary Eroom's Law driver, validating RWE as the high-leverage intervention.
 - ⚡ [[2025-09-21 causalab]] — Formation Bio CEO: pharma already has more good drugs than it can afford to prosecute — undermines the pure discovery platform thesis.
+
+## Related notes

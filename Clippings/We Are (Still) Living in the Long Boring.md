@@ -8,6 +8,10 @@ created: 2026-10-02
 description: "the \"bits are easy, atoms are hard\" barrier has not been breached"
 tags:
   - "clippings"
+idea-challenges:
+  - "[[Superagers]]"
+  - "[[💡 Superagers]]"
+ideas_checked: true
 ---
 In [this piece](https://default.blog/p/its-too-late-techno-pessimists-we) arguing that the future is here - that *the Singularity* is here, that it has already been accomplished - Katherine Dee says, “I typed this from an iPhone while looking at 3D-renderings of my unborn children.”
 
@@ -84,3 +88,7 @@ Consider what that century actually delivered. Electrification, meaning not just
 These weren’t merely new inventions or products or possibilities; each was a restructuring of the basic *conditions of existence*. Before electrification productive work ended at sundown. Before indoor plumbing fetching water was a several-hour daily task for most households. Before refrigeration the organization of daily meals was governed entirely by what hadn’t yet rotted. Before antibiotics a scratch could kill you. Before commercial aviation the journey from New York to London took a week by sea.
 
 Gordon’s point isn’t merely that these were humanity-altering technologies, but that the improvements these technologies delivered were *one-time gains*. You go from no electricity to electricity once. You go from outhouses and wells to indoor plumbing once. The gains are enormous, irreversible, and non-repeatable. And they are, by and large, done.
+
+## Growing ideas
+- ⚡ [[Superagers]] — Most longevity gains happened pre-1970; modern medicine shows diminishing returns, undermining the premise that new therapeutics can dramatically extend healthy lifespan.
+- ⚡ [[💡 Superagers]] — Historical data shows longevity progress largely plateaued; challenges assumption that a programmable 'youth reset' represents a tractable near-term opportunity.

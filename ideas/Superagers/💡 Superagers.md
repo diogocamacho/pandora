@@ -6,7 +6,7 @@ tags:
 Date: 2025-10-22
 Follow up:
 evidence_supporting: 2
-evidence_challenging: 0
+evidence_challenging: 1
 evidence_last: 2026-10-02
 ---
 > [!tip] The core idea
@@ -325,3 +325,8 @@ By the end of ProtoCo (9 months), the computational PoC should deliver a **valid
 ## Supporting evidence
 - ✅ [[Loss of Cell Identity Drives Human Aging]] (2026-09-30 · clip) — PRC2 erosion as the molecular basis of epigenetic clocks and decanalization directly validates the 'youth reset' / programmable-biological-time thesis.
 - ✅ [[The Hormesis of Cognition]] (2026-10-02 · clip) — Taxi/ambulance driver study: dynamic route-planning reduces Alzheimer's risk, providing a cognitive-hormesis mechanism for healthy brain aging.
+
+---
+
+## Challenges & counterpoints
+- ⚡ [[We Are (Still) Living in the Long Boring]] (2026-10-02 · clip) — Historical data shows longevity progress largely plateaued; challenges assumption that a programmable 'youth reset' represents a tractable near-term opportunity.
