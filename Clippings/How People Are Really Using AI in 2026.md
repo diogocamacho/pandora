@@ -6,8 +6,17 @@ author:
 published: 2026-06-01
 created: 2026-10-02
 description: "In the third edition of this study, the authors found that people are adopting generative AI for an ever-widening range of uses. Trends from one year to the next should be understood as shifts in emphasis, rather than stark ruptures. As the breadth and depth of usage grows, so has the anxiety that people are surrendering their cognitive responsibilities to AI—a trend the authors call “thinkslop.” There’s also a parallel concern that they are relying too much on the technology for emotional support. In the business world, there is a lot of activity that produces marginal rather than game-changing benefits, so far."
+related:
+
 tags:
   - "clippings"
+  - "ai-adoption"
+  - "generative-ai"
+  - "agentic-workflows"
+  - "human-ai-collaboration"
+  - "future-of-work"
+  - "cognitive-offloading"
+processed: true
 ---
 ## Summary.
 
@@ -150,3 +159,4 @@ Readers Also Viewed These Items
 	Book
 - ![](https://cdn11.bigcommerce.com/s-yneuaokjib/images/stencil/250x260/products/85474/345151/10628E_500__13988.1781270123.png?c=2)
 	Book
+## Related notes

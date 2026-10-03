@@ -16,6 +16,7 @@ related:
   - "[[Drug discovery]]"
   - "[[AI and drug discovery]]"
 processed: true
+ideas_checked: true
 ---
 China is a study in extremes. It's the world's oldest continuous civilization, yet also, as Dan Wang writes, a country that "combines lengthy periods of stasis with episodes of extreme movement." In 1970, when China's GDP per capita was about $1,400 in today's dollars, Francis Crick predicted that "it would not be surprising if eventually China became a major scientific power." Half a century later, China has transformed even more drastically than Crick imagined.
 

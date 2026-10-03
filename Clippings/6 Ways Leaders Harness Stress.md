@@ -9,6 +9,7 @@ created: 2026-10-02
 description: "Today’s leaders face increasing pressure on all sides, and their stress levels are higher now than they were even at the peak of the pandemic. Though stress can sharpen performance briefly, over time it erodes judgment, narrows perspective, and increases the risk of costly missteps. Most leaders have distinct default responses to it. This article outlines the six most common patterns: the calm lighthouse, the reinvention-oriented alchemist, the action-driven firefighter, the disciplined stoic, the relationship-focused diplomat, and the control-driven container. Each style has both strengths and blind spots that pressure can amplify. Leaders can increase their ability to perform under duress by identifying and understanding their default responses and then deliberately expanding their range of reactions—using simple tactics to regulate themselves, share the cognitive load, and alter their style in real time as conditions change."
 tags:
   - "clippings"
+ideas_checked: true
 ---
 ## Summary.
 

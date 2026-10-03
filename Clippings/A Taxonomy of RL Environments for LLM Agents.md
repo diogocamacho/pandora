@@ -8,6 +8,7 @@ created: 2026-10-02
 description: "A structured guide to RL environments for LLM agents. RL environments are the training grounds that shape what agents can learn. This guide covers the five c..."
 tags:
   - "clippings"
+ideas_checked: true
 ---
 Model architecture gets all the attention. Post-training recipes follow close behind. The reinforcement learning (RL) environment — what the model actually practices on, how its work gets judged, what tools it can use — barely enters the conversation. That’s the part that actually determines what the agent can learn to do.
 
