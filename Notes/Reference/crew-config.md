@@ -123,6 +123,11 @@ Lines marked `<!-- CHECK: … -->` are conflicts carried over from the old skill
 - 401k_manager: financial advisor
 - tax_bracket: 20% + 3.8% NIIT (dividends/LTCG in taxable)
 
+### Cash flow into brokerage cash (SPAXX) — per Diogo 2026-10-02
+- allison_pay: weekly, Thursdays; $296.42 to SPAXX each time (fixed for the year)
+- diogo_pay: 1st and 15th of the month; $1,933.15 to SPAXX each pay date
+- update only if Diogo says it changed
+
 ### Debt tracker
 | Debt | Balance | Rate | Expiry / Payoff | Priority |
 |---|---|---|---|---|
