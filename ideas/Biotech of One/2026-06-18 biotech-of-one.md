@@ -120,3 +120,8 @@ Convert this note into a **2-page founder thesis memo**. Audience: future Diogo,
 - [ ] parked
 - [ ] killed
 - [x] promoted-to-project (2026-06-18, after 8 rounds of Plato challenge)
+
+---
+
+## Supporting evidence
+- ✅ [[Building 17 Agentic AI Patterns and Their Role in Large-Scale AI Systems]] (2026-10-02 · clip) — Concrete architectures — multi-agent, ensemble, ReAct loop, reflexive — validate the agentic AI stack the thesis depends on for closed-loop drug discovery.

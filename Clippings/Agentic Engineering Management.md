@@ -8,6 +8,7 @@ created: 2026-10-02
 description: "To what extent AI is OK to use in software development might be debated, but in general, the idea is not a controversial one anymore. The debate rather moved on from code completion and simple PR summarizations to Agentic Engineering, where an execution loop allows an AI Agent to function"
 tags:
   - "clippings"
+ideas_checked: true
 ---
 To what extent AI is OK to use in software development might be debated, but in general, the idea is not a controversial one anymore. The debate rather moved on from code completion and simple PR summarizations to Agentic Engineering, where an execution loop allows an AI Agent to function autonomously. Similarly, various AI tools are part of the day-to-day for Engineering Managers, from meeting transcription to document summarization. But what if we get inspired by the shift towards agents seen in software development?
 

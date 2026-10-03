@@ -8,6 +8,11 @@ created: 2026-10-02
 description: "Observations as an early-stage investor"
 tags:
   - "clippings"
+idea-supports:
+  - "[[2026-06-18 founder thesis — RWE-driven better-in-class biotech]]"
+idea-challenges:
+  - "[[2025-09-21 causalab]]"
+ideas_checked: true
 ---
 *Welcome to The Century of Biology! This newsletter explores data, companies, and ideas from the frontier of biology. You can subscribe for free to have the next post delivered to your inbox:*
 
@@ -421,3 +426,7 @@ The answer is yes.
 [^11]: a16z has outlined [The Little Tech Agenda](https://a16z.com/the-little-tech-agenda/), which is a policy stance focused on enabling tech startups rather than tech incumbents. Basically, my argument is that any major regulatory innovation for clinical development is The Little Biotech Agenda.
 
 [^12]: If the technology is good enough, some companies could even reach escape velocity *without* regulatory innovation. Business model innovation, such as hub-and-spoke strategies, may help, too.
+
+## Growing ideas
+- ✅ [[2026-06-18 founder thesis — RWE-driven better-in-class biotech]] — Clipping establishes clinical development (not discovery) as the primary Eroom's Law driver, validating RWE as the high-leverage intervention.
+- ⚡ [[2025-09-21 causalab]] — Formation Bio CEO: pharma already has more good drugs than it can afford to prosecute — undermines the pure discovery platform thesis.

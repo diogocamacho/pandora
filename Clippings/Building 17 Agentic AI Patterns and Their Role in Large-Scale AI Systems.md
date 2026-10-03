@@ -8,6 +8,9 @@ created: 2026-10-02
 description: "“” is published by Fareed Khan in Level Up Coding."
 tags:
   - "clippings"
+idea-supports:
+  - "[[2026-06-18 biotech-of-one]]"
+ideas_checked: true
 ---
 ## Ensembling, Meta-Control, ToT, Reflexive, PEV and more
 
@@ -28,3 +31,6 @@ Some of the patterns are:
 - The **ReAct loop**, where the agent alternates between thinking, taking action, and then thinking again to refine its process.
 
 And there are many more …
+
+## Growing ideas
+- ✅ [[2026-06-18 biotech-of-one]] — Concrete architectures — multi-agent, ensemble, ReAct loop, reflexive — validate the agentic AI stack the thesis depends on for closed-loop drug discovery.

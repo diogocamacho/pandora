@@ -18,6 +18,9 @@ related:
   - "[[co-folding for bindable epitopes]]"
   - "[[cofolding analysis from Andrew]]"
 processed: true
+idea-supports:
+  - "[[💡 Antimicrobial peptides]]"
+ideas_checked: true
 ---
 ### The protein design field is getting pushed forward by human experts in protein design, who would have thought
 
@@ -43,3 +46,6 @@ There you go. Whoever wrote the Claude prompt knew what they were doing, or mayb
 - [[ProteinMPNN — sequence design]]
 - [[co-folding for bindable epitopes]]
 - [[cofolding analysis from Andrew]]
+
+## Growing ideas
+- ✅ [[💡 Antimicrobial peptides]] — ESMFold2 demonstrably outperforms AlphaFold3 for scoring peptide binders, directly improving the computational pipeline for designing antimicrobial peptide therapeutics.

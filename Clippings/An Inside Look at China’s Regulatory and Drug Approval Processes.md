@@ -17,6 +17,7 @@ related:
   - "[[Regulatory]]"
   - "[[Drug discovery]]"
 processed: true
+ideas_checked: true
 ---
 No items found.
 

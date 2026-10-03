@@ -26,3 +26,8 @@ Can we leverage some data from how the human immune system responds to bacterial
 
 > [!tip] The core idea
 > 
+
+---
+
+## Supporting evidence
+- ✅ [[Anthropic has not solved the peptide-binder design problem, but maybe biohub has]] (2026-09-28 · clip) — ESMFold2 demonstrably outperforms AlphaFold3 for scoring peptide binders, directly improving the computational pipeline for designing antimicrobial peptide therapeutics.
