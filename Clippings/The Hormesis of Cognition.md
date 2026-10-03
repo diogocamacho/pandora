@@ -8,6 +8,9 @@ created: 2026-10-02
 description: "The case for intentional cognitive friction"
 tags:
   - "clippings"
+idea-supports:
+  - "[[💡 Superagers]]"
+ideas_checked: true
 ---
 There’s a saying in toxicology that goes “the dose makes the poison.” Even the most lethal toxins, at a small enough quantity, are harmless. And even the safest substances, to excess, are toxic.
 
@@ -112,3 +115,6 @@ In a sense, I’m just pursuing the stated promise of technology, that my capabi
 A key element of hormesis is that there is a sweet spot for physiological stress, and I’m arguing that the same is true for cognition. If doing something without technology results in a high enough level of stress, that stress itself becomes harmful. Defaulting to technology tools for every task will erode cognitive capacity, just as sitting in a chair all day erodes physical fitness.
 
 Somewhere between those two extremes lies the promised land.
+
+## Growing ideas
+- ✅ [[💡 Superagers]] — Taxi/ambulance driver study: dynamic route-planning reduces Alzheimer's risk, providing a cognitive-hormesis mechanism for healthy brain aging.

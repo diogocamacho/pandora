@@ -324,3 +324,4 @@ By the end of ProtoCo (9 months), the computational PoC should deliver a **valid
 
 ## Supporting evidence
 - ✅ [[Loss of Cell Identity Drives Human Aging]] (2026-09-30 · clip) — PRC2 erosion as the molecular basis of epigenetic clocks and decanalization directly validates the 'youth reset' / programmable-biological-time thesis.
+- ✅ [[The Hormesis of Cognition]] (2026-10-02 · clip) — Taxi/ambulance driver study: dynamic route-planning reduces Alzheimer's risk, providing a cognitive-hormesis mechanism for healthy brain aging.

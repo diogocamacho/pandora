@@ -139,6 +139,8 @@ Convert this note into a **2-page founder thesis memo**. Audience: future Diogo,
 - ✅ [[Research Why You Shouldn’t Treat AI Agents Like Employees]] (2026-10-02 · clip) — Accountability dropped 9pts and escalation rose 44% when AI framed as employee; validates Diogo's rejection of pure-automation agents in favor of human-accountable workflows.
 - ✅ [[Seven Thoughts on]] (2026-10-02 · clip) — Describes agentic propose-then-verify loops for drug discovery — AI generates candidates, deterministic tools test them — exactly the closed-loop structure Diogo's thesis targets.
 - ✅ [[The "AI Job Apocalypse" Is a Complete Fantasy]] (2026-10-02 · clip) — Jevons Paradox argument — cheaper cognition expands ambition, not shrinks headcount — directly underpins the 'agentic AI as force multiplier' premise.
+- ✅ [[The Era of Personal Super-Intelligent Agents]] (2026-09-29 · clip) — Meta's $180B PSIA build-out confirms agentic AI infrastructure (M2M inference, swarms) is maturing—the 'why now' for agentic drug discovery.
+- ✅ [[The Rising Opportunity Cost of Being Human]] (2026-10-02 · clip) — Clipping explicitly quantifies AI output amplification at 10x–100x per person — the economic premise underlying the biotech-of-one thesis.
 
 ---
 

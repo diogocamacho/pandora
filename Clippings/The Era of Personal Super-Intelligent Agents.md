@@ -14,6 +14,11 @@ tags:
   - "personal-ai"
   - "ai-industry"
 processed: true
+idea-supports:
+  - "[[2026-06-18 biotech-of-one]]"
+idea-challenges:
+  - "[[2026-06-29 Agentic Nutrition — where the moat actually is]]"
+ideas_checked: true
 ---
 ### Meta spent over $180 Bn. in compute, talent, training, data, security and ops to usher in Muse.
 
@@ -462,3 +467,7 @@ Meta’s off-balance-sheet debt alone is about $420 billion, nearly triple its r
 [^2]: Increasingly diminishing marketshare with Google Gemini and others. In fact even in Search Google has taken back considerable marketshare in recent quarters.
 
 [^3]: Traffic to ChatGPT's website has been slowing down and much slower than most top websites for quite some time.
+
+## Growing ideas
+- ✅ [[2026-06-18 biotech-of-one]] — Meta's $180B PSIA build-out confirms agentic AI infrastructure (M2M inference, swarms) is maturing—the 'why now' for agentic drug discovery.
+- ⚡ [[2026-06-29 Agentic Nutrition — where the moat actually is]] — Meta Muse as personal life optimizer with 3.6B daily users could absorb personalized nutrition as a feature, directly threatening standalone moat.
