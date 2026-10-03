@@ -17,6 +17,7 @@ related:
   - "[[Drug discovery]]"
   - "[[Regulatory]]"
 processed: true
+ideas_checked: true
 ---
 [
 

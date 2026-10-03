@@ -7,6 +7,9 @@ created: 2026-10-02
 description: "In this designer spotlight, we take a look at Michael Hla’s recent Pro-1. It is a protein reasoning and optimization model capable to explain why it proposes a mutation. He tested FGF-1 designs in our lab at Adaptyv and managed to show significant melting temperature improvements, while still maintaining binding to their targets. One design even reached a melting temperature comparable to the most optimized FGF-1 variants in the literature!"
 tags:
   - "clippings"
+idea-supports:
+  - "[[2026-06-18 biotech-of-one]]"
+ideas_checked: true
 ---
 ![Designer Spotlight: Can a language model reason about protein design?](https://www.adaptyvbio.com/api/notion-image?pageId=15c5ca69-e7be-8017-a7e6-c1900dbd26d3&dpl=dpl_Bsaio4WCaxexwfMbmiLzvhdcoFwz)
 
@@ -89,3 +92,6 @@ Michael showed [an example](https://x.com/hla_michael/status/1926750332475920403
 - Try out Pro-1 [here](https://huggingface.co/mhla/pro-1)
 - Say hi to Michael Hla: [Website](https://michaelhla.com/), [X](https://x.com/hla_michael), [LinkedIn](https://www.linkedin.com/in/michael-hla-58a468167/)
 - **Have some novel proteins you want to test in the lab?**[**Come talk to us**](mailto:proteinbase@adaptyvbio.com) — we’d like to run many more of those protein designer spotlights, so if you have a cool new hypothesis or model to test we’d love to hear from you!
+
+## Growing ideas
+- ✅ [[2026-06-18 biotech-of-one]] — Pro-1 demonstrates closed-loop LLM-driven protein engineering with lab validation — exactly the design-verify agent loop the thesis envisions.

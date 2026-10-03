@@ -19,6 +19,7 @@ tags:
   - "data-skills"
   - "labor-market"
 processed: true
+ideas_checked: true
 ---
 ![](https://substackcdn.com/image/fetch/$s_!wZs6!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fab91c42a-0f74-422e-9065-ebd4c3f529ff_1460x650.png)
 

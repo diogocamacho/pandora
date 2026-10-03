@@ -125,3 +125,5 @@ Convert this note into a **2-page founder thesis memo**. Audience: future Diogo,
 
 ## Supporting evidence
 - ✅ [[Building 17 Agentic AI Patterns and Their Role in Large-Scale AI Systems]] (2026-10-02 · clip) — Concrete architectures — multi-agent, ensemble, ReAct loop, reflexive — validate the agentic AI stack the thesis depends on for closed-loop drug discovery.
+- ✅ [[Can LLMs design proteins?]] (2026-10-02 · clip) — AI agents tied human experts at de novo TREM2 binder design in one day, validating agentic AI as a peer in core drug discovery tasks.
+- ✅ [[Designer Spotlight Can a language model reason about protein design?]] (2026-10-02 · clip) — Pro-1 demonstrates closed-loop LLM-driven protein engineering with lab validation — exactly the design-verify agent loop the thesis envisions.
