@@ -7,6 +7,11 @@ created: 2026-10-02
 description: "Sponsor content from AWS and Effectual."
 tags:
   - "clippings"
+idea-supports:
+  - "[[2026-06-18 biotech-of-one]]"
+idea-challenges:
+  - "[[2026-06-29 Agentic Nutrition — where the moat actually is]]"
+ideas_checked: true
 ---
 Despite the big promise of AI, only 5% of AI implementations deliver measurable business returns, according to [a recent study by MIT](https://aimagazine.com/news/mit-why-95-of-enterprise-ai-investments-fail-to-deliver). Rarely is the problem the technology. More often, AI efforts fall short because leaders overlook the critical role humans play in the system.
 
@@ -55,3 +60,7 @@ When humans and AI work together effectively, organizations unlock transformativ
 ---
 
 ***At Effectual, we help organizations navigate the intersection of human oversight and machine learning by focusing on how people work. Our approach emphasizes mapping existing workflows, designing low-friction and intuitive experiences, and identifying where AI delivers the most value while preserving areas where human judgment must remain central. The goal is to make AI feel seamless, not disruptive. To learn more about how Effectual bridges the gap between human workflows and AI capabilities,*** [***contact us today***](https://effectual.ai/contact/)***.***
+
+## Growing ideas
+- ✅ [[2026-06-18 biotech-of-one]] — Human-in-the-loop argument supports Diogo's thesis that agents should augment expert judgment, not automate it away.
+- ⚡ [[2026-06-29 Agentic Nutrition — where the moat actually is]] — Only 5% of AI deployments deliver measurable returns — challenges assumption that LLM-augmented nutrition products can reliably create business value.

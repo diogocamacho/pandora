@@ -5,8 +5,8 @@ status: draft-for-discussion
 audience: [Raffi Afeyan, Mike Hamill, Laura Maiorino]
 source: pitch-review of funded ProtoCos + Agentic Nutrition deck (Mar 2026 working doc)
 tags: [strategy-memo, agentic-nutrition, dtc, moat, evidence-engine, endogenous-first, axcella]
-evidence_supporting: 3
-evidence_challenging: 0
+evidence_supporting: 4
+evidence_challenging: 2
 evidence_last: 2026-10-02
 ---
 
@@ -159,8 +159,10 @@ None of this holds if the intervention layer is not actually defensible. The PMS
 - ✅ [[How People Are Really Using AI in 2026]] (2026-10-02 · clip) — Business AI producing 'marginal rather than game-changing benefits' validates the memo's core argument that the moat cannot be a bolt-on LLM.
 - ✅ [[How to Move from AI Experimentation to AI Transformation]] (2026-10-02 · clip) — "Micro-productivity trap" names exactly the failure mode the memo warns against: competitors bolting an LLM onto a supplement brand without reinventing workflows won't build a durable moat.
 - ✅ [[Intelligence is the Primitive. Applications are the Diffusion Layer.]] (2026-10-01 · clip) — a16z argument that intelligence is a primitive explicitly confirms bolting an LLM onto a product is not a moat; moat must live in the application/data layer.
+- ✅ [[What Is Strategy?]] (2026-10-01 · clip) — Porter's OE-vs-strategy distinction directly answers the memo's question: bolting an LLM onto a supplement brand is OE, not a defensible position.
 
 ---
 
 ## Challenges & counterpoints
 - ⚡ [[The Era of Personal Super-Intelligent Agents]] (2026-09-29 · clip) — Meta Muse as personal life optimizer with 3.6B daily users could absorb personalized nutrition as a feature, directly threatening standalone moat.
+- ⚡ [[Why AI Works Best When It Works with Humans - SPONSOR CONTENT FROM AWS AND EFFECTUAL]] (2026-10-02 · clip) — Only 5% of AI deployments deliver measurable returns — challenges assumption that LLM-augmented nutrition products can reliably create business value.

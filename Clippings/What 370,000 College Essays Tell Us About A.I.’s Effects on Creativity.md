@@ -8,6 +8,7 @@ created: 2026-10-02
 description: "A.I. can be a crutch that hurts our ability to think creatively."
 tags:
   - "clippings"
+ideas_checked: true
 ---
 I am a big fan of technology. I’ve blissfully given over my spatial reasoning to Google Maps. I use artificial intelligence to chase down articles, do research, fix my grammar mistakes and whip up last-minute school-night recipes.
 

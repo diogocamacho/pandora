@@ -17,6 +17,12 @@ related:
   - "[[Drug discovery]]"
   - "[[Regulatory]]"
 processed: true
+idea-supports:
+  - "[[2026-06-18 biotech-of-one]]"
+  - "[[💡 Network Target Foundry]]"
+idea-challenges:
+  - "[[2026-06-18 founder thesis — RWE-driven better-in-class biotech]]"
+ideas_checked: true
 ---
 I’m no car expert (I don’t even drive), but my cofounders used to work at a [company called Applied Intuition](https://www.appliedintuition.com/) that develops self-driving software for automakers. Over lunch we often talk about the similarities and differences between the pharma and auto industries, and one of the themes we keep returning to is the impact that innovation from China is having on established Western firms.
 
@@ -125,3 +131,8 @@ Of the two possible future worlds, one where policymakers respond by locking dow
 ## Related notes
 - [[Drug discovery]]
 - [[Regulatory]]
+
+## Growing ideas
+- ✅ [[2026-06-18 biotech-of-one]] — Chinese firms prove lean, fast drug discovery is viable; Western biotechs must rethink pipeline efficiency or cede ground.
+- ✅ [[💡 Network Target Foundry]] — Chinese CAR-T and bispecific antibody innovation signals that novel computational target discovery is where Western firms must differentiate.
+- ⚡ [[2026-06-18 founder thesis — RWE-driven better-in-class biotech]] — Chinese phase I arbitrage undercuts better-in-class economics; Western firms can license proven Chinese assets cheaply instead.

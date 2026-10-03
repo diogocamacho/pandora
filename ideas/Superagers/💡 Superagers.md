@@ -5,9 +5,9 @@ tags:
   - ideas
 Date: 2025-10-22
 Follow up:
-evidence_supporting: 1
+evidence_supporting: 2
 evidence_challenging: 0
-evidence_last: 2026-09-30
+evidence_last: 2026-10-02
 ---
 > [!tip] The core idea
 > Super agers

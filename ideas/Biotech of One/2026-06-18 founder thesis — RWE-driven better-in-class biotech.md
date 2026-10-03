@@ -4,8 +4,8 @@ date: 2026-06-18
 status: draft-for-future-self
 source: "[[2026-06-18 biotech-of-one]]"
 tags: [founder-thesis, biotech, drug-discovery, ai-ml, rwe, small-molecules, c-level]
-evidence_supporting: 3
-evidence_challenging: 0
+evidence_supporting: 4
+evidence_challenging: 2
 evidence_last: 2026-10-02
 ---
 
@@ -123,3 +123,4 @@ This venture lives in Diogo's head and in pandora. Nothing more, for now.
 
 ## Challenges & counterpoints
 - ⚡ [[The Drug Industry Is Having Its Own DeepSeek Moment]] (2026-09-28 · clip) — Chinese biotechs already deliver better-in-class drugs at a fraction of US cost, directly undercutting the moat of a US-based better-in-class venture.
+- ⚡ [[Will all our drugs come from China?]] (2026-09-28 · clip) — Chinese phase I arbitrage undercuts better-in-class economics; Western firms can license proven Chinese assets cheaply instead.

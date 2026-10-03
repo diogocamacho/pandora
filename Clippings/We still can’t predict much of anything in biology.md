@@ -17,6 +17,10 @@ related:
   - "[[ProteinMPNN — sequence design]]"
   - "[[co-folding for bindable epitopes]]"
 processed: true
+idea-challenges:
+  - "[[💡 Antimicrobial peptides]]"
+  - "[[2026-06-18 biotech-of-one]]"
+ideas_checked: true
 ---
 AI has gotten amazingly good for programming. Claude Sonnet will zero- or one-shot small programming tasks without mistakes. And while I don’t think AI is ready to replace software engineers outright, or that vibe coding a fully featured app is a good idea, for simple tasks AI is outstanding. For example, I can perform basic data analysis, maybe visualize a dataset with a PCA or run a classifier, by sketching out what I want in a prompt and Claude will reliably write code that can do the task.[^1]
 
@@ -73,3 +77,7 @@ Now I’d like to hear from you in the comments. Do you have similar experiences
 ## Related notes
 - [[ProteinMPNN — sequence design]]
 - [[co-folding for bindable epitopes]]
+
+## Growing ideas
+- ⚡ [[💡 Antimicrobial peptides]] — BindCraft shows peptide design tools yield ~1% success in practice despite 10-100% claimed rates.
+- ⚡ [[2026-06-18 biotech-of-one]] — AI biology methods systematically underperform published benchmarks, challenging AI-accelerated drug discovery assumptions.

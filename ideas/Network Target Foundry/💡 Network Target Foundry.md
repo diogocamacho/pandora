@@ -5,7 +5,7 @@ tags:
   - compbio
   - networkbiology
 Date: 2025-10-10
-evidence_supporting: 1
+evidence_supporting: 3
 evidence_challenging: 0
 evidence_last: 2026-09-28
 ---
@@ -59,3 +59,4 @@ Because it is indication-agnostic, the Foundry becomes the engine for a _portfol
 ## Supporting evidence
 - ✅ [[To Get More Effective Drugs, We Need More Human Trials]] (2026-09-28)
 - ✅ [[The Drug Industry Is Having Its Own DeepSeek Moment]] (2026-09-28 · clip) — China's biotech edge is incremental drug improvement, not novel target discovery — validates network-based novel targeting as a defensible US differentiator.
+- ✅ [[Will all our drugs come from China?]] (2026-09-28 · clip) — Chinese CAR-T and bispecific antibody innovation signals that novel computational target discovery is where Western firms must differentiate.

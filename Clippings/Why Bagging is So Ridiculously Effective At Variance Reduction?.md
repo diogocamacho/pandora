@@ -8,6 +8,7 @@ created: 2026-10-02
 description: "Diving into the mathematical motivation for using bagging."
 tags:
   - "clippings"
+ideas_checked: true
 ---
 👉
 

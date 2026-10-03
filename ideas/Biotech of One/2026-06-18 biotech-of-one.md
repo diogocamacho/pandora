@@ -4,8 +4,8 @@ date: 2026-06-18
 mode: challenge
 status: promoted-to-project
 tags: [idea, comp-bio, drug-discovery, agents, strategy, c-level, small-molecules]
-evidence_supporting: 8
-evidence_challenging: 3
+evidence_supporting: 20
+evidence_challenging: 4
 evidence_last: 2026-10-02
 ---
 
@@ -144,6 +144,9 @@ Convert this note into a **2-page founder thesis memo**. Audience: future Diogo,
 - ✅ [[To Get More Effective Drugs, We Need More Human Trials]] (2026-09-28 · clip) — Clinical development is 60-70% of drug costs and the field's primary bottleneck; any future biotech model must address this stage, not just discovery.
 - ✅ [[To Thrive Alongside AI, Focus on Mindset—Not Skillset]] (2026-10-02 · clip) — GDPval benchmark (80% of professions at AI parity) and operator-to-supervisor shift directly reinforce thesis that future biotech runs on human judgment over agentic execution.
 - ✅ [[Uneven Frontiers]] (2026-10-02 · clip) — Clipping argues clinical development is the binding constraint; durable value concentrates there, not in discovery — Formation Bio data backs this.
+- ✅ [[What Is Strategy?]] (2026-10-01 · clip) — Validates Diogo's explicit rejection of pure automation: AI-as-efficiency-tool is OE; the moat requires performing different activities, not the same ones faster.
+- ✅ [[Why AI Works Best When It Works with Humans - SPONSOR CONTENT FROM AWS AND EFFECTUAL]] (2026-10-02 · clip) — Human-in-the-loop argument supports Diogo's thesis that agents should augment expert judgment, not automate it away.
+- ✅ [[Will all our drugs come from China?]] (2026-09-28 · clip) — Chinese firms prove lean, fast drug discovery is viable; Western biotechs must rethink pipeline efficiency or cede ground.
 
 ---
 
@@ -151,3 +154,4 @@ Convert this note into a **2-page founder thesis memo**. Audience: future Diogo,
 - ⚡ [[Giving your AI a Job Interview]] (2026-10-02 · clip) — Benchmarks fail to capture real-world AI value; selecting models for drug discovery requires domain-specific evaluation beyond public metrics.
 - ⚡ [[Has Anthropic solved the peptide-binder design problem?]] (2026-09-28 · clip) — Claude beat human experts via pure orchestration of existing tools, no new science — pure automation delivered, undercutting the 'automation isn't enough' premise.
 - ⚡ [[How People Are Really Using AI in 2026]] (2026-10-02 · clip) — 'Thinkslop'/cognitive-debt finding shows agentic AI degrades human reasoning—directly undercuts the augmented-scientist premise.
+- ⚡ [[We still can’t predict much of anything in biology]] (2026-09-28 · clip) — AI biology methods systematically underperform published benchmarks, challenging AI-accelerated drug discovery assumptions.

@@ -4,9 +4,9 @@ tags:
   - ideas
 Date: 2025-10-22
 Follow up:
-evidence_supporting: 1
-evidence_challenging: 1
-evidence_last: 2026-09-28
+evidence_supporting: 2
+evidence_challenging: 2
+evidence_last: 2026-10-01
 ---
 
 Sep 17, 2025: Antimicrobial peptides for therapeutics -- Jan 17, 2025
@@ -40,3 +40,4 @@ Can we leverage some data from how the human immune system responds to bacterial
 
 ## Challenges & counterpoints
 - ⚡ [[How useful are zero-shot predictions of mutational effects?]] (2026-09-28 · clip) — Woolley et al. show zero-shot protein models fail specifically for new-to-nature function-enhancing mutations — exactly what peptide therapeutic design requires.
+- ⚡ [[We still can’t predict much of anything in biology]] (2026-09-28 · clip) — BindCraft shows peptide design tools yield ~1% success in practice despite 10-100% claimed rates.
