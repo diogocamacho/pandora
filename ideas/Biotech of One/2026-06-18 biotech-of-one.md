@@ -134,3 +134,5 @@ Convert this note into a **2-page founder thesis memo**. Audience: future Diogo,
 
 ## Challenges & counterpoints
 - ⚡ [[Giving your AI a Job Interview]] (2026-10-02 · clip) — Benchmarks fail to capture real-world AI value; selecting models for drug discovery requires domain-specific evaluation beyond public metrics.
+- ⚡ [[Has Anthropic solved the peptide-binder design problem?]] (2026-09-28 · clip) — Claude beat human experts via pure orchestration of existing tools, no new science — pure automation delivered, undercutting the 'automation isn't enough' premise.
+- ⚡ [[How People Are Really Using AI in 2026]] (2026-10-02 · clip) — 'Thinkslop'/cognitive-debt finding shows agentic AI degrades human reasoning—directly undercuts the augmented-scientist premise.

@@ -17,6 +17,11 @@ tags:
   - "future-of-work"
   - "cognitive-offloading"
 processed: true
+idea-supports:
+  - "[[2026-06-29 Agentic Nutrition — where the moat actually is]]"
+idea-challenges:
+  - "[[2026-06-18 biotech-of-one]]"
+ideas_checked: true
 ---
 ## Summary.
 
@@ -160,3 +165,7 @@ Readers Also Viewed These Items
 - ![](https://cdn11.bigcommerce.com/s-yneuaokjib/images/stencil/250x260/products/85474/345151/10628E_500__13988.1781270123.png?c=2)
 	Book
 ## Related notes
+
+## Growing ideas
+- ✅ [[2026-06-29 Agentic Nutrition — where the moat actually is]] — Business AI producing 'marginal rather than game-changing benefits' validates the memo's core argument that the moat cannot be a bolt-on LLM.
+- ⚡ [[2026-06-18 biotech-of-one]] — 'Thinkslop'/cognitive-debt finding shows agentic AI degrades human reasoning—directly undercuts the augmented-scientist premise.

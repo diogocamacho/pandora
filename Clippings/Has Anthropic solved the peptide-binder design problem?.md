@@ -21,6 +21,9 @@ tags:
   - "computational-biology"
   - "llm-science"
 processed: true
+idea-challenges:
+  - "[[2026-06-18 biotech-of-one]]"
+ideas_checked: true
 ---
 You know what they say about headlines that are yes/no questions. If the author felt confident the answer was yes he would have said so.[^1] With that out of the way, let’s talk about the recent claim by Anthropic and see what we can find out. Are we all going to use Claude for peptide-binder design going forward?
 
@@ -82,3 +85,6 @@ And, for no good reason, I’ll close by pointing out that no angry teenager wil
 - [[2025-10-20 Target ID]]
 - [[2025-10-07 Target ID for Abiologics]]
 - [[📃 Papers]]
+
+## Growing ideas
+- ⚡ [[2026-06-18 biotech-of-one]] — Claude beat human experts via pure orchestration of existing tools, no new science — pure automation delivered, undercutting the 'automation isn't enough' premise.

@@ -149,3 +149,8 @@ None of this holds if the intervention layer is not actually defensible. The PMS
 2. Can we show, on one indication, a formulation that the evidence label makes defensible *and* that a competent competitor with GPT and PubMed would not trivially reproduce?
 3. What is the smallest cohort and cheapest measurement that produces a claim-upgrading dataset inside the ProtoCo window?
 4. Where do we draw the endogenous-first line, and which evidence-backed botanicals earn an exception?
+
+---
+
+## Supporting evidence
+- ✅ [[How People Are Really Using AI in 2026]] (2026-10-02 · clip) — Business AI producing 'marginal rather than game-changing benefits' validates the memo's core argument that the moat cannot be a bolt-on LLM.
