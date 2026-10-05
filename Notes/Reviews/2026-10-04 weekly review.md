@@ -3,6 +3,8 @@ type: weekly-review
 date: 2026-10-04
 week_iso: 2026-W40
 review_complete: false
+career_move_this_week: false
+strategic_hours: "~1-2"
 top_3: ["Resolve Adaptyv", "Resolve next career move (Tilde or Vertex)", "Good plan for target_scan (Chiara nudge if needed)"]
 tags: [review, weekly]
 ---
@@ -68,31 +70,37 @@ tags: [review, weekly]
   - **Fri 10/9 14:00** — Sadik Kassim, same format.
   - **Tue 10/6 9:30** — One Vector IT touchpoint (OneVector Phase 1 hours still unanswered).
 - Big-rock blocks protected: ⬜ — with Ariel delegated and the Summit skipped, real windows open up (corrects my earlier "only one" count): **Mon 10/5 12:30–16:00**; **Thu 10/8 09:30–14:00** (LT at 14:00) — best candidate for strategic/target_scan work; **Wed 10/7 14:30–16:00** (after Chiara). None are on the calendar yet; strategic hours (2–3/wk) not blocked.
+  - Diogo will hold the time himself. Prerequisite: define the roadmap (personal, career) so the strategic block has a target — see §11.
 - Beth OOO 10/8–10/9, then on-site 10/12–10/16.
 
 ## 7. Decision log
-- Pending → resolved: ⬜
+- Pending → resolved: Tilde vs Vertex — still pending. Holding off on the Tilde discussion until there is clarity on Vertex's real interest.
+- Inputs expected: Liam call Mon 10/5 12:00 (does Tilde move closer to the numbers?); Vertex visibility hoped for by end of week (team debrief expected after 10/9).
 - New decisions: ⬜
 
 ## 8. Follow-ups to send
-- ⬜
+- Note to Jeremy + Declan (target_scan, protein-design angle) — Mon 10/5
+- Email to LT ahead of Thu on Adaptyv scoping — Mon 10/5
+- Benchling time answer from the team — Mon 10/5 meeting
+- Nothing else (Diogo).
 
 ## 9. Career positioning check
-- Did anything this week move toward C-level? ⬜
-- Strategic-work hours this week (target: ≥5h): ⬜
-- One thing to do next week for positioning: ⬜
+- Did anything this week move toward C-level? **No.** Only brief LinkedIn posts without substance, nothing done mindfully. Needs to be more proactive; wants to define with Sarah what visible actions should look like.
+- Strategic-work hours this week (target: ≥5h): **~1–2** of actual thinking.
+- One thing to do next week for positioning: **Thu 10/8 morning strategic block — 45 min with Sarah drafting a one-page positioning plan (audience, 2–3 formats, cadence).** Context — Diogo's frame: be strategic about what he does; the Adaptyv conversation and a Tilde VP move are not C-level positioning on their own, but wherever he lands he must keep pushing visibility and gravitas.
 
 ## 10. Areas check
-- 💰 Finance — snapshot 2026-10-03 (prices 10-02): $23,936.57 vs $23,551.95 prior (+$384.62). Fidelity card payoff still open (overdue since 07-08).
-- 💪 Fitness — 3 sessions hit this week (run 09-29, strength 10-01, strength 10-02) plus HIIT 10-04 as Sat make-up; 10-03 was rest. Weight 199.1 (09-29) → 198.7 (10-02) vs 170 target. Protein under target on 10-02 (156 vs 199) and 10-03 (131 vs 199); 10-03 calories 1,542 vs 2,200. HRV 22–31 ms, recovery 58–96%.
-- 🧬 X2 / Agentic Nutrition — not visible in vault 7+ days (flagged in the 10-03 brief). Threshold: >1 week = flag.
-- ⚓️ Flagship Pioneering — ⬜
-- 🎯 Career positioning — ⬜
-- 🧠 Strategic thinking hours this week — ⬜
-- Managing up/sideways: this week touched Chiara (09-30 1:1), ⬜ anything initiated with Mike Hamill or Raffi Rafeyan?
+- 💰 Finance — snapshot 2026-10-03 (prices 10-02): $23,936.57 vs $23,551.95 prior (+$384.62). Diogo: not off track, but needs to keep getting better at it.
+- 💪 Fitness — Diogo: great. Data: 3 sessions hit this week (run 09-29, strength 10-01, strength 10-02) plus HIIT 10-04 as Sat make-up; 10-03 was rest. Weight 199.1 (09-29) → 198.7 (10-02) vs 170 target. Protein under target on 10-02 (156 vs 199) and 10-03 (131 vs 199); 10-03 calories 1,542 vs 2,200. HRV 22–31 ms, recovery 58–96%.
+- 🧬 X2 / Agentic Nutrition — not visible in vault 7+ days. Diogo: in a holding pattern, outside his control — not a drop. Revisit when the hold lifts.
+- ⚓️ Flagship Pioneering — Diogo: nothing off track.
+- 🎯 Career positioning — see §9: missed this week; plan session Thu 10/8.
+- 🧠 Strategic thinking hours this week — ~1–2 (see §9).
+- Managing up/sideways: this week touched Chiara (09-30 1:1), not addressed — no initiated contact with Mike Hamill or Raffi Rafeyan visible this week.
 
 ## 11. Notes for next week's review
-- ⬜
+- Positioning plan session happened Thu 10/8? Plan exists and has a cadence?
+- Roadmap (personal, career, etc.) needs to be drafted before the Thu 10/8 strategic block — check whether it happened.
 
 ## Learning this week
 - Deep Synthesis: [[2026-W40 Deep Synthesis]] — themes: covariation trap in protein ML (evolutionary plausibility vs design fitness); clinical development as the bottleneck AI doesn't reach (Eroom's Law); cell identity loss as aging mechanism. Papers deep-read: none.
