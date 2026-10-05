@@ -382,6 +382,17 @@ Lines marked `<!-- CHECK: … -->` are conflicts carried over from the old skill
 - **Life Pulse:** `.scripts/life_pulse.sh`, launchd Sunday 18:00 → `Notes/Logs/YYYY-Wnn life pulse.md`
 
 
+## harold
+
+- **Shelf (per-book notes):** `Notes/Reading/` (template `Templates/book-note.md`)
+- **Daily reading logs:** `Notes/Logs/YYYY-MM-DD reading.md` (template `Templates/reading-log.md`)
+- **Pace goal:** _unset_ — ask Diogo if he wants a target (e.g. nights/week, books/year); leave blank until he sets one, never nag toward a number he didn't choose
+- **No-repeat window (pushback):** last 7 reading logs
+- **To-read list:** _none yet_ — add titles here as he mentions them; used by the "what next" mode
+
+<!-- One book should carry status: reading at a time unless Diogo says otherwise. -->
+
+
 ## kate
 
 ### Identity & fit

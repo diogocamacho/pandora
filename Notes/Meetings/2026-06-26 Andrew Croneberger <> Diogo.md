@@ -12,7 +12,7 @@ tags: [1v1, acroneberger, abiologics]
 **From [[2026-06-25 Andrew Croneberger <> Diogo]] (1 day ago):**
 
 ### Open items
-- [ ] Talk to Andrew (+ [[Nitya Talasila|Nitya]]) about the growth of Radiance 📅 2026-06-23 ← overdue; close the loop today
+- [-] Talk to Andrew (+ [[Nitya Talasila|Nitya]]) about the growth of Radiance 📅 2026-06-23 ← overdue; close the loop today ❌ 2026-10-04 _(resolved — tracked in Todoist)_
 - [ ] Andrew's piece of the design-review experimental plan — where did it land?
 
 ### Open questions / follow-ups

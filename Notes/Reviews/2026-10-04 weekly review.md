@@ -3,6 +3,7 @@ type: weekly-review
 date: 2026-10-04
 week_iso: 2026-W40
 review_complete: false
+top_3: ["Resolve Adaptyv", "Resolve next career move (Tilde or Vertex)", "Good plan for target_scan (Chiara nudge if needed)"]
 tags: [review, weekly]
 ---
 
@@ -29,18 +30,24 @@ tags: [review, weekly]
 - ⬜ Anything missing?
 
 ## 3. What didn't get done — and why
-- **15 overdue tasks, most 11–14 weeks stale, no blocker notes.** Oldest/biggest: OpenFold PO renewal (due 06-25), Fidelity card payoff (07-08), comp goals to Jiangchuan (07-08/07-10), "State of the Pipeline 2026" slides (07-12), Rob Albert / OneVector fractional-CIO loop (07-08), Andrew + Nitya Radiance growth conversation (06-23), investment-strategy weekly check (07-27).
-- Open this week, not overdue: written note to Declan + Jeremy on target_scan from a protein-design angle; Benchling review time with comp team (Mon 10/5); Karen Scott (OneVector) Phase 1 hours; Adaptyv joint-test scoping (BLI discrepancy); Cradle utilization data; Allison birthday gift (10/11); finish *The Fall*.
-- ⬜ Per item: do / defer / delete.
+- **Stale overdue backlog cleared (22 task lines across 13 notes, duplicates from carry-forward).** Diogo: all resolved; Todoist is now the system of record, so the Obsidian copies were marked cancelled `[-]` with ❌ 2026-10-04. Overdue in vault: 0.
+- *The Fall* — already finished; marked done in [[2026-10-03]].
+- Dispositions for what was open this week (Todoist is the system of record — **these need to be entered there; no Todoist connector in this session**):
+  - [ ] Write the note to Declan (point) and Jeremy (advisor): build on target_scan from a protein-design angle 📅 2026-10-05
+  - [ ] Get the team's answer on Benchling time reservation — ask at the Mon 10:00 comp team meeting 📅 2026-10-05
+  - [ ] Email ahead of Thursday's LT on the Adaptyv joint-test scoping (BLI discrepancy / LC-MS cost question) — send during Mon free slot (12:30–16:00) 📅 2026-10-05
+  - Adaptyv scoping itself → raised at **LT Thu 10/8, 14:00**.
+  - [ ] Figure out Allison's birthday gift (birthday 10/11; Berkshires weekend 10/10) — *due date is my suggestion* 📅 2026-10-08
+  - Karen Scott / OneVector Phase 1 hours and Cradle utilization data: ⬜ not addressed — still open?
 
 ## 4. Open loops (from notes, with `follow-up: true`)
-- None — the sweep returns no notes with the property actually set (the only grep hit was prose in [[2026-10-03]]).
+- Closed — Diogo: no untagged open loops. None — the sweep returns no notes with the property actually set (the only grep hit was prose in [[2026-10-03]]).
 - Standing 1:1s (Jiangchuan, Andrew, Jeremy, Nitya, Beth) are back on the calendar this week after lapsing.
 
 ## 5. Top 3 priorities next week
-1. ⬜
-2. ⬜
-3. ⬜
+1. Resolution on the Adaptyv question (raise at LT Thu 10/8; email ahead Mon)
+2. Resolution on next career move — Tilde or Vertex
+3. A good plan for target_scan, even if it needs a Chiara nudge (Chiara 1:1 Wed 10/7 14:00)
 
 ## 6. Calendar review (next 2 weeks)
 - Conflicts:
@@ -51,12 +58,16 @@ tags: [review, weekly]
   - **Fri 10/9 14:00** — Sadik Kassim CEO interview overlaps Comp Team/Onc Data back-to-back around it (13:00 G Project → 14:00 interview → 15:00 Onc Data).
   - **Wed 10/14 10:00** — OpenFold Governing Board overlaps Nitya 1:1 (10:00); Ariel Office Hours 14:00 again overlaps Chiara 1:1.
   - **Thu 10/15** — A-bowl-alogics off-site 13:30–16:30 overlaps LT Meeting 14:00 and SyntTrack-T 13:00.
+- **Diogo's calls on conflicts:**
+  - Chiara 1:1 (Wed 10/7, 10/14 at 14:00) is never missed. Ariel Office Hours at the same time are delegated to the team — no action.
+  - Not attending the Scientific Synergies Summit (Thu 10/8) → LT at 14:00 is clear; Adaptyv just needs air time on the agenda.
+  - Thu 10/15 off-site is company-wide, so LT and SyntTrack-T won't run. Attendance undecided.
 - Prep needed:
   - **Mon 10/5 10:00** Comp Team Kickoff (45 min) and **11:00** Cycle Planning (60 min); **12:00 Liam reconnect** — numbers need settling with Allison before then.
   - **Tue 10/6 14:00** — Bulent Kiziltan, "deeper dive into AI approach" with Mike Hamill (Russell Reynolds invite).
   - **Fri 10/9 14:00** — Sadik Kassim, same format.
   - **Tue 10/6 9:30** — One Vector IT touchpoint (OneVector Phase 1 hours still unanswered).
-- Big-rock blocks protected: ⬜ — only one open ≥90 min window Mon–Fri: **Mon 10/5 12:30–16:00** (after the Liam call). Tue–Fri have no 90-min gap (Wed/Thu/Fri afternoons are consumed by Ariel Office Hours, the Summit/LT, and the interview/Onc Data run). Strategic hours (2–3/wk) not on calendar.
+- Big-rock blocks protected: ⬜ — with Ariel delegated and the Summit skipped, real windows open up (corrects my earlier "only one" count): **Mon 10/5 12:30–16:00**; **Thu 10/8 09:30–14:00** (LT at 14:00) — best candidate for strategic/target_scan work; **Wed 10/7 14:30–16:00** (after Chiara). None are on the calendar yet; strategic hours (2–3/wk) not blocked.
 - Beth OOO 10/8–10/9, then on-site 10/12–10/16.
 
 ## 7. Decision log

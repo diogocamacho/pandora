@@ -15,4 +15,4 @@ gene, ramesh, karen
 - #abiologics will maintain baystate it relationship, maintaining 5 day coverage between 2 companies (profound + abiologics)
 
 
-- [ ] ping #acroneberger on what the growth for #abiologics needs to be for sustainable growth from an IT perspective (his work vs what he's comfortable with others managing) 📅 2026-07-15 🔼 
+- [-] ping #acroneberger on what the growth for #abiologics needs to be for sustainable growth from an IT perspective (his work vs what he's comfortable with others managing) 📅 2026-07-15 🔼  ❌ 2026-10-04 _(resolved — tracked in Todoist)_

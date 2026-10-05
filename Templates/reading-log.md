@@ -10,6 +10,7 @@ author:
 genre:  # fiction | nonfiction
 pages_read:
 percent_complete:
+book_note:   # "[[<Title>]]" — the per-book note in Notes/Reading
 tags: [reading]
 ---
 
@@ -19,6 +20,7 @@ tags: [reading]
 - **Title:** 
 - **Author:** 
 - **Where I am:** 
+- **Book note:** 
 
 ## Tonight's read
 - Pages / chapters:

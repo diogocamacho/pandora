@@ -17,8 +17,8 @@ Follow up:
 **From [[2026-06-29 Comp Team Kickoff]] (7 days ago):**
 
 ### Open items
-- [ ] Talk to Andrew (+ Nitya) about the growth of Radiance — overdue 📅 2026-06-23; both are in the room today, close it live
-- [ ] Diogo to highlight to leadership how we should think about the growth of Radiance 📅 2026-06-30 (overdue)
+- [-] Talk to Andrew (+ Nitya) about the growth of Radiance — overdue 📅 2026-06-23; both are in the room today, close it live ❌ 2026-10-04 _(resolved — tracked in Todoist)_
+- [-] Diogo to highlight to leadership how we should think about the growth of Radiance 📅 2026-06-30 (overdue) ❌ 2026-10-04 _(resolved — tracked in Todoist)_
 - [x] Design-pipeline target decision — flagged "due early next week" on 6/26, still open ✅ 2026-07-09
 
 ### Open questions / follow-ups
@@ -32,7 +32,7 @@ Follow up:
 - Rosetta for Sylvia:
 	- Better if it’s on a local machine; Fallback can be cluster. 
     - version for Rosetta: Andrew to provide.
-    - [ ] where do we stand on rosetta for #sazer? 📅 2026-07-10 
+    - [-] where do we stand on rosetta for #sazer? 📅 2026-07-10  ❌ 2026-10-04 _(resolved — tracked in Todoist)_
  
 
 ## ❓ Open questions

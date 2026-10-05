@@ -13,7 +13,7 @@ tags:
 
 ### Open items
 - [x] Diogo to highlight to leadership how we should think about the growth of Radiance 📅 2026-06-30 ✅ 2026-07-07
-- [ ] Talk to Andrew and [[Nitya Talasila|Nitya]] about the growth of Radiance (email + slack) 📅 2026-06-23 ← **DUE TODAY — use this 1:1 to have this conversation**
+- [-] Talk to Andrew and [[Nitya Talasila|Nitya]] about the growth of Radiance (email + slack) 📅 2026-06-23 ← **DUE TODAY — use this 1:1 to have this conversation** ❌ 2026-10-04 _(resolved — tracked in Todoist)_
 - [x] slack Nitya and Erik about what Diogo would like to see in the agentic app 🔼 📅 2026-06-23 ✅ 2026-06-23
 
 ### Context threads

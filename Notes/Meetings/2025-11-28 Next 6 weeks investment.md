@@ -31,7 +31,7 @@ With this structure, with ~$5k available to invest in the next 6 weeks, doing we
 - **Speculative basket (SOUN + NVTS + CRVW): $250 total**  
     That can be $80–90 each, or weighted however you like.
 
-- [ ] check in investment strategy #personal #money #investment 🔁 every week 📅 2026-07-27
+- [-] check in investment strategy #personal #money #investment 🔁 every week 📅 2026-07-27 ❌ 2026-10-04 _(resolved — tracked in Todoist)_
 - [x] check in investment strategy #personal #money #investment 🔁 every week 📅 2026-07-20 ✅ 2026-07-20
 - [x] check in investment strategy #personal #money #investment 🔁 every week 📅 2026-07-13 ✅ 2026-07-20
 - [x] check in investment strategy #personal #money #investment 🔁 every week 📅 2026-07-06 ✅ 2026-07-06

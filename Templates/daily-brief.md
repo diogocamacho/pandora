@@ -32,5 +32,8 @@ tags: [brief, daily-brief]
 ## 💪 Candy — Body
 - 
 
+## 📖 Harold — Reading
+- 
+
 ## 📅 Meeting prep
 - 

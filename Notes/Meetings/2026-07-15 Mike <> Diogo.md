@@ -37,4 +37,4 @@ peptide design can be a thing that we capitalize from based on FAP learnings
 GLP1 results from last year we saw agonism and inhibition 
 
 #### To Do
-- [ ] start a slide deck sandbox on this to share with #mhamill 📅 2026-07-16 🔺 
+- [-] start a slide deck sandbox on this to share with #mhamill 📅 2026-07-16 🔺  ❌ 2026-10-04 _(resolved — tracked in Todoist)_

@@ -29,6 +29,6 @@ Follow up:
 
 - aligned on career trajectory for #jye: Prin Sci for 2 years, then let's see how he handles transition into team lead. 
 - Overall happy at [[Abiologics Home|Abiologics]], wanted him to focus on not replicating the work that #jamon may be doing on solubility or stability predictions. To be followed up at a later date. 
-- [ ] send #jye the comp goals for 2026. 📅 2026-07-10 
+- [-] send #jye the comp goals for 2026. 📅 2026-07-10  ❌ 2026-10-04 _(resolved — tracked in Todoist)_
 
 
