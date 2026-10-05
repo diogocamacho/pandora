@@ -3,9 +3,9 @@ tags:
   - quick
   - abiologics
   - it
-Follow up:
+Follow up: true
 ---
-<% tp.file.rename(tp.date.now("YYYY-MM-DD") + " quick note") %>
+
 ---
 ### 🧠 Note
 

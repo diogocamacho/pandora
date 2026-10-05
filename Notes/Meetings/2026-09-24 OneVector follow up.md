@@ -21,4 +21,4 @@ Follow up: true
 	- what does the next phase looks like? 
 	- draft email to kala
 
-[[2026-09-28 Follow up email]]
+[[2026-09-28 Follow up email to OneVector]]

@@ -11,7 +11,7 @@ Follow up:
 
 ## 📋 Carryover from prior thread
 
-**From [[2026-09-28 Follow up email]] (today):**
+**From [[2026-09-28 Follow up email to OneVector]] (today):**
 - Sent Karen Scott a request for: (1) a breakdown of where Phase 1's 40 hours went, and (2) an outline of Phase 1 outcomes/deliverables — before committing to the next SOW phase. Kala and Rob were cc'd before it went out.
 
 ## 🗓️ Agenda

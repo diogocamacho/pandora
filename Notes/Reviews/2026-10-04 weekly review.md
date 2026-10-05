@@ -11,10 +11,11 @@ tags: [review, weekly]
 > Pre-filled by Sarah. Sections marked ⬜ are for Diogo — nothing inferred. Streak: no completed vault review on record (last Notion "Weekly" entry 2026-06-21, none marked complete) → ~15 weeks dormant.
 
 ## 1. Clear the inboxes
-- Email zero: [ ]
-- Slack: [ ]
-- `#inbox` cleared to zero (see [[Dashboards]] ▸ Inbox): [ ]
-- `Notes/` root (unfiled) triaged to zero: [ ] — 4 files at root: [[2026-09-28 Follow up email]], [[2026-10-02]], [[2026-10-03]], [[2026-10-10 Allison Birthday Weekend - Berkshires]]
+- Email zero: [x]
+- Slack: [x] — nothing needing action
+- `#inbox` cleared to zero (see [[Dashboards]] ▸ Inbox): [x]
+  - [ ] Edit the Pandora home page to surface the inbox — it isn't evident today 📅 2026-10-11
+- `Notes/` root (unfiled) triaged to zero: [x] — moved [[2026-09-28 Follow up email to OneVector]] → `Notes/Meetings/` and [[2026-10-10 Allison Birthday Weekend - Berkshires]] → new `Notes/Personal/`; root now empty (the 10-02/10-03 files I saw earlier are no longer at root — the dailies live in `Notes/Daily/`)
 - Brain dump → captured: ⬜
 
 ## 2. What got done this week
