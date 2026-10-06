@@ -13,6 +13,7 @@ Follow up:
 
 - model space converging (rosetta/chai)
 	- non generalizable hit rates
+	- building a differentiated platform (like isomorphic)
 
 
 ### ❓Gut Reaction
