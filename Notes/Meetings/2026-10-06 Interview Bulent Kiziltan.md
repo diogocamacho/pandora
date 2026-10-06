@@ -16,6 +16,10 @@ Follow up:
 	- building a differentiated platform (like isomorphic)
 
 
+
+
 ### ❓Gut Reaction
 
+- Bulent is a candidate for a CEO role at Abiologics
+- good experience in AI space, questions are a little vague even though he knows the jargon
 
