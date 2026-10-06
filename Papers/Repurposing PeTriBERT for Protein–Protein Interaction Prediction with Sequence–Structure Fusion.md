@@ -8,6 +8,10 @@ author:
 published:
 created: 2026-10-06
 description: "bioRxiv - the preprint server for biology, operated by openRxiv, a nonprofit organization dedicated to advancing scientific communication"
+analyzed: true
+analyzed_on: 2026-10-06
+analysis: "[[PeTriPPI2 — PPI via PLM+structure fusion (Wavreille 2026)]]"
+doi: "10.64898/2026.09.29.755338"
 tags:
   - "clippings"
 ---
