@@ -84,7 +84,7 @@ Lines marked `<!-- CHECK: … -->` are conflicts carried over from the old skill
 - allison_wfh: affects morning logistics — ask when relevant (no fixed days recorded)
 - work_pattern: mostly in-office, meeting-heavy, limited naturally occurring deep work
 - calendar_account: Outlook, dcamacho@flagshippioneering.com
-- tasks_source: Obsidian Tasks in vault (primary); Todoist only if connected <!-- CHECK: old skill said Todoist is source of truth; new architecture sets vault primary -->
+- tasks_source: Todoist is the single source of truth, read via `.scripts/todoist_pull.py` (Overdue / Due today / Due tomorrow / Priority 1; `--completed-since` for the week). Vault `- [ ]` checkboxes are scratch, never tasks.
 
 ### Review
 - weekly_review_day: Sunday, mid-morning after the family morning settles

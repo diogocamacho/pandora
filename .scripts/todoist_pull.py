@@ -3,8 +3,8 @@
 
 Todoist is the single source of truth for tasks. Vault `- [ ]` checkboxes are
 scratch, never tasks. This script is the pipe: it fetches live task state via the
-Todoist REST API and both prints it (for a live crew read at brief/EOD time) and
-writes a snapshot note the crew can read if it can't run the script itself.
+Todoist API and both prints it (for a live crew read at brief/EOD time) and writes
+a snapshot note the crew can read if it can't run the script itself.
 
 Token resolution (first that exists wins):
   1. env  TODOIST_API_TOKEN
@@ -15,11 +15,11 @@ Get the token from Todoist → Settings → Integrations → Developer → API t
 Usage:
   todoist_pull.py                 # write today's snapshot note + print to stdout
   todoist_pull.py --stdout-only   # print only, don't write the note (live crew read)
-  todoist_pull.py --completed-since YYYY-MM-DD   # print tasks completed since a date (Sarah's weekly review)
+  todoist_pull.py --completed-since YYYY-MM-DD   # tasks completed since a date (Sarah's weekly review)
 
-Uses REST API v2 (https://api.todoist.com/rest/v2) and, for completed items,
-Sync API v9. REST v2 is current as of this writing; if Todoist retires it, swap
-the base URL for the unified api/v1 endpoint — the field names are the same.
+Uses the Todoist unified API v1 (https://api.todoist.com/api/v1). Responses are
+paginated: list endpoints return {"results": [...], "next_cursor": ...}; completed
+tasks return {"items": [...]}.
 """
 
 import json
@@ -31,10 +31,9 @@ import urllib.request
 from datetime import date, datetime
 from pathlib import Path
 
-REST = "https://api.todoist.com/rest/v2"
-SYNC = "https://api.todoist.com/sync/v9"
+API = "https://api.todoist.com/api/v1"
 VAULT = Path(os.environ.get("PANDORA_VAULT", str(Path.home() / "Documents" / "pandora")))
-# UI priority labels: REST priority 4 = P1 (urgent) … 1 = P4 (normal)
+# UI priority labels: API priority 4 = P1 (urgent) … 1 = P4 (normal)
 PRI = {4: "P1", 3: "P2", 2: "P3", 1: "P4"}
 
 
@@ -51,20 +50,35 @@ def resolve_token():
     return None
 
 
-def api_get(url, token):
+def api_get(path, token, params=None):
+    url = f"{API}{path}"
+    if params:
+        url += "?" + urllib.parse.urlencode(params)
     req = urllib.request.Request(url, headers={"Authorization": f"Bearer {token}"})
     with urllib.request.urlopen(req, timeout=30) as r:
         return json.loads(r.read().decode("utf-8"))
 
 
-def fetch_filter(token, flt):
-    q = urllib.parse.urlencode({"filter": flt})
-    return api_get(f"{REST}/tasks?{q}", token)
+def get_all(path, token, params=None):
+    """Follow next_cursor pagination, collecting every item under 'results'."""
+    params = dict(params or {})
+    out = []
+    while True:
+        data = api_get(path, token, params)
+        out.extend(data.get("results", []))
+        cursor = data.get("next_cursor")
+        if not cursor:
+            return out
+        params["cursor"] = cursor
+
+
+def fetch_filter(token, query):
+    return get_all("/tasks/filter", token, {"query": query})
 
 
 def project_map(token):
     try:
-        return {p["id"]: p["name"] for p in api_get(f"{REST}/projects", token)}
+        return {p["id"]: p["name"] for p in get_all("/projects", token)}
     except Exception:
         return {}
 
@@ -73,15 +87,14 @@ def fmt_task(t, projects):
     bits = []
     due = (t.get("due") or {}).get("date")
     if due:
-        bits.append(f"due {due}")
+        bits.append(f"due {due[:10]}")
     bits.append(PRI.get(t.get("priority", 1), "P4"))
     proj = projects.get(t.get("project_id"))
     if proj and proj != "Inbox":
         bits.append(proj)
     for lab in t.get("labels", []):
         bits.append(f"@{lab}")
-    meta = " · ".join(bits)
-    return f"- {t.get('content', '').strip()}  ·  {meta}"
+    return f"- {t.get('content', '').strip()}  ·  " + " · ".join(bits)
 
 
 def section(title, tasks, projects):
@@ -89,16 +102,15 @@ def section(title, tasks, projects):
     if not tasks:
         lines.append("_none_")
     else:
-        for t in tasks:
-            lines.append(fmt_task(t, projects))
+        lines.extend(fmt_task(t, projects) for t in tasks)
     return "\n".join(lines)
 
 
 def completed_since(token, since):
-    # Sync API returns the most recent completed items; filter client-side by date.
-    url = f"{SYNC}/completed/get_all?{urllib.parse.urlencode({'since': since + 'T00:00'})}"
+    until = date.today().isoformat() + "T23:59:59"
     try:
-        data = api_get(url, token)
+        data = api_get("/tasks/completed/by_completion_date", token,
+                       {"since": since + "T00:00:00", "until": until})
     except Exception as e:
         return f"_completed-items fetch failed: {e}_"
     items = data.get("items", [])
@@ -155,7 +167,7 @@ def main():
         section("🔥 Priority 1 (not today/overdue)", p1, projects),
     ])
     note = (f"---\ntype: todoist-snapshot\ndate: {today_str}\n"
-            f"generated: {now}\nsource: todoist-rest-v2\ntags: [tasks, todoist]\n---\n\n"
+            f"generated: {now}\nsource: todoist-api-v1\ntags: [tasks, todoist]\n---\n\n"
             f"# {today_str} — Todoist snapshot\n\n"
             f"_Live task state. Source of truth is Todoist; vault checkboxes are scratch._\n\n"
             f"{body}\n")

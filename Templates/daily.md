@@ -96,7 +96,20 @@ LIMIT 10
 ```
 
 ## 🧠 Capture (inbox)
-_Scratch space — anything that comes up during the day. By end of day each line either gets checked off, becomes a real note in `Notes/`, or moves to `! Inbox/` for weekly triage._
+_Scratch space — anything that comes up during the day. **Tasks go to Todoist, not here:** if a line is a real task, add it with the button below (or ⌘⇧A) and clear it. By end of day each remaining line either becomes a real note in `Notes/` or gets dropped. Checkboxes here are scratch, never the task list._
+
+> [!button-row]
+> ```button
+> name ➕ Add task to Todoist
+> type command
+> action Todoist Sync: Add task
+> ```
+> ```button
+> name ➕ Task + link to this note
+> type command
+> action Todoist Sync: Add task with current page in task content
+> ```
+
 - 
 
 ## 📝 Meetings

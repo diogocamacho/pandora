@@ -22,7 +22,19 @@ date: <% d %>
 
 ## ✅ Open tasks (Todoist)
 
-> Add tasks here during the meeting with the **+** button, or tag Todoist tasks `@<% slug %>` to surface them here.
+> Add tasks during the meeting with the button below (tag them `@<% slug %>` so they surface here), or use the Todoist block's own **+**.
+
+> [!button-row]
+> ```button
+> name ➕ Add task to Todoist
+> type command
+> action Todoist Sync: Add task
+> ```
+> ```button
+> name ➕ Task + link to this note
+> type command
+> action Todoist Sync: Add task with current page in task content
+> ```
 
 ```todoist
 name: <% person %>
