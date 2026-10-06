@@ -24,6 +24,10 @@ created: 2026-10-06
 description: "bioRxiv - the preprint server for biology, operated by openRxiv, a nonprofit organization dedicated to advancing scientific communication"
 tags:
   - "clippings"
+analyzed: true
+analyzed_on: 2026-10-06
+analysis: "[[mmFEA — kinetic-aware multi-omics flux (Zhu 2026)]]"
+doi: "10.64898/2026.09.27.754711"
 ---
 New Results
 

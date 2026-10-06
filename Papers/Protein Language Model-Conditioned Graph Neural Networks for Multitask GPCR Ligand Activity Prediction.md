@@ -11,6 +11,10 @@ created: 2026-10-06
 description: "bioRxiv - the preprint server for biology, operated by openRxiv, a nonprofit organization dedicated to advancing scientific communication"
 tags:
   - "clippings"
+analyzed: true
+analyzed_on: 2026-10-06
+analysis: "[[PLM-Conditioned GNNs for GPCR Ligand Activity (De 2026)]]"
+doi: "10.64898/2026.09.27.754816"
 ---
 New Results
 
