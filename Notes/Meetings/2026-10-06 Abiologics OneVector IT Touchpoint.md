@@ -33,4 +33,5 @@ _no prior context beyond the carryover above, check the invite_
 -
 
 ## 🔁 Actions from this meeting
-- [ ] [[Andrew Croneberger]] needed for the timing of the mounting of the SGW (IT needs to coordinate with him.) Amelia will follow up. /📅 2026-10-06 ⏫ 
+- [ ] [[Andrew Croneberger]] needed for the timing of the mounting of the SGW (IT needs to coordinate with him.) Amelia will follow up. 📅 2026-10-06 ⏫ 
+- [ ] [[Andrew Croneberger]] we need to renew W&B. What is the process? 📅 2026-10-06 ⏫ 
