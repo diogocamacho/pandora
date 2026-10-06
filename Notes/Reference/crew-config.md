@@ -15,6 +15,7 @@ Lines marked `<!-- CHECK: … -->` are conflicts carried over from the old skill
 ### Identity & context
 - name: Diogo Camacho
 - role: Senior Principal, Computational Sciences at Flagship Pioneering (FSP)
+- professional_profile: `Notes/Reference/Diogo — Professional Profile.md` — full career record (history, deal numbers, patents, publications, skills, recommendations). Read by marshall (content credibility), sarah (career positioning), anderson (when Diogo is the candidate). Keep it updated as the record changes.
 - industry: Biotech / Drug Discovery
 - career_target: VP-equivalent → C-level role at a drug discovery company
 - age: 50
