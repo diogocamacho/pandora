@@ -393,6 +393,17 @@ Lines marked `<!-- CHECK: … -->` are conflicts carried over from the old skill
 <!-- One book should carry status: reading at a time unless Diogo says otherwise. -->
 
 
+## marshall
+
+- **Goals:** raise profile in biotech/AI drug discovery; meet new people (founders, scientists, investors); stay top-of-mind with existing network; build a talent pipeline for Abiologics.
+- **Pillars:** (1) AI drug discovery — real vs. hype from inside the work; (2) building Abiologics — operating lessons, nothing confidential; (3) Flagship / venture creation — science becoming a company.
+- **Cadence:** 1 post/week (weekly session); 3–5 comments/week on others' posts (engagement → CRM). Thin week → ship nothing, no filler.
+- **Time budget:** ~30–45 min/week total, combined with Lily networking.
+- **Drafts:** `Notes/LinkedIn/` (`type: linkedin-post`); idea backlog `Notes/LinkedIn/_ideas.md`.
+- **LinkedIn handle/URL:** _unset — ask Diogo and record here._
+- **Voice:** every draft runs through `writing-style`; no auto-posting (Diogo posts manually).
+
+
 ## kate
 
 ### Identity & fit
