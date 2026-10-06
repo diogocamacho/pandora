@@ -11,7 +11,8 @@ Follow up:
 
 ### ✍️ Notes
 
-
+- model space converging (rosetta/chai)
+	- non generalizable hit rates
 
 
 ### ❓Gut Reaction
