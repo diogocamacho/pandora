@@ -1,14 +1,15 @@
 ---
 type: person-network
-name: Jim (MIT)
+name: Jim Collins
 company: MIT
-role: 
+role:
 last-contact: 2025-10-08
-relationship-strength: cold
+relationship-strength: neutral
 topics:
   - Synthetic microRNAs
-follow-up-intent: 
-tags: [network-crm]
+follow-up-intent:
+tags:
+  - network-crm
 ---
 
 ## Background
@@ -18,9 +19,11 @@ Synthetic microRNAs thread with Carl Novina.
 - 
 
 ## Connection history
+I was a post-doc with Jim when he was at BU, from 2007 to 2011
+
 | Date | Medium | Notes |
 |------|--------|-------|
 | 2025-10-08 | Email | Synthetic microRNAs thread with Carl Novina |
 
 ## Notes
-jimjc@mit.edu. Surname unknown.
+jimjc@mit.edu

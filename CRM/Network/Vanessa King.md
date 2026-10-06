@@ -1,14 +1,15 @@
 ---
 type: person-network
-name: Vanessa (King Bio Ventures)
-company: King Bio Ventures
-role: 
+name: Vanessa King
+company: Bio Ventures
+role: CEO Alceptor
 last-contact: 2026-01-09
 relationship-strength: cold
 topics:
   - 
-follow-up-intent: 
-tags: [network-crm]
+follow-up-intent:
+tags:
+  - network-crm
 ---
 
 ## Background

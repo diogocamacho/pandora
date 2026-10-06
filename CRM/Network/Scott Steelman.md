@@ -1,19 +1,21 @@
 ---
 type: person-network
 name: Scott Steelman
-company: 
-role: 
+company: Fathem
+role:
 last-contact: 2025-10-09
-relationship-strength: cold
+relationship-strength: warm
 topics:
   - Genomics
-follow-up-intent: 
-tags: [network-crm]
+follow-up-intent:
+tags:
+  - network-crm
 ---
 
 ## Background
-Former Cellarity colleague (per Diogo's email); introduced to Scott Hayton (Flagship) for the FL116 expert role.
-
+- Former Cellarity colleague
+- introduced to Scott Hayton (Flagship) for the FL116 expert role.
+- Currently at Fathem
 ## What to talk about
 - 
 

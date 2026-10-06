@@ -1,18 +1,19 @@
 ---
 type: person-network
-name: Bill (trvplatform)
+name: Bill Goode
 company: trvplatform.com
-role: 
+role:
 last-contact: 2026-06-11
 relationship-strength: cold
 topics:
   - 
-follow-up-intent: 
-tags: [network-crm]
+follow-up-intent:
+tags:
+  - network-crm
 ---
 
 ## Background
-Diogo wrote 'we should catch up… it's been too long'; introduced Giota Kyriakou.
+ - Worked with Bill when I was at Rheos
 
 ## What to talk about
 - 

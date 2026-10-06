@@ -2,17 +2,18 @@
 type: person-network
 name: Gevorg Grigoryan
 company: Generate Biomedicines
-role: 
+role: CTO
 last-contact: 2026-06-23
 relationship-strength: cold
 topics:
   - Target assessment
-follow-up-intent: 
-tags: [network-crm]
+follow-up-intent:
+tags:
+  - network-crm
 ---
 
 ## Background
-'Gevorg and Mike: Abiologics Target Assessments'.
+
 
 ## What to talk about
 - 

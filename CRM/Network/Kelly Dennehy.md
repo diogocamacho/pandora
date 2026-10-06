@@ -1,14 +1,15 @@
 ---
 type: person-network
 name: Kelly Dennehy
-company: 
-role: Strategy and ops (per Diogo's intro email)
+company:
+role: Strategy and ops
 last-contact: 2025-10-15
-relationship-strength: cold
+relationship-strength: warm
 topics:
   - 
-follow-up-intent: 
-tags: [network-crm]
+follow-up-intent:
+tags:
+  - network-crm
 ---
 
 ## Background

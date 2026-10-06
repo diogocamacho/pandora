@@ -4,11 +4,12 @@ name: Nuno Raimundo
 company: Penn State
 role: Mitochondrial biology expert
 last-contact: 2026-01-07
-relationship-strength: cold
+relationship-strength: warm
 topics:
   - Mitochondrial biology
-follow-up-intent: 
-tags: [network-crm]
+follow-up-intent:
+tags:
+  - network-crm
 ---
 
 ## Background

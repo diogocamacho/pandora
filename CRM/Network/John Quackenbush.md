@@ -2,14 +2,15 @@
 type: person-network
 name: John Quackenbush
 company: Harvard HSPH / DFCI
-role: KOL (per Diogo's email)
+role: KOL
 last-contact: 2025-11-22
 relationship-strength: cold
 topics:
   - Network targeting
   - Synthetic RNA
-follow-up-intent: 
-tags: [network-crm]
+follow-up-intent:
+tags:
+  - network-crm
 ---
 
 ## Background
