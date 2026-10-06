@@ -58,7 +58,7 @@ Lines marked `<!-- CHECK: … -->` are conflicts carried over from the old skill
 - work_inbox: dcamacho@flagshippioneering.com (Outlook, Microsoft 365)
 - personal_inbox: diogo.camacho.2008@gmail.com (Gmail — not connected in Cowork)
 - slack_user_id: U07PXEPBXJP
-- vip_senders: Jeremy, Beth, Andrew, Nitya, Dan (direct reports); Mike Hamill; Raffi Rafeyan; Laura Maiorino; external stakeholders
+- vip_senders: Jeremy, Beth, Andrew, Nitya, Dan (direct reports); Mike Hamill; Raffi Afeyan; Laura Maiorino; external stakeholders
 - personal mail filter: surface only time-sensitive (deliveries, appointments, bills, school/family), real people (not no-reply), Agentic Nutrition / FL110 / FL111 side work
 
 ### Calendar
@@ -400,7 +400,7 @@ Lines marked `<!-- CHECK: … -->` are conflicts carried over from the old skill
 - **Cadence:** 1 post/week (weekly session); 3–5 comments/week on others' posts (engagement → CRM). Thin week → ship nothing, no filler.
 - **Time budget:** ~30–45 min/week total, combined with Lily networking.
 - **Drafts:** `Notes/LinkedIn/` (`type: linkedin-post`); idea backlog `Notes/LinkedIn/_ideas.md`.
-- **LinkedIn handle/URL:** _unset — ask Diogo and record here._
+- **LinkedIn handle/URL:** https://www.linkedin.com/in/diogocamacho/
 - **Voice:** every draft runs through `writing-style`; no auto-posting (Diogo posts manually).
 
 
