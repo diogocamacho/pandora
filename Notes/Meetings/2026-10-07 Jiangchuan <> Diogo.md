@@ -6,7 +6,7 @@ tags:
   - jye
 ---
 
-# 2026-10-06 [[Jiangchuan Ye]] <> Diogo
+# 2026-10-07 [[Jiangchuan Ye]] <> Diogo
 
 ← [[Notes/People/Jiangchuan Ye|All notes: Jiangchuan Ye]]
 

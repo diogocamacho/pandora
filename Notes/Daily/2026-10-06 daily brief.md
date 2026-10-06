@@ -21,7 +21,7 @@ tags: [brief, daily-brief]
 - The 12:00–13:00 Abiologics Culture Event + Plant Potting — lowest-stakes commitment on the calendar today.
 
 ## 📋 Sarah — Ops
-- **Calendar:** 09:30–10:30 [[2026-10-06 Abiologics OneVector IT Touchpoint]] · 10:30–10:55 [[2026-10-09 Andrew <> Diogo]] · 11:00–12:00 Sequera & FSP Session / Benchling AI Open Office Hours (both tentative, overlapping) · 11:30–11:55 [[2026-10-06 Jiangchuan <> Diogo]] · 12:00–13:00 Abiologics Culture Event + Plant Potting · 14:00–15:00 [[2026-10-06 Interview Bulent Kiziltan]].
+- **Calendar:** 09:30–10:30 [[2026-10-06 Abiologics OneVector IT Touchpoint]] · 10:30–10:55 [[2026-10-09 Andrew <> Diogo]] · 11:00–12:00 Sequera & FSP Session / Benchling AI Open Office Hours (both tentative, overlapping) · 11:30–11:55 [[2026-10-07 Jiangchuan <> Diogo]] · 12:00–13:00 Abiologics Culture Event + Plant Potting · 14:00–15:00 [[2026-10-06 Interview Bulent Kiziltan]].
 - **What matters:** OneVector touchpoint — Phase 1 SOW is at 33.5/40 hours, Karen Scott is asking to scope Phase 2 (see Comms); Bulent Kiziltan interview — candidate-facing, arranged by Russell Reynolds; Andrew 1:1 — team continuity while you're mid-transition.
 - **Tasks:** 3 items from Friday's weekly review are 1 day overdue (due 10/05) — two are already in today's Capture (Declan/Jeremy note, Benchling slot); the third isn't: email to the LT on the Adaptyv joint-test scoping (BLI discrepancy / LC-MS cost) before Thursday's LT.
 - **Flag:** 11:00–12:00 has two tentative holds (Sequera & FSP Session, Benchling office hours) overlapping your 11:30–11:55 Jiangchuan 1:1 — pick one or confirm Jiangchuan moves.
@@ -66,7 +66,7 @@ Carryover: 4 open questions from [[2026-09-29 Abiologics OneVector IT Touchpoint
 🎯 Loop Andrew in with Amelia on the IT consolidation ask; confirm lab teams can upload into the SGW; Adaptyv BLI gap (~$2-3k/plate) — green light still pending.
 Carryover: 3 open questions from [[2026-09-29 Andrew Croneberger <> Diogo]].
 
-**11:30 — [[2026-10-06 Jiangchuan <> Diogo]]** (1:1)
+**11:30 — [[2026-10-07 Jiangchuan <> Diogo]]** (1:1)
 🎯 Solubility / ESM fine-tuning status; Caco-2 oral bioavailability data (62 points) — available to test models?; GFRAL benchmarking status (still being analyzed per today's Capture); Cradle model dev pending the chargeback negotiation.
 Carryover: 4 open questions from [[2026-10-01 Jiangchuan <> Diogo]].
 
