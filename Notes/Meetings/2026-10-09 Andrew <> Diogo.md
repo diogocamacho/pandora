@@ -6,7 +6,7 @@ tags:
   - abiologics
 ---
 
-# 2026-10-06 [[Andrew Croneberger]] <> Diogo
+# 2026-10-09 [[Andrew Croneberger]] <> Diogo
 
 ← [[Notes/People/Andrew Croneberger|All notes: Andrew Croneberger]]
 

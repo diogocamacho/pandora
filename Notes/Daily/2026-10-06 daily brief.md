@@ -21,7 +21,7 @@ tags: [brief, daily-brief]
 - The 12:00–13:00 Abiologics Culture Event + Plant Potting — lowest-stakes commitment on the calendar today.
 
 ## 📋 Sarah — Ops
-- **Calendar:** 09:30–10:30 [[2026-10-06 Abiologics OneVector IT Touchpoint]] · 10:30–10:55 [[2026-10-06 Andrew <> Diogo]] · 11:00–12:00 Sequera & FSP Session / Benchling AI Open Office Hours (both tentative, overlapping) · 11:30–11:55 [[2026-10-06 Jiangchuan <> Diogo]] · 12:00–13:00 Abiologics Culture Event + Plant Potting · 14:00–15:00 [[2026-10-06 Interview Bulent Kiziltan]].
+- **Calendar:** 09:30–10:30 [[2026-10-06 Abiologics OneVector IT Touchpoint]] · 10:30–10:55 [[2026-10-09 Andrew <> Diogo]] · 11:00–12:00 Sequera & FSP Session / Benchling AI Open Office Hours (both tentative, overlapping) · 11:30–11:55 [[2026-10-06 Jiangchuan <> Diogo]] · 12:00–13:00 Abiologics Culture Event + Plant Potting · 14:00–15:00 [[2026-10-06 Interview Bulent Kiziltan]].
 - **What matters:** OneVector touchpoint — Phase 1 SOW is at 33.5/40 hours, Karen Scott is asking to scope Phase 2 (see Comms); Bulent Kiziltan interview — candidate-facing, arranged by Russell Reynolds; Andrew 1:1 — team continuity while you're mid-transition.
 - **Tasks:** 3 items from Friday's weekly review are 1 day overdue (due 10/05) — two are already in today's Capture (Declan/Jeremy note, Benchling slot); the third isn't: email to the LT on the Adaptyv joint-test scoping (BLI discrepancy / LC-MS cost) before Thursday's LT.
 - **Flag:** 11:00–12:00 has two tentative holds (Sequera & FSP Session, Benchling office hours) overlapping your 11:30–11:55 Jiangchuan 1:1 — pick one or confirm Jiangchuan moves.
@@ -62,7 +62,7 @@ No verified items since 2026-10-03 — search this run didn't surface anything b
 🎯 Close Amelia's 30-min ask with Andrew/Nitya on IT consolidation (unanswered as of last night); get the Fri 10/2 failover-test outcome; use this morning's Karen Scott email (33.5/40 hrs used) to align live on Phase 2 scoping.
 Carryover: 4 open questions from [[2026-09-29 Abiologics OneVector IT Touchpoint]] — Joe Kennedy's SGW/AWS email timing, failover test outcome, HPLC software issue (Kathryn), Amelia's unanswered 30-min ask.
 
-**10:30 — [[2026-10-06 Andrew <> Diogo]]** (1:1)
+**10:30 — [[2026-10-09 Andrew <> Diogo]]** (1:1)
 🎯 Loop Andrew in with Amelia on the IT consolidation ask; confirm lab teams can upload into the SGW; Adaptyv BLI gap (~$2-3k/plate) — green light still pending.
 Carryover: 3 open questions from [[2026-09-29 Andrew Croneberger <> Diogo]].
 

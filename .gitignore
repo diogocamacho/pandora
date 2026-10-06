@@ -1,3 +1,7 @@
 .DS_Store
 .obsidian/workspace.json
 .obsidian/workspace-mobile.json
+
+# Todoist pipe (secret token + run log)
+.scripts/todoist_token
+.scripts/todoist_pull.log
