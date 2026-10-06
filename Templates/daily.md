@@ -11,6 +11,7 @@ recovery:
 follow-up:
 journal:
 stoic:
+stoic_by:
 workout:
 ---
 

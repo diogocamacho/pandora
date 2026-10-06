@@ -6,6 +6,16 @@ cssclasses: [home-page]
 
 `$= "📅 " + dv.date('today').toFormat('EEEE, MMMM d, yyyy')` · `$= "[[Notes/Daily/" + dv.date('today').toFormat('yyyy-MM-dd') + "|📓 Today]]"` · `$= "[[Notes/Daily/" + dv.date('today').minus({days: 1}).toFormat('yyyy-MM-dd') + "|⬅ Yesterday]]"`
 
+```dataviewjs
+const t = dv.date('today').toFormat('yyyy-MM-dd');
+const p = dv.page('Notes/Daily/' + t);
+if (p && p.stoic) {
+  dv.paragraph(`> [!quote] 🧘 Today's Stoic reflection\n> ${p.stoic}` + (p.stoic_by ? `\n> — *${p.stoic_by}*` : ``) + `\n>\n> _Sit with it today. You'll meet it again tonight._`);
+} else {
+  dv.paragraph("> [!quote] 🧘 Today's Stoic reflection\n> _Lands with the morning brief._");
+}
+```
+
 > [!note]- 🧭 Navigate
 > **Work** — [[Dashboards/Projects/Abiologics/Abiologics Home|Abiologics]] · [[Dashboards/Projects/FL110/FL110 Home|FL110]] · [[Dashboards/Projects/FL111/FL111 Home|FL111]] · [[Dashboards/Areas/Flagship Pioneering/Flagship Pioneering|Flagship]]
 >
