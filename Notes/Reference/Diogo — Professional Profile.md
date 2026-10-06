@@ -19,7 +19,7 @@ Durable career context for the crew (Marshall for content, Sarah for positioning
 ## The one-paragraph version
 Computational executive with 15+ years in biotech and pharma. Deep in computational biology and AI for drug discovery: network biology for target ID, multi-omics integration, patient stratification, and ML to advance research programs. Sets enterprise AI strategy (where AI creates value across the discovery lifecycle), drives platform decisions, and builds the teams behind them.
 
-## Track record (the numbers that travel)
+## Track record
 - Built and scaled computational orgs from first hire to 25+ across bioinformatics, ML, and comp bio, with 90%+ retention through reorganization.
 - Computational platforms behind two pharma partnerships: Cellarity–Novo Nordisk (MASH, up to $532M milestones) and Rheos–Roche (immunometabolism, $42.5M upfront, ~$750M milestones).
 - $2.4M+ raised in competitive DARPA and NIH grants as Co-PI (Wyss).
@@ -67,8 +67,8 @@ Computational executive with 15+ years in biotech and pharma. Deep in computatio
 - **Leadership:** executive leadership, team building & scaling, servant leadership, mentoring, succession planning, managing in a matrix.
 
 ## Credibility signals
-- ORCID 0000-0002-1971-3524 · Twitter @DiogoMCamacho · Calendly: calendly.com/diogocamacho
-- Recent recommendations: **Keng S.** (Sr Director, Novo Nordisk — from Rheos); **Jacqueline Valeri** (Sr Data Scientist, Moderna — from Wyss/Collins Lab, on science communication mentorship); **David Angeles Albores** (CEO/Founder — reported to Diogo, on management and building a comp-bio unit from the ground up).
+- ORCID 0000-0002-1971-3524 · Calendly: calendly.com/diogocamacho
+- Recent recommendations: **Keng Soh** (Sr Director, Novo Nordisk — from Rheos, former report at Rheos); **Jacqueline Valeri** (Sr Data Scientist, Moderna — from Wyss/Collins Lab, on science communication mentorship); **David Angeles Albores** (CEO/Founder — reported to Diogo, on management and building a comp-bio unit from the ground up).
 
 ## Network concentration (from 1,140 LinkedIn connections)
 Flagship Pioneering (71), Pfizer (23), Cellarity (23), Novartis (11), Wyss (13 across two listings), Novo Nordisk (7), AstraZeneca (7), AbbVie (6), Roche (5), Takeda (5), Merck (5), NVIDIA (5). Maps to the career arc — these are the clusters where reconnection and recruiting are easiest.
