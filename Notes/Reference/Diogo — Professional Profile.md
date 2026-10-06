@@ -20,7 +20,7 @@ Durable career context for the crew (Marshall for content, Sarah for positioning
 Computational executive with 15+ years in biotech and pharma. Deep in computational biology and AI for drug discovery: network biology for target ID, multi-omics integration, patient stratification, and ML to advance research programs. Sets enterprise AI strategy (where AI creates value across the discovery lifecycle), drives platform decisions, and builds the teams behind them.
 
 ## Track record
-- Built and scaled computational orgs from first hire to 25+ across bioinformatics, ML, and comp bio, with 90%+ retention through reorganization.
+- Built and scaled computational orgs from first hire to 25+ across bioinformatics, ML, and comp bio
 - Computational platforms behind two pharma partnerships: Cellarity–Novo Nordisk (MASH, up to $532M milestones) and Rheos–Roche (immunometabolism, $42.5M upfront, ~$750M milestones).
 - $2.4M+ raised in competitive DARPA and NIH grants as Co-PI (Wyss).
 - 20+ peer-reviewed publications, 7,000+ citations; 6 patents across comp bio, ML, and synthetic biology.
