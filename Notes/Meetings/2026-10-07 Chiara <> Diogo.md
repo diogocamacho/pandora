@@ -13,6 +13,7 @@ Follow up:
 **From [[2026-09-30 Chiara <> Diogo]] (7 days ago):**
 ### Open items
 _No unchecked checkboxes in the prior note._
+
 ### Open questions / follow-ups
 - Target-repository goals (Chiara + Beth thread) — where did it land?
 - FOLR SPR re-screening + locked benchmarking targets (IL7RA, GFRAL) from Cycle Planning
