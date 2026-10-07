@@ -44,20 +44,15 @@ _No unchecked checkboxes in the prior note._
 ### Open questions / follow-ups
 
 - BLI migration paused in favor of SPR work (`spr_processed` pipeline) — status?
-- Favoring SPR from assay dev team — processed-data workflow (Nitya to release), Austin's algorithm, new machine inbound
+- Favoring SPR from assay dev team — processed-data workflow (Nitya to release), Austin's algorithm, new machine inbound --> solved processed workflow
 - New dashboards requested by Suzannah — "health of robot" view (color by program/robot/sequence properties vs LC/MS); notebook built, push to Radiance --> solved
-- Needs slides for AI talk — start deck, share with [[Beth Kartchner]]
 
 ## 🎯 Goals
 
 ## 📋 Their agenda items
--
 
 ## ✍️ Notes & discussion
--
 
 ## ❓ Open questions
--
 
 ## 📝 Relationship notes
--
