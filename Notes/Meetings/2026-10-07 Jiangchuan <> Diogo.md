@@ -53,6 +53,25 @@ _No unchecked checkboxes in the prior note._
 
 ## ✍️ Notes & discussion
 - Solubility: organizing meeting with Chem team
+	- cycles 472 + 476
+	- use public models to do inference to see if we can catch liabilities on solubility
+	- use internal model for inference (high confidence on GFRAL but not so much on FOLR1 or IL7RA)
+	- want to see if there is sequence liability that is ties to solubility
+	- want to use PLM (ESM-c) to see if there are evolutionary correlations between solubility and sequence
+
+- Oral bioavailability
+	- sent Martin handpicked candidates
+	- experiment takes a long time, but Jiangchuan is keeping engaged
+	- team also working in vitro Caco-2 data that could be use to give insights into bioavailability
+
+- MOTS-c
+	- doing 2 cycles next week (which corresponds to ~90 compounds)
+	- MOTS-c specific solubility model
+	- designs will be filtered based on solubility
+
+- DPO
+	- Model similar to what Cradle uses? 
+	- 
 
 ## ❓ Open questions
 -
