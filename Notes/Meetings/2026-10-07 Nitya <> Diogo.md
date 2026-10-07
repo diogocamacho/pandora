@@ -41,16 +41,13 @@ LIMIT 5
 ### Open items
 _No unchecked checkboxes in the prior note._
 ### Open questions / follow-ups
-- Luma hackathon — did she register?
-- ncAA / infra work — did she connect with Andrew and Beth? How is she planning to spend her time on it?
-- Notion page (unspecified from prior note)
+
 - BLI migration paused in favor of SPR work (`spr_processed` pipeline) — status?
 - Favoring SPR from assay dev team — processed-data workflow (Nitya to release), Austin's algorithm, new machine inbound
 - New dashboards requested by Suzannah — "health of robot" view (color by program/robot/sequence properties vs LC/MS); notebook built, push to Radiance
 - Needs slides for AI talk — start deck, share with [[Beth Kartchner]]
 
 ## 🎯 Goals
--
 
 ## 📋 Their agenda items
 -
