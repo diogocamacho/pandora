@@ -1,6 +1,15 @@
 
-## To Do
+## Background
+- Computational protein designer with Abiologics
+- Located in Arizona
 
+## To Do
+```todoist
+filter: "@bkartchner"
+sorting:
+  - priority
+  - date
+```
 
 ## Follow Up
 ```dataview

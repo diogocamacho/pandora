@@ -1,6 +1,11 @@
 
 ## To Do
-
+```todoist
+filter: "@acroneberger"
+sorting:
+  - priority
+  - date
+```
 
 
 ## Follow Up

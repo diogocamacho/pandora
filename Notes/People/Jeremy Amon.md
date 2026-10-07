@@ -1,5 +1,11 @@
 
 ## To Do
+```todoist
+filter: "@jamon"
+sorting:
+  - priority
+  - date
+```
 
 
 ## Follow Up

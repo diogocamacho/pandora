@@ -52,7 +52,7 @@ _No unchecked checkboxes in the prior note._
 -
 
 ## ✍️ Notes & discussion
--
+- Solubility: organizing meeting with Chem team
 
 ## ❓ Open questions
 -
