@@ -40,11 +40,12 @@ LIMIT 5
 **From [[2026-09-30 Nitya <> Diogo]] (7 days ago):**
 ### Open items
 _No unchecked checkboxes in the prior note._
+
 ### Open questions / follow-ups
 
 - BLI migration paused in favor of SPR work (`spr_processed` pipeline) — status?
 - Favoring SPR from assay dev team — processed-data workflow (Nitya to release), Austin's algorithm, new machine inbound
-- New dashboards requested by Suzannah — "health of robot" view (color by program/robot/sequence properties vs LC/MS); notebook built, push to Radiance
+- New dashboards requested by Suzannah — "health of robot" view (color by program/robot/sequence properties vs LC/MS); notebook built, push to Radiance --> solved
 - Needs slides for AI talk — start deck, share with [[Beth Kartchner]]
 
 ## 🎯 Goals
