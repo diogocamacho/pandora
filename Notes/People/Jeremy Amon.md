@@ -1,10 +1,5 @@
 
 ## To Do
-```dataview
-task
-FROM #abiologics & (#jeremy | #jamon)
-WHERE !completed
-```
 
 
 ## Follow Up
