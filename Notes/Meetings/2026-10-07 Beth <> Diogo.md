@@ -42,8 +42,8 @@ LIMIT 5
 _No unchecked checkboxes in the prior note._
 ### Open questions / follow-ups
 - GFRAL benchmarking — confirm real progress actually landed (she was asked for this, not another delay)
-- MI-6 presentation to the LT — did the invite go out to [[Chiara Magnone|Chiara]] for timing? Token usage was running high (opus max, 113-page report) — worth a status check
-- Declan onboarding — second-week registration/onboard status
+- MI-6 presentation to the LT — did the invite go out to [[Chiara Magnone|Chiara]] for timing? Token usage was running high (opus max, 113-page report) — worth a status check --> this was already solved
+- Declan onboarding — second-week registration/onboard status 
 - Side projects: PDB-complex/interaction plugin, IP backlog, ncAA work with Sylvia, Anthropic Life Sciences certification (asked Amy Hao) — any movement?
 
 ## 🎯 Goals
@@ -55,9 +55,17 @@ _No unchecked checkboxes in the prior note._
 ## ✍️ Notes & discussion
 - GFRAL benchmarking presentation
 	- scheduled for the 10/14 --> chem and comp only, inviting chiara + mike + me
-	- solubility question from GFRAL synthesis will be addressed 
+	- solubility question from GFRAL heterochiral synthesis will be addressed 
 		- half of syntehsis failed SPE
 		- 1 cycle destroyed Rylus column
+	- we can't really say anything about hit rate because of the changes in the pipeline
+	- "we need to move on"
+
+- Declan onboarding
+	- needs cursor/vscode and benchling access
+	- next week will be on registration + pymol.abtk (with jeremy and beth)
+
+
 
 ## ❓ Open questions
 -
