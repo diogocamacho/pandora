@@ -71,7 +71,7 @@ _No unchecked checkboxes in the prior note._
 
 - DPO
 	- Model similar to what Cradle uses? 
-	- 
+	- another approach that Cradle uses is tuning their Evo model
 
 ## ❓ Open questions
 -
