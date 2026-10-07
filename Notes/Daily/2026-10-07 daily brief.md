@@ -24,7 +24,9 @@ tags: [brief, daily-brief]
 - **Deep work:** not protected — the only open window today is 15:00–16:00 (60 min), short of the 90-min minimum.
 
 ## 📧 Comms — Email & Slack
-- 📧 **Work:** Rob Albert (Flagship, Digital Business Partnership) — unread reply this morning (10:08am) on "Re: Abiologics | Next Steps," after you told him yesterday you're leaving Abiologics/Flagship for Tilde (FL110). He's asking directly: "does Kala know?" — needs a response today, your call on timing/who else should hear it from you first.
+- 📧 **Work:** Rob Albert (Flagship, Digital Business Partnership) — unread reply this morning (10:08am) on "Re: Abiologics | Next Steps," after you told him yesterday you're leaving Abiologics/Flagship for Tilde (FL110). He's asking directly: "does Kala know?" — needs a response today, your call on timing/who else should hear it from you first. (Draft reply ready in today's Inbox Triage note below.)
+- 📧 **Work:** Karen Scott (One Vector) — "RE: Abiologics | Next Steps," carried unread from 10/5 — Phase 1 SOW status (33.5 of 40 hours used) and asking you to send times next week for Phase 2 planning.
+- 📧 **Work:** Amelia Sancilio (FSP Labs) — "Re: Intros," carried unread from 9/30 — asking to grab ~30 min with Andrew Croneberger and Nitya Talasila on the IT-consolidation/software-catalog work.
 - 📧 **Work (lower priority):** Vijay Jaiswal introduced Vittoria Angeloni (UChicago comp-bio undergrad) for a chat on 10/6 — already read, no urgency, but still open if you want to close the loop.
 - _Slack: nothing surfaced — search for mentions/DMs since yesterday came back empty._
 
