@@ -53,7 +53,11 @@ _No unchecked checkboxes in the prior note._
 -
 
 ## ✍️ Notes & discussion
--
+- GFRAL benchmarking presentation
+	- scheduled for the 10/14 --> chem and comp only, inviting chiara + mike + me
+	- solubility question from GFRAL synthesis will be addressed 
+		- half of syntehsis failed SPE
+		- 1 cycle destroyed Rylus column
 
 ## ❓ Open questions
 -
