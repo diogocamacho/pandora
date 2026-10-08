@@ -16,15 +16,15 @@ tags: [reading, book]
 > 
 
 ## 📍 Where I am
-- Current: Chapter 1 · updated 2026-10-05
+- Current: starting chapter 5 · updated 2026-10-07
 
 ## 🧵 Threads & themes
 *(ideas, arguments, open questions carried across sessions — Harold appends here)*
-- 
+- Hailsham kids' early rigor and independence feels hard to believe (10/7); Madame scenes read like Handmaid's Tale to me. Watch whether the implausibility is the point.
 
 ## 💬 Discussion
 *(dated book-club exchanges — prompt + my take, newest at the bottom)*
-- 
+- 2026-10-07 — Harold: does Kathy's mild, childhood-framed telling make her trustworthy, vs. Atwood's resisting narrator? Me: bizarre that kids so young get that level of rigor and independence; hard to believe; stopping there until I see where it goes.
 
 ## ✨ Quotes worth keeping
 - 
