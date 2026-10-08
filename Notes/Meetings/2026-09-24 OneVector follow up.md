@@ -22,3 +22,6 @@ Follow up: true
 	- draft email to kala
 
 [[2026-09-28 Follow up email to OneVector]]
+
+[[2026-10-08 email to Karen @ OneVector]]
+
