@@ -23,7 +23,8 @@ _No unchecked checkboxes in the prior note._
 -
 
 ## ✍️ Notes and action items
--
+- Company needs to move into large-scale work: define what is a workable target for Abiologics from a design perspective
+- Told Chiara I will be leaving Abiologics in about 1 month
 
 ## ❓ Open questions
 -

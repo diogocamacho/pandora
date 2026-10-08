@@ -74,7 +74,7 @@ _No unchecked checkboxes in the prior note._
 	- another approach that Cradle uses is tuning their Evo model
 
 ## ❓ Open questions
--
+- DPO model (Cradle-like / Evo tuning) is Jiangchuan's; he will report progress to the team in 1–2 weeks
 
 ## 📝 Relationship notes
 -
