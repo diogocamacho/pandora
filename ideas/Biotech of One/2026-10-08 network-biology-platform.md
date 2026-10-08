@@ -42,6 +42,7 @@ This is a branch, not an edit. [[2026-06-18 biotech-of-one]] and its companion m
 - **Evidence base (committed):** CRISPR screens, DepMap, Perturb-seq, Drug-seq, and others, to build a comprehensive picture of which subnetworks drive disease. Cross-perturbation data is also the proposed route to separating generic stress response from disease-specific response.
 - **Genetics (committed):** use human genetics (genes implicated in disease) to assess, confirm and strengthen the identified subnetworks.
 - **Synergy expectation (stated):** Diogo expects subnetwork effects to be synergistic, not necessarily additive; he does not yet know the margin over the additive baseline that would count as evidence. Consequence he draws: an optimization is needed over which subnetworks make it and which nodes within them to target.
+- **Optimizer objective (committed):** topological distance (to the healthy network).
 - **Kill criterion offered:** untractability of targets. Assessed as a feasibility gate, not a falsifier: it can pass while the network layer adds nothing over a simpler baseline.
 
 ## Vault grounding (what exists, no embellishment)
@@ -70,6 +71,8 @@ Zhang, Eckmann, Miao, Mahon, Zou; bioRxiv 2026-02-23, not peer reviewed; plus Zo
 **Revision (attractor premise, 2026-10-08):** layer 1 supplies the network scaffold and steady-state coordinates; DiseaseNets rewiring scores are no longer the core ranking logic. Layer 2 stratification becomes basin assignment (which attractor a patient or cell population occupies). Layer 3 becomes: ODE on the scaffold, trained on healthy perturbation data, search for the perturbation set that moves the disease attractor to the healthy one under sustained drug action.
 
 ## Org design v0 (Claude's first pass; not pressure-tested)
+
+*Function-by-function agent suitability is worked in [[2026-10-08 agentic-function-map]].*
 Each function split three ways: accountable human / agent layer / outsourced.
 
 | Function | Human (accountable) | Agent layer | Outsourced / fractional |
@@ -119,6 +122,8 @@ Best version so far, not yet earned: the field's target ID leans on association 
 24. **Subnetwork as target.** Naming the driver unit a subnetwork answers "driver" but not "reversal" (item 18): why reversing a driver subnetwork reverses established disease, and how a small-molecule combination or designed polypharmacology delivers it. Still open.
 25. **Synergy: base rates, definition, window.** As far as I know, genetic and drug interactions are sparse and most pairs behave near-additively, so synergy is the minority case and context-specific. "Synergy" depends on the reference model (Bliss, Loewe, highest-single-agent) and must be defined. Therapeutic index is the real target: synergy in toxicity counts the same as synergy in efficacy, and strongly synergistic nodes often sit in essential processes (DepMap pan-essential genes). In the attractor framework there is a natural mechanism: two sub-threshold perturbations jointly crossing a basin boundary. That predicts synergy only near the boundary and makes it checkable as a classification (does the pair switch state or not) rather than a continuous effect size.
 26. **Optimizer's curse.** The optimization is the product, and it is also the main failure risk: the more heavily a model is optimized against, the more the top picks are enriched for the model's own errors. Validation must test the optimizer's top-k picks, not the average prediction. The objective and constraints are unspecified: known constraints so far are no TFs, not crowded, small-molecule-deliverable direction, druggability, essentiality/toxicity, genetic support, and a cap on the number of targets (combination burden). Objective candidates (topological distance to healthy, switching probability, margin of crossing) have not been chosen.
+27. **The objective contradicts the disease model as stated.** Under "disease is a different attractor of the *same* network," the structural wiring is identical in health and disease, so the structural topological distance is zero. The objective therefore has to be computed on something else: either the state vector (expression/activity levels), which is signature reversion and reopens the Cellarity-type gap, or a **state-dependent effective topology** (e.g., Jacobian at the steady state, or correlation structure induced by simulated noise), which needs a definition and has its own noise floor.
+28. **Metric choice and missing cost terms.** Graph distances differ in what they reward (edit distance is intractable at scale; spectral distances can be insensitive or cospectral; hub-weighted metrics are dominated by hubs); the optimizer will exploit whichever is chosen. A distance-only objective has no cost term, so it favors large perturbations, many nodes, and essential nodes. Constraints (item 26) and the optimizer's-curse protection remain unanswered, as does a calibration set tying the distance to efficacy.
 
 ## Open questions
 - **Falsifier (partly answered):** the only kill criterion offered so far is target untractability, a feasibility gate. Still missing: the comparator (genetics-first baseline), the metric, the held-out data, and the threshold.
@@ -130,7 +135,8 @@ Best version so far, not yet earned: the field's target ID leans on association 
 - **Driver unit (answered):** subnetworks. Reversal and deliverability (item 24) remain open, now at subnetwork level.
 - **Genetics, stress subtraction (answered in outline):** genetics assesses/strengthens subnetworks; cross-perturbation data separates generic stress. Rules still to be stated (items 22, 23).
 - **Additivity margin (open, unknown to Diogo):** to be set before the first run; a defensible anchor is the enrichment over random or additive-based selection at which the wet-lab budget works.
-- **Load-bearing (open): the optimizer.** What is the objective, under which constraints, and how is it kept from selecting the ODE's own errors (validation on top-k picks, not mean predictions)?
+- **Optimizer (partly answered):** objective = topological distance. Still open: constraints, cost terms, and optimizer's-curse protection (items 26, 28).
+- **Load-bearing (open): what object is the topology whose distance is minimized, given that disease is an attractor of the same wiring?** State-dependent effective topology (which one, and its noise floor) or state vector (signature reversion)?
 - Parked: what is an RWE-derived edge in the graph, and what makes it causal? Returns when RWE returns.
 - Which stratification note was intended, if any?
 - Venture home, on founder terms (independent path); timing relative to current role. Not discussed.
@@ -148,4 +154,6 @@ Network-biology-first and causal-inference players named in Diogo's CausaLab tab
 - [[💡 2025-01-22 Patient population data]] — stratification seed.
 
 ## Next steps
-Pre-state the additivity margin (anchor to wet-lab economics), then run the additivity test on existing double-perturbation data (ODE vs. additive baseline). Define the optimizer objective and constraints; validate its top-k picks, not average predictions. Then pre-register the pooled healthy-cell perturbation test: disease-phenotype metric and threshold, control node sets, sign (gain vs. loss). Then specify the reversal test in disease cells and the baseline and error margin for the held-out test, the named datasets and cell contexts, the noise floor of the topology distance, a calibration set linking distance to efficacy, and a measured crowdedness term. No further design work until those are set.
+Paused 2026-10-08 at the topology-object question while Diogo works the function map ([[2026-10-08 agentic-function-map]]). The open load-bearing question on this note stands.
+
+Pre-state the additivity margin (anchor to wet-lab economics), then run the additivity test on existing double-perturbation data (ODE vs. additive baseline). Define the object whose topology is measured (state-dependent effective network vs. state vector), the distance metric and its noise floor, cost terms and constraints; validate the optimizer's top-k picks, not average predictions. Then pre-register the pooled healthy-cell perturbation test: disease-phenotype metric and threshold, control node sets, sign (gain vs. loss). Then specify the reversal test in disease cells and the baseline and error margin for the held-out test, the named datasets and cell contexts, the noise floor of the topology distance, a calibration set linking distance to efficacy, and a measured crowdedness term. No further design work until those are set.
