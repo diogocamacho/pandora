@@ -27,6 +27,14 @@ This is a branch, not an edit. [[2026-06-18 biotech-of-one]] and its companion m
 - Pull in: Network Target Foundry, stratification, DiseaseNets, CausaLab.
 - Function list given: CFO; COO; head of strategy and ops; target ID team; comp bio / ML / comp chem; biology; pharmacology; assay dev; CMO org incl. regulatory; BD.
 
+## Design constraints (committed by Diogo, 2026-10-08, in answer to the falsifier question)
+- **Avoid crowded targets.** The platform must not converge on the targets everyone else is pursuing.
+- **No transcription-factor modulation.** TFs are excluded as targets.
+- **Multi-node targeting is intentional.** Premise: targets are chosen network-first, for the biggest biological correction, not one target per disease.
+- **Correction metric (committed):** biological correction = distance between network topologies (disease/post-intervention vs. healthy).
+- **Modeling approach (committed):** ODE modeling of the network. Observed transcription profiles and assay data are tied to modeled expected behavior; additional data is expected to continuously improve predictability against target outcomes.
+- **Kill criterion offered:** untractability of targets. Assessed as a feasibility gate, not a falsifier: it can pass while the network layer adds nothing over a simpler baseline.
+
 ## Vault grounding (what exists, no embellishment)
 - **Network Target Foundry** — concept only. Control-theory driver nodes / minimal control sets, indication- and modality-agnostic, three business models (internal engine, partner platform, data/analytics). Market-size figures are idea-note estimates, unsourced.
 - **DiseaseNets** — R pipeline spec captured as Cursor prompts: Spearman coexpression restricted to prior (BioGRID/STRING/ENCODE/TRRUST) + ANN-halo edges, Fisher-z rewiring with flip-aware weights, ΔPersonalized PageRank, node2vec displacement (Procrustes-aligned), rank fusion (0.40/0.35/0.25). Worked example: lung, GSE19804. **No results recorded.** Validation hooks (CGC recall, GSEA, independent-dataset stability) are optional; CGC recall is retrodiction of known cancer genes.
@@ -74,12 +82,19 @@ Best version so far, not yet earned: the field's target ID leans on association 
 ## Strongest case against
 1. **No falsifier.** DiseaseNets' validation hook is known-gene recovery, the same retrodiction standard flagged on the Stanford/Merck claim. Genetic support is the established predictor of target success; the network layer has to beat a genetics-first baseline on held-out, prospective data.
 2. **Multi-node vs single-agent.** Foundry output is minimal control sets; development and regulation favor single mechanisms.
-3. **Undruggable drivers.** Network drivers skew to transcription factors and scaffolds; unknown how many survive a small-molecule tractability filter.
+3. **Undruggable drivers, now a hard constraint.** With TFs excluded, the control problem is restricted to druggable actuators. How much corrective power survives that restriction is unmeasured.
 4. **Commoditization.** Vault clippings ([[Uneven Frontiers]], [[AI Versus Eroom's Law]], 2026-W40 Deep Synthesis) argue discovery AI is commoditizing and durable value sits in clinical development. A molecular-only discovery platform sits on the commoditizing side; deferring RWE moves it further that way.
 5. **Moat without RWE.** Public-data network analysis is replicable; moat has to come from method or proprietary perturbation data.
+6. **"Biggest biological correction" is undefined.** If correction is measured as distance to a healthy network or transcriptional state, the objective is signature reversion one level up, the abstraction gap named in [[2026-06-18 biotech-of-one]] (chemistry develops against targets, not signatures). A multi-node set also multiplies tox, CMC and clinical burden unless it is a combination of existing mechanisms or a designed-polypharmacology molecule.
+7. **Hub and study bias vs. crowded-target avoidance.** An impact-maximizing network ranking drifts toward hubs and well-studied genes, which is where the crowd is (prior networks such as BioGRID/STRING track research effort). DiseaseNets' degree-bin z-scoring only partly corrects this. Crowdedness needs an explicit, measured term in the ranking.
+8. **Topology distance is not yet a measurement.** It is edge-level, so it is distinct from expression-level signature reversion, but the state-vs-target unit mismatch remains unless the target-set → post-intervention-topology mapping is credible. Gaps: (a) condition-specific networks are inferred from many samples per condition, so one CRO perturbation does not yield a network; (b) no stated noise floor (the 2click ship gate of Jaccard ≥ 0.7 implies turnover on the order of a third in top-K across resamples), and a distance below between-replicate variation is unmeasurable; (c) coexpression topology is associative, so predicting the post-intervention network needs a causal/dynamical model; (d) a small molecule delivers partial, noisy inhibition, not a knockout; (e) no calibration set links topological distance to phenotype or efficacy.
+9. **ODE layer: identifiability, activity, baseline, transfer.** (a) A disease subnetwork of hundreds of nodes has far more parameters than CRO-scale data constrains, and prior- or coexpression-derived topology carries no kinetic structure; steady-state snapshots cannot fix dynamics, so time-resolved perturbation data is required. (b) Small molecules change protein activity, which transcript-level ODEs do not see (an enzyme inhibitor can leave its target's mRNA unchanged); DiseaseNets is transcript-only, so a proteomic/phospho layer is implied. (c) Baseline risk: Ahlmann-Eltze, Huber and Anders (bioRxiv 2024; Nature Methods per the title record) report that deep-learning perturbation-effect predictors did not beat simple linear baselines; a calibrated ODE must beat additive/linear baselines on held-out perturbations or it adds cost without predictive value. (d) "Continuously improves" is a transfer claim: if each disease or cell context needs its own calibration, cost scales linearly and the flywheel does not compound; in vitro to patient-tissue is a further gap. (e) How the ODE output becomes a topology (and a distance) is still undefined.
 
 ## Open questions
-- **Load-bearing (open): what prospective, held-out result would make Diogo drop the network layer and fall back to genetics-first target ID?**
+- **Falsifier (partly answered):** the only kill criterion offered so far is target untractability, a feasibility gate. Still missing: the comparator (genetics-first baseline), the metric, the held-out data, and the threshold.
+- **Correction (partly answered):** defined as distance between network topologies. Still missing: which distance, how the post-intervention network is obtained, the noise floor, and a calibration set tying distance to efficacy.
+- **Post-intervention network (partly answered):** simulated via ODE model, calibrated to observed transcription/assay data. Still missing: parameter identifiability at the chosen scale, time-resolved data plan, activity-level (proteomic/phospho) layer, and partial-inhibition handling.
+- **Load-bearing (open): the held-out test.** Which perturbations are withheld, which baseline (linear/additive) must the calibrated ODE beat, and what error margin makes Diogo drop the ODE layer?
 - Parked: what is an RWE-derived edge in the graph, and what makes it causal? Returns when RWE returns.
 - Which stratification note was intended, if any?
 - Venture home, on founder terms (independent path); timing relative to current role. Not discussed.
@@ -97,4 +112,4 @@ Network-biology-first and causal-inference players named in Diogo's CausaLab tab
 - [[💡 2025-01-22 Patient population data]] — stratification seed.
 
 ## Next steps
-Answer the load-bearing question first: define the prospective benchmark and the baseline the network ranker must beat. No further design work until that is set.
+Specify the held-out perturbation test and the linear/additive baseline the ODE layer must beat, the noise floor of the topology distance, and a calibration set linking distance to efficacy; include a measured crowdedness term. No further design work until those are set.
