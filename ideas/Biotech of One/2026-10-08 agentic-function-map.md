@@ -13,6 +13,8 @@ related_ideas: ["[[2026-10-08 network-biology-platform]]", "[[2026-06-18 biotech
 ## The idea
 Diogo's redirect: stop defining the platform's scientific premises in detail and work out which pieces of the actual biotech suit agentic AI. The platform is one piece. What else, and how does the platform rank among them? Founder thesis only.
 
+**Sharpened by Diogo:** the question is not which pieces suit agents but, if an entire biotech were built only of agents, what jobs the agents would hold. The roster below answers that; the suitability map above did not.
+
 ## Suitability criteria (Claude's framing; to be pressure-tested)
 1. **Verifiability:** can the output be checked quickly against a source or deterministic test?
 2. **Feedback speed:** how fast does reality grade the work (minutes, weeks, years)?
@@ -21,7 +23,7 @@ Diogo's redirect: stop defining the platform's scientific premises in detail and
 5. **Data availability:** is the input already digital and structured?
 6. **Judgment vs. execution:** Diogo's own axis.
 
-## First-pass map (Claude's judgment, not evidence)
+## First-pass suitability map (Claude's judgment, not evidence; answers a different question: which parts of a human-staffed biotech suit agents)
 
 ### Tier 1: agents carry most of the work, humans review or sign
 | Piece | Agent role | Stays human |
@@ -52,6 +54,106 @@ Wet-lab, GLP and GMP execution; clinical conduct and patient safety (medical mon
 ### Gating constraint
 Agent outputs that enter GxP or other regulated records need validated systems and audit trails (21 CFR Part 11 or equivalent); that limits agent use in QA, CMC and clinical records regardless of capability.
 
+## All-agent roster: the jobs agents would hold (Claude's first pass)
+
+Assumes no human staff beyond a legal shell (see boundary below). Jobs are named by what they do and what they hand off.
+
+### A. Governance and strategy
+| Job | What it does | Output / gate |
+|---|---|---|
+| Orchestrator (CSO agent) | Decomposes company goals into workstreams, assigns agents, arbitrates conflicts, owns the integrated thesis | Quarterly plan, gate decisions |
+| Strategy and portfolio agent | Maps diseases, mechanisms, competitors and TPPs; ranks the portfolio against gate criteria; scenario analysis | Portfolio memo, kill/continue recommendation |
+| Red-team agents | Independent adversaries on every gate memo, with different model, prompt and data access from the authors | Objections log attached to each decision |
+| Decision archivist | Records every decision with rationale, evidence and predictions; later scores outcomes and calibration | Decision ledger, calibration reports |
+| Program manager | Timelines, dependencies, critical path, CRO status, escalation | Integrated schedule, weekly status |
+| Spend governor | Budgets, commitments, anomaly detection, approval thresholds for any money-moving or irreversible action | Spend ledger, holds |
+
+### B. Discovery science (the platform)
+| Job | What it does | Output / gate |
+|---|---|---|
+| Evidence synthesizer | Literature, patents, databases and trial registries into cited syntheses | Evidence briefs |
+| Data curator | Ingests, harmonizes and QCs perturbation, omics and genetics data; provenance and versioning | Versioned data spine |
+| Network builder | Prior and data-derived networks with typed edges | Scaffold per disease context |
+| Dynamics modeler | ODE fitting, simulation, identifiability checks, held-out benchmarking | Calibrated models, benchmark reports |
+| Perturbation optimizer | Searches subnetworks and nodes under constraints, with uncertainty | Ranked intervention sets |
+| Genetics agent | GWAS, rare variants, MR, locus-to-gene, direction of effect | Genetic support scores |
+| Stratification agent | Assigns patients or cells to states or basins from molecular data | Strata definitions |
+| Tractability agent | Druggability, ligandability, structure, tool compounds, essentiality and toxicity flags | Tractability cards |
+| Target dossier compiler | Assembles evidence, model output, genetics, tractability and red-team objections | Target dossier (gate 1) |
+| Experiment designer | Perturbation screens, controls, power, pre-registration | Experiment specs sent to CROs |
+
+### C. Chemistry
+| Job | What it does | Output / gate |
+|---|---|---|
+| Hit finder | Virtual screening, docking, generative design, library selection | Hit lists |
+| Med-chem designer | Design-make-test-analyze planning, SAR analysis, multiparameter optimization | Compound proposals |
+| Synthesis planner | Retrosynthesis, route scoring, building-block sourcing, order specs to CRO | Synthesis orders |
+| Property predictor | ADMET, solubility, permeability, hERG, CYP, with uncertainty | Property profiles |
+| Chemical critic | Independent review of proposed compounds: liabilities, synthesizability, novelty, IP space | Accept/reject with reasons |
+| Compound registry steward | Structures, batches, assay results, lineage | Registry |
+
+### D. Biology, pharmacology, assay development (wet lab through CROs)
+| Job | What it does | Output / gate |
+|---|---|---|
+| Assay developer | Assay designs, DOE, validation plans, SOP drafts, acceptance criteria | Assay package |
+| CRO sourcing agent | Scans the CRO market, RFPs, bid comparison, reference and audit checks, SOW drafting, negotiation within limits | Contracted vendor |
+| Study director agent (one per study) | Owns protocol, sample logistics, CRO communication, deviations log, data receipt | Study report |
+| Data QC and analysis agent | Checks CRO data against spec, curve fitting, statistics, outlier and deviation flags | Accepted datasets |
+| Pharmacology modeler | PK/PD, exposure-response, human dose projection | Dose rationale |
+| In vivo design agent | Species, models, power, endpoints, welfare documentation prep | Study design |
+| Biomarker and translational agent | Biomarker panels, patient-selection hypotheses, ties stratification to the clinic | Biomarker plan |
+
+### E. Nonclinical safety and CMC
+| Job | What it does | Output / gate |
+|---|---|---|
+| DMPK agent | ADME study design and interpretation, interspecies scaling | DMPK package |
+| Toxicology agent | Study design, interpretation, safety margins, risk assessment | Safety assessment |
+| CMC agent | Process route, specifications, CDMO sourcing, tech transfer documents, batch record review, stability | CMC section inputs |
+| Formulation agent | Dosage form, excipient compatibility, bioavailability strategy | Formulation plan |
+
+### F. Clinical, regulatory, quality
+| Job | What it does | Output / gate |
+|---|---|---|
+| Clinical strategist (CMO agent) | Indication, comparators, endpoints, trial design, benchmarks against registries | Clinical development plan |
+| Protocol and SAP writer | Protocols, IB, SAP, TLF specifications | Clinical documents |
+| Biostatistics agent | Sample size, simulations, interim plans; analysis programs independently double-programmed by a second agent | Statistical package |
+| Regulatory strategist | Pathway, designations, pre-IND package, meeting briefing documents, questions to FDA | Regulatory strategy |
+| Regulatory intelligence | Guidance tracking, precedents, review divisions, advisory committee records | Intelligence briefs |
+| Regulatory writer and publisher | IND/CTA modules, cross-referencing, eCTD assembly and validation | Submission-ready dossier |
+| Clinical operations agent | CRO and site selection, feasibility, monitoring oversight, TMF completeness checks, enrollment tracking | Trial operations |
+| Pharmacovigilance agent (clinical stage) | Case intake, coding, narratives, aggregate reports, signal detection | Safety reports |
+| Quality agent (QA/GxP) | SOPs, document control, vendor qualification, deviation and CAPA triage, data-integrity review, inspection readiness | Quality system |
+
+### G. Business
+| Job | What it does | Output / gate |
+|---|---|---|
+| Finance agent | Bookkeeping, runway and forecast models, tax and compliance calendars, audit support | Financial statements |
+| Fundraising agent | Investor mapping, narrative, deck, data room, diligence Q&A drafting | Raise materials |
+| BD agent | Scouting, partner mapping, outreach, CDAs, term-sheet and deal modeling, alliance management | Deal pipeline |
+| Contracts and legal agent | NDAs, MSAs, SOWs, licenses, corporate housekeeping, compliance filings | Executed-ready contracts |
+| IP agent | Invention disclosures, prior-art search, patent drafting and docketing, FTO analysis | Patent portfolio |
+| Scientific communications agent | Publications, abstracts, website, investor updates | External communications |
+| Advisor and KOL agent | KOL mapping, outreach, scheduling, briefing packs | Advisory network |
+
+### H. Infrastructure and meta (jobs human biotechs rarely staff explicitly)
+| Job | What it does | Output / gate |
+|---|---|---|
+| Verifier agents (per domain) | Independent checkers with test suites, golden datasets and adversarial cases: unit tests for science | Pass/fail on every artifact |
+| Agent operations lead | Evaluates agents, versions skills and prompts, retires and replaces them, tracks cost and error rates | Agent performance reports |
+| Integration engineer | Builds and repairs connectors to CRO portals, LIMS/ELN, eCTD tools, data sources | Working integrations |
+| Security and access controller | Permissions, secrets, audit trails, anomaly detection | Access log |
+| Systems validation agent | Documents validation and change control for agentic systems touching regulated records | Validation packages |
+| Escalation router | Determines when an action needs a named human attestation and prepares the package | Attestation requests |
+
+### Design rules implied by the roster (Claude's hypotheses)
+- **Maker and checker are different agents with different data, prompts, and ideally model families.** Correlated errors across agents built on the same model are the main structural risk, not individual agent error.
+- **Gates and artifacts are the interfaces, not titles:** target dossier, candidate selection memo, IND-enabling plan, IND. Each gate carries its red-team log and verifier results.
+- **Irreversible or money-moving actions** (synthesis orders, contracts, submissions, payments) pass the spend governor and escalation router.
+- **The external-world interface agents** (CRO sourcing, study directors, integration engineer) set the company's real speed, because CRO cycle time is not agentic.
+
+### Boundary of an all-agent company
+Agents plus a thin legal shell plus rented hands. Legal personhood, bank accounts, and regulations that name individuals (study director in GLP work, IND sponsor signatory, medical monitor, investigators, IRB) require accountable humans; physical work runs at CROs and CDMOs. How thin the shell can be is not settled here.
+
 ## What's load-bearing
 1. **Suitability tracks verifiability and feedback speed, not how intellectual the work looks.** Document and coordination work verifies against sources in minutes; discovery science verifies by experiment in weeks to months; strategic judgment verifies in years.
 2. **The binding constraints of the company (CRO cycle time, clinical development) are not agentic.**
@@ -70,6 +172,8 @@ Agent outputs that enter GxP or other regulated records need validated systems a
 
 ## Open questions
 - **Load-bearing: which judgments does Diogo want agents on, and what is the evidence they improve the decision, given that outcome feedback takes years?**
+- **Load-bearing for the all-agent design: what is the source of independence between maker and checker agents, so that checks are not correlated errors?**
+- Which roles on the roster are missing or should merge?
 - Which Tier 1 pieces are worth building first, and what is the verification mechanism for each?
 - Does structuring agents by verification loop (rather than function) hold up against how a CRO-based company actually works?
 - What would a decision-memory layer record, and how would it be audited?
