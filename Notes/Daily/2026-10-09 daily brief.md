@@ -34,10 +34,11 @@ tags: [brief, daily-brief]
 - 👥 Teams: no activity returned since yesterday.
 
 ## 💰 Kevin — Market brief & portfolio
-- **Market:** _market intel unavailable this run — source pages were blocked_; only VXUS retrieved: $84.10 at the 10/8 close (-0.81%), per [stockanalysis.com](https://stockanalysis.com/etf/vxus/history/).
-- **Portfolio:** _prices unavailable: QQQ, SMH, XBI_ — no snapshot written today. Last snapshot [[2026-10-08 portfolio snapshot]] (10/7 prices): $23,865.96 · QQQ+SMH 54.8% of investible ⚠️ over the 50% flag.
-- **Take:** hold — phase 1 is card paydown, so no new investment dollars; the pending SMH trim stays pending until prices refresh.
-- **Action:** EF gap $15,677.06 to the $30k target as of the 10/8 snapshot; Diogo's next pay deposit Wed 10/15 ($1,933.15 → SPAXX).
+- **Market:** broad risk-off at the 10/8 close — SMH -2.84%, QQQ -1.34%, VXUS -0.81%, XBI -0.63% ([stockanalysis.com](https://stockanalysis.com/etf/smh/history/)); semis led, no catalyst retrieved. XBI had its own -3.39% day on 10/6.
+- **Portfolio:** $23,705.11 (-$160.85 / -0.67% vs 10/7 prices) · QQQ+SMH 54.5% of investible ⚠️ over threshold. Snapshot: [[2026-10-09 portfolio snapshot]].
+- **Movers:** SMH -2.84% — semis-led selloff.
+- **Take:** ninth straight session over the 50% QQQ+SMH line, and SMH just took the biggest hit — the SMH trim is overdue at the next contribution, but phase 1 (card paydown) means no new investment dollars, so hold and don't sell to rebalance.
+- **Action:** EF gap $15,677.06 to the $30k target; next pay deposit Wed 10/15 ($1,933.15 → SPAXX).
 
 ## 🧬 John — Biotech intel
 No verified items since 2026-10-06 — source pages (Fierce Biotech, NutraIngredients) were not retrievable this run; yesterday's items stand.
