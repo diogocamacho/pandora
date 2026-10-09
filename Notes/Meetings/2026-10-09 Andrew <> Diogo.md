@@ -53,6 +53,7 @@ _No unchecked checkboxes in the prior note._
 ## ✍️ Notes & discussion
 - Claude service account? --> Get Andrew in touch with Amy Hao
 - JD for junior software engineering
+- looking again into modal partnership and how to use that resource
 
 ## ❓ Open questions
 -
