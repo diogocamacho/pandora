@@ -8,15 +8,15 @@
     <array>
         <string>/bin/zsh</string>
         <string>-c</string>
-        <string>/usr/bin/python3 /Users/dcamacho/Documents/pandora/.scripts/todoist_pull.py</string>
+        <string>/usr/bin/python3 /Users/dcamacho/Documents/pandora/.scripts/todoist_pull.py --if-stale</string>
     </array>
-    <key>StartCalendarInterval</key>
-    <dict>
-        <key>Hour</key>
-        <integer>6</integer>
-        <key>Minute</key>
-        <integer>20</integer>
-    </dict>
+    <!-- Self-healing schedule: fire at login/wake and every 30 min. The script's
+         --if-stale guard no-ops when today's snapshot already exists, so this is
+         cheap and it catches up the moment the Mac wakes (fixing missed 06:20s). -->
+    <key>RunAtLoad</key>
+    <true/>
+    <key>StartInterval</key>
+    <integer>1800</integer>
     <key>StandardOutPath</key>
     <string>/Users/dcamacho/Documents/pandora/.scripts/todoist_pull.log</string>
     <key>StandardErrorPath</key>

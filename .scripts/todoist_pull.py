@@ -125,6 +125,16 @@ def completed_since(token, since):
 
 def main():
     args = sys.argv[1:]
+
+    # Fast path for the self-healing launchd agent: if today's snapshot already
+    # exists, do nothing (no API call). Lets the job run often and cheaply so it
+    # catches up the moment the Mac wakes, without redundant work while awake.
+    if "--if-stale" in args and "--stdout-only" not in args and "--completed-since" not in args:
+        out_path = VAULT / "Notes" / "Logs" / f"{date.today().isoformat()} tasks.md"
+        if out_path.exists():
+            print(f"_snapshot already current: {out_path.name}_", file=sys.stderr)
+            return
+
     token = resolve_token()
     if not token:
         print("_Todoist unavailable — no API token found._\n"
