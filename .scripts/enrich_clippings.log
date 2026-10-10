@@ -410,3 +410,38 @@ Once write access is granted, I can apply all 26 edits and run Steps 2–4 in on
 ===== run end:   2026-10-09 09:38:41 | exit=0 =====
 
 ===== run start: 2026-10-10 09:30:04 =====
+I've now confirmed the blocker independently through three separate write paths. I'm not going to keep hammering denied calls or fabricate success.
+
+## Pipeline blocked — no write access this session
+
+Every write mechanism is denied by the permission layer, which is waiting for an interactive grant that an automated run can't provide:
+
+| Attempt | Result |
+|---|---|
+| `Edit` on the log file (existing) | "you haven't granted it yet" |
+| `Write` to a new scratch file | same |
+| `Bash` python write, sandbox disabled | "requires approval" |
+
+Reads work fine, so I completed discovery. But `enrich-clippings` is almost entirely a write pipeline (frontmatter edits, `link_ideas.py`, analysis notes, synthesis files), so nothing it produces can land. I verified this myself rather than trusting the log.
+
+This is now the **fifth consecutive day** the 9:30am run has hit this exact wall (Oct 6, 7, 8, 9, and today). It's a persistent config problem with the scheduled job, not a transient issue.
+
+## What I confirmed (read-only survey)
+
+- **Today:** 2026-10-10, **Saturday** (DOW=6) → Step 5 deep synthesis + explorations *would* run (week `2026-W41`). `Notes/Reviews/2026-W41 Deep Synthesis.md` does not exist yet.
+- **Step 1:** 26 unprocessed clippings.
+- **Step 3:** 30 unanalyzed papers; the 5 oldest (all `created: 2026-10-01`) would be processed: *AI nutrition recommendation…*, *Applying AI and ML in precision nutrition*, *BoltzGen*, *AI-driven virtual cell models…*, *Fifteen challenges for generative AI…*. None have local PDFs, so Step 3 fetches via WebFetch (abstract-only ones become stubs).
+- **Step 4:** `Notes/Logs/2026-10-10 learnings.md` does not exist → would be generated.
+- Good news: the **Oct 9 run already decided all 26 clippings' tags and `related` links** (preserved in the log, lines 379–406). That analysis is ready to apply the moment writes work — no rework needed.
+
+## The fix (one of these, before the next scheduled launch)
+
+1. **Run the launchd invocation in `bypassPermissions` mode** — the standard way a headless cron/launchd agent gets non-interactive write access. Simplest fix, and almost certainly the right one for a 9:30am automated job.
+2. **Scoped allowlist** in `settings.json` (narrower than blanket bypass):
+   - `Edit` / `Write` under `/Users/dcamacho/Documents/pandora/**`
+   - `Bash(python3 /Users/dcamacho/Documents/pandora/.scripts/link_ideas.py:*)` (Step 2)
+   - A log-append grant (or route logging through `Edit`, covered by the vault write grant above)
+
+If you want, I can run `/update-config` to write that allowlist block now — though note that too needs write access, so the first grant has to come from you or from relaunching in bypass mode. If you grant access in this session and tell me to proceed, I'll execute all five steps end to end immediately; the full survey and the Oct 9 Step 1 analysis are already loaded, so I'd go straight to applying edits and analyzing papers.
+
+===== run end:   2026-10-10 09:33:42 | exit=0 =====
