@@ -445,3 +445,13 @@ This is now the **fifth consecutive day** the 9:30am run has hit this exact wall
 If you want, I can run `/update-config` to write that allowlist block now — though note that too needs write access, so the first grant has to come from you or from relaunching in bypass mode. If you grant access in this session and tell me to proceed, I'll execute all five steps end to end immediately; the full survey and the Oct 9 Step 1 analysis are already loaded, so I'd go straight to applying edits and analyzing papers.
 
 ===== run end:   2026-10-10 09:33:42 | exit=0 =====
+
+===== run start: 2026-10-11 09:45:44 =====
+API Error: Unable to connect to API (ConnectionRefused)
+
+===== run end:   2026-10-11 11:17:37 | exit=1 =====
+
+===== run start: 2026-10-12 09:40:28 =====
+API Error: Unable to connect to API (ConnectionRefused)
+
+===== run end:   2026-10-12 11:03:05 | exit=1 =====
