@@ -13,7 +13,7 @@ tags: [reading, book]
 # The Fall
 
 > [!info] Why I picked it up
-> _not logged_
+> An important discourse on the behaviors of man, and how we are too quick to judge others without doing self reflections and assessing where we are at fault
 
 ## 📍 Where I am
 - Finished (confirmed 2026-10-05; exact finish date not logged)
@@ -47,9 +47,9 @@ SORT file.name ASC
 ---
 
 ## 🏁 Verdict  *(on finish)*
-- **Rating:** 
+- **Rating:** 5
 - **In one line:** Camus flips the reader from judge to judged, and the early announcement doesn't defuse it.
 - **What holds up / what I'd steal:** 
 - **What I'd argue with:** 
-- **Who I'd hand it to:** 
+- **Who I'd hand it to:** Pedro and Filipe, as they grow older
 - **Threads to chase next:** 
