@@ -455,3 +455,27 @@ API Error: Unable to connect to API (ConnectionRefused)
 API Error: Unable to connect to API (ConnectionRefused)
 
 ===== run end:   2026-10-12 11:03:05 | exit=1 =====
+
+===== run start: 2026-10-13 09:30:05 =====
+I need to stop here and report a blocking issue, because continuing would just repeat failed writes.
+
+## Status: blocked on write permissions
+
+I completed the full read-only survey and planning, but **every write to the vault is being refused by the harness permission layer** — both shell redirection (`>>` to the log, even with the sandbox override) and the `Edit`/`Write` tools (tested on the log file and on a real clipping). Each returns "requested permissions … but you haven't granted it yet." No grant is active in this session, so nothing can be persisted.
+
+This is the same wall the 2026-10-10 run hit (per the tail of `enrich_clippings.log`). The 10-11 and 10-12 runs died earlier on `API Error: ConnectionRefused`.
+
+### What I did complete (read-only)
+- **Step 0 survey:** 30 unprocessed clippings, 29 unanalyzed papers.
+- **Step 3 selection:** oldest papers are all dated `created: 2026-10-01`. The 5 I'd process (alphabetical tiebreak within the oldest date): *AI nutrition recommendation (deep generative model + ChatGPT)*, *AI-driven virtual cell models (npj Digital Medicine)*, *Applying AI and ML in precision nutrition*, *BoltzGen*, *Fifteen challenges for generative AI applications to cell biology*.
+- **Step 5:** today is Tuesday (`%u`=2), so the Saturday deep synthesis is correctly skipped regardless.
+- I verified my enrichment logic works end-to-end on `Can LLMs design proteins?.md` (tags → `protein-design, ai-agents, de-novo-binders, drug-discovery, benchmarking`; `related` → `[[ProteinMPNN — sequence design]]`; `processed: true`) — the edit is composed and ready; it just can't be written.
+
+### What's needed to actually run
+The pipeline writes to clippings, `Papers/Analyses/`, idea notes, `Notes/Logs/`, and the log file. To execute autonomously it needs **write access to `~/Documents/pandora`**. Either:
+- relaunch the scheduled job in bypass-permissions mode, or
+- add an allowlist grant for `Edit`/`Write` (and `python3 link_ideas.py`) scoped to `~/Documents/pandora`.
+
+If you grant write access now and tell me to proceed, I'll run all steps end to end immediately — the survey, paper selection, and Step 1 logic are already loaded, so I'd go straight to applying edits, analyzing the 5 papers (each with its independent reviewer agent), and writing today's synthesis. I won't report any step as done unless the file actually lands on disk.
+
+===== run end:   2026-10-13 09:34:03 | exit=0 =====
