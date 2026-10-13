@@ -11,23 +11,26 @@ tags: [brief, daily-brief]
 ---
 
 ## 🎯 Max — Today's focus
-_(proposed — Top 3 not yet set)_
-1. _(proposed)_ Close the structural-biology target-scan note to Declan Evans and Jeremy Amon — 8 days overdue (due 10/5) — from your Todoist overdue list.
-2. _(proposed)_ Decide Rob Albert's 9:30 sync given the One Vector wind-down and his unanswered "want to chat today?" — on your calendar 09:30.
-3. _(proposed)_ Answer Andrew Croneberger on the software engineer JD — 7 days overdue (due 10/6) — from your Todoist overdue list.
+1. _(proposed)_ Settle the One Vector position with Rob at 09:30, then send Karen Scott the email you told Amelia you'd handle "this morning" — on your calendar 09:30; your reply to Amelia, Sent Items 06:36.
+2. _(proposed)_ Decide what you want out of Mark Bunnage at 16:30 — you organised it, the Zoom is Vertex-hosted, and the vault has no prior context — on your calendar 16:30.
+3. _(proposed)_ Close the structural-biology target-scan note to Declan Evans and Jeremy Amon — 8 days overdue (due 10/5) — from your Todoist overdue list.
 
-**One thing I'd skip if the day collapses:** _(proposed)_ The 2026→2027 workshop slide — due 10/8, already 5 days overdue and the lowest-stakes of the four open P4s.
+**One thing I'd skip if the day collapses:** _(proposed)_ The Andrew JD ask (due 10/6) — Andrew's 1:1 is now Wed 11:00 and he's out Thu–Fri, so it fits there.
 
 ## 📋 Sarah — Ops
-- **Calendar:** 09:30–09:55 — [[2026-10-13 Robert Albert <> Diogo]] (standing sync); 16:30–17:00 — [[2026-10-13 Mark Bunnage <> Diogo]] (external, Vertex contact). One Vector IT Touchpoint (9:30–10:30) is cancelled — you asked to skip it this morning. Beth Kartchner is on-site through 10/17 (all-day cal entry, no meeting attached).
-- **What matters:** Rob's 9:30 sync sits on top of the One Vector wind-down — Amelia Sancilio is at the end of her 40 allocated hours and asked whether to use a meeting to close out or wait; you told her to skip today, but Rob separately asked at 10:48am "Do you want to chat today?" — unclear if that's this sync or something else. Mark Bunnage (16:30) has zero prior context in the vault — know what you're walking into before 16:30.
-- **Tasks:** 4 overdue, all P4, oldest 8 days (structural-biology target-scan note to Declan/Jeremy, due 10/5); also overdue: Andrew's SWE JD ask (10/6), Jiangchuan's Cradle DPO papers (10/7), the 2026→2027 workshop slide (10/8). Nothing due today or tomorrow.
-- **Operational flag:** the overdue cluster is now 4 tasks, 5–8 days stale, with no visible movement across recent morning briefs — worth a real triage pass rather than another mention.
-- **Deep work:** no protected deep-work block visible on today's calendar — flag it.
+- **Calendar:** 09:30–09:55 — [[2026-10-13 Robert Albert <> Diogo]] (Teams, "All things Abio"); 16:30–17:00 — [[2026-10-13 Mark Bunnage <> Diogo]] (Zoom, Vertex-hosted). Off today's list: One Vector touchpoint (cancelled) and the 14:00 PILOT meeting (you declined 06:38). Beth Kartchner is on-site through 10/17.
+- **What matters:** Rob 09:30 — One Vector SOW is ~33.5 of 40 hours and Amelia is out of allocation, so this is where the Phase 2 position gets set before Karen Scott's email. Mark 16:30 — no prior context anywhere in the vault.
+- **Tasks:** 4 overdue, all P4: target-scan note to Declan/Jeremy (8 days, due 10/5), Andrew JD ask (7 days), Cradle DPO papers from Jiangchuan (6 days), 2026→2027 workshop slide (5 days). Nothing due today or tomorrow. Andrew's and Jiangchuan's items now have a natural home in their Wed 1:1s.
+- **Operational flag:** Mark Bunnage 16:30–17:00 sits inside your 16:00–17:15 commute block — decide where you'll take it.
+- **Deep work:** no protected block on today's calendar; 09:55–16:00 is open.
+- **Moved 1:1s (re-sent 06:51) land Wed 10/14:** Jiangchuan 09:30, Nitya 10:00, Beth 10:30, Andrew 11:00, then Synteins target-design assessments 11:30 (Riverside 2, tentative), Jeremy 13:00, Chiara 14:00 — which collides with your own Ariel Office Hours 14:00–17:00. Thu 10/15 is your all-day OOO but still carries PI All Hands 12:10, the off-site 13:30 and Abiologics LT 14:00. Benchmarking data discussion part 2 moved to Wed 10/21 13:00 (Beth), so the GFRAL status you wanted yesterday has a week more.
 
 ## 📧 Comms — Email & Slack
-- 📧 Work: Rob Albert asked at 10:48am "Do you want to chat today with me?" — separate from the 9:30 sync already on your calendar; unanswered.
-- 📧 Work: Mike Hamill asked you (10/12, 17:55, @-mention) to review the Per Greisen onboarding plan and flagged timelines as "ASAP" — no reply visible yet.
+- 📧 Work: Karen Scott (One Vector) — Phase 1 SOW at ~33.5 of 40 hours, asked for times next week to scope Phase 2; you told Amelia you'd email her this morning and Sent Items shows nothing to Karen since 10/9.
+- 💬 Slack: Liam Dunn — you said you'd draft the notice to Carolyn Pastore and Nate (10/12 ~16:50); nothing to either in Sent Items. He also sent your background-check request 10/12 16:58.
+- 📧 Work: Mike Hamill — Per Greisen onboarding plan (Per starts Mon 10/19). You replied in the doc 10/12 16:55; open is the Declan input you told Mike on Slack you'd pull in, not confirmed done.
+- 📧 Work: OMSF Operations — OpenFold invoice #1290 (due 9/13), asking for payment status; unread since 10/9.
+- Resolved, dropped: Rob Albert's "want to chat today?" — you replied 06:54 and accepted the 09:30.
 
 ## 💰 Kevin — Market brief & portfolio
 - **Market:** Chip/semis took another leg down on 10/12 — a targeted selloff in chip and optical names (Nasdaq -0.44%, tech sector -1.22%) pulled SMH down 2.05% and QQQ down 0.70%, while the S&P barely moved (-0.06%) [[tapeboard.com market pulse — 2026-10-12](https://tapeboard.com/blog/market-pulse-2026-10-12)]. Biotech deal flow kept coming overnight — AbbVie's $10.9B Apogee buy and Roche's $1.2B Rona obesity pact — without a confirmed sector-wide XBI move yet [[Endpoints News — 2026-10-13](https://endpoints.news/apogee-execs-join-paragon-to-scale-its-rd-company-creation-engine/)]. Oil popped 1.59% to $93.31 and the 10yr eased slightly to 5.24% — both minor.
@@ -64,12 +67,12 @@ _No AI/computational-drug-discovery or DTC/nutraceutical item cleared the 72h so
 
 ## 📅 Meeting prep
 **09:30 — [[2026-10-13 Robert Albert <> Diogo]]** (1:1)
-🎯 Outcomes: Amelia Sancilio (One Vector) flagged she's nearly out of her 40 allocated hours and asked whether today's now-cancelled touchpoint should become a close-out or wait for clarity; Diogo already told her to skip that one and said he'd email Karen Scott separately. Decide with Rob whether/how the engagement gets re-scoped from here.
-Carryover: 1 open item from [[2025-12-01 Robert Albert <> Diogo]] (316 days ago — stale) — the Charlotte email re: Benchling/Okta-to-Entra follow-up ownership, no record since of resolution.
+🎯 Outcomes: agree how the One Vector engagement is re-scoped now that Amelia Sancilio is at the end of the 40 allocated hours; get a position you can put in the email to Karen Scott today.
+Carryover: 1 open item from [[2025-12-01 Robert Albert <> Diogo]] (316 days ago — stale) — Charlotte email re: Benchling/Okta-to-Entra follow-up ownership, no record of resolution.
 
 **16:30 — [[2026-10-13 Mark Bunnage <> Diogo]]** (1:1, external)
-🎯 Outcomes: _no prior context — check the invite_. No prior note, email or Slack thread found; Zoom domain is vrtx.zoom.us (Vertex Pharmaceuticals).
+🎯 Outcomes: _no prior context — check the invite_. Zoom host is Mark Bunnage on vrtx.zoom.us (Vertex); no prior note, email or Slack thread in the vault.
 Carryover: _No prior 1:1 found._
 
 ---
-_Note: M8 email delivery skipped — config's `send_brief.script` is a macOS script outside this session's sandboxed device bridge (not reachable from here), and the config itself flags it as unconfirmed-still-current. The brief and daily note were still written and delivered in the vault._
+_Re-run 07:58 ET after your calendar changes: calendar, comms, focus and meeting prep refreshed; Kevin, John, Candy, Harold and Lily blocks carried from the earlier run this morning._
