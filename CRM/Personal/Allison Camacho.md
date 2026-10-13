@@ -34,4 +34,4 @@ Wife. Nurse practitioner. Deeply invested in the family and home. The anchor of 
 - 
 
 ## Notes
-- 
+- I got Allison some more PJs, as per her request, for her birthday (10/11/2026). I tried a new brand (Eberjey), as she wanted something comfy like the Victoria Secrets ones I got her for Christmas last year. Let's see if she likes these. 
