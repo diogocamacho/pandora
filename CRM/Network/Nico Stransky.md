@@ -24,4 +24,4 @@ Flagship Pioneering, Science Partner & SVP — a senior Flagship colleague. Conn
 | 2017-04-10 | LinkedIn | Connected |
 
 ## Notes
-_Add context on the relationship and your last real conversation._
+- Introduced Nico to [[Ed Driggers]] for them to chat through metabolomics data analyses at scale, like Ed wants to do.
