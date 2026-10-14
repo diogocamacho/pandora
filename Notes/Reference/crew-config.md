@@ -113,7 +113,7 @@ Lines marked `<!-- CHECK: … -->` are conflicts carried over from the old skill
 ## kevin
 
 ### Financial state
-- last_updated: 2026-09-27
+- last_updated: 2026-10-14
 - household_income: $504k ($339k Diogo + $165k Allison)
 - brokerage_total: ~$21,681 <!-- CHECK: stale; derive from latest portfolio-snapshot instead -->
 - waymark_wealth_taxable_managed: $1,002,015
@@ -130,19 +130,32 @@ Lines marked `<!-- CHECK: … -->` are conflicts carried over from the old skill
 - update only if Diogo says it changed
 
 ### Debt tracker
+**Revolving (avalanche — highest APR first):**
 | Debt | Balance | Rate | Expiry / Payoff | Priority |
 |---|---|---|---|---|
-| JetBlue CC | $9,800.78 | Standard APR (TBD) | N/A | 1 (largest balance) |
-| Fidelity CC | $5,341.52 | Standard APR (TBD) | N/A | 2 |
-- total_debt: $15,142
-- zero_pct_promo_debt: none
-- paydown_method: <!-- CHECK: old skill says "snowball or avalanche"; table orders by largest balance -->
+| JetBlue CC (Barclay) | $9,800.78 | 29.74% APR | N/A | 1 (highest APR) |
+| Fidelity CC (Elan) | $5,341.52 | 17.49% APR | N/A | 2 |
+- revolving_total: $15,142 (as of 2026-09-27)
+- zero_pct_promo_debt: Synchrony 0% AC-repair loan (~$342/mo, ~$9.2k left, ends ~Jan-2029); Wells Fargo 0% plumbing loan — do NOT prepay either while the 29.74%/17.49% cards carry a balance
+- paydown_method: avalanche (JetBlue 29.74% to zero, then Fidelity 17.49%)
+- bonus_independent: per Diogo 2026-10-14, the plan must clear the cards from the monthly savings engine alone. Any bonus is acceleration, never the lifeline.
+
+**Installment / secured (fixed payments — not revolving paydown targets):**
+| Debt | Payment | Rate | Note |
+|---|---|---|---|
+| Mortgage (NewRez) | $6,858/mo | — | Fixed; escrow status TBD |
+| HELOC (Holyoke CU) | ~$1,100/mo | 7.0% (repriced from 3.5% at anniversary) | 10-yr fully-amortizing P&I, first draw |
+| Volvo loan (Metro CU) | $1,174/mo | 5.49% | Drive to payoff, don't replace — frees $1,174/mo to the engine |
+| Audi loan (Audi Financial) | $1,057/mo | 5.25% | Drive to payoff, don't replace — frees $1,057/mo to the engine |
+| Installment plans (Capital One, TD Retail, OnePay/Sync) | ~$700/mo | TBD | Diogo to dig up balances, APRs, end dates |
 
 ### Emergency fund
-- target: $30,000 (3 months expenses)
-- components: SPAXX (brokerage) + lifestyle account
+- target: $100,842 (6 months of FULL living expenses) — GOVERNS; supersedes the old $30k/3-month target per Diogo 2026-10-14
+- cash_floor: $50,421 (3 months of essentials, held as cash/SPAXX — never invested)
+- stocks_toward_cap: investible brokerage (ex-SPAXX) counts toward the cap ABOVE the cash floor at a 25% haircut (drawdown + tax), per Household Budget 2026-10 → Debt & EF Plan. NOTE: this relaxes the skill's "EF = cash only" definition — confirmed by Diogo.
+- components: SPAXX + lifestyle account (cash floor) + investible brokerage at haircut (fills the cap above the floor)
 - lifestyle_account: $2,580
-- current: $12,081 (SPAXX $9,501 + lifestyle $2,580) as of 2026-09-27 <!-- CHECK: stale; derive SPAXX from latest snapshot -->
+- current: $12,081 cash (SPAXX $9,501 + lifestyle $2,580) as of 2026-09-27 <!-- CHECK: stale; derive SPAXX from latest snapshot -->
 
 ### Excluded / earmarked accounts
 - patriots_season_tickets_account: $695 (separate Fidelity account; ~$5k due February — not liquidity)
