@@ -22,6 +22,9 @@ created: 2026-10-01
 description: "A key feature of the Precision Nutrition and Health approach is the ability to tailor interventions to individual variability using multimodal data from large-scale biobanks and cohorts. Artificial intelligence (AI) and machine learning (ML) models offer new potential to model complex data but remain constrained by challenges related to data quality, interpretability, validation, and causal inference. This Perspective synthesizes current AI/ML methodologies in PN, elucidates their interplay with the distinctive features of multi-omic and nutritional data, such as being compositional, episodic, context-dependent, and error-prone, and delineates nutrition-specific best practices for achieving robust, interpretable, and clinically actionable AI integration in research and practice. In this Perspective, the authors highlight critical challenges, knowledge gaps, and opportunities for robust, equitable, rigorous, reproducible, and actionable artificial intelligence integration in research and practice, and provide a roadmap and checklist for enabling the use of artificial intelligence in precision nutrition."
 tags:
   - "clippings"
+analyzed: true
+analyzed_on: 2026-10-14
+analysis: "[[AI and ML in Precision Nutrition (Massara 2026)]]"
 ---
 ## Abstract
 

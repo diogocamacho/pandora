@@ -15,6 +15,9 @@ created: 2026-10-02
 description: "RosettaSearch introduces an inference-time multi-objective optimization framework that leverages large language models (LLMs) to iteratively refine protein sequences for backbone-conditioned design...."
 tags:
   - "clippings"
+analyzed: true
+analyzed_on: 2026-10-14
+analysis: "[[RosettaSearch — LLM inference-time protein sequence design (Kshirsagar 2026)]]"
 ---
 ## Abstract
 

@@ -15,6 +15,9 @@ created: 2026-10-02
 description: "Nanopore signal analysis enables detection of nucleotide modifications from native DNA and RNA sequencing, providing both accurate genetic or transcriptomic and epigenetic information without additional library preparation. At present, only a limited set of modifications can be directly basecalled (for example, 5-methylcytosine), while most others require exploratory methods that often begin with alignment of nanopore signal to a nucleotide reference. We present Uncalled4, a toolkit for nanopore signal alignment, analysis and visualization. Uncalled4 features an efficient banded signal alignment algorithm, BAM signal alignment file format, statistics for comparing signal alignment methods and a reproducible de novo training method for k-mer-based pore models, revealing potential errors in Oxford Nanopore Technologies’ state-of-the-art DNA model. We apply Uncalled4 to RNA 6-methyladenine (m6A) detection in seven human cell lines, identifying 26% more modifications than Nanopolish using m6Anet, including in several genes where m6A has known implications in cancer. Uncalled4 is available open source at github.com/skovaka/uncalled4 . Uncalled4 is a toolkit for nanopore signal alignment, analysis and visualization allowing for performant detection and analysis of DNA and RNA modifications."
 tags:
   - "clippings"
+analyzed: true
+analyzed_on: 2026-10-14
+analysis: "[[Uncalled4 — nanopore signal alignment for modification detection (Kovaka 2025)]]"
 ---
 ## Abstract
 

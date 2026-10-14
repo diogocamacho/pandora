@@ -9,6 +9,9 @@ created: 2026-10-02
 description: "Proteins drive most cellular functions and are key players in diseases, yet proteomicsstill lags behind genomics due to the complexity, diversity, and dynamic nature ofproteoforms. Nanopore technology – known for real-time, single-molecule DNA sequencing– is a promising contender to revolutionize protein analysis. The method has recentlybeen adapted to proteins, showing strong potential for protein identification. However,true de novo protein sequencing with nanopores remains an open challenge. This reviewcompares current nanopore-based strategies for protein analysis and highlights theirtechnical hurdles towards application. Additionally, engineering strategies are exploredaiming to bridge the gap towards single-molecule protein analysis and sequencing."
 tags:
   - "clippings"
+analyzed: true
+analyzed_on: 2026-10-14
+analysis: "[[Advancing nanopore technology toward protein identification and sequencing (Rukes 2025)]]"
 ---
 ## Highlights
 

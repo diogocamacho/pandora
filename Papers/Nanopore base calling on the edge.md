@@ -11,6 +11,9 @@ created: 2026-10-02
 description: "AbstractMotivation. MinION is a portable nanopore sequencing device that can be easily operated in the field with features including monitoring of run prog"
 tags:
   - "clippings"
+analyzed: true
+analyzed_on: 2026-10-14
+analysis: "[[Nanopore base calling on the edge — DeepNano-coral (Peresini 2021)]]"
 ---
 ## Abstract
 

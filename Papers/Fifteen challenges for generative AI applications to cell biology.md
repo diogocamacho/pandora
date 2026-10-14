@@ -22,6 +22,9 @@ created: 2026-10-01
 description: "Drawing inspiration from Hilbert’s list of 23 mathematical problems that have focusedthe mathematical community’s attention for more than a century, we propose fifteengrand AI challenges to focus the biomedical community’s attention on critically relevantquestions, most of which still lack effective predictive methodologies."
 tags:
   - "clippings"
+analyzed: true
+analyzed_on: 2026-10-14
+analysis: "[[Fifteen Challenges for Generative AI in Cell Biology (Dupire 2026)]]"
 ---
 ## Summary
 

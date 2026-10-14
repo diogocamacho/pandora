@@ -17,6 +17,9 @@ created: 2026-10-02
 description: "Abstract page for arXiv paper 2509.12178: All that structure matches does not glitter"
 tags:
   - "clippings"
+analyzed: true
+analyzed_on: 2026-10-14
+analysis: "[[All that structure matches does not glitter (Martirossyan 2025)]]"
 ---
 ## Computer Science > Machine Learning
 

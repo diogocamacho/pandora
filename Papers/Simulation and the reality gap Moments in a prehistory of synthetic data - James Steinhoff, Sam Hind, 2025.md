@@ -8,6 +8,9 @@ created: 2026-10-02
 description: "This paper sketches a prehistory of synthetic data in the development of simulation technologies. Synthetic data is connected to simulation by the technical problem of the reality gap: the gap betw..."
 tags:
   - "clippings"
+analyzed: true
+analyzed_on: 2026-10-14
+analysis: "[[Simulation and the reality gap — a prehistory of synthetic data (Steinhoff 2025)]]"
 ---
 ## Abstract
 

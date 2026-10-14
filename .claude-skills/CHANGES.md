@@ -238,7 +238,7 @@ Required: sarah (📋, owns meeting-priority format + Sunday review setup), kevi
 
 **Moved**
 - To CONFIG: open roles, NotesDB ID, team tag, default length, EngagementsDB link, litmus-test role scope, pointer to search note.
-- To `Notes/Reference/interview-search.md` (seed in CONFIG.md, below the divider): team composition, platform note, comp bands, candidate benchmarks. **Recommendation:** keep third-party candidate names/scores and salary bands in that dedicated note (or a restricted Notion page), not in the shared crew-config.
+- To `Notes/System/interview-search.md` (seed in CONFIG.md, below the divider): team composition, platform note, comp bands, candidate benchmarks. **Recommendation:** keep third-party candidate names/scores and salary bands in that dedicated note (or a restricted Notion page), not in the shared crew-config.
 
 **Removed**
 - "Anderson" persona and `/anderson` (brief: no Anderson). Max must call `diogo-interview-coach`.

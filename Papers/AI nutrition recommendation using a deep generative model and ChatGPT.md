@@ -11,6 +11,9 @@ created: 2026-10-01
 description: "In recent years, major advances in artificial intelligence (AI) have led to the development of powerful AI systems for use in the field of nutrition in order to enhance personalized dietary recommendations and improve overall health and well-being. However, the lack of guidelines from nutritional experts has raised questions on the accuracy and trustworthiness of the nutritional advice provided by such AI systems. This paper aims to address this issue by introducing a novel AI-based nutrition recommendation method that leverages the speed and explainability of a deep generative network and the use of novel sophisticated loss functions to align the network with established nutritional guidelines. The use of a variational autoencoder to robustly model the anthropometric measurements and medical condition of users in a descriptive latent space, as well as the use of an optimizer to adjust meal quantities based on users’ energy requirements enable the proposed method to generate highly accurate, nutritious and personalized weekly meal plans. Coupled with the ability of ChatGPT to provide an unparalleled pool of meals from various cuisines, the proposed method can achieve increased meal variety, accuracy and generalization capabilities. Extensive experiments on 3000 virtual user profiles and 84000 daily meal plans, as well as 1000 real profiles and 7000 daily meal plans, demonstrate the exceptional accuracy of the proposed diet recommendation method in generating weekly meal plans that are appropriate for the users in terms of energy intake and nutritional requirements, as well as the easiness with which it can be integrated into future diet recommendation systems."
 tags:
   - "clippings"
+analyzed: true
+analyzed_on: 2026-10-14
+analysis: "[[AI Nutrition Recommendation via VAE and ChatGPT (Papastratis 2024)]]"
 ---
 ## Abstract
 

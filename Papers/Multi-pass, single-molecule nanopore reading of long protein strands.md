@@ -20,6 +20,9 @@ created: 2026-10-02
 description: "The ability to sequence single protein molecules in their native, full-length form would enable a more comprehensive understanding of proteomic diversity. Current technologies, however, are limited in achieving this goal1,2. Here, we establish a method for the long-range, single-molecule reading of intact protein strands on a commercial nanopore sensor array. By using the ClpX unfoldase to ratchet proteins through a CsgG nanopore3,4, we provide single-molecule evidence that ClpX translocates substrates in two-residue steps. This mechanism achieves sensitivity to single amino acids on synthetic protein strands hundreds of amino acids in length, enabling the sequencing of combinations of single-amino-acid substitutions and the mapping of post-translational modifications, such as phosphorylation. To enhance classification accuracy further, we demonstrate the ability to reread individual protein molecules multiple times, and we explore the potential for highly accurate protein barcode sequencing. Furthermore, we develop a biophysical model that can simulate raw nanopore signals a priori on the basis of residue volume and charge, enhancing the interpretation of raw signal data. Finally, we apply these methods to examine full-length, folded protein domains for complete end-to-end analysis. These results provide proof of concept for a platform that has the potential to identify and characterize full-length proteoforms at single-molecule resolution. A technique for threading long protein strands through a nanopore by electrophoresis and back using a protein unfoldase motor, ClpX, enables single protein molecules to be analyzed multiple times with single-amino-acid sensitivity."
 tags:
   - "clippings"
+analyzed: true
+analyzed_on: 2026-10-14
+analysis: "[[Multi-pass single-molecule nanopore reading of protein strands (Motone 2024)]]"
 ---
 ## Abstract
 

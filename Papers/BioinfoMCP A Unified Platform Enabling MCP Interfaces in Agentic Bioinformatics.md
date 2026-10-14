@@ -7,6 +7,9 @@ created: 2026-10-02
 description:
 tags:
   - "clippings"
+analyzed: true
+analyzed_on: 2026-10-14
+analysis: "[[BioinfoMCP — MCP interfaces for agentic bioinformatics (Widjaja 2025)]]"
 ---
 Florensia Widjaja Affiliation: School of Data Science, The Chinese University of Hong Kong, Shenzhen (CUHK Shenzhen), Shenzhen 518172, China  
 <sup>†</sup> These authors contributed equally.  

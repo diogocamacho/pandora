@@ -11,6 +11,9 @@ created: 2026-10-02
 description: "Abstract page for arXiv paper 2604.01202: Therefore I am. I Think"
 tags:
   - "clippings"
+analyzed: true
+analyzed_on: 2026-10-14
+analysis: "[[Therefore I am. I Think — decisions precede CoT in reasoning LLMs (Esakkiraja 2026)]]"
 ---
 ## Computer Science > Artificial Intelligence
 

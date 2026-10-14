@@ -544,3 +544,5 @@ I did not modify anything. The task list reflects the work as not-started; nothi
 [2026-10-14 11:36] Enrichment complete (batch of 6).
 
 [2026-10-14 12:07] MANUAL CATCH-UP (via Claude Code session): Step 1 enriched 31 clippings (50/50 now processed); Step 2 idea-linking 6 clips checked, 2 linked (50/50 ideas_checked). Papers deferred per user.
+[2026-10-14 13:14] Step 3 batch (manual): fetched full text — BindCraft (Nature, full+methods), SEDA-Former (Nat Commun, full+methods), Karenina (bioRxiv PDF, full+SI contents), SSoT (arXiv HTML, full), Proto (abstract+Arc Institute+DecodingBio; biorxiv full-text rate-limited).
+[2026-10-14 13:16] Paper analyzed: One-shot design of functional protein binders with BindCraft — verdict: strong, reviewer divergence: minor

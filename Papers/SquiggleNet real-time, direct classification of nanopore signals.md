@@ -18,6 +18,9 @@ created: 2026-10-02
 description: "We present SquiggleNet, the first deep-learning model that can classify nanopore reads directly from their electrical signals. SquiggleNet operates faster"
 tags:
   - "clippings"
+analyzed: true
+analyzed_on: 2026-10-14
+analysis: "[[SquiggleNet — direct CNN classification of nanopore signals (Bao 2021)]]"
 ---
 ## Abstract
 
