@@ -9,6 +9,9 @@ created: 2026-10-02
 description: "Nanopores have emerged as powerful tools for single-molecule detection, enabling real-time analysis across diverse applications in genomics and molecular diagnostics. While natural pores laid the foundation for single-molecule detection, their limited diversity has driven advances in protein engineering and, more recently, de novo design to create customizable nanopore sensors. Computational approaches now allow for the design of nanopores with tailored geometries, enhanced stability, and specific molecular recognition functions. Together, these advances are ushering in a new era of programmable nanopore sensors with broad applications in diagnostics and molecular biotechnology."
 tags:
   - "clippings"
+analyzed: true
+analyzed_on: 2026-10-14
+analysis: "[[Programmable Nanopore Sensors via Protein Design (Liu 2025)]]"
 ---
 <sup>1</sup>
 

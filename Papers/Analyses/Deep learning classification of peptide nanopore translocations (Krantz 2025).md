@@ -15,8 +15,6 @@ reviewer_divergence: minor
 tags: [paper, nanopore, deep-learning, peptide-sensing, simulated-data, anthrax-toxin]
 idea-supports:
   - "[[💡 Immune USB]]"
-idea-challenges:
-  - "[[Next-generation deep learning based on simulators and synthetic data]]"
 ---
 
 # Deep learning-based classification of peptide analytes from single-channel nanopore translocation events
@@ -90,4 +88,5 @@ Run the identical classifier on experimental anthrax-toxin translocations for �
 
 ## Growing ideas
 - ✅ [[💡 Immune USB]] — supports the broader thesis that nanopore single-molecule readout plus ML can turn stochastic translocation signals into molecular-identity classification, the sensing substrate that an "immune USB" concept depends on.
-- ⚡ [[Next-generation deep learning based on simulators and synthetic data]] — a cautionary data point: training/benchmarking entirely on an idealized simulator produced near-perfect but non-transferable accuracy, illustrating exactly the reality-gap failure mode that the synthetic-data literature warns about.
+
+(Note: the simulator reality-gap caution relates to the Papers clip [[Next-generation deep learning based on simulators and synthetic data]], which is a paper clip rather than an idea note, so it is not recorded in `idea-challenges`.)

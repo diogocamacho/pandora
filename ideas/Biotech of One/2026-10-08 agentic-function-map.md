@@ -193,5 +193,15 @@ Answer the load-bearing question, then pick the first Tier 1 pieces to specify, 
 
 ---
 
+## Supporting evidence
+- ✅ [[BindCraft one-shot binder design (Pacesa 2025)]] (2026-10-14 · paper · verdict: strong) — a fully automated, JSON-configured, open-source generate→filter→rank pipeline needing minimal human expertise is exactly the callable design module an agentic platform would orchestrate.
+- ✅ [[Karenina multi-dimensional biomedical AI evaluation (Carli 2026)]] (2026-10-14 · paper · verdict: solid) — concrete open-source evaluation infrastructure for autonomous biomedical agents; its grounding/citation/failure-decomposition dimensions are the trust checks such a platform needs.
+- ✅ [[Rethinking Bioinformatics Expertise in the AI Era (Goh 2026)]] (2026-10-14 · paper · verdict: solid) — reinforces load-bearing claims: accountability stays with named humans, agent suitability tracks verifiability/feedback speed, and maker/checker separation plus verification loops are the right architecture.
+- ✅ [[SEDA-Former nanopore temporal identification (Li 2026)]] (2026-10-14 · paper · verdict: solid) — a retuning-free, open-source signal-decoding module mapping raw instrument traces to molecular identity with one fixed architecture is the kind of reusable measurement-to-function component an agentic platform would call across assays.
+
+---
+
 ## Challenges & counterpoints
 - ⚡ [[Merck Eliav Barr]] (2026-10-14 · clip) — Merck CMO frames clinical development as 'a million little things' plus storytelling and motivating people—human judgment functions resistant to agentic automation.
+- ⚡ [[BioinfoMCP — MCP interfaces for agentic bioinformatics (Widjaja 2025)]] (2026-10-14 · paper · verdict: mixed) — agents can run/chain documented CLI tools (36/38) but the metric measures execution not correctness, resource-heavy tools fail, and the agent made an invalid SPAdes choice — the verifiability/judgment boundary sits where the paper's optimism breaks.
+- ⚡ [[Fifteen Challenges for Generative AI in Cell Biology (Dupire 2026)]] (2026-10-14 · paper · verdict: solid) — argues the binding constraints are purpose-built data generation and prospective wet-lab validation (weeks-to-years feedback), not better orchestration; the computational layer is not where the bottleneck sits.

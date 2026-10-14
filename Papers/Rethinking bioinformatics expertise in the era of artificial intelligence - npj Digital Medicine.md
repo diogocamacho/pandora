@@ -11,6 +11,9 @@ created: 2026-10-02
 description: "Artificial intelligence (AI) is often framed as replacing scientific expertise, especially in bioinformatics. We argue instead that AI is a powerful accelerant whose value depends on expert guidance in design, data curation, interpretation, and governance. Because AI cannot judge biological meaning or verify scientific validity, bioinformaticians remain essential. Their role is shifting from workflow execution toward AI design, complex discovery, and responsible institutional leadership across research, translation, and clinical practice."
 tags:
   - "clippings"
+analyzed: true
+analyzed_on: 2026-10-14
+analysis: "[[Rethinking Bioinformatics Expertise in the AI Era (Goh 2026)]]"
 ---
 ## Abstract
 

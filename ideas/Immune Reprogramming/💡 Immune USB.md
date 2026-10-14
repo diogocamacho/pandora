@@ -69,3 +69,11 @@ Current cell therapies are bespoke — each CAR or TCR program is a new company,
 
 In short: we can finally separate the “immune engine” from the “immune software” — and the tools to safely do it exist right now.
 
+---
+
+## Supporting evidence
+- ✅ [[Amino acid identification with nanoporous MoS2 and ML (Farimani 2018)]] (2026-10-14 · paper · verdict: mixed) — a solid-state 2D pore plus ML can in principle read amino-acid identity from ionic signatures, the molecular-readout layer such a concept needs.
+- ✅ [[BoltzGen — Universal Binder Design (Stark 2025)]] (2026-10-14 · paper · verdict: strong) — the covalent-bond/binding-site design-spec language and multi-modality binder generation is the tooling substrate for engineering orthogonal receptor-adaptor binding pairs the modular-immune-interface idea requires.
+- ✅ [[Deep learning classification of peptide nanopore translocations (Krantz 2025)]] (2026-10-14 · paper · verdict: mixed) — supports that nanopore single-molecule readout plus ML can turn stochastic translocation signals into molecular-identity classification, the sensing substrate the concept depends on.
+- ✅ [[Multi-pass single-molecule nanopore reading of protein strands (Motone 2024)]] (2026-10-14 · paper · verdict: solid) — strongly supports that single protein molecules can be read and PTM-decoded at single-amino-acid resolution on commodity nanopore hardware, the enabling readout for a molecular-information USB.
+

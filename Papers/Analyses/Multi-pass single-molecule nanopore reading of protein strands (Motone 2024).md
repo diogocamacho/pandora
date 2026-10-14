@@ -15,7 +15,6 @@ reviewer_divergence: minor
 tags: [paper, nanopore, protein-sequencing, proteoform, clpx, ptm-mapping, single-molecule]
 idea-supports:
   - "[[💡 Immune USB]]"
-  - "[[Protein Design Meets Single-Molecule Detection Towards Programmable Nanopore Sensors]]"
 ---
 
 # Multi-pass, single-molecule nanopore reading of long protein strands
@@ -99,4 +98,5 @@ De novo read an undesigned natural protein (no spaced markers, native sequence) 
 
 ## Growing ideas
 - ✅ [[💡 Immune USB]] — strongly supports the core premise that single molecules of protein can be read and PTM-decoded at single-amino-acid resolution on commodity nanopore hardware, the enabling readout for a molecular-information "USB" concept.
-- ✅ [[Protein Design Meets Single-Molecule Detection Towards Programmable Nanopore Sensors]] — direct reinforcement: designed protein substrates (PASTORs) plus a motor and a biophysical signal model deliver programmable, interpretable single-molecule readout, exactly the design-meets-detection thesis.
+
+(Note: this work also directly reinforces the design-meets-detection thesis of the Papers clip [[Protein Design Meets Single-Molecule Detection Towards Programmable Nanopore Sensors]] — designed PASTOR substrates + motor + biophysical signal model — but that is a paper clip, not an idea note, so it is not recorded in `idea-supports`.)

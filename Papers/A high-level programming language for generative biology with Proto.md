@@ -17,6 +17,9 @@ created: 2026-10-02
 description: "bioRxiv - the preprint server for biology, operated by openRxiv, a nonprofit organization dedicated to advancing scientific communication"
 tags:
   - "clippings"
+analyzed: true
+analyzed_on: 2026-10-14
+analysis: "[[Proto language for generative biology (Merchant 2026)]]"
 ---
 New Results
 

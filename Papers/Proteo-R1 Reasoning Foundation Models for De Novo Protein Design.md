@@ -36,6 +36,9 @@ created: 2026-10-02
 description: "Abstract page for arXiv paper 2605.02937: Proteo-R1: Reasoning Foundation Models for De Novo Protein Design"
 tags:
   - "clippings"
+analyzed: true
+analyzed_on: 2026-10-14
+analysis: "[[Proteo-R1 Reasoning-Guided De Novo Protein Design (Wu 2026)]]"
 ---
 ## Computer Science > Machine Learning
 

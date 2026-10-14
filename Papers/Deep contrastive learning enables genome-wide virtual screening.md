@@ -17,6 +17,9 @@ created: 2026-10-02
 description: "Recent breakthroughs in protein structure prediction have opened new avenues for genome-wide drug discovery, yet existing virtual screening methods remain computationally prohibitive. We present Dr..."
 tags:
   - "clippings"
+analyzed: true
+analyzed_on: 2026-10-14
+analysis: "[[DrugCLIP — contrastive genome-wide virtual screening (Jia 2026)]]"
 ---
 ## Editor’s summary
 

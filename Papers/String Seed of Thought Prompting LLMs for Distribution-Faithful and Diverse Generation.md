@@ -9,6 +9,9 @@ created: 2026-10-01
 description: "Abstract page for arXiv paper 2510.21150: String Seed of Thought: Prompting LLMs for Distribution-Faithful and Diverse Generation"
 tags:
   - "clippings"
+analyzed: true
+analyzed_on: 2026-10-14
+analysis: "[[String Seed of Thought distribution-faithful LLM generation (Misaki 2026)]]"
 ---
 ## Computer Science > Artificial Intelligence
 

@@ -546,3 +546,14 @@ I did not modify anything. The task list reflects the work as not-started; nothi
 [2026-10-14 12:07] MANUAL CATCH-UP (via Claude Code session): Step 1 enriched 31 clippings (50/50 now processed); Step 2 idea-linking 6 clips checked, 2 linked (50/50 ideas_checked). Papers deferred per user.
 [2026-10-14 13:14] Step 3 batch (manual): fetched full text — BindCraft (Nature, full+methods), SEDA-Former (Nat Commun, full+methods), Karenina (bioRxiv PDF, full+SI contents), SSoT (arXiv HTML, full), Proto (abstract+Arc Institute+DecodingBio; biorxiv full-text rate-limited).
 [2026-10-14 13:16] Paper analyzed: One-shot design of functional protein binders with BindCraft — verdict: strong, reviewer divergence: minor
+[2026-10-14 13:17] Paper analyzed: A universal deep learning framework for empowering nanopore identification (SEDA-Former) — verdict: solid, reviewer divergence: minor
+[2026-10-14 13:17] Paper analyzed: Deep learning classification of peptide nanopore translocations (Krantz 2025) — verdict: mixed, reviewer divergence: minor
+[2026-10-14 13:17] Paper analyzed: Global analysis of aggregation determinants in small protein domains (Martell 2025) — verdict: solid, reviewer divergence: minor
+[2026-10-14 13:17] Paper analyzed: Amino acid identification with nanoporous MoS2 and ML (Farimani 2018) — verdict: mixed, reviewer divergence: minor
+[2026-10-14 13:17] Paper analyzed: Multi-pass single-molecule nanopore reading of protein strands (Motone 2024) — verdict: solid, reviewer divergence: minor
+[2026-10-14 13:17] Paper analyzed: Nanopore base calling on the edge — DeepNano-coral (Peresini 2021) — verdict: solid, reviewer divergence: none
+[2026-10-14 13:18] Paper analyzed: Turning Domain Expertise into Multi-Dimensional Evaluation (Karenina) — verdict: solid, reviewer divergence: minor
+[2026-10-14 13:20] Paper analyzed: String Seed of Thought (SSoT) — verdict: solid, reviewer divergence: minor
+[2026-10-14 13:22] Paper analyzed: A high-level programming language for generative biology with Proto — verdict: abstract-only (biorxiv full text rate-limited; enriched with secondary sources), reviewer divergence: none
+[2026-10-14 13:22] Step 3 batch (manual) complete: 5/5 clips analyzed (4 full, 1 abstract-only stub).
+[2026-10-14 13:23] MANUAL CATCH-UP (papers): analyzed 30 backlog papers via 6 parallel workers — 3 strong, 19 solid incl prior, 14 mixed, 1 weak, 1 abstract-only (Proto, bioRxiv rate-limited). 38/38 clips now analyzed; 38 analysis notes. Idea back-references applied centrally.

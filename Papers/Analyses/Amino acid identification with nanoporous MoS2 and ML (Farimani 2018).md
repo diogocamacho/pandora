@@ -15,8 +15,6 @@ reviewer_divergence: minor
 tags: [paper, nanopore, molecular-dynamics, amino-acid-sensing, machine-learning, mos2]
 idea-supports:
   - "[[💡 Immune USB]]"
-idea-challenges:
-  - "[[Next-generation deep learning based on simulators and synthetic data]]"
 ---
 
 # Identification of amino acids with sensitive nanoporous MoS2 towards machine learning-based prediction
@@ -92,4 +90,5 @@ Experimental MoS2 nanopore translocation of a defined heteropeptide with single-
 
 ## Growing ideas
 - ✅ [[💡 Immune USB]] — supports the feasibility substrate: a solid-state 2D pore plus ML can in principle read amino-acid identity from ionic signatures, the molecular-readout layer such a concept needs.
-- ⚡ [[Next-generation deep learning based on simulators and synthetic data]] — another reality-gap exemplar: ML trained/evaluated on controlled MD gives 99.6% in-distribution but 62.5% on the more realistic chain, with a cross-condition normalization hack papering over domain shift.
+
+(Note: the simulator reality-gap caution relates to the Papers clip [[Next-generation deep learning based on simulators and synthetic data]], a paper clip rather than an idea note, so it is not recorded in `idea-challenges`.)

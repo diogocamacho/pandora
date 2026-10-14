@@ -11,6 +11,9 @@ created: 2026-10-02
 description: "Nanopore-based DNA sequencing has emerged as a transformative biosensing technology, enabling real-time molecular diagnostics in compact and mobile form factors. However, the computational complexity of the basecalling process—the step that translates raw nanopore signals into nucleotide sequences—poses a critical energy challenge for mobile deployment. While deep learning (DL) models currently dominate this task due to their high accuracy, they demand substantial power budgets and computing resources, making them unsuitable for portable or field-scale biosensor platforms. In this work, we propose an embedded hardware–software framework for DNA sequence detection that leverages a Viterbi-based Hidden Markov Model (HMM) implemented on a custom 64-bit RISC-V core. The proposed HMM detector is realized on an off-the-shelf Virtex-7 FPGA and evaluated against state-of-the-art DL-based basecallers in terms of energy efficiency and inference accuracy. From one side, the experimental results show that our system achieves an energy efficiency improvement of 6.5×, 5.5×, and 4.6×, respectively, compared to similar HMM-based detectors implemented on a commodity x86 processor, Cortex-A9 ARM embedded system, and a previously published Rocket-based system. From another side, the proposed detector demonstrates 15× and 2.4× energy efficiency superiority over state-of-the-art DL-based detectors, with competitive accuracy and sufficient throughput for field-based genomic surveillance applications and point-of-care diagnostics. This study highlights the practical advantages of classical probabilistic algorithms when tightly integrated with lightweight embedded processors for biosensing applications constrained by energy, size, and latency."
 tags:
   - "clippings"
+analyzed: true
+analyzed_on: 2026-10-14
+analysis: "[[Nanopore-Aware Viterbi-HMM Edge Basecalling (Hammad 2025)]]"
 ---
 <sup>1</sup>
 

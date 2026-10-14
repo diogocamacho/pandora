@@ -31,5 +31,10 @@ This is a platform-level inversion. Every current protein design effort uses pLM
 - [[2026-06-18 biotech-of-one]] — protein design platform applicability
 
 ## Supporting evidence
+- ✅ [[Global analysis of aggregation determinants in small protein domains (Martell 2025)]] (2026-10-14 · paper · verdict: solid) — structure-aware PLMs fine-tuned on targeted assays extract signal legacy biophysical tools miss (existing predictors |ρ|≤0.26 vs SaProt R²=0.55), supporting PLM-based oracles for properties beyond function/novelty.
+- ✅ [[RosettaSearch — LLM inference-time protein sequence design (Kshirsagar 2026)]] (2026-10-14 · paper · verdict: solid) — supports that model-based oracles can gate/steer sequence generation at inference time without retraining; the random-mutation ablation shows the oracle-plus-reasoner, not the oracle alone, adds value.
+- ✅ [[SquiggleNet — direct CNN classification of nanopore signals (Bao 2021)]] (2026-10-14 · paper · verdict: solid) — reinforces that a compact learned model can read raw sensor signal and make fast, reference-free discriminations — the learned-oracle-over-raw-signal, no-database pattern, with aligner-free ground truth as the credibility lesson.
 
 ## Challenges & counterpoints
+- ⚡ [[BindCraft one-shot binder design (Pacesa 2025)]] (2026-10-14 · paper · verdict: strong) — BindCraft succeeds using a frozen structure network (AF2) with no PLM and explicitly novel interfaces, suggesting structure-space optimisation, not PLM-derived novelty scoring, is the operative lever for binder design.
+- ⚡ [[Proteo-R1 Reasoning-Guided De Novo Protein Design (Wu 2026)]] (2026-10-14 · paper · verdict: mixed) — Proteo-R1 uses high-pLM-likelihood as a validity signal and leans on ESM-2 priors to pick anchors, treating pLM agreement as good — running against the hypothesis that low pLM scores are the positive signal for new-to-nature function.

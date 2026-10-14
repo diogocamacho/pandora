@@ -13,6 +13,9 @@ created: 2026-10-02
 description: "Deep learning (DL) is being successfully applied across multiple domains, yet thesemodels learn in a most artificial way: they require large quantities of labeled datato grasp even simple concepts. Thus, the main bottleneck is often access to superviseddata. Here, we highlight a trend in a potential solution to this challenge: syntheticdata. Synthetic data are becoming accessible due to progress in rendering pipelines,generative adversarial models, and fusion models. Moreover, advancements in domainadaptation techniques help close the statistical gap between synthetic and real data."
 tags:
   - "clippings"
+analyzed: true
+analyzed_on: 2026-10-14
+analysis: "[[Next-Gen Deep Learning via Simulators and Synthetic Data (de Melo 2022)]]"
 ---
 ## Highlights
 

@@ -157,3 +157,17 @@ Network-biology-first and causal-inference players named in Diogo's CausaLab tab
 Paused 2026-10-08 at the topology-object question while Diogo works the function map ([[2026-10-08 agentic-function-map]]). The open load-bearing question on this note stands.
 
 Pre-state the additivity margin (anchor to wet-lab economics), then run the additivity test on existing double-perturbation data (ODE vs. additive baseline). Define the object whose topology is measured (state-dependent effective network vs. state vector), the distance metric and its noise floor, cost terms and constraints; validate the optimizer's top-k picks, not average predictions. Then pre-register the pooled healthy-cell perturbation test: disease-phenotype metric and threshold, control node sets, sign (gain vs. loss). Then specify the reversal test in disease cells and the baseline and error margin for the held-out test, the named datasets and cell contexts, the noise floor of the topology distance, a calibration set linking distance to efficacy, and a measured crowdedness term. No further design work until those are set.
+
+---
+
+## Supporting evidence
+- ✅ [[AI-Driven Virtual Cell Models in Preclinical Research (Ma 2025)]] (2026-10-14 · paper · verdict: mixed) — supports a simulation→validation closed loop with CRISPR/organoid validation as a real, regulator-tailwinded paradigm, and supplies the disease-as-attractor / perturbation-response framing.
+- ✅ [[DrugCLIP — contrastive genome-wide virtual screening (Jia 2026)]] (2026-10-14 · paper · verdict: solid) — genome-wide, molecular-data-only target-to-ligand mapping (incl. AlphaFold-only undrugged targets) is tractable at acceptable cost/cycle-time; a building block for finding tractable chemistry for network-nominated nodes.
+- ✅ [[Fifteen Challenges for Generative AI in Cell Biology (Dupire 2026)]] (2026-10-14 · paper · verdict: solid) — high-authority support for core premises (disease is network/multicellular, network priors cut data/param needs, prospective/blinded validation) and supplies the FDR≤5%, prospective-only, beat-non-AI-baselines benchmarking discipline.
+- ✅ [[BioinfoMCP — MCP interfaces for agentic bioinformatics (Widjaja 2025)]] (2026-10-14 · paper · verdict: mixed) — supports the operating-model premise that agents plus standardized MCP tooling can fill the computational-execution function of a lean platform company.
+- ✅ [[Karenina multi-dimensional biomedical AI evaluation (Carli 2026)]] (2026-10-14 · paper · verdict: solid) — the Open Targets QA case study is a direct template for evaluating a network-biology target-discovery system's answers for correctness and evidence grounding.
+
+---
+
+## Challenges & counterpoints
+- ⚡ [[AI-Driven Virtual Cell Models in Preclinical Research (Ma 2025)]] (2026-10-14 · paper · verdict: mixed) — DL perturbation predictors barely beat linear baselines and mechanism-anchored validation is sparse; independent corroboration of the baseline/identifiability threat the network layer has not yet overcome.
