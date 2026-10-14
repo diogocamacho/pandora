@@ -17,6 +17,7 @@ tags:
 related:
   - "[[Stoic library]]"
 processed: true
+ideas_checked: true
 ---
 By **Marcus Aurelius**.
 

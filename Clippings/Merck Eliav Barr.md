@@ -19,6 +19,9 @@ related:
   - "[[2025-11-13 Drug discovery]]"
   - "[[2025-11-13 Regulatory]]"
 processed: true
+idea-challenges:
+  - "[[2026-10-08 agentic-function-map]]"
+ideas_checked: true
 ---
 “The docs told me it’s a different type of medicine,” said the architect. “They were right,” he added with a smile.
 
@@ -181,3 +184,6 @@ Dr. Eliav Barr, Head of Global Clinical Development and Chief Medical Officer of
 ## Related notes
 - [[2025-11-13 Drug discovery]]
 - [[2025-11-13 Regulatory]]
+
+## Growing ideas
+- ⚡ [[2026-10-08 agentic-function-map]] — Merck CMO frames clinical development as 'a million little things' plus storytelling and motivating people—human judgment functions resistant to agentic automation.

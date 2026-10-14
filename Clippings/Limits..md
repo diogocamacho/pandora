@@ -14,6 +14,7 @@ tags:
   - prompting
   - cost-efficiency
 processed: true
+ideas_checked: true
 ---
 ChatGPT is *way* cheaper than Claude.
 

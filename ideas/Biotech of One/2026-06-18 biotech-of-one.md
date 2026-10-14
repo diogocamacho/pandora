@@ -4,9 +4,9 @@ date: 2026-06-18
 mode: challenge
 status: promoted-to-project
 tags: [idea, comp-bio, drug-discovery, agents, strategy, c-level, small-molecules]
-evidence_supporting: 20
+evidence_supporting: 21
 evidence_challenging: 4
-evidence_last: 2026-10-02
+evidence_last: 2026-10-12
 ---
 
 # Biotech of the future — constrained inference + generative small-molecule chemistry, closed loop
@@ -147,6 +147,7 @@ Convert this note into a **2-page founder thesis memo**. Audience: future Diogo,
 - ✅ [[What Is Strategy?]] (2026-10-01 · clip) — Validates Diogo's explicit rejection of pure automation: AI-as-efficiency-tool is OE; the moat requires performing different activities, not the same ones faster.
 - ✅ [[Why AI Works Best When It Works with Humans - SPONSOR CONTENT FROM AWS AND EFFECTUAL]] (2026-10-02 · clip) — Human-in-the-loop argument supports Diogo's thesis that agents should augment expert judgment, not automate it away.
 - ✅ [[Will all our drugs come from China?]] (2026-09-28 · clip) — Chinese firms prove lean, fast drug discovery is viable; Western biotechs must rethink pipeline efficiency or cede ground.
+- ✅ [[My relationship with AI is changing]] (2026-10-12 · clip) — Essay's 'don't be a meat proxy' critique of judgment-free AI output validates the thesis's explicit rejection of automation-only agents in favor of thinking-augmenting ones.
 
 ---
 

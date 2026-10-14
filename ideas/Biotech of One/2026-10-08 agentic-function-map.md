@@ -6,6 +6,9 @@ status: open
 scope: founder-thesis-only
 tags: [idea, agents, operating-model, biotech-of-one, drug-discovery, strategy]
 related_ideas: ["[[2026-10-08 network-biology-platform]]", "[[2026-06-18 biotech-of-one]]"]
+evidence_supporting: 0
+evidence_challenging: 1
+evidence_last: 2026-10-14
 ---
 
 # Which parts of a biotech are suited to agentic AI: a function map for the biotech of one
@@ -187,3 +190,8 @@ Named in vault or session: Stanford Virtual Biotech (org-chart-mirroring multi-a
 
 ## Next steps
 Answer the load-bearing question, then pick the first Tier 1 pieces to specify, each with a source-verification mechanism.
+
+---
+
+## Challenges & counterpoints
+- ⚡ [[Merck Eliav Barr]] (2026-10-14 · clip) — Merck CMO frames clinical development as 'a million little things' plus storytelling and motivating people—human judgment functions resistant to agentic automation.

@@ -16,6 +16,10 @@ tags:
 related:
   - "[[2026-10-06 agentic-ai-judgment-not-automation]]"
 processed: true
+idea-supports:
+  - "[[2026-06-18 biotech-of-one]]"
+  - "[[2026-06-29 Agentic Nutrition — where the moat actually is]]"
+ideas_checked: true
 ---
 Personal essay, weekend edition. Starting with a familiar quote often attributed to English economist John Maynard Keynes:[^1]
 
@@ -105,3 +109,7 @@ I haven’t settled on some kind of policy for every part of my work. I expect t
 
 ## Related notes
 - [[2026-10-06 agentic-ai-judgment-not-automation]]
+
+## Growing ideas
+- ✅ [[2026-06-18 biotech-of-one]] — Essay's 'don't be a meat proxy' critique of judgment-free AI output validates the thesis's explicit rejection of automation-only agents in favor of thinking-augmenting ones.
+- ✅ [[2026-06-29 Agentic Nutrition — where the moat actually is]] — Flood of undifferentiated AI 'slop' is concrete evidence that bolting an LLM on is commoditized, reinforcing the memo's claim that the LLM feature isn't a moat.
