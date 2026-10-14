@@ -20,7 +20,7 @@ elif command -v timeout >/dev/null 2>&1; then
 fi
 
 if [ -n "$TIMEOUT_BIN" ]; then
-  "$TIMEOUT_BIN" --kill-after=60s 1800s /opt/homebrew/bin/claude --print --dangerously-skip-permissions "$PROMPT" >> "$LOG" 2>&1
+  "$TIMEOUT_BIN" --kill-after=60s 1800s /opt/homebrew/bin/claude --print "$PROMPT" >> "$LOG" 2>&1
   rc=$?
 else
   perl -e '
@@ -36,7 +36,7 @@ else
     };
     if ($@ eq "timeout\n") { exit 124; }
     exit ($? >> 8);
-  ' /opt/homebrew/bin/claude --print --dangerously-skip-permissions "$PROMPT" >> "$LOG" 2>&1
+  ' /opt/homebrew/bin/claude --print "$PROMPT" >> "$LOG" 2>&1
   rc=$?
 fi
 
