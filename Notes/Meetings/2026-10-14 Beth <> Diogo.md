@@ -45,13 +45,27 @@ _No unchecked checkboxes in the prior note._
 - Side projects: PDB-complex/interaction plugin, IP backlog, ncAA work with Sylvia, Anthropic Life Sciences certification (asked Amy Hao) — any movement?
 
 ## 🎯 Goals
--
+- 
 
 ## 📋 Their agenda items
--
+- 
 
 ## ✍️ Notes & discussion
--
+
+- Benchmarking presentation moved to next week
+
+- Good design targets:
+	- from Manifold Bio, from literature
+	- targets with designs, not just antibodies
+	- filtered to only extracellular, non-covid
+	- down to 86 targets
+	- information from Bindome
+		- binders less than 90aa using BoltzGen
+		- not experimentally validated
+
+
+
+
 
 ## ❓ Open questions
 -
