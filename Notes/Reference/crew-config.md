@@ -115,6 +115,7 @@ Lines marked `<!-- CHECK: … -->` are conflicts carried over from the old skill
 ### Financial state
 - last_updated: 2026-10-14
 - household_income: $504k ($339k Diogo + $165k Allison)
+- budgeting_framework: 50/30/20 (Elizabeth Warren), by account — 50% to Bills, 30% to Checking (everyday), 20% to Savings. Diogo & Allison's operating rule; use these buckets, not "engine", when talking cash flow. NOTE: Bills actually run ~58% of take-home, so the real savings slice is ~13% (~$3,450/mo), not 20% (~$5,250/mo), until debt rolls off and pulls Bills back to 50%.
 - brokerage_total: ~$21,681 <!-- CHECK: stale; derive from latest portfolio-snapshot instead -->
 - waymark_wealth_taxable_managed: $1,002,015
 - diogo_401k: $53,277 (maxing contributions, ~2 yrs at current employer)
@@ -146,8 +147,8 @@ Lines marked `<!-- CHECK: … -->` are conflicts carried over from the old skill
 |---|---|---|---|
 | Mortgage (NewRez) | $6,858/mo | 5.25% | ~$880k balance; home market value ~$1.3M (≈$420k equity, illiquid); escrow status TBD |
 | HELOC (Holyoke CU) | ~$1,100/mo | 7.0% (repriced from 3.5% at anniversary) | 10-yr fully-amortizing P&I, first draw |
-| Volvo loan (Metro CU) | $1,174/mo | 5.49% | Drive to payoff, don't replace — frees $1,174/mo to the engine |
-| Audi loan (Audi Financial) | $1,057/mo | 5.25% | Drive to payoff, don't replace — frees $1,057/mo to the engine |
+| Volvo loan (Metro CU) | $1,174/mo | 5.49% | Balance TBD (Diogo to find); payoff frees $1,174/mo to the engine |
+| Audi loan (Audi Financial) | $1,057/mo | 5.25% | Balance $23,977.44 (2026-10-14), 24 payments left → payoff ~Oct 2028, then frees $1,057/mo |
 | Installment plans (Capital One, TD Retail, OnePay/Sync) | ~$700/mo | TBD | Diogo to dig up balances, APRs, end dates |
 
 ### Emergency fund
