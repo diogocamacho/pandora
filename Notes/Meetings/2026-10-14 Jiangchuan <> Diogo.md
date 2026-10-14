@@ -62,7 +62,8 @@ _No unchecked checkboxes in the prior note._
 - solubility model updates
 	- will update the team next week on the new direction
 	- used different tools (pLM, internal model, publicly available model)
-	- used pseudo-perplexity from ESM2 to test out potential solubility of sequences
+	- used pseudo-perplexity from ESM2 to test out potential solubility of sequences, but we are only looking at an evolutionary similarity here
+	- 
 
 
 
