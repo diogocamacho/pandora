@@ -8,6 +8,15 @@ created: 2026-10-02
 description: "Harvard Business School’s Christensen teaches aspiring MBAs how to apply management and innovation theories to build stronger companies. But he also believes that these models can help people lead better lives. In this article, he explains how, exploring questions everyone needs to ask: How can I be happy in my career? How can I be sure that my relationship with my family is an enduring source of happiness? And how can I live my life with integrity? The answer to the first question comes from Frederick Herzberg’s assertion that the most powerful motivator isn’t money; it’s the opportunity to learn, grow in responsibilities, contribute, and be recognized. That’s why management, if practiced well, can be the noblest of occupations; no others offer as many ways to help people find those opportunities. It isn’t about buying, selling, and investing in companies, as many think. The principles of resource allocation can help people attain happiness at home. If not managed masterfully, what emerges from a firm’s resource allocation process can be very different from the strategy management intended to follow. That’s true in life too: If you’re not guided by a clear sense of purpose, you’re likely to fritter away your time and energy on obtaining the most tangible, short-term signs of achievement, not what’s really important to you. And just as a focus on marginal costs can cause bad corporate decisions, it can lead people astray. The marginal cost of doing something wrong “just this once” always seems alluringly low. You don’t see the end result to which that path leads. The key is to define what you stand for and draw the line in a safe place."
 tags:
   - "clippings"
+  - purpose
+  - career-strategy
+  - leadership
+  - integrity
+  - resource-allocation
+related:
+  - "[[Leadership Principles]]"
+  - "[[Leadership Journey]]"
+processed: true
 ideas_checked: true
 ---
 ## Summary.
@@ -109,3 +118,7 @@ This past year I was diagnosed with cancer and faced the possibility that my lif
 I have a pretty clear idea of how my ideas have generated enormous revenue for companies that have used my research; I know I’ve had a substantial impact. But as I’ve confronted this disease, it’s been interesting to see how unimportant that impact is to me now. I’ve concluded that the metric by which God will assess my life isn’t dollars but the individual people whose lives I’ve touched.
 
 I think that’s the way it will work for us all. Don’t worry about the level of individual prominence you have achieved; worry about the individuals you have helped become better people. This is my final recommendation: Think about the metric by which your life will be judged, and make a resolution to live every day so that in the end, your life will be judged a success.
+
+## Related notes
+- [[Leadership Principles]]
+- [[Leadership Journey]]

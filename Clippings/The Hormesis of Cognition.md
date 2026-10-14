@@ -8,9 +8,15 @@ created: 2026-10-02
 description: "The case for intentional cognitive friction"
 tags:
   - "clippings"
+  - "cognitive-offloading"
+  - "hormesis"
+  - "longevity"
+  - "healthy-aging"
+  - "ai-and-cognition"
 idea-supports:
   - "[[💡 Superagers]]"
 ideas_checked: true
+processed: true
 ---
 There’s a saying in toxicology that goes “the dose makes the poison.” Even the most lethal toxins, at a small enough quantity, are harmless. And even the safest substances, to excess, are toxic.
 

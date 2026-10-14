@@ -9,6 +9,16 @@ created: 2026-10-14
 description: "“The bottom line is that clinical trials are about human beings, and about motivating people .”"
 tags:
   - "clippings"
+  - "clinical-trials"
+  - "drug-discovery"
+  - "vaccines"
+  - "china-biotech"
+  - "pharma-strategy"
+  - "regulatory"
+related:
+  - "[[2025-11-13 Drug discovery]]"
+  - "[[2025-11-13 Regulatory]]"
+processed: true
 ---
 “The docs told me it’s a different type of medicine,” said the architect. “They were right,” he added with a smile.
 
@@ -167,3 +177,7 @@ Dr. Eliav Barr, Head of Global Clinical Development and Chief Medical Officer of
 **8) How has Merck been using AI, and where has it made the biggest difference?**
 
 > We use AI a lot in drug discovery now, and we’re starting to apply it in clinical research. Much of clinical research is back-office work, especially data management: moving data from vendors and labs into the main database, analyzing trends, and catching sites that are getting the study plan wrong. AI can do all of that, and it’s going to transform how we run trials.
+
+## Related notes
+- [[2025-11-13 Drug discovery]]
+- [[2025-11-13 Regulatory]]

@@ -7,9 +7,19 @@ created: 2026-10-02
 description: "Collecting some of my thoughts on a fast-moving field."
 tags:
   - "clippings"
+  - "ai-scientists"
+  - "ai-in-biology"
+  - "drug-discovery"
+  - "lab-automation"
+  - "agentic-ai"
+  - "closed-loop"
+related:
+  - "[[agentic-ai-judgment-not-automation]]"
+  - "[[ProteinMPNN — sequence design]]"
 idea-supports:
   - "[[2026-06-18 biotech-of-one]]"
 ideas_checked: true
+processed: true
 ---
 ## Seven Thoughts on "AI Scientists"
 
@@ -166,6 +176,10 @@ Just to make the implicit a bit more explicit: here at Rowan, we are very intere
   
   
 *If you want email updates when I write new posts, you can subscribe [on Substack.](https://cwagen.substack.com/)*
+
+## Related notes
+- [[agentic-ai-judgment-not-automation]]
+- [[ProteinMPNN — sequence design]]
 
 ## Growing ideas
 - ✅ [[2026-06-18 biotech-of-one]] — Describes agentic propose-then-verify loops for drug discovery — AI generates candidates, deterministic tools test them — exactly the closed-loop structure Diogo's thesis targets.

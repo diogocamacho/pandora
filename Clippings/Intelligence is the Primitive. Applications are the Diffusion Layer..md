@@ -8,6 +8,12 @@ created: 2026-10-01
 description: "How durable AI-native products can price, package and productize model gains for industry."
 tags:
   - "clippings"
+  - ai-strategy
+  - application-layer
+  - moats
+  - ai-native-products
+  - ai-in-biology
+processed: true
 idea-supports:
   - "[[2026-06-18 biotech-of-one]]"
   - "[[2026-06-29 Agentic Nutrition — where the moat actually is]]"

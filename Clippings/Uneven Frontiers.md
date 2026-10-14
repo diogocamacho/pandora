@@ -8,12 +8,22 @@ created: 2026-10-02
 description: "How AI will transform biopharma—and why the sequence of change matters"
 tags:
   - "clippings"
+  - "ai-drug-discovery"
+  - "clinical-trials"
+  - "drug-discovery"
+  - "biotech-strategy"
+  - "better-in-class"
+  - "ai-in-biology"
+related:
+  - "[[agentic-ai-judgment-not-automation]]"
+  - "[[2024-07-21 Data strategy]]"
 idea-supports:
   - "[[2026-06-18 biotech-of-one]]"
   - "[[2026-06-18 founder thesis — RWE-driven better-in-class biotech]]"
 idea-challenges:
   - "[[2025-09-21 causalab]]"
 ideas_checked: true
+processed: true
 ---
 ![](https://substackcdn.com/image/fetch/$s_!P_lq!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F620f3177-7ee9-4b2a-94d3-69927ae54787_1460x650.png)
 
@@ -323,3 +333,7 @@ And the stakes are enormous. In a post-AI world, one of humanity’s defining am
 - ✅ [[2026-06-18 biotech-of-one]] — Clipping argues clinical development is the binding constraint; durable value concentrates there, not in discovery — Formation Bio data backs this.
 - ✅ [[2026-06-18 founder thesis — RWE-driven better-in-class biotech]] — Clipping says scarce capability is knowing which drugs to develop; RWE-driven patient selection and clinical strategy is exactly that.
 - ⚡ [[2025-09-21 causalab]] — Clipping argues AI commoditizes drug generation, eroding durable company value for pure discovery-engine positioning.
+
+## Related notes
+- [[agentic-ai-judgment-not-automation]]
+- [[2024-07-21 Data strategy]]

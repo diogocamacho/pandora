@@ -8,7 +8,16 @@ created: 2026-10-02
 description: "There was a discussion recently on Bluesky about reproducible data analysis pipelines."
 tags:
   - "clippings"
+  - "reproducibility"
+  - "data-pipelines"
+  - "computational-biology"
+  - "scientific-computing"
+  - "best-practices"
+related:
+  - "[[2025-11-13 Computational pipeline versioning]]"
+  - "[[2025-11-17 Python in data sciences]]"
 ideas_checked: true
+processed: true
 ---
 There was a discussion recently on Bluesky about reproducible data analysis pipelines. This is a complex topic, and it’s difficult to do it justice in a bunch of 300 character posts. So I thought I’d take the opportunity to collect my thoughts on this topic in a longer-form article.
 
@@ -63,3 +72,7 @@ In summary, whatever you do, think about whether your analysis pipeline and/or i
 ### More from Genes, Minds, Machines
 
 [^1]: I would like to emphasize that the problems arise because students try to be extra careful and aim to write reproducible pipelines that go from the raw data all the way to the final figures. And in the process, they create secondary problems that they didn’t anticipate.
+
+## Related notes
+- [[2025-11-13 Computational pipeline versioning]]
+- [[2025-11-17 Python in data sciences]]

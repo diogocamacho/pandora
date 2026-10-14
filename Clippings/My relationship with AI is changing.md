@@ -8,6 +8,14 @@ created: 2026-10-12
 description: "When the facts change, I change my mind. What do you do, sir?"
 tags:
   - "clippings"
+  - "ai-slop"
+  - "scientific-publishing"
+  - "ai-writing"
+  - "human-judgment"
+  - "ai-in-biology"
+related:
+  - "[[2026-10-06 agentic-ai-judgment-not-automation]]"
+processed: true
 ---
 Personal essay, weekend edition. Starting with a familiar quote often attributed to English economist John Maynard Keynes:[^1]
 
@@ -94,3 +102,6 @@ I haven’t settled on some kind of policy for every part of my work. I expect t
 [^3]: Free research-on-research project idea. Go to NIH RePORTER ExPORTER, and download [CSV files of all the abstracts](https://reporter.nih.gov/exporter/abstracts) for funded grants in the last 10 years. Do the same for all the [JSON files you can download from NSF](https://www.nsf.gov/awardsearch/download-awards/). Pick a subset of a few thousand, and run them through [Pangram’s API](https://www.pangram.com/solutions/api). Compare pre-2023 to post-2024. Now here’s the part that won’t make you any friends. Do the same analysis, stratified by institution, department, or dare I say, even by PI. Pangram isn’t perfect but it’s surprisingly accurate by way of personal experience.
 
 [^4]: I’ve even tried writing my own [Claudish to English translator](https://blog.stephenturner.us/p/deslop) for the writing I shouldn’t be doing anyway, but it only goes so far.
+
+## Related notes
+- [[2026-10-06 agentic-ai-judgment-not-automation]]

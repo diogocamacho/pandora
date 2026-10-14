@@ -8,7 +8,19 @@ created: 2026-10-02
 description: "To what extent AI is OK to use in software development might be debated, but in general, the idea is not a controversial one anymore. The debate rather moved on from code completion and simple PR summarizations to Agentic Engineering, where an execution loop allows an AI Agent to function"
 tags:
   - "clippings"
+  - "ai-agents"
+  - "engineering-management"
+  - "agentic-ai"
+  - "leadership"
+  - "future-of-work"
+  - "human-in-the-loop"
+related:
+  - "[[2025-11-14 Order of agents]]"
+  - "[[2025-11-15 New agent orchestration]]"
+  - "[[2025-10-31 Building agentic scaffold]]"
+  - "[[🦅 Leadership]]"
 ideas_checked: true
+processed: true
 ---
 To what extent AI is OK to use in software development might be debated, but in general, the idea is not a controversial one anymore. The debate rather moved on from code completion and simple PR summarizations to Agentic Engineering, where an execution loop allows an AI Agent to function autonomously. Similarly, various AI tools are part of the day-to-day for Engineering Managers, from meeting transcription to document summarization. But what if we get inspired by the shift towards agents seen in software development?
 
@@ -129,3 +141,9 @@ OK, so if even a fraction of the above will become reality, what can an EM do to
 - Watch out for your team's and your own mental health. Change, especially paired with the feeling of lost control, can lead to burnout quickly. Find and focus on what motivates you (and your team members) in this new era.
 
 Are you experimenting with any of the above? What are your lessons? Did I miss an important area? Let me know below!
+
+## Related notes
+- [[2025-11-14 Order of agents]]
+- [[2025-11-15 New agent orchestration]]
+- [[2025-10-31 Building agentic scaffold]]
+- [[🦅 Leadership]]

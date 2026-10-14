@@ -8,10 +8,18 @@ created: 2026-10-02
 description: "the \"bits are easy, atoms are hard\" barrier has not been breached"
 tags:
   - "clippings"
+  - "techno-optimism-skepticism"
+  - "technological-stagnation"
+  - "bits-vs-atoms"
+  - "ai-limits"
+  - "innovation"
+related:
+  - "[[What evolution teaches us about innovation]]"
 idea-challenges:
   - "[[Superagers]]"
   - "[[💡 Superagers]]"
 ideas_checked: true
+processed: true
 ---
 In [this piece](https://default.blog/p/its-too-late-techno-pessimists-we) arguing that the future is here - that *the Singularity* is here, that it has already been accomplished - Katherine Dee says, “I typed this from an iPhone while looking at 3D-renderings of my unborn children.”
 
@@ -92,3 +100,6 @@ Gordon’s point isn’t merely that these were humanity-altering technologies, 
 ## Growing ideas
 - ⚡ [[Superagers]] — Most longevity gains happened pre-1970; modern medicine shows diminishing returns, undermining the premise that new therapeutics can dramatically extend healthy lifespan.
 - ⚡ [[💡 Superagers]] — Historical data shows longevity progress largely plateaued; challenges assumption that a programmable 'youth reset' represents a tractable near-term opportunity.
+
+## Related notes
+- [[What evolution teaches us about innovation]]

@@ -8,7 +8,18 @@ created: 2026-10-02
 description: "The rise of “founder mode” and “main-character energy” as approaches to leadership has pushed many executives toward self-centered, top-down styles that research shows are deeply counterproductive—eroding trust, stifling performance, and ultimately leaving leaders themselves less engaged and fulfilled. The antidote is what might be called “supporting-character energy”: a humble, curious leadership style focused on understanding and advancing other people’s stories rather than one’s own. Leaders can cultivate it by practicing intellectual humility, asking better questions, and helping employees connect their work to their own values—a process shown to boost satisfaction, performance, and loyalty. As AI takes over information and technical skills, this deeply human capacity to inspire and connect will increasingly define what leadership is actually for."
 tags:
   - "clippings"
+  - "leadership"
+  - "intellectual-humility"
+  - "management"
+  - "job-crafting"
+  - "ai-and-work"
+related:
+  - "[[Leadership Principles]]"
+  - "[[Leadership Journey]]"
+  - "[[New Manager Foundations]]"
+  - "[[Leveraging Your Leadership]]"
 ideas_checked: true
+processed: true
 ---
 ## Summary.
 
@@ -70,3 +81,9 @@ Readers Also Viewed These Items
 - ![](https://cdn11.bigcommerce.com/s-yneuaokjib/images/stencil/250x260/products/32803/344428/8997_500__55105.1781269646.png?c=2)
 	[Failure to Communicate: How Conversations Go Wrong and What You Can Do to Right Them](https://store.hbr.org/product/failure-to-communicate-how-conversations-go-wrong-and-what-you-can-do-to-right-them/8997?ab=at_art_idp_v1x2_s02)
 	Book
+
+## Related notes
+- [[Leadership Principles]]
+- [[Leadership Journey]]
+- [[New Manager Foundations]]
+- [[Leveraging Your Leadership]]

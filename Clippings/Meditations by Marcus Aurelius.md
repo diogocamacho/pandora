@@ -10,6 +10,13 @@ tags:
   - clippings
   - reference
   - stoic
+  - stoicism
+  - philosophy
+  - classics
+  - personal-development
+related:
+  - "[[Stoic library]]"
+processed: true
 ---
 By **Marcus Aurelius**.
 
@@ -1446,3 +1453,6 @@ Gataker, whose notes are a wonderful collection of learning, and all of it sound
 [^121]: See [Book II, ¶16](#book-2-p-16) and [Book IV, ¶31](#book-4-p-31)
 
 [^122]: See [Book III, ¶8](#book-3-p-8)
+
+## Related notes
+- [[Stoic library]]

@@ -12,6 +12,16 @@ created: 2026-10-02
 description: "As organizations experiment with placing AI agents on org charts as “employees,” new research shows this framing has unintended consequences. In a large-scale experiment, anthropomorphizing AI reduced individual accountability, increased unnecessary escalation, lowered review quality, and heightened employee uncertainty about their roles—without improving adoption. The findings suggest the core challenge is not whether to deploy agentic AI, but how to redesign workflows, roles, and governance so humans remain clearly accountable while effectively supervising increasingly capable systems."
 tags:
   - "clippings"
+  - "ai-agents"
+  - "ai-governance"
+  - "accountability"
+  - "human-ai-collaboration"
+  - "workflow-design"
+  - "organizational-design"
+related:
+  - "[[2026-10-06 agentic-ai-judgment-not-automation]]"
+  - "[[2025-11-13 Incentives within organizations]]"
+processed: true
 idea-supports:
   - "[[2026-06-18 biotech-of-one]]"
 ideas_checked: true
@@ -130,6 +140,10 @@ Readers Also Viewed These Items
 - ![](https://cdn11.bigcommerce.com/s-yneuaokjib/images/stencil/250x260/products/95313/346637/10839_500__53393.1787121970.png?c=2)
 	[How Change Really Works: Seven Science-Based Principles for Transforming Your Organization](https://store.hbr.org/product/how-change-really-works-seven-science-based-principles-for-transforming-your-organization/10839?ab=at_art_idp_v1x2_s02)
 	Book
+
+## Related notes
+- [[2026-10-06 agentic-ai-judgment-not-automation]]
+- [[2025-11-13 Incentives within organizations]]
 
 ## Growing ideas
 - ✅ [[2026-06-18 biotech-of-one]] — Accountability dropped 9pts and escalation rose 44% when AI framed as employee; validates Diogo's rejection of pure-automation agents in favor of human-accountable workflows.

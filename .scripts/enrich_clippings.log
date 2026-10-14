@@ -508,3 +508,37 @@ Every step of this pipeline writes to disk — enriched frontmatter, idea back-r
 I did not modify anything. The task list reflects the work as not-started; nothing was half-written or left in an inconsistent state.
 
 ===== run end:   2026-10-14 09:42:19 | exit=0 =====
+[2026-10-14 11:35] ✓ Discourses — tags: [stoicism, philosophy, resilience, self-discipline]
+[2026-10-14 11:35] ✓ Disruptive Technologies: Catching the Wave — tags: [disruptive-innovation, innovators-dilemma, technology-strategy, incumbents-vs-entrants, resource-allocation]
+[2026-10-14 11:35] ✓ Giving your AI a Job Interview — tags: [ai-evaluation, llm-benchmarks, model-selection, jagged-frontier, ai-in-biology]
+[2026-10-14 11:35] ✓ How Will You Measure Your Life? — tags: [purpose, career-strategy, leadership, integrity, resource-allocation]
+[2026-10-14 11:35] ✓ Intelligence is the Primitive — tags: [ai-strategy, application-layer, moats, ai-native-products, ai-in-biology]
+[2026-10-14 11:35] ✓ Limits. — tags: [claude, token-optimization, ai-productivity, prompting, cost-efficiency]
+[2026-10-14 11:35] ✓ Meditations — tags: [stoicism, philosophy, classics, personal-development]
+[2026-10-14 11:35] ✓ Merck: Eliav Barr — tags: [clinical-trials, drug-discovery, vaccines, china-biotech, pharma-strategy, regulatory]
+[2026-10-14 11:35] ✓ My relationship with AI is changing — tags: [ai-slop, scientific-publishing, ai-writing, human-judgment, ai-in-biology]
+[2026-10-14 11:35] ✓ Reproducible pipelines — tags: [reproducibility, data-pipelines, computational-biology, scientific-computing, best-practices]
+[2026-10-14 11:35] ✓ Research: Why You Shouldn't Treat AI Agents Like Employees — tags: [ai-agents, ai-governance, accountability, human-ai-collaboration, workflow-design, organizational-design]
+[2026-10-14 11:35] ✓ RFdiffusion — tags: [protein-design, diffusion-models, generative-models, protein-binder-design, de-novo-design, baker-lab]
+[2026-10-14 11:35] Enrichment complete (batch of 6).
+[2026-10-14 11:35] ✓ Seven Thoughts on "AI Scientists" — tags: [ai-scientists, ai-in-biology, drug-discovery, lab-automation, agentic-ai, closed-loop]
+[2026-10-14 11:35] ✓ The "AI Job Apocalypse" Is a Complete Fantasy — tags: [ai-and-labor, jevons-paradox, ai-augmentation, economics-of-ai, future-of-work]
+[2026-10-14 11:35] ✓ The Best Leaders Embrace the Role of Supporting Character — tags: [leadership, intellectual-humility, management, job-crafting, ai-and-work]
+[2026-10-14 11:35] ✓ The Hormesis of Cognition — tags: [cognitive-offloading, hormesis, longevity, healthy-aging, ai-and-cognition]
+[2026-10-14 11:35] ✓ The Rising Opportunity Cost of Being Human — tags: [ai-productivity, opportunity-cost, work-life-balance, precommitment, economics-of-ai]
+[2026-10-14 11:35] ✓ To Thrive Alongside AI, Focus on Mindset—Not Skillset — tags: [ai-agents, human-in-the-loop, judgment, data-readiness, future-of-work, change-management]
+[2026-10-14 11:35] Enrichment complete (batch of 6).
+[2026-10-14 11:35] ✓ 6 Ways Leaders Harness Stress — tags: [leadership, stress-management, decision-making, crisis-leadership, executive-resilience]
+[2026-10-14 11:35] ✓ A Taxonomy of RL Environments for LLM Agents — tags: [reinforcement-learning, ai-agents, llm-training, agentic-ai, reward-design, benchmarks]
+[2026-10-14 11:35] ✓ Agentic Engineering Management — tags: [ai-agents, engineering-management, agentic-ai, leadership, future-of-work, human-in-the-loop]
+[2026-10-14 11:35] ✓ Building 17 Agentic AI Patterns — tags: [agentic-ai, ai-agents, multi-agent-systems, ai-design-patterns, llm-architecture]
+[2026-10-14 11:35] ✓ Can LLMs design proteins? — tags: [protein-design, ai-agents, de-novo-binders, ai-drug-discovery, protein-engineering, closed-loop]
+[2026-10-14 11:35] ✓ Designer Spotlight Can a language model reason about protein design? — tags: [protein-design, protein-language-models, protein-engineering, reinforcement-learning, ai-drug-discovery, closed-loop]
+[2026-10-14 11:35] ✓ Dialogues by Seneca — tags: [stoicism, philosophy, resilience, classics]
+[2026-10-14 11:36] ✓ Uneven Frontiers — tags: [ai-drug-discovery, clinical-trials, drug-discovery, biotech-strategy, better-in-class, ai-in-biology]
+[2026-10-14 11:36] ✓ We Are (Still) Living in the Long Boring — tags: [techno-optimism-skepticism, technological-stagnation, bits-vs-atoms, ai-limits, innovation]
+[2026-10-14 11:36] ✓ What 370,000 College Essays — tags: [ai-and-creativity, ai-in-education, cognitive-offloading, ai-limits, human-in-the-loop]
+[2026-10-14 11:36] ✓ What Is Strategy? — tags: [strategy, competitive-advantage, operational-effectiveness, trade-offs, positioning, leadership]
+[2026-10-14 11:36] ✓ Why AI Works Best When It Works with Humans — tags: [human-in-the-loop, ai-adoption, ai-agents, augmentation-not-automation, enterprise-ai]
+[2026-10-14 11:36] ✓ Why Bagging is So Ridiculously Effective — tags: [machine-learning, ensemble-methods, bagging, variance-reduction, random-forests, overfitting]
+[2026-10-14 11:36] Enrichment complete (batch of 6).

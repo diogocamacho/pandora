@@ -7,9 +7,20 @@ created: 2026-10-02
 description: "After a busy few weeks of binding assays, we're ready to release the results from the muni × Adaptyv TREM2 hackathon. 16 teams designed binders against TREM2 in a single day in San Francisco: 10 human teams and 6 fully autonomous AI agents, 141 designs total, top 100 by Boltz-2 ipSAE to the wet lab. Out of these, 37 were binders. Agents tied humans on hit rate and binding affinity distribution, with the best human binder at 1.11 nM and best agent at 3.64 nM, and all six LLM agents independently picked the same design tool."
 tags:
   - "clippings"
+  - "protein-design"
+  - "ai-agents"
+  - "de-novo-binders"
+  - "ai-drug-discovery"
+  - "protein-engineering"
+  - "closed-loop"
+related:
+  - "[[ProteinMPNN — sequence design]]"
+  - "[[2026-07-07 co-folding for bindable epitopes]]"
+  - "[[2026-07-13 cofolding analysis from Andrew]]"
 idea-supports:
   - "[[2026-06-18 biotech-of-one]]"
 ideas_checked: true
+processed: true
 ---
 ![Can LLMs design proteins? ](https://www.adaptyvbio.com/api/notion-image?pageId=3595ca69-e7be-80b5-ab85-d6e3e6841cbb&dpl=dpl_Bsaio4WCaxexwfMbmiLzvhdcoFwz)
 
@@ -154,3 +165,8 @@ If you're building agents and want them to design proteins through a real wet la
 
 ## Growing ideas
 - ✅ [[2026-06-18 biotech-of-one]] — AI agents tied human experts at de novo TREM2 binder design in one day, validating agentic AI as a peer in core drug discovery tasks.
+
+## Related notes
+- [[ProteinMPNN — sequence design]]
+- [[2026-07-07 co-folding for bindable epitopes]]
+- [[2026-07-13 cofolding analysis from Andrew]]

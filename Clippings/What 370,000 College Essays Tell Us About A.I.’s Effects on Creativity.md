@@ -8,7 +8,15 @@ created: 2026-10-02
 description: "A.I. can be a crutch that hurts our ability to think creatively."
 tags:
   - "clippings"
+  - "ai-and-creativity"
+  - "ai-in-education"
+  - "cognitive-offloading"
+  - "ai-limits"
+  - "human-in-the-loop"
+related:
+  - "[[agentic-ai-judgment-not-automation]]"
 ideas_checked: true
+processed: true
 ---
 I am a big fan of technology. I’ve blissfully given over my spatial reasoning to Google Maps. I use artificial intelligence to chase down articles, do research, fix my grammar mistakes and whip up last-minute school-night recipes.
 
@@ -35,3 +43,6 @@ Even more problematic, Dr. Green’s research shows that A.I. has the largest ho
 This is not to say that A.I. can never support human creativity. Workers with deep knowledge of their craft can use A.I. to streamline technical or administrative tasks in order to focus on the parts of their jobs where originality lives — including [teachers](https://www.brookings.edu/articles/a-new-direction-for-students-in-an-ai-world-prosper-prepare-protect/) having more time to devise engaging lessons and [illustrators](https://johnr0.github.io/assets/publications/CHI2022-flatmagic.pdf) devoting more attention to developing visual concepts. A.I. gives specialists the time they need to do what humans do best: brainstorming ideas to creatively solve problems.
 
 Our species’ ability to come up with unexpected and original ideas is something to protect and nurture. That’s especially true for today’s adolescents. A world where creative thinking flourishes is a world that has a better chance to weather the changes that A.I. will bring.
+
+## Related notes
+- [[agentic-ai-judgment-not-automation]]

@@ -8,7 +8,17 @@ created: 2026-10-02
 description: "A structured guide to RL environments for LLM agents. RL environments are the training grounds that shape what agents can learn. This guide covers the five c..."
 tags:
   - "clippings"
+  - "reinforcement-learning"
+  - "ai-agents"
+  - "llm-training"
+  - "agentic-ai"
+  - "reward-design"
+  - "benchmarks"
+related:
+  - "[[2025-10-31 Building agentic scaffold]]"
+  - "[[2025-11-15 New agent orchestration]]"
 ideas_checked: true
+processed: true
 ---
 Model architecture gets all the attention. Post-training recipes follow close behind. The reinforcement learning (RL) environment — what the model actually practices on, how its work gets judged, what tools it can use — barely enters the conversation. That’s the part that actually determines what the agent can learn to do.
 
@@ -235,3 +245,7 @@ RL environments are the training grounds that shape what agents can do. The task
     url = {https://leehanchung.github.io/blogs/2026/03/21/rl-environments-for-llm-agents/}
 }
 ```
+
+## Related notes
+- [[2025-10-31 Building agentic scaffold]]
+- [[2025-11-15 New agent orchestration]]

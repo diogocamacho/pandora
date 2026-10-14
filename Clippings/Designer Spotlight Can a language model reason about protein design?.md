@@ -7,9 +7,19 @@ created: 2026-10-02
 description: "In this designer spotlight, we take a look at Michael Hla’s recent Pro-1. It is a protein reasoning and optimization model capable to explain why it proposes a mutation. He tested FGF-1 designs in our lab at Adaptyv and managed to show significant melting temperature improvements, while still maintaining binding to their targets. One design even reached a melting temperature comparable to the most optimized FGF-1 variants in the literature!"
 tags:
   - "clippings"
+  - "protein-design"
+  - "protein-language-models"
+  - "protein-engineering"
+  - "reinforcement-learning"
+  - "ai-drug-discovery"
+  - "closed-loop"
+related:
+  - "[[ProteinMPNN — sequence design]]"
+  - "[[2026-09-24 Property prediction models]]"
 idea-supports:
   - "[[2026-06-18 biotech-of-one]]"
 ideas_checked: true
+processed: true
 ---
 ![Designer Spotlight: Can a language model reason about protein design?](https://www.adaptyvbio.com/api/notion-image?pageId=15c5ca69-e7be-8017-a7e6-c1900dbd26d3&dpl=dpl_Bsaio4WCaxexwfMbmiLzvhdcoFwz)
 
@@ -95,3 +105,7 @@ Michael showed [an example](https://x.com/hla_michael/status/1926750332475920403
 
 ## Growing ideas
 - ✅ [[2026-06-18 biotech-of-one]] — Pro-1 demonstrates closed-loop LLM-driven protein engineering with lab validation — exactly the design-verify agent loop the thesis envisions.
+
+## Related notes
+- [[ProteinMPNN — sequence design]]
+- [[2026-09-24 Property prediction models]]

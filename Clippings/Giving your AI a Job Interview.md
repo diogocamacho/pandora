@@ -8,6 +8,14 @@ created: 2026-10-02
 description: "As AI advice becomes more important, we are going to need to get better at assessing it"
 tags:
   - "clippings"
+  - ai-evaluation
+  - llm-benchmarks
+  - model-selection
+  - jagged-frontier
+  - ai-in-biology
+related:
+  - "[[Property prediction models]]"
+processed: true
 idea-challenges:
   - "[[2026-06-18 biotech-of-one]]"
 ideas_checked: true
@@ -80,3 +88,6 @@ The work is worth it. You wouldn’t hire a VP based solely on their SAT scores.
 
 ## Growing ideas
 - ⚡ [[2026-06-18 biotech-of-one]] — Benchmarks fail to capture real-world AI value; selecting models for drug discovery requires domain-specific evaluation beyond public metrics.
+
+## Related notes
+- [[Property prediction models]]

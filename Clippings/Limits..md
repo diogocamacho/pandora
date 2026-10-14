@@ -8,6 +8,12 @@ created: 2026-10-07
 description: "How to make Claude limitless (22 rules):"
 tags:
   - "clippings"
+  - claude
+  - token-optimization
+  - ai-productivity
+  - prompting
+  - cost-efficiency
+processed: true
 ---
 ChatGPT is *way* cheaper than Claude.
 

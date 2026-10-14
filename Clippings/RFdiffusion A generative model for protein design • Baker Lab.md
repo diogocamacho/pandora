@@ -8,6 +8,16 @@ created: 2026-10-01
 description: "A team led by scientists in our lab has created a powerful new way to design proteins by combining structure prediction networks and generative diffusion models. The team demonstrated extremely high computational success and experimentally tested hundreds of A.I.-generated proteins, finding that many may be useful as medications, vaccines, or even new nanomaterials. Originally appearing"
 tags:
   - "clippings"
+  - "protein-design"
+  - "diffusion-models"
+  - "generative-models"
+  - "protein-binder-design"
+  - "de-novo-design"
+  - "baker-lab"
+related:
+  - "[[ProteinMPNN — sequence design]]"
+  - "[[2025-11-03 CMT targeting with mini binders]]"
+processed: true
 idea-supports:
   - "[[💡 Antimicrobial peptides]]"
   - "[[2026-06-18 biotech-of-one]]"
@@ -40,6 +50,10 @@ RFdiffusion outperforms existing protein design methods across a broad range of 
 <video controls="" src="https://www.bakerlab.org/wp-content/uploads/2022/11/diffusion_animation_InsulinR_binder.mp4"></video>
 
 *Here RFdffusion generates a novel protein that binds to the insulin receptor.*
+
+## Related notes
+- [[ProteinMPNN — sequence design]]
+- [[2025-11-03 CMT targeting with mini binders]]
 
 ## Growing ideas
 - ✅ [[💡 Antimicrobial peptides]] — RFdiffusion enables computational design of novel peptides/proteins for therapeutics, directly enabling the AMP design pipeline.

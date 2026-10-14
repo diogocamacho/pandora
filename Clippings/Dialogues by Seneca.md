@@ -10,6 +10,13 @@ tags:
   - clippings
   - reference
   - stoic
+  - stoicism
+  - philosophy
+  - resilience
+  - classics
+related:
+  - "[[Stoic library]]"
+processed: true
 ---
 By **Seneca**.
 
@@ -2934,3 +2941,6 @@ etc.
 [^155]: The old saying, “Truth lurks deep in a well (or abyss).”
 
 [^156]: I.e. in the game of ball.
+
+## Related notes
+- [[Stoic library]]

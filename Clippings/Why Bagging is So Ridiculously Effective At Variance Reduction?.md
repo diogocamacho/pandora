@@ -8,7 +8,17 @@ created: 2026-10-02
 description: "Diving into the mathematical motivation for using bagging."
 tags:
   - "clippings"
+  - "machine-learning"
+  - "ensemble-methods"
+  - "bagging"
+  - "variance-reduction"
+  - "random-forests"
+  - "overfitting"
+related:
+  - "[[wisdom-of-crowds-ensembles]]"
+  - "[[👨🏻‍💻 Comp Bio + AI Learning]]"
 ideas_checked: true
+processed: true
 ---
 👉
 
@@ -312,3 +322,7 @@ Published on Oct 11, 2023[Previous — Mathematical Foundations](https://www.dai
 Why Sklearn’s Logistic Regression Has no Learning Rate Hyperparameter?
 
 ](https://www.dailydoseofds.com/why-sklearns-logistic-regression-has-no-learning-rate-hyperparameter/)
+
+## Related notes
+- [[wisdom-of-crowds-ensembles]]
+- [[👨🏻‍💻 Comp Bio + AI Learning]]

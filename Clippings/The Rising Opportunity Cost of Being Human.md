@@ -8,9 +8,15 @@ created: 2026-10-02
 description: "AI can make you 100x more productive at work, and make being present at home feel 100x more expensive. That tension isn’t just personal weakness. It’s a new economic reality."
 tags:
   - "clippings"
+  - "ai-productivity"
+  - "opportunity-cost"
+  - "work-life-balance"
+  - "precommitment"
+  - "economics-of-ai"
 idea-supports:
   - "[[2026-06-18 biotech-of-one]]"
 ideas_checked: true
+processed: true
 ---
 I was sitting on the couch with my wife the other night. No crisis. No conflict. No drama. Just talking about the day. And in the back of my mind, I could feel it. The temptation to think, *This is not productive.*
 

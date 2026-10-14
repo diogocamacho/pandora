@@ -8,10 +8,20 @@ created: 2026-10-01
 description: "Today’s dynamic markets and technologies have called into question the sustainability of competitive advantage. Under pressure to improve productivity, quality, and speed, managers have embraced tools such as TQM, benchmarking, and re-engineering. Dramatic operational improvements have resulted, but rarely have these gains translated into sustainable profitability. And gradually, the tools have taken the place of strategy. In his five-part article, Michael Porter explores how that shift has led to the rise of mutually destructive competitive battles that damage the profitability of many companies. As managers push to improve on all fronts, they move further away from viable competitive positions. Porter argues that operational effectiveness, although necessary to superior performance, is not sufficient, because its techniques are easy to imitate. In contrast, the essence of strategy is choosing a unique and valuable position rooted in systems of activities that are much more difficult to match. Porter thus traces the economic basis of competitive advantage down to the level of the specific activities a company performs. Using cases such as Ikea and Vanguard, he shows how making trade-offs among activities is critical to the sustainability of a strategy. Whereas managers often focus on individual components of success such as core competencies or critical resources, Porter shows how managing fit across all of a company’s activities enhances both competitive advantage and sustainability. While stressing the role of leadership in making and enforcing clear strategic choices, Porter also offers advice on how companies can reconnect with strategies that have become blurred over time."
 tags:
   - "clippings"
+  - "strategy"
+  - "competitive-advantage"
+  - "operational-effectiveness"
+  - "trade-offs"
+  - "positioning"
+  - "leadership"
+related:
+  - "[[Leadership Principles]]"
+  - "[[2024-07-21 Data strategy]]"
 idea-supports:
   - "[[2026-06-29 Agentic Nutrition — where the moat actually is]]"
   - "[[2026-06-18 biotech-of-one]]"
 ideas_checked: true
+processed: true
 ---
 ## Summary.
 
@@ -301,3 +311,7 @@ A company may have to change its strategy if there are major structural changes 
 ## Growing ideas
 - ✅ [[2026-06-29 Agentic Nutrition — where the moat actually is]] — Porter's OE-vs-strategy distinction directly answers the memo's question: bolting an LLM onto a supplement brand is OE, not a defensible position.
 - ✅ [[2026-06-18 biotech-of-one]] — Validates Diogo's explicit rejection of pure automation: AI-as-efficiency-tool is OE; the moat requires performing different activities, not the same ones faster.
+
+## Related notes
+- [[Leadership Principles]]
+- [[2024-07-21 Data strategy]]

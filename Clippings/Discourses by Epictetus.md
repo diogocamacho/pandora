@@ -10,6 +10,13 @@ tags:
   - clippings
   - reference
   - stoic
+  - stoicism
+  - philosophy
+  - resilience
+  - self-discipline
+related:
+  - "[[Stoic library]]"
+processed: true
 ---
 By **Epictetus**.
 
@@ -3399,3 +3406,6 @@ and Martial, *Epigrams* v 58.
 [^794]: The man, whether a soldier or not, was an informer, one of those vile men who carried on this shameful business under the empire. He was what Juvenal names a “ *delator.*” John Upton, who refers to the life of Hadrian by Aelius Spartianus, speaks even of this emperor employing soldiers named Frumentarii for the purpose of discovering what was said and done in private houses. John the Baptist (Luke 3:14) in answer to the question of the soldiers, “And what shall we do?” said unto them “Do violence to no man, neither accuse any falsely; and be content with your wages.” (Upton.)
 
 [^795]: The wheel and pitch were instruments of torture to extract confessions. See [book II chapter VI](#chapter-2-6) at 18, and Johann Schweighäuser’s note there.
+
+## Related notes
+- [[Stoic library]]

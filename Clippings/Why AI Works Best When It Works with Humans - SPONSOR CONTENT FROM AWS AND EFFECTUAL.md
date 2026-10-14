@@ -7,11 +7,20 @@ created: 2026-10-02
 description: "Sponsor content from AWS and Effectual."
 tags:
   - "clippings"
+  - "human-in-the-loop"
+  - "ai-adoption"
+  - "ai-agents"
+  - "augmentation-not-automation"
+  - "enterprise-ai"
+related:
+  - "[[agentic-ai-judgment-not-automation]]"
+  - "[[AWS]]"
 idea-supports:
   - "[[2026-06-18 biotech-of-one]]"
 idea-challenges:
   - "[[2026-06-29 Agentic Nutrition — where the moat actually is]]"
 ideas_checked: true
+processed: true
 ---
 Despite the big promise of AI, only 5% of AI implementations deliver measurable business returns, according to [a recent study by MIT](https://aimagazine.com/news/mit-why-95-of-enterprise-ai-investments-fail-to-deliver). Rarely is the problem the technology. More often, AI efforts fall short because leaders overlook the critical role humans play in the system.
 
@@ -64,3 +73,7 @@ When humans and AI work together effectively, organizations unlock transformativ
 ## Growing ideas
 - ✅ [[2026-06-18 biotech-of-one]] — Human-in-the-loop argument supports Diogo's thesis that agents should augment expert judgment, not automate it away.
 - ⚡ [[2026-06-29 Agentic Nutrition — where the moat actually is]] — Only 5% of AI deployments deliver measurable returns — challenges assumption that LLM-augmented nutrition products can reliably create business value.
+
+## Related notes
+- [[agentic-ai-judgment-not-automation]]
+- [[AWS]]

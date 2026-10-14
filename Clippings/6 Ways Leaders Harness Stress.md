@@ -9,7 +9,18 @@ created: 2026-10-02
 description: "Today’s leaders face increasing pressure on all sides, and their stress levels are higher now than they were even at the peak of the pandemic. Though stress can sharpen performance briefly, over time it erodes judgment, narrows perspective, and increases the risk of costly missteps. Most leaders have distinct default responses to it. This article outlines the six most common patterns: the calm lighthouse, the reinvention-oriented alchemist, the action-driven firefighter, the disciplined stoic, the relationship-focused diplomat, and the control-driven container. Each style has both strengths and blind spots that pressure can amplify. Leaders can increase their ability to perform under duress by identifying and understanding their default responses and then deliberately expanding their range of reactions—using simple tactics to regulate themselves, share the cognitive load, and alter their style in real time as conditions change."
 tags:
   - "clippings"
+  - "leadership"
+  - "stress-management"
+  - "decision-making"
+  - "crisis-leadership"
+  - "executive-resilience"
+related:
+  - "[[🦅 Leadership]]"
+  - "[[Leadership Principles]]"
+  - "[[Leveraging Your Leadership]]"
+  - "[[Stoic library]]"
 ideas_checked: true
+processed: true
 ---
 ## Summary.
 
@@ -176,3 +187,9 @@ Leaders should not feel they have to shoulder a crisis alone. Some of their cogn
 ### ...
 
 As leaders experience rising pressure, those who excel will be distinguished not by immunity to stress but by mastery of their reaction to it. By becoming a student of your own patterns—and expanding the range of responses you can call upon—you can strengthen your resilience in times of duress. In the end, leading well under pressure is less about holding firm to one style and more about knowing when to shift. That adaptability is what turns a crisis into clarity and strain into strength.
+
+## Related notes
+- [[🦅 Leadership]]
+- [[Leadership Principles]]
+- [[Leveraging Your Leadership]]
+- [[Stoic library]]
