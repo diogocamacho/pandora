@@ -128,8 +128,16 @@ Lines marked `<!-- CHECK: … -->` are conflicts carried over from the old skill
 
 ### Cash flow into brokerage cash (SPAXX) — per Diogo 2026-10-02
 - allison_pay: weekly, Thursdays; $296.42 to SPAXX each time (fixed for the year)
-- diogo_pay: 1st and 15th of the month; $1,933.15 to SPAXX each pay date
+- diogo_pay: 15th and last day of the month; $1,933.15 to SPAXX each pay date
 - update only if Diogo says it changed
+
+### Operating rules (per Diogo 2026-10-14)
+- bills_topup: transfer $1,200 from Savings → Bills on each of Diogo's two paydays (15th & last) to cover the ~$2,225/mo Bills shortfall; ~$175/mo cushion builds in Bills for winter oil/electric spikes. Shrinks as Bills is trimmed.
+- savings_job: Phase 1 = all remaining Savings (~$2,847/mo) to cards, avalanche (JetBlue then Fidelity). On payoff, flip the same bucket to the EF cash floor, then to sinking funds.
+- bonus_handling: off the top reserve ~$4k for the April tax true-up; finish any card remnant (acceleration only, never the lifeline); move the year's lifestyle/sinking load (~$37-42k) into the lifestyle HYSA in ONE transfer; remainder (~$8-9k) → EF. No investing while EF is below the cash floor.
+- raise_capture: hold Bills and Checking direct-deposit amounts flat; route the entire net increase from any raise to Savings (ideally set Savings as the payroll "remainder" account so it is automatic). Bank raises AND freed loan payments; never inflate lifestyle. Triggers: new base $340k from 11/2; 3% raise in March.
+- lifestyle_account: separate HYSA (~4%), funded annually by the bonus, spent down as trips/camp bills land; keep ~$1,500 in it as the card-replacement buffer during payoff. Sinking balances never count toward the EF.
+- monthly_money_date: Diogo + Allison review against "Our Financial Picture" once a month; Kevin runs the checklist.
 
 ### Debt tracker
 **Revolving (avalanche — highest APR first):**
