@@ -43,16 +43,19 @@ _No unchecked checkboxes in the prior note._
 - BLI migration paused in favor of SPR work (`spr_processed` pipeline) — status? (processed-data workflow and the "health of robot" dashboards were marked solved on 10/7)
 
 ## 🎯 Goals
--
+
+
 
 ## 📋 Their agenda items
 -
 
 ## ✍️ Notes & discussion
--
+
+- working on a new data type (for purity), working with kathryn
+- 
 
 ## ❓ Open questions
--
+- 
 
 ## 📝 Relationship notes
 -
