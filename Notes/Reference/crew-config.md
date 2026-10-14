@@ -119,7 +119,8 @@ Lines marked `<!-- CHECK: … -->` are conflicts carried over from the old skill
 - waymark_wealth_taxable_managed: $1,002,015
 - diogo_401k: $53,277 (maxing contributions, ~2 yrs at current employer)
 - allison_401k: TBD (~$53k est.; maxing contributions) <!-- CHECK: unconfirmed -->
-- net_worth_estimate: ~$1,075k (excl. Allison 401k and PIUs)
+- net_worth_estimate: ~$1,075k (excl. Allison 401k and PIUs) <!-- CHECK: refresh — does not yet include ~$420k home equity or the full installment-debt picture -->
+- primary_residence: market value ~$1.3M; mortgage ~$880k @ 5.25% (NewRez) → ~$420k equity (illiquid, excluded from liquidity math) — per Diogo 2026-10-14
 - piu_note: Flagship equity — illiquid, career-linked, never in near-term math
 - 401k_manager: financial advisor
 - tax_bracket: 20% + 3.8% NIIT (dividends/LTCG in taxable)
@@ -143,7 +144,7 @@ Lines marked `<!-- CHECK: … -->` are conflicts carried over from the old skill
 **Installment / secured (fixed payments — not revolving paydown targets):**
 | Debt | Payment | Rate | Note |
 |---|---|---|---|
-| Mortgage (NewRez) | $6,858/mo | — | Fixed; escrow status TBD |
+| Mortgage (NewRez) | $6,858/mo | 5.25% | ~$880k balance; home market value ~$1.3M (≈$420k equity, illiquid); escrow status TBD |
 | HELOC (Holyoke CU) | ~$1,100/mo | 7.0% (repriced from 3.5% at anniversary) | 10-yr fully-amortizing P&I, first draw |
 | Volvo loan (Metro CU) | $1,174/mo | 5.49% | Drive to payoff, don't replace — frees $1,174/mo to the engine |
 | Audi loan (Audi Financial) | $1,057/mo | 5.25% | Drive to payoff, don't replace — frees $1,057/mo to the engine |
@@ -155,7 +156,7 @@ Lines marked `<!-- CHECK: … -->` are conflicts carried over from the old skill
 - stocks_toward_cap: investible brokerage (ex-SPAXX) counts toward the cap ABOVE the cash floor at a 25% haircut (drawdown + tax), per Household Budget 2026-10 → Debt & EF Plan. NOTE: this relaxes the skill's "EF = cash only" definition — confirmed by Diogo.
 - components: SPAXX + lifestyle account (cash floor) + investible brokerage at haircut (fills the cap above the floor)
 - lifestyle_account: $2,580
-- current: $12,081 cash (SPAXX $9,501 + lifestyle $2,580) as of 2026-09-27 <!-- CHECK: stale; derive SPAXX from latest snapshot -->
+- current: $14,685 cash (SPAXX $12,105.21 as of 2026-10-14 + lifestyle $2,580) vs $50,421 cash floor
 
 ### Excluded / earmarked accounts
 - patriots_season_tickets_account: $695 (separate Fidelity account; ~$5k due February — not liquidity)
