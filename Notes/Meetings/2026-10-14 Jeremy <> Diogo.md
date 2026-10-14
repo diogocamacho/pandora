@@ -40,6 +40,7 @@ LIMIT 5
 ### Open items
 _No unchecked checkboxes in the prior note._
 ### Open questions / follow-ups
+
 - AI tools as an accelerant — he doesn't use agents, sees challenges in agentic adoption; worth a follow-up
 - Solubility models — good filter for de novo; exception may be hard targets (common in our case)
 

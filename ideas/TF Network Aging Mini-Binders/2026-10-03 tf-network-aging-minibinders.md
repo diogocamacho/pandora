@@ -30,5 +30,7 @@ If TF network stabilization reverses the cellular aging phenotype, this is a non
 - [[Genome language models for cancer vaccines]] — adjacent: cell identity programming for therapeutic ends
 
 ## Supporting evidence
+- ✅ [[BindCraft one-shot binder design (Pacesa 2025)]] (2026-10-14 · paper · verdict: strong) — demonstrates nM mini-binders against intracellular/structurally hard targets (Cas9 REC1, Argonaute grooves, de novo folds), supporting the feasibility of designing mini-binders against TF-like surfaces.
+- ✅ [[BoltzGen — Universal Binder Design (Stark 2025)]] (2026-10-14 · paper · verdict: strong) — supports feasibility of designing high-specificity binders to novel and intrinsically disordered surfaces (NPM1-c in-cell localization), the core requirement for stabilizing TF-TF interfaces; caveats: affinities need replication, nuclear delivery unaddressed.
 
 ## Challenges & counterpoints

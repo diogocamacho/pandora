@@ -161,9 +161,11 @@ None of this holds if the intervention layer is not actually defensible. The PMS
 - ✅ [[Intelligence is the Primitive. Applications are the Diffusion Layer.]] (2026-10-01 · clip) — a16z argument that intelligence is a primitive explicitly confirms bolting an LLM onto a product is not a moat; moat must live in the application/data layer.
 - ✅ [[What Is Strategy?]] (2026-10-01 · clip) — Porter's OE-vs-strategy distinction directly answers the memo's question: bolting an LLM onto a supplement brand is OE, not a defensible position.
 - ✅ [[My relationship with AI is changing]] (2026-10-12 · clip) — Flood of undifferentiated AI 'slop' is concrete evidence that bolting an LLM on is commoditized, reinforcing the memo's claim that the LLM feature isn't a moat.
+- ✅ [[AI and ML in Precision Nutrition (Massara 2026)]] (2026-10-14 · paper · verdict: solid) — strongly supports the thesis that value lives in the data/evidence layer not the model; independently names the failure modes (compositional data, cohort overfit, prediction≠causation) the memo's determinism + evidence-engine design avoids, and its causal-inference bar maps onto the proposed GRADE/CEBM grading layer.
 
 ---
 
 ## Challenges & counterpoints
 - ⚡ [[The Era of Personal Super-Intelligent Agents]] (2026-09-29 · clip) — Meta Muse as personal life optimizer with 3.6B daily users could absorb personalized nutrition as a feature, directly threatening standalone moat.
 - ⚡ [[Why AI Works Best When It Works with Humans - SPONSOR CONTENT FROM AWS AND EFFECTUAL]] (2026-10-02 · clip) — Only 5% of AI deployments deliver measurable returns — challenges assumption that LLM-augmented nutrition products can reliably create business value.
+- ⚡ [[AI Nutrition Recommendation via VAE and ChatGPT (Papastratis 2024)]] (2026-10-14 · paper · verdict: weak) — concrete instance of the "LLM + formulation, no measured outcome" commodity pattern; its circular "accuracy" with zero outcome validation is exactly the failure mode the evidence-engine thesis is built to avoid, challenging that guideline-conformant AI meal generation is itself valuable.

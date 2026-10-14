@@ -148,6 +148,10 @@ Convert this note into a **2-page founder thesis memo**. Audience: future Diogo,
 - ✅ [[Why AI Works Best When It Works with Humans - SPONSOR CONTENT FROM AWS AND EFFECTUAL]] (2026-10-02 · clip) — Human-in-the-loop argument supports Diogo's thesis that agents should augment expert judgment, not automate it away.
 - ✅ [[Will all our drugs come from China?]] (2026-09-28 · clip) — Chinese firms prove lean, fast drug discovery is viable; Western biotechs must rethink pipeline efficiency or cede ground.
 - ✅ [[My relationship with AI is changing]] (2026-10-12 · clip) — Essay's 'don't be a meat proxy' critique of judgment-free AI output validates the thesis's explicit rejection of automation-only agents in favor of thinking-augmenting ones.
+- ✅ [[BoltzGen — Universal Binder Design (Stark 2025)]] (2026-10-14 · paper · verdict: strong) — a concrete, open, general binder-design primitive with demonstrated novel-target hit rates is exactly the agentic/closed-loop design capability the thesis assumes; strengthens the design-verify loop premise.
+- ✅ [[Fifteen Challenges for Generative AI in Cell Biology (Dupire 2026)]] (2026-10-14 · paper · verdict: solid) — supports the network/graph-reasoning target-prioritization layer (Selventa-style, modernized) and its insistence on human-relevant, judgment-heavy biology over benchmark-chasing automation.
+- ✅ [[Programmable Nanopore Sensors via Protein Design (Liu 2025)]] (2026-10-14 · paper · verdict: solid) — documents that the de novo design toolchain now yields functional pores and pM–nM binders, supporting that protein-design capability has matured into reusable infrastructure a small team can wield.
+- ✅ [[Rethinking Bioinformatics Expertise in the AI Era (Goh 2026)]] (2026-10-14 · paper · verdict: solid) — supports the "agents for judgment, not execution; human accountability non-negotiable" stance with an independent peer-reviewed argument; its documented-harm cases strengthen the human-in-the-loop premise.
 
 ---
 

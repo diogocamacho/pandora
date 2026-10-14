@@ -67,3 +67,4 @@ Each tissue maintains its identity through collective dynamics among many intera
 
 ## Supporting evidence
 - ✅ [[Loss of Cell Identity Drives Human Aging]] (2026-09-30 · clip) — Waddington basin shallowing (decanalization) is the molecular evidence for the basin-attractor / goldilocks-zone framework the idea is built on.
+- ✅ [[AI-Driven Virtual Cell Models in Preclinical Research (Ma 2025)]] (2026-10-14 · paper · verdict: mixed) — the cell-state-space / attractor / perturbation-moves-the-distribution framing and population-distribution-level evaluation (Wasserstein/KL/MMD) is consonant with the basin-attractor / goldilocks-zone premise.

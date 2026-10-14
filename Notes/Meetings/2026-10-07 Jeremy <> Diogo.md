@@ -51,6 +51,7 @@ _No unchecked checkboxes in the prior note._
 -
 
 ## ✍️ Notes & discussion
+
 - Jeremy's concern: feasibility of what Chiara and the Board are pushing for
 	- We are already at the bleeding edge of what we can do; the board is asking us to push past that boundary, which he sees as unrealistic/dangerous
 

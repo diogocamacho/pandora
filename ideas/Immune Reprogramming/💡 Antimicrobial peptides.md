@@ -35,6 +35,7 @@ Can we leverage some data from how the human immune system responds to bacterial
 ## Supporting evidence
 - ✅ [[Anthropic has not solved the peptide-binder design problem, but maybe biohub has]] (2026-09-28 · clip) — ESMFold2 demonstrably outperforms AlphaFold3 for scoring peptide binders, directly improving the computational pipeline for designing antimicrobial peptide therapeutics.
 - ✅ [[RFdiffusion A generative model for protein design • Baker Lab]] (2026-10-01 · clip) — RFdiffusion enables computational design of novel peptides/proteins for therapeutics, directly enabling the AMP design pipeline.
+- ✅ [[BoltzGen — Universal Binder Design (Stark 2025)]] (2026-10-14 · paper · verdict: strong) — direct support: functional de novo antimicrobial peptides against GyrA and binders neutralizing protegrin/melittin/indolicidin show the model works in the AMP / new-to-nature peptide regime this idea targets.
 
 ---
 
