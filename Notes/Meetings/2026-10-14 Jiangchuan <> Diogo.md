@@ -53,7 +53,18 @@ _No unchecked checkboxes in the prior note._
 -
 
 ## ✍️ Notes & discussion
--
+
+- DPO model can identify interesting mutations to test out
+	- limited data (cell-reporter assay)
+	- wants to present to the team next week
+	- thinking through how to incorporate into the multiplexing work from the chemistry team
+
+- solubility model updates
+	- will update the team next week on the new direction
+	- used different tools (pLM, internal model, publicly available model)
+	- used pseudo-perplexity from ESM2 to test out potential solubility of sequences
+
+
 
 ## ❓ Open questions
 -
