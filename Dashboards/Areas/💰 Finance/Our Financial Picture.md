@@ -130,7 +130,7 @@ Lifestyle creep is the quiet thing that keeps high earners from ever feeling ahe
 
 ## Our monthly money date
 
-Twenty minutes, once a month, the two of us. Kevin walks us through it. We check:
+Twenty minutes, once a month, the two of us. We check:
 
 1. **Did we follow the paycheck flow?** Transfers made, no new card charges.
 2. **Credit cards:** did the balances go down? By how much? Are we on track for payoff?
