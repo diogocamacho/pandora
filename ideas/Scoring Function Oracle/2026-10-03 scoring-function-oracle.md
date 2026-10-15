@@ -1,9 +1,9 @@
 ---
 type: exploration-hypothesis
 created: 2026-10-03
-evidence_supporting: 0
-evidence_challenging: 0
-evidence_last: 2026-10-03
+evidence_supporting: 7
+evidence_challenging: 1
+evidence_last: 2026-10-14
 tags: [exploration, hypothesis, what-if, protein-design, scoring-functions, ai-drug-discovery, pipeline-optimization]
 related_ideas: ["[[2026-06-18 biotech-of-one]]", "[[💡 Antimicrobial peptides]]"]
 ---

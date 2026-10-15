@@ -1,9 +1,9 @@
 ---
 type: exploration-hypothesis
 created: 2026-10-03
-evidence_supporting: 0
-evidence_challenging: 0
-evidence_last: 2026-10-03
+evidence_supporting: 3
+evidence_challenging: 2
+evidence_last: 2026-10-14
 tags: [exploration, hypothesis, what-if, protein-language-models, novel-function, protein-engineering, antimicrobial-peptides]
 related_ideas: ["[[💡 Antimicrobial peptides]]", "[[2026-06-18 biotech-of-one]]", "[[2026-09-24 Property prediction models]]"]
 ---

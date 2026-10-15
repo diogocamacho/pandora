@@ -557,3 +557,7 @@ I did not modify anything. The task list reflects the work as not-started; nothi
 [2026-10-14 13:22] Paper analyzed: A high-level programming language for generative biology with Proto — verdict: abstract-only (biorxiv full text rate-limited; enriched with secondary sources), reviewer divergence: none
 [2026-10-14 13:22] Step 3 batch (manual) complete: 5/5 clips analyzed (4 full, 1 abstract-only stub).
 [2026-10-14 13:23] MANUAL CATCH-UP (papers): analyzed 30 backlog papers via 6 parallel workers — 3 strong, 19 solid incl prior, 14 mixed, 1 weak, 1 abstract-only (Proto, bioRxiv rate-limited). 38/38 clips now analyzed; 38 analysis notes. Idea back-references applied centrally.
+
+===== run start: 2026-10-15 09:30:15 =====
+[2026-10-15 09:30] Step 1 — no unprocessed clippings found. Enrichment complete.
+[2026-10-15 09:30] Step 2 — running link_ideas.py

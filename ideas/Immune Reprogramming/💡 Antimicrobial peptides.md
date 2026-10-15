@@ -4,9 +4,9 @@ tags:
   - ideas
 Date: 2025-10-22
 Follow up:
-evidence_supporting: 2
+evidence_supporting: 3
 evidence_challenging: 2
-evidence_last: 2026-10-01
+evidence_last: 2026-10-14
 ---
 
 Sep 17, 2025: Antimicrobial peptides for therapeutics -- Jan 17, 2025

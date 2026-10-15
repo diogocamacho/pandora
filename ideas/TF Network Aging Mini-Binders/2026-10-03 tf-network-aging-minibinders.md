@@ -1,9 +1,9 @@
 ---
 type: exploration-hypothesis
 created: 2026-10-03
-evidence_supporting: 0
+evidence_supporting: 2
 evidence_challenging: 0
-evidence_last: 2026-10-03
+evidence_last: 2026-10-14
 tags: [exploration, hypothesis, what-if, aging, transcription-factors, mini-binders, protein-design, cell-identity]
 related_ideas: ["[[2026-06-18 biotech-of-one]]", "[[💡 Antimicrobial peptides]]"]
 ---

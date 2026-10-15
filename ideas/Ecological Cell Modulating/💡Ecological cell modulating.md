@@ -2,9 +2,9 @@
 tags:
   - ideas
 Date: 2025-10-09
-evidence_supporting: 1
+evidence_supporting: 2
 evidence_challenging: 0
-evidence_last: 2026-09-30
+evidence_last: 2026-10-14
 ---
 
 > [!tip] Basin attractors

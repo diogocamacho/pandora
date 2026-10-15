@@ -5,9 +5,9 @@ tags:
   - compbio
   - networkbiology
 Date: 2025-10-10
-evidence_supporting: 3
+evidence_supporting: 4
 evidence_challenging: 0
-evidence_last: 2026-09-28
+evidence_last: 2026-10-14
 ---
 
 > [!tip] Core idea

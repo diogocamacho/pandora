@@ -4,6 +4,9 @@ tags:
   - gpt
   - immuneusb
 Date: 2025-10-15
+evidence_supporting: 4
+evidence_challenging: 0
+evidence_last: 2026-10-14
 ---
 
 > [!NOTE] **Contents**

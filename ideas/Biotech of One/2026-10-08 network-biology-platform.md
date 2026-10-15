@@ -6,6 +6,9 @@ status: open
 scope: founder-thesis-only
 tags: [idea, network-biology, target-discovery, small-molecules, platform, agents, founder-thesis]
 related_ideas: ["[[2026-06-18 biotech-of-one]]", "[[2026-06-18 founder thesis — RWE-driven better-in-class biotech]]", "[[💡 Network Target Foundry]]", "[[💡 2025-01-22 Patient population data]]", "[[💡 Conditional invariants]]", "[[Building DiseaseNets]]", "[[2025-09-09 2click]]", "[[2025-09-21 causalab]]"]
+evidence_supporting: 5
+evidence_challenging: 1
+evidence_last: 2026-10-14
 ---
 
 # A molecular-first network-biology platform for small-molecule target discovery, run as a "biotech of one"

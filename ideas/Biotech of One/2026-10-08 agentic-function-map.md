@@ -6,8 +6,8 @@ status: open
 scope: founder-thesis-only
 tags: [idea, agents, operating-model, biotech-of-one, drug-discovery, strategy]
 related_ideas: ["[[2026-10-08 network-biology-platform]]", "[[2026-06-18 biotech-of-one]]"]
-evidence_supporting: 0
-evidence_challenging: 1
+evidence_supporting: 4
+evidence_challenging: 3
 evidence_last: 2026-10-14
 ---
 

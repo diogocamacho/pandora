@@ -4,9 +4,9 @@ date: 2026-06-18
 mode: challenge
 status: promoted-to-project
 tags: [idea, comp-bio, drug-discovery, agents, strategy, c-level, small-molecules]
-evidence_supporting: 21
+evidence_supporting: 25
 evidence_challenging: 4
-evidence_last: 2026-10-12
+evidence_last: 2026-10-14
 ---
 
 # Biotech of the future — constrained inference + generative small-molecule chemistry, closed loop
