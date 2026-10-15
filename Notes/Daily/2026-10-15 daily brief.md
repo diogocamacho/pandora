@@ -71,3 +71,18 @@ _Todoist unavailable — no snapshot for today (06:20 job may not have run); cou
 1. Get clarity on how Per Greisen's Chief AI Officer role (leading the computational function, per Mike's 10/14 email) intersects with your interim Head of Computational Sciences role.
 2. Resolve the OOO/not-responded mismatch on this invite before 9:30 — dial in, or line up a readout from Andrew/Beth/Jeremy.
 Carryover: none — [[2026-10-09 Comp Team Huddle]] (6 days ago) has no notes or actions logged.
+
+
+---
+
+## 🧠 Learning thread
+
+- **Wet-lab validation is the dividing line in generative protein design.** [[BindCraft one-shot binder design (Pacesa 2025)]] and [[BoltzGen — Universal Binder Design (Stark 2025)]] earned strong verdicts on experimentally confirmed binders (BoltzGen reached nanomolar on 66% of genuinely novel targets across eight labs), while [[Proteo-R1 Reasoning-Guided De Novo Protein Design (Wu 2026)]] stayed mixed with zero wet-lab. Autonomous agents tying human teams at the Adaptyv TREM2 hackathon ([[Can LLMs design proteins?]]) sits between: a real signal about the design layer, not the biology.
+- **The metric itself is what gets attacked now.** [[All that structure matches does not glitter (Martirossyan 2025)]] shows crystal-structure benchmarks are leakage-contaminated and gameable; [[Karenina multi-dimensional biomedical AI evaluation (Carli 2026)]] shows a lone correctness score hides sycophancy; [[Fifteen Challenges for Generative AI in Cell Biology (Dupire 2026)]] argues the field stalls on retrospective benchmarks.
+- **Expert oversight keeps surfacing as the moat, not the model.** [[Rethinking Bioinformatics Expertise in the AI Era (Goh 2026)]] and the HBR cluster converge on humans staying accountable while supervising capable systems. Spine of [[2026-10-06 agentic-ai-judgment-not-automation]].
+- **Nanopore protein reading: identification demonstrated, de novo sequencing not.** [[Multi-pass single-molecule nanopore reading of protein strands (Motone 2024)]] and [[Advancing nanopore technology toward protein identification and sequencing (Rukes 2025)]] draw the line; much ML accuracy ([[Deep learning classification of peptide nanopore translocations (Krantz 2025)]]) is measured on simulated data.
+- **The reality gap is structural, not a bug.** [[Simulation and the reality gap — a prehistory of synthetic data (Steinhoff 2025)]]: every simulation needs real data to set its parameters, so near-perfect accuracy on simulated squiggles describes the simulator.
+
+**🤔 Think about today:**
+1. If autonomous agents already tie expert humans on binder hit rate but the field's benchmarks are demonstrably contaminated, what is the smallest wet-lab experiment that would tell you a design method generalizes rather than memorizes?
+2. If expert judgment is the durable moat and AI "democratizes the appearance of science," does scaling your own output with AI widen the expertise the moat depends on, or quietly erode it?
