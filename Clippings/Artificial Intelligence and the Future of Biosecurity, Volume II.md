@@ -8,6 +8,16 @@ created: 2026-10-15
 description: "Volume II of a special research topic in AI and Biosecurity"
 tags:
   - "clippings"
+  - "ai-biosecurity"
+  - "dual-use"
+  - "biosecurity-governance"
+  - "agentic-systems"
+  - "protein-design"
+related:
+  - "[[2025-11-11 AI and syn bio]]"
+  - "[[ProteinMPNN — sequence design]]"
+processed: true
+ideas_checked: true
 ---
 *Frontiers in Microbiology* has a new Research Topic now open, accepting manuscripts until April 15, 2027. Topic editors include Bin Hu (LANL) and Michelle Holko (ISCI, Berkeley).
 
@@ -46,3 +56,7 @@ Here’s the full text for [Volume II of this research topic](https://www.fronti
 > - Cyber–AI–bio convergence
 > - Human agency, organizational factors, and governance
 > - Bioethics and responsible innovation
+
+## Related notes
+- [[2025-11-11 AI and syn bio]]
+- [[ProteinMPNN — sequence design]]
